@@ -12,3 +12,17 @@ Currently it is only python, but in the future we plan to distribute it in binar
 	<img src="https://i.imgur.com/wMxJl1S_d.jpg?maxwidth=640&shape=thumb&fidelity=medium" alt="Awesome">
 </h1>
 
+## Requirements
+__python >= 3.4__
+
+## How to Use
+```
+python3 main.py
+```
+or
+```python
+from hook.pubg import PUBG
+
+cc = PUBG("Kar98K", 3, 3) # PUBG(Weapon, Helmet Level, Vest Level)
+cc.calc() # calc(Range) default=1
+```
