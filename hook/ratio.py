@@ -5,7 +5,11 @@ from enum import Enum
 class ARMO(Enum):
 	MM5 = 5
 	MM7 = 7
-	MM300 = 300
+	MM9 = 9
+	GA12 = 12
+	ACP45 = 45
+	M300 = 300
+	BOLT = 1
 
 class AR(Enum):
 	HEAD = 2.35
@@ -43,9 +47,9 @@ class DMR(Enum):
 
 	@classmethod
 	def dist(self, r, armo):
-		if armo == ARMO.MM7:
+		if armo == ARMO.MM7.value:
 			return 1 if not 120 < r else 1 - ((r - 120) * 0.0003948) if not 500 < r else 1 - (380 * 0.0003948)
-		else:
+		elif armo == ARMO.MM5.value:
 			return 1 if not 120 < r else 1 - ((r - 120) * 0.0006079) if not 400 < r else 1 - (280 * 0.0006079)
 
 class SR(Enum):
@@ -65,7 +69,12 @@ class SR(Enum):
 
 	@classmethod
 	def dist(self, r, armo):
-		return 1 if not 50 < r else 1 - ((r - 50) * 0.001) if not 300 < r else 1 - (250 * 0.001)
+		if armo == ARMO.MM7.value:
+			return 1 if not 100 < r else 1 - ((r - 100) * 0.0002046) if not 590 < r else 1 - (490 * 0.0002046)
+		elif armo == ARMO.M300.value:
+			return 1 if not 150 < r else 1 - ((r - 150) * 0.0001822) if not 700 < r else 1 - (550 * 0.0001822) 
+		elif armo == ARMO.ACP45.value:
+			return 1 if not 100 < r else 1 - ((r - 100) * 0.0001797) if not 500 < r else 1 - (400 * 0.0001797)
 
 class SMG(Enum):
 	HEAD = 1.8
@@ -84,10 +93,13 @@ class SMG(Enum):
 
 	@classmethod
 	def dist(self, r, armo):
-		return 1 if not 50 < r else 1 - ((r - 50) * 0.001) if not 300 < r else 1 - (250 * 0.001)
+		if armo == ARMO.ACP45.value:
+			return 1 if not 80 < r else 1 - ((r - 80) * 0.0001765) if not 250 < r else 1 - (170 * 0.0001765)
+		elif armo == ARMO.MM9.value:
+			return 1 if not 50 < r else 1 - ((r - 50) * 0.002) if not 200 < r else 1 - (150 * 0.002)
 
 class SG(Enum):
-	HEAD = 1.45
+	HEAD = 1.496
 	NECK = 1.08
 	CLAVICLES = 0.96
 	UPPER_CHEST = 1.06
@@ -103,7 +115,8 @@ class SG(Enum):
 
 	@classmethod
 	def dist(self, r, armo):
-		return 1 if not 50 < r else 1 - ((r - 50) * 0.001) if not 300 < r else 1 - (250 * 0.001)
+		if armo == ARMO.GA12.value:
+			return 1 if not 2 < r else 1 - ((r - 1) * 0.003345) if not 300 < r else 0
 
 class LMG(Enum):
 	HEAD = 2.3
