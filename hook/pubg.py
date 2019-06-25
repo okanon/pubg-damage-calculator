@@ -20,7 +20,7 @@ class PUBG(object):
 		for name, member in Weapon.__members__.items():
 			if weap.replace("-", "").upper() in name:
 				self.target = member
-				self.target_name = name
+				self.target_name = name.replace("_", "") if name[-1:] == "_" else name.replace("_", " ")
 				break
 			continue
 		
@@ -46,7 +46,7 @@ class PUBG(object):
 
 	def __distance(self, _range=1):
 		_range = 1 if _range == 0 else _range
-		return list(self.target.value.keys())[0].dist(_range, list(self.target.value.values())[1])
+		return list(self.target.value.keys())[0].dist(_range, self.target)
 
 	def __tokill(self, dmg):
 		if type(dmg) is str:
@@ -62,15 +62,17 @@ class PUBG(object):
 			self.helmet.capitalize() if not int(self.helmet[-1:]) == 0 else self.__na,
 			self.vest.capitalize() if not int(self.helmet[-1:]) == 0 else self.__na, d
 		)
+
+		d = self.__distance(d)
 		for name, member in list(self.target.value.keys())[0].__members__.items():
 			
 			if name in self.__no_armor:
-				damage = list(self.target.value.values())[0] * self.__distance(d) * member.value;
+				damage = list(self.target.value.values())[0] * d * member.value;
 			else:
 				if name in self.__head:
-					damage = list(self.target.value.values())[0] * self.__distance(d) * member.value * ARMOR[self.helmet.upper()].value;
+					damage = list(self.target.value.values())[0] * d * member.value * ARMOR[self.helmet.upper()].value;
 				else:
-					damage = list(self.target.value.values())[0] * self.__distance(d) * member.value * ARMOR[self.vest.upper()].value;
+					damage = list(self.target.value.values())[0] * d * member.value * ARMOR[self.vest.upper()].value;
 
 			if damage < 0.05:
 				damage = self.__na

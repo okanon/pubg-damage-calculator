@@ -27,7 +27,7 @@ class AR(Enum):
 	ANKLE = 0.27
 
 	@classmethod
-	def dist(self, r, armo):
+	def dist(self, r, target):
 		return 1 if not 80 < r else 1 - ((r - 80) * 0.0005958) if not 500 < r else 1 - (420 * 0.0005958)
 
 class DMR(Enum):
@@ -46,11 +46,13 @@ class DMR(Enum):
 	ANKLE = 0.28
 
 	@classmethod
-	def dist(self, r, armo):
-		if armo == ARMO.MM7.value:
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.MM7.value:
 			return 1 if not 120 < r else 1 - ((r - 120) * 0.0003948) if not 500 < r else 1 - (380 * 0.0003948)
-		elif armo == ARMO.MM5.value:
+		elif list(target.value.values())[1] == ARMO.MM5.value:
 			return 1 if not 120 < r else 1 - ((r - 120) * 0.0006079) if not 400 < r else 1 - (280 * 0.0006079)
+		elif list(target.value.values())[1] == ARMO.MM9.value:
+			return 1 #falloff damage is not defined
 
 class SR(Enum):
 	HEAD = 2.5
@@ -68,12 +70,12 @@ class SR(Enum):
 	ANKLE = 0.28
 
 	@classmethod
-	def dist(self, r, armo):
-		if armo == ARMO.MM7.value:
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.MM7.value:
 			return 1 if not 100 < r else 1 - ((r - 100) * 0.0002046) if not 590 < r else 1 - (490 * 0.0002046)
-		elif armo == ARMO.M300.value:
+		elif list(target.value.values())[1] == ARMO.M300.value:
 			return 1 if not 150 < r else 1 - ((r - 150) * 0.0001822) if not 700 < r else 1 - (550 * 0.0001822) 
-		elif armo == ARMO.ACP45.value:
+		elif list(target.value.values())[1] == ARMO.ACP45.value:
 			return 1 if not 100 < r else 1 - ((r - 100) * 0.0001797) if not 500 < r else 1 - (400 * 0.0001797)
 
 class SMG(Enum):
@@ -92,10 +94,10 @@ class SMG(Enum):
 	ANKLE = 0.37
 
 	@classmethod
-	def dist(self, r, armo):
-		if armo == ARMO.ACP45.value:
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.ACP45.value:
 			return 1 if not 80 < r else 1 - ((r - 80) * 0.0001765) if not 250 < r else 1 - (170 * 0.0001765)
-		elif armo == ARMO.MM9.value:
+		elif list(target.value.values())[1] == ARMO.MM9.value:
 			return 1 if not 50 < r else 1 - ((r - 50) * 0.002) if not 200 < r else 1 - (150 * 0.002)
 
 class SG(Enum):
@@ -114,8 +116,8 @@ class SG(Enum):
 	ANKLE = 0.26
 
 	@classmethod
-	def dist(self, r, armo):
-		if armo == ARMO.GA12.value:
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.GA12.value:
 			return 1 if not 2 < r else 1 - ((r - 1) * 0.003345) if not 300 < r else 0
 
 class LMG(Enum):
@@ -134,11 +136,14 @@ class LMG(Enum):
 	ANKLE = 0.27
 
 	@classmethod
-	def dist(self, r, armo):
-		return 1 if not 50 < r else 1 - ((r - 50) * 0.001) if not 300 < r else 1 - (250 * 0.001)
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.MM7.value:
+			return 1 if not 60 < r else 1 - ((r - 60) * 0.0010443) if not 300 < r else 1 - (240 * 0.0010443)
+		elif list(target.value.values())[1] == ARMO.MM5.value:
+			return 1 if not 70 < r else 1 - ((r - 70) * 0.0006225) if not 390 < r else 1 - (320 * 0.0006225)
 
 class PISTOL(Enum):
-	HEAD = 1.98
+	HEAD = 1.998
 	NECK = 1.49
 	CLAVICLES = 0.99
 	UPPER_CHEST = 1.09
@@ -153,8 +158,19 @@ class PISTOL(Enum):
 	ANKLE = 0.27
 
 	@classmethod
-	def dist(self, r, armo):
-		return 1 if not 50 < r else 1 - ((r - 50) * 0.001) if not 300 < r else 1 - (250 * 0.001)
+	def dist(self, r, target):
+		if list(target.value.values())[1] == ARMO.MM7.value: #deagle, r1895, r45
+			return 1 if not 2 < r else 1 - ((r - 1) * 0.0003498) if not 1000 < r else 0
+
+		if list(target.value.values())[1] == ARMO.MM9.value:
+			if list(target.value.values())[0] == 22:
+				return 1 if not 2 < r else 1 - ((r - 1) * 0.00201342) if not 149 < r else 1 - (149 * 0.00201342)
+			elif list(target.value.values())[0] == 23:
+				return 1 if not 2 < r else 1 - ((r - 1) * 0.0022779) if not 439 < r else 0
+			return 1 if not 2 < r else 1 - ((r - 1) * 0.00120627) if not 829 < r else 0
+
+		if list(target.value.values())[1] == ARMO.ACP45.value: #p1911
+			return 1 if not 2 < r else 1 - ((r - 1) * 0.0009008) if not 1000 < r else 0
 
 class PUNCH(Enum):
 	HEAD = 1.5
@@ -172,7 +188,7 @@ class PUNCH(Enum):
 	ANKLE = 0.36
 
 	@classmethod
-	def dist(self, r, armo):
+	def dist(self, r, target):
 		return 1
 
 class MELEE(Enum):
@@ -191,7 +207,7 @@ class MELEE(Enum):
 	ANKLE = 0.36
 
 	@classmethod
-	def dist(self, r, armo):
+	def dist(self, r, target):
 		return 1
 
 class CROSS_BOW(Enum):
@@ -210,8 +226,8 @@ class CROSS_BOW(Enum):
 	ANKLE = 0.3
 
 	@classmethod
-	def dist(self, r, armo):
-		return 1 if r == 1 else 1 - (r * 0.0002)
+	def dist(self, r, target):
+		return 1 if r == 1 else 1 - (r * 0.00020028) if not 1000 < r else 0
 
 class ARMOR(Enum):
 	LV0 = 1
