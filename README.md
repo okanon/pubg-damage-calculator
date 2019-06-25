@@ -13,7 +13,7 @@ Currently it is only python, but in the future we plan to distribute it in binar
 </h1>
 
 ## Requirements
-__python >= 3.4__
+python >= 3.4
 
 ## How to Use
 ```
