@@ -3,3 +3,12 @@
 </h1>
 
 # pubg-damage-calculator
+## What is this??
+This is to calculate the weapon damage of PUBG using python. 
+Currently it is only python, but in the future we plan to distribute it in binary format that can be used with each distribution such as Windows and OS X.
+
+## Damage Calculation
+<h1 align="center">
+	<img src="https://i.imgur.com/wMxJl1S_d.jpg?maxwidth=640&shape=thumb&fidelity=medium" alt="Awesome">
+</h1>
+
