@@ -38,7 +38,7 @@ class Weapon(Enum):
 	SAWEDOFF = {SG: 20, ARMO: 12}
 	DEAGLE = {PISTOL: 62, ARMO: 7}
 	R1895 = {PISTOL: 55, ARMO: 7}
-	R45 = {PISTOL: 55, ARMO: 7} #real armo = .45acp
+	R45 = {PISTOL: 55, ARMO: 7} #real armo is .45acp
 	P1911 = {PISTOL: 41, ARMO: 45}
 	P92 = {PISTOL: 35, ARMO: 9}
 	P18C = {PISTOL: 23, ARMO: 9}

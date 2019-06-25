@@ -52,7 +52,7 @@ class DMR(Enum):
 		elif list(target.value.values())[1] == ARMO.MM5.value:
 			return 1 if not 120 < r else 1 - ((r - 120) * 0.0006079) if not 400 < r else 1 - (280 * 0.0006079)
 		elif list(target.value.values())[1] == ARMO.MM9.value:
-			return 1 #falloff damage is not defined
+			return 1 #drop-off damage is not defined
 
 class SR(Enum):
 	HEAD = 2.5
