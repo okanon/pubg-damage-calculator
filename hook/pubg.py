@@ -34,7 +34,7 @@ class PUBG(object):
 			self.flag = False
 	"""
 
-	"""This is feature .."""
+	"""This is feature.."""
 	def deco_PUBG(flag):
 		def _deco_PUBG(func):
 			def wrap(*args, **kwargs):
