@@ -1,0 +1,1174 @@
+{
+	"Default__Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Stock",
+			"name": "UI_Item_Equip_Attachment_Attached_Stock",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Stock.uasset"
+		},
+		"AttachmentData": {
+			"AnimationKickMultiplier": 0.8,
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+			"AttachmentTag": "StockSniperRifle",
+			"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+			"RecoilMultiplierVertical": 0.8,
+			"StrucName": "WeaponAttachmentData",
+			"SwayMultiplier": 0.85,
+			"ZeroingDistances": []
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Stock/CheekPad/Sniper_CheekPad_M24_setting.Sniper_CheekPad_M24_setting",
+		"AttachmentWeaponTagData": [
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 0.7,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Stock/CheekPad/Sniper_CheekPad_AWM__setting.Sniper_CheekPad_AWM__setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "AWM"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 0.8,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Stock/CheekPad/Sniper_CheekPad_K98k_setting.Sniper_CheekPad_K98k_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "Kar98k"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 0.8,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Stock/CheekPad/Sniper_CheekPad_M24_setting.Sniper_CheekPad_M24_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "M24"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 0.9,
+					"RecoilMultiplierVertical": 0.9,
+					"RecoilRecoveryMultiplier": 1.1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Stock/SKS_CheekPad/Mesh/SKS_CheePad_Setting.SKS_CheePad_Setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "SKS"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 0.9,
+					"RecoilMultiplierVertical": 0.8,
+					"RecoilRecoveryMultiplier": 1.1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Stock/Sniper_CheekPad/Sniper_CheekPad_MK14/Sniper_CheekPad_MK14_setting.Sniper_CheekPad_MK14_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "Mk14"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 0.9,
+					"RecoilMultiplierVertical": 0.8,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.85,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Stock/Sniper_CheekPad/Sniper_CheekPad_Winchester/SR_CP_Winchester_Set.SR_CP_Winchester__Set",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "SLR"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 0.8,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+					"AttachmentTag": "StockSniperRifle",
+					"BarrelLengthAdditive": 0,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 1,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "None",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty"
+					},
+					"Name": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 0.8,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0.33,
+					"StabilitySpeedScalar": 1.15,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 0.8,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [],
+					"bIsSuppressor": false,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Stock/Sniper_CheekPad/Sniper_CheekPad_Vss/Sniper_CheekPad_Vss_setting.Sniper_CheekPad_Vss_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "VSS"
+			}
+		],
+		"ClassName": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/Stock/Sniper_CheekPad/Sniper_CheekPad_M24/Sniper_CheekPad_M24_01.Sniper_CheekPad_M24_01",
+		"DroppedMeshScale": 1.1,
+		"ExportName": "Default__Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Stock_SniperRifle_CheekPad.icon_attach_Stock_SniperRifle_CheekPad",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "A09D90EE464BA12C7927F9BCB9B70018",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Stock_SniperRifle_CheekPad",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Stock_SniperRifle_CheekPad",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 880,
+		"SpacePerItem": 17,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Stock_SniperRifle_CheekPad.icon_attach_Stock_SniperRifle_CheekPad"
+	},
+	"Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C"
+	}
+}

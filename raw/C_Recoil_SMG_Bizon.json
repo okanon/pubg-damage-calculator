@@ -1,0 +1,159 @@
+{
+	"C_Recoil_SMG_Bizon": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CurveVector",
+		"ClassName": "CurveVector",
+		"ExportName": "C_Recoil_SMG_Bizon",
+		"FloatCurves": {
+			"Keys": [
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 0,
+						"TangentWeightMode": 0,
+						"Time": 0,
+						"Value": 0.075
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0.0223454144,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0.0223446861,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 1,
+						"TangentWeightMode": 0,
+						"Time": 0.8,
+						"Value": 0.1
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0.009127858,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 0,
+						"LeaveTangent": 0.009127634,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 0,
+						"TangentWeightMode": 0,
+						"Time": 2,
+						"Value": 0.12
+					}
+				}
+			],
+			"StrucName": "RichCurve"
+		},
+		"__FloatCurves_1": {
+			"Keys": [
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0.105165422,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0.1051648,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 1,
+						"TangentWeightMode": 0,
+						"Time": 0,
+						"Value": 0.425
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0.158980951,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0.1589788,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 1,
+						"TangentWeightMode": 0,
+						"Time": 1,
+						"Value": 0.63
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": -0.01051954,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": -0.0105266776,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 1,
+						"TangentWeightMode": 0,
+						"Time": 2.2,
+						"Value": 0.8
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0.0018875543,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0.0018875543,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 1,
+						"TangentWeightMode": 0,
+						"Time": 2.95,
+						"Value": 0.7
+					}
+				}
+			],
+			"StrucName": "RichCurve"
+		},
+		"__FloatCurves_2": {
+			"Keys": [
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 2,
+						"LeaveTangent": 0,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 0,
+						"TangentWeightMode": 0,
+						"Time": 0,
+						"Value": 0
+					}
+				},
+				{
+					"StrucName": "RichCurveKey",
+					"value": {
+						"ArriveTangent": 0,
+						"ArriveTangentWeight": 0,
+						"InterpMode": 0,
+						"LeaveTangent": 0,
+						"LeaveTangentWeight": 0,
+						"StrucName": "FRichCurveKey",
+						"TangentMode": 0,
+						"TangentWeightMode": 0,
+						"Time": 3.5,
+						"Value": 1.5
+					}
+				}
+			],
+			"StrucName": "RichCurve"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"Default__DmgType_Gun_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslDamageType",
+		"ClassName": "DmgType_Gun_C",
+		"DamageImpulse": 0,
+		"DamageRatioInfos": [
+			{
+				"DamageRatio": 0.5,
+				"DamageVictimActorType": "EDamageVictimActorType::Vehicle",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageRatioInfos_Console": [
+			{
+				"DamageRatio": 0.55,
+				"DamageVictimActorType": "EDamageVictimActorType::Vehicle",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageTypeCategory": "EDamageTypeCategory::Damage_Gun",
+		"ExportName": "Default__DmgType_Gun_C",
+		"HitForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Damaged",
+			"name": "TslFFE_Damaged",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Damaged.uasset"
+		},
+		"HitReaction": true,
+		"KilledForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Killed",
+			"name": "TslFFE_Killed",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Killed.uasset"
+		}
+	},
+	"DmgType_Gun_C": {
+		"@Remaining": 72,
+		"@SuperName": "TslDamageType",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DmgType_Gun_C"
+	}
+}

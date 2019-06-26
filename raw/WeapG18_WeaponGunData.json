@@ -1,0 +1,176 @@
+{
+	"WeapG18_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapG18_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_G18_Firemode_Montage",
+				"name": "CharacterWeapon_G18_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/CharacterWeapon_G18_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_G18_Grip",
+				"name": "Weapon_G18_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/Weapon_G18_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_G18_Reload_BoltRelease_Montage",
+				"name": "CharacterWeapon_G18_Reload_BoltRelease_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/CharacterWeapon_G18_Reload_BoltRelease_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_G18_Reload_Montage",
+				"name": "CharacterWeapon_G18_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/CharacterWeapon_G18_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"MagDropAngularVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					5000,
+					5555,
+					255
+				]
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					-50,
+					-120,
+					-125
+				]
+			},
+			"RecoilKickADS": 0.8,
+			"RecoilKick_MovementMaxMultiplier": 1.2,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W1_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W1_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Pistol/MIL2_M3_W1_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 2,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 1.7,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_M9_C",
+				"name": "CS_WeapGun_Pistol_M9_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_M9.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_M9_ADS_C",
+				"name": "CS_WeapGun_Pistol_M9_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_M9_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_M9_ADS_C",
+				"name": "CS_WeapGun_Pistol_M9_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_M9_ADS.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 2.5,
+			"DeviationBaseADS": 0.03,
+			"DeviationBaseAim": 1.5,
+			"DeviationMax": 4,
+			"DeviationMaxMove": 1.4,
+			"DeviationMoveMaxReferenceVelocity": 480,
+			"DeviationMoveMinReferenceVelocity": 160,
+			"DeviationMoveMultiplier": 1.25,
+			"DeviationRecoilGain": 0.8,
+			"DeviationRecoilGainADS": 0.03,
+			"DeviationRecoilGainAim": 0.33,
+			"DeviationStanceJump": 1.2,
+			"MOA": 5,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_9mm_C",
+				"name": "Item_Ammo_9mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_9mm.uasset"
+			},
+			"AmmoPerClip": 17,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"FiringModes": [
+				"EFiringMode::Normal",
+				"EFiringMode::FullAuto"
+			],
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					16,
+					1,
+					7
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					11,
+					-1,
+					11
+				]
+			},
+			"MovementModifierAim": 1.8,
+			"MovementModifierScope": 1.6,
+			"NoAnimReloadDuration": 2.3,
+			"ShoulderLength": 10,
+			"StabilityForceModifier": 0.2,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.06,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 10,
+			"WeaponToShoulderOffset": -20
+		}
+	}
+}

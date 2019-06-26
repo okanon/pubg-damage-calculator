@@ -1,0 +1,119 @@
+{
+	"Default__Item_Weapon_Kar98k_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"AmmoPerClip": 5,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_Kar98k_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_UnEquip_Weapon_Common",
+			"name": "UI_Item_UnEquip_Weapon_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_UnEquip_Weapon_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/Kar98k/Meshes/kar98k_01.kar98k_01",
+		"DroppedMeshScale": 1.3,
+		"ExportName": "Default__Item_Weapon_Kar98k_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Kar98k.icon_weapon_Kar98k",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "E960C72C4D8443454121158AD85CBEF5",
+			"Namespace": "",
+			"SourceString": "Main Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Kar98k",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemDetailedName_Weapon_Kar98k",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Kar98k",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapKar98k_C",
+			"name": "WeapKar98k_C",
+			"packagePath": "/Blueprints/Weapons/WeapKar98k.uasset"
+		},
+		"SkinTag": "Item_Weapon_Kar98k",
+		"SortPriority": 7,
+		"SpacePerItem": 500,
+		"StackCountMax": 1,
+		"SubCategory": "Main",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Kar98k.icon_weapon_Kar98k",
+		"WeaponTag": "Kar98k",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapKar98k_C",
+			"name": "WeapKar98k_C",
+			"packagePath": "/Blueprints/Weapons/WeapKar98k.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Kar98k_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Kar98k_C"
+	}
+}

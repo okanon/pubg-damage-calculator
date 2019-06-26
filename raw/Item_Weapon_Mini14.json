@@ -1,0 +1,126 @@
+{
+	"Default__Item_Weapon_Mini14_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"AmmoPerClip": 20,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_Mini14_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_UnEquip_Weapon_Common",
+			"name": "UI_Item_UnEquip_Weapon_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_UnEquip_Weapon_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/Mini14/Meshes/Mini14_Drop.Mini14_Drop",
+		"DroppedMeshScale": 1.3,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Rifle",
+			"name": "Weapons_Equip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Rifle.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Mini14_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Mini14.icon_weapon_Mini14",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "FCFD7288432395B50227458321238D55",
+			"Namespace": "",
+			"SourceString": "Main Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Mini14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Mini14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Mini14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMini14_C",
+			"name": "WeapMini14_C",
+			"packagePath": "/Blueprints/Weapons/WeapMini14.uasset"
+		},
+		"SkinTag": "Item_Weapon_Mini14",
+		"SortPriority": 7,
+		"SpacePerItem": 500,
+		"StackCountMax": 1,
+		"SubCategory": "Main",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Mini14.icon_weapon_Mini14",
+		"WeaponTag": "Mini14",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMini14_C",
+			"name": "WeapMini14_C",
+			"packagePath": "/Blueprints/Weapons/WeapMini14.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Mini14_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Mini14_C"
+	}
+}

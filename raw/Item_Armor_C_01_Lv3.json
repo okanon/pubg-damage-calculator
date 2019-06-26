@@ -1,0 +1,88 @@
+{
+	"Default__Item_Armor_C_01_Lv3_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__EquipableItem",
+		"ClassName": "Item_Armor_C_01_Lv3_C",
+		"CustomizableObjectIdentifierForFemale": {
+			"CustomizableObjectGroupName": "TorsoArmor",
+			"CustomizableObjectName": "F_Armor_C_01",
+			"Guid": "44C040584DF09F71CE5DC3B645E5BB3E",
+			"StrucName": "CustomizableObjectIdentifier"
+		},
+		"CustomizableObjectIdentifierForMale": {
+			"CustomizableObjectGroupName": "TorsoArmor",
+			"CustomizableObjectName": "M_Armor_C_01",
+			"Guid": "722E00BF40D7C2255045B0A1FC5F9A7D",
+			"StrucName": "CustomizableObjectIdentifier"
+		},
+		"DamageReductionRate": 0.55,
+		"DamageTransferRate": 0.75,
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Armor",
+			"name": "Play_UI_Item_Equip_Armor",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/Play_UI_Item_Equip_Armor.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Character/ItemSpawner/ItemSpawner_Item_Armor_Lv3.ItemSpawner_Item_Armor_Lv3",
+		"DurabilityMax": 250,
+		"EquipSlotID": "EEquipSlotID::TorsoArmor",
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Armor",
+			"name": "Play_UI_Item_Equip_Armor",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/Play_UI_Item_Equip_Armor.uasset"
+		},
+		"ExportName": "Default__Item_Armor_C_01_Lv3_C",
+		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/equipment_vest03.equipment_vest03",
+		"Icon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Armor_C_01_Lv3.icon_equipment_Armor_C_01_Lv3",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Armor",
+			"name": "Play_UI_Item_Equip_Armor",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/Play_UI_Item_Equip_Armor.uasset"
+		},
+		"ItemCategory": {
+			"Key": "EFE4088F48BAD26070846D8F14A1D44F",
+			"Namespace": "[5E3B5E6E4CD4CFABFF0DA5B6F9192F66]",
+			"SourceString": "Armored Vest",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Armor_C_01_Lv3",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/ST_Item_Equipment_ItemDescriptions.ST_Item_Equipment_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemDetailedName_Armor_C_01_Lv3",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/ST_item_equipment_ItemNames.ST_Item_Equipment_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Armor_C_01_Lv3",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/ST_item_equipment_ItemNames.ST_Item_Equipment_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Armor",
+			"name": "Play_UI_Item_Equip_Armor",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/Play_UI_Item_Equip_Armor.uasset"
+		},
+		"SortPriority": 299,
+		"SpaceExtension": 50,
+		"SpacePerItem": 180,
+		"SubCategory": "Vest",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Armor_C_01_Lv3.icon_equipment_Armor_C_01_Lv3"
+	},
+	"Item_Armor_C_01_Lv3_C": {
+		"@Remaining": 72,
+		"@SuperName": "EquipableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Armor_C_01_Lv3_C"
+	}
+}

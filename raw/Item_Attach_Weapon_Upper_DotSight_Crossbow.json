@@ -1,0 +1,88 @@
+{
+	"Default__Item_Attach_Weapon_Upper_DotSight_Crossbow_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"name": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Scopes.uasset"
+		},
+		"AttachmentData": {
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+			"AttachmentTag": "UpperSmall",
+			"MouseSensitiveName": "Scroping",
+			"Name": "Item_Attach_Weapon_Upper_DotSight_Crossbow_C",
+			"ScopePostprocessData": {
+				"StrucName": "ObjectProperty",
+				"className": "ReticlePostprocessData",
+				"importName": "Sight_Reddot_Crossbow_PostprocessData",
+				"name": "Sight_Reddot_Crossbow_PostprocessData",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_Reddot_Crossbow_PostprocessData.uasset"
+			},
+			"StrucName": "WeaponAttachmentData"
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/TN_RDS/SM_CrossbowSight.SM_CrossbowSight",
+		"ClassName": "Item_Attach_Weapon_Upper_DotSight_Crossbow_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/TN_RDS/SM_CrossbowSight_01.SM_CrossbowSight_01",
+		"DroppedMeshScale": 2.75,
+		"ExportName": "Default__Item_Attach_Weapon_Upper_DotSight_Crossbow_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_DotSight_Crossbow.icon_attach_Upper_DotSight_Crossbow",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "38427B1245BB3C8BA836568CE2900A16",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "4C87684E4439D999BA791A89224E21D7",
+			"Namespace": "",
+			"SourceString": "Attachable Weapon: Crossbow",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "35AF6989426076939205EDA1EE0F6241",
+			"Namespace": "",
+			"SourceString": "Dot Sight",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "7AF8A5164D22DD36297F87BE3E942F86",
+			"Namespace": "",
+			"SourceString": "Dot Sight",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 884,
+		"SpacePerItem": 10,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_DotSight_Crossbow.icon_attach_Upper_DotSight_Crossbow"
+	},
+	"Item_Attach_Weapon_Upper_DotSight_Crossbow_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Upper_DotSight_Crossbow_C"
+	}
+}

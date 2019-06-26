@@ -1,0 +1,177 @@
+{
+	"DefaultPistolSetting_C": {
+		"@Remaining": 72,
+		"@SuperName": "TslWeapon_Trajectory",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DefaultPistolSetting_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "DefaultPistolSetting_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "DefaultPistolSetting_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__DefaultPistolSetting_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslWeapon_Trajectory",
+		"AnimWeaponType": "EAnimWeaponType::Pistol",
+		"ClassName": "DefaultPistolSetting_C",
+		"ExportName": "Default__DefaultPistolSetting_C",
+		"HipDuration": 0.1,
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Small_C",
+			"name": "GunImpact_Small_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Small.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__DefaultPistolSetting_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleAttachPoint": "MuzzleFlashSocket",
+		"ProneRollAnim": {
+			"RollLeft": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W1_ProneRoll_L_Loop_IP_Montage",
+				"name": "MIL2_M3_W1_ProneRoll_L_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Pistol/MIL2_M3_W1_ProneRoll_L_Loop_IP_Montage.uasset"
+			},
+			"RollRight": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W1_ProneRoll_R_Loop_IP_Montage",
+				"name": "MIL2_M3_W1_ProneRoll_R_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Pistol/MIL2_M3_W1_ProneRoll_R_Loop_IP_Montage.uasset"
+			},
+			"StrucName": "WeaponRollAnim"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultPistolSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"TrailTargetParam": "ShockBeamEnd",
+		"TrajectoryConfig": {
+			"FiringSpreadBase": 2,
+			"RecoilPatterns": [
+				{
+					"Angle": 90,
+					"Magnitude": 0.45,
+					"StrucName": "RecoilPatternData"
+				}
+			],
+			"RecoilSpeed": 10,
+			"StrucName": "TrajectoryWeaponData"
+		},
+		"UnderWaterTrailFXClassPerLength": {
+			"90": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "BP_UnderwaterBulletTrailEffectShort_C",
+				"name": "BP_UnderwaterBulletTrailEffectShort_C",
+				"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/BP_UnderwaterBulletTrailEffectShort.uasset"
+			},
+			"300": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "BP_UnderwaterBulletTrailEffectMid_C",
+				"name": "BP_UnderwaterBulletTrailEffectMid_C",
+				"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/BP_UnderwaterBulletTrailEffectMid.uasset"
+			}
+		},
+		"WeaponAnim": {
+			"PickUp": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W1_Glean_Montage",
+				"name": "MIL2_M3_W1_Glean_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Pistol/MIL2_M3_W1_Glean_Montage.uasset"
+			},
+			"StrucName": "WeaponBasicAnim"
+		},
+		"WeaponConfig": {
+			"CameraDOF_Power": 0.1,
+			"StrucName": "WeaponData",
+			"WeaponClass": "EWeaponClass::Class_Pistol"
+		},
+		"WeaponHand": "EWeaponHand::Left"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__DefaultPistolSetting_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 14,
+			"index": -15,
+			"name": "SceneComponent",
+			"pkgIndex": -28
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "DefaultPistolSetting_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "DefaultPistolSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:BEA3985C4A6C498365AACDB2C73EF37A"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "DefaultPistolSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "DefaultPistolSetting_C.SimpleConstructionScript_1"
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultPistolSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 0,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__DefaultPistolSetting_C.WeaponMesh3P"
+	}
+}

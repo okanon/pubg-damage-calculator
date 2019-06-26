@@ -1,0 +1,1371 @@
+{
+	"AquaRail_C": {
+		"@Remaining": 120,
+		"@SuperName": "BoatBase_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "AquaRail_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "AquaRail_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "AquaRail_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "AquaRail_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "AquaRail_C.ExecuteUbergraph_AquaRail",
+			"name": "ExecuteUbergraph_AquaRail"
+		}
+	},
+	"BuoyancyForceComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__AquaRail_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"ClassName": "BuoyancyForceComponent",
+		"ExportName": "Default__AquaRail_C.BuoyancyForceComponent",
+		"FluidAngularDamping": 2,
+		"FluidLinearDamping": 0,
+		"MaxUnderwaterVelocity": 2000,
+		"MeshDensity": 700,
+		"PointDensityOverride": [
+			900,
+			650,
+			600,
+			900,
+			650,
+			600,
+			600,
+			350,
+			300,
+			150
+		],
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				115.613739,
+				0,
+				-4.005249
+			]
+		},
+		"StayUprightDamping": 0,
+		"StayUprightStiffness": 0,
+		"TestPointRadius": 32,
+		"TestPoints": [
+			{
+				"StrucName": "Vector",
+				"value": [
+					-82.68777,
+					40,
+					6.57959
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					3.054932,
+					40,
+					10.10437
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					103.939766,
+					40,
+					13.62915
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-82.68777,
+					-40,
+					6.57959
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					3.054932,
+					-40,
+					10.10437
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					103.939766,
+					-40,
+					13.62915
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-82.68777,
+					0,
+					6.57959
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					3.054932,
+					0,
+					10.10437
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					103,
+					0,
+					13.62915
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-180,
+					0,
+					20
+				]
+			}
+		],
+		"VelocityDamper": {
+			"StrucName": "Vector",
+			"value": [
+				0.1,
+				0.1,
+				0.5
+			]
+		}
+	},
+	"DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.OnDeath.DamageCauser"
+	},
+	"DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "AquaRail_C.OnDeath.DamageEvent"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "AquaRail_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__AquaRail_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoatBase_C",
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuoyancyForceComponent",
+			"exportName": "Default__AquaRail_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"ClassName": "AquaRail_C",
+		"ExportName": "Default__AquaRail_C",
+		"FuelMax": 700,
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__AquaRail_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"MeshComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__AquaRail_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"MovementComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslFloatingVehicleMovement",
+			"exportName": "Default__AquaRail_C.MovementComponent",
+			"name": "MovementComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__AquaRail_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"StopSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Boat_Engine_Stop",
+			"name": "Vehicle_Boat_Engine_Stop",
+			"packagePath": "/WwiseAssets/Vehicles/Boat/Vehicle_Boat_Engine_Stop.uasset"
+		},
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__AquaRail_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__AquaRail_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__AquaRail_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__AquaRail_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__AquaRail_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleEnginePoint": "Socket_PowerOutput",
+		"VehicleEngineRadius": 10,
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__AquaRail_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__AquaRail_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__AquaRail_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__AquaRail_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		},
+		"VelocityFOVHigh": 1200,
+		"VelocityFOVLow": 700,
+		"bUseDynamicCamera": true
+	},
+	"DriverSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.DriverSeat"
+	},
+	"DriverSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "AquaRail_C.DriverSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "2D1298CF485729E5169B6392BEB26E97",
+			"Namespace": "",
+			"SourceString": "Drive",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "155A288B49C464572BAEADBF6021D8C5",
+			"Namespace": "[1FE8820C41C7D934B3B57E98DE59BE5C]",
+			"SourceString": "Aquarail",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketF",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				7.967247,
+				0.00126647949,
+				33.80865
+			]
+		},
+		"RiderType": "ERiderType::Driver",
+		"SeatAnimDynamicsScale": 3,
+		"SeatAnimationType": "EVehicleAnimType::JetskiDriver",
+		"ViewPitchMax": 60,
+		"ViewPitchMin": -25
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.EntryPoint"
+	},
+	"ExecuteUbergraph_AquaRail": {
+		"@Remaining": 185,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail"
+	},
+	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "AquaRail_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-6.576414,
+				0,
+				106.292793
+			]
+		}
+	},
+	"GamePadInputAixsComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__AquaRail_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__AquaRail_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__AquaRail_C.HornComponent"
+	},
+	"InheritableComponentHandler": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "AquaRail_C.InheritableComponentHandler",
+		"Records": [
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 50,
+					"index": -51,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -128
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:A75E40734B4F43F92FE8FAB560F27C8C"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BoatBase_C",
+						"name": "BoatBase_C",
+						"packagePath": "/Vehicles/BoatBase.uasset"
+					},
+					"SCSVariableName": "ThirdPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "AquaRail_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 50,
+					"index": -51,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -128
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:14EB50704ED2BFBB73E22586B5BECBE0"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BoatBase_C",
+						"name": "BoatBase_C",
+						"packagePath": "/Vehicles/BoatBase.uasset"
+					},
+					"SCSVariableName": "FirstPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "AquaRail_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "FirstPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			}
+		]
+	},
+	"K2Node_CreateDelegate_OutputDelegate": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DelegateProperty",
+		"ClassName": "DelegateProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.K2Node_CreateDelegate_OutputDelegate"
+	},
+	"K2Node_CustomEvent_DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.K2Node_CustomEvent_DamageCauser"
+	},
+	"K2Node_CustomEvent_DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.K2Node_CustomEvent_DamageEvent"
+	},
+	"K2Node_CustomEvent_KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.K2Node_CustomEvent_KillingDamage"
+	},
+	"K2Node_CustomEvent_PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.ExecuteUbergraph_AquaRail.K2Node_CustomEvent_PlayerInstigator"
+	},
+	"KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "AquaRail_C.OnDeath.KillingDamage"
+	},
+	"MovementComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComponent",
+		"BoostModifier": 1.5,
+		"ClassName": "TslFloatingVehicleMovement",
+		"DirectionalAccelerationCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Move_Jetski",
+			"name": "Curve_Move_Jetski",
+			"packagePath": "/Vehicles/CustomVehicleCurves/Curve_Move_Jetski.uasset"
+		},
+		"ExportName": "Default__AquaRail_C.MovementComponent",
+		"MaxAcceleration": 2000,
+		"MaxRotationYawAngle": 35,
+		"RotationYawRate": 100,
+		"SlideCompensationCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_SlideCompensation_Jetski",
+			"name": "Curve_SlideCompensation_Jetski",
+			"packagePath": "/Vehicles/CustomVehicleCurves/Curve_SlideCompensation_Jetski.uasset"
+		},
+		"StartAccelerationRate": 1450,
+		"StopAccelerationRate": 1800
+	},
+	"OnDeath": {
+		"@Remaining": 94,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "AquaRail_C.OnDeath"
+	},
+	"Passenger": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.Passenger"
+	},
+	"Passenger_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"AllowedWeaponClasses": [
+			"EWeaponClass::Class_Pistol",
+			"EWeaponClass::Class_SMG",
+			"EWeaponClass::Class_Throwable"
+		],
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "AquaRail_C.Passenger_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "7262D7BB497514DB1E6DCAB945C4908F",
+			"Namespace": "[1FE8820C41C7D934B3B57E98DE59BE5C]",
+			"SourceString": "Aquarail",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketR",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-56.87256,
+				0,
+				36.5157928
+			]
+		},
+		"SeatAnimDynamicsScale": 3,
+		"SeatAnimationType": "EVehicleAnimType::JetskiPassenger",
+		"SeatIndex": 1,
+		"ViewPitchMin": -35,
+		"ViewYawPerWeaponOverrideMap": "*** TODO: This property skipped",
+		"bCanOnlyFireWhileAiming": true,
+		"bRestricWeaponUse": true
+	},
+	"PawnInputBindingComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__AquaRail_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.OnDeath.PlayerInstigator"
+	},
+	"ReceiveBeginPlay": {
+		"@Remaining": 54,
+		"@SuperName": "ReceiveBeginPlay",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "AquaRail_C.ReceiveBeginPlay"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 42,
+			"index": -43,
+			"name": "SceneComponent",
+			"pkgIndex": -126
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "AquaRail_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:FAD587854C15DFFE23EBD2A89EFE50E3"
+		}
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketF",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 64,
+			"index": -65,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -128
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "AquaRail_C.DriverSeat_GEN_VARIABLE",
+			"name": "DriverSeat_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "DriverSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:635F778843AAB1CA399D8694600A5B4D"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 61,
+			"index": -62,
+			"name": "TslVehicleSinkComponent",
+			"pkgIndex": -128
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSinkComponent",
+			"exportName": "AquaRail_C.TslVehicleSink_GEN_VARIABLE",
+			"name": "TslVehicleSink_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "TslVehicleSink",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:46823B484C410DB64449D0B754CDA7BD"
+		}
+	},
+	"SCS_Node_3": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 46,
+			"index": -47,
+			"name": "SphereComponent",
+			"pkgIndex": -126
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "AquaRail_C.Sphere_GEN_VARIABLE",
+			"name": "Sphere_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_3",
+		"InternalVariableName": "Sphere",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:1A27943146AD78B64793D4AE213E98EE"
+		}
+	},
+	"SCS_Node_4": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 64,
+			"index": -65,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -128
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "AquaRail_C.Passenger_GEN_VARIABLE",
+			"name": "Passenger_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_4",
+		"InternalVariableName": "Passenger",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:C959202B4ECC84F6569278965B12E474"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_5": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 46,
+			"index": -47,
+			"name": "SphereComponent",
+			"pkgIndex": -126
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "AquaRail_C.Sphere1_GEN_VARIABLE",
+			"name": "Sphere1_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_5",
+		"InternalVariableName": "Sphere1",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:2FCFECDB40E2EE2A8BCDAEA3F0DE7897"
+		}
+	},
+	"SCS_Node_6": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 47,
+			"index": -48,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -126
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "AquaRail_C.WeaponCollisionComponent_GEN_VARIABLE",
+			"name": "WeaponCollisionComponent_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_6",
+		"InternalVariableName": "WeaponCollisionComponent",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:E07D81E74D6E7D3D878F7EADCE9F04A0"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_7": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "engine_axis",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 47,
+			"index": -48,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -126
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "AquaRail_C.WeaponCollisionComponentEngine_GEN_VARIABLE",
+			"name": "WeaponCollisionComponentEngine_GEN_VARIABLE"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_7",
+		"InternalVariableName": "WeaponCollisionComponentEngine",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:C576D9B74DE49C41B1F93289FAC9DE67"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "AquaRail_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "AquaRail_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			}
+		]
+	},
+	"SkeletalMeshComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "SkeletalMeshComponent",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "AquaRail_Animation_C",
+			"name": "AquaRail_Animation_C",
+			"packagePath": "/Vehicles/AquaRail/AquaRail_Animation.uasset"
+		},
+		"BodyInstance": {
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "AquaRail_PhysicalMaterial",
+				"name": "AquaRail_PhysicalMaterial",
+				"packagePath": "/Vehicles/AquaRail/AquaRail_PhysicalMaterial.uasset"
+			},
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__AquaRail_C.SkeletalMeshComponent",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_AquaRail",
+			"name": "SK_AquaRail",
+			"packagePath": "/Vehicles/AquaRail/Mesh/SK_AquaRail.uasset"
+		}
+	},
+	"Sphere": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.Sphere"
+	},
+	"Sphere1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.Sphere1"
+	},
+	"Sphere1_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "AquaRail_C.Sphere1_GEN_VARIABLE"
+	},
+	"Sphere_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "AquaRail_C.Sphere_GEN_VARIABLE"
+	},
+	"ThirdPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"CameraLagMaxDistance": 20,
+		"CameraLagSpeed": 20,
+		"CameraRotationLagSpeed": 7,
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "AquaRail_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				17,
+				0,
+				127
+			]
+		},
+		"SocketOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				0
+			]
+		},
+		"TargetArmLength": 600,
+		"bEnableCameraLag": true
+	},
+	"TslVehicleSink": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.TslVehicleSink"
+	},
+	"TslVehicleSink_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslVehicleSinkComponent",
+		"ClassName": "TslVehicleSinkComponent",
+		"DensityChangeCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_AquaRailSinkCurve",
+			"name": "C_AquaRailSinkCurve",
+			"packagePath": "/Vehicles/AquaRail/C_AquaRailSinkCurve.uasset"
+		},
+		"ExportName": "AquaRail_C.TslVehicleSink_GEN_VARIABLE",
+		"FinalSplashFxTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Final_Splash_BP_Aquarail_C",
+			"name": "P_Sinking_Final_Splash_BP_Aquarail_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Final_Splash_BP_Aquarail.uasset"
+		},
+		"MaxSinkingTime": 30,
+		"RippleEmissionScaleParam": "SpawnRateScale",
+		"RippleEmissionScalePerDepthCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_AquarailRippleEmissionRateByDepth",
+			"name": "C_AquarailRippleEmissionRateByDepth",
+			"packagePath": "/Vehicles/AquaRail/C_AquarailRippleEmissionRateByDepth.uasset"
+		},
+		"RippleEmitSocketsNames": [],
+		"SinkingSpeedMul": [
+			1,
+			1,
+			0.1,
+			1,
+			1,
+			0.1,
+			1,
+			1,
+			0.01,
+			1
+		],
+		"SurfaceRippleFx": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Ripples_BP_Aquarail_C",
+			"name": "P_Sinking_Ripples_BP_Aquarail_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Ripples_BP_Aquarail.uasset"
+		}
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "AquaRail_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 45,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "AquaRail_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"ClassName": "TslVehicleCommonComponent",
+		"ExportName": "Default__AquaRail_C.VehicleCommonComponent",
+		"FuelConsumptionModifierBoost": 5,
+		"FuelEfficiency": 0.7,
+		"FuelMax": 700,
+		"VehicleUI": {
+			"StrucName": "ObjectProperty",
+			"className": "WidgetBlueprintGeneratedClass",
+			"importName": "AquaRailStanceWidget_C",
+			"name": "AquaRailStanceWidget_C",
+			"packagePath": "/Blueprints/UI/HUD/Stance/VehicleStance/AquaRailStanceWidget.uasset"
+		}
+	},
+	"VehicleEffectComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"ApplyDestroyedMaterialDelay": 0.3,
+		"ClassName": "TslVehicleEffectComponent",
+		"DestroyedMaterialMap": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_AquaRail_Burn",
+				"name": "MI_AquaRail_Burn",
+				"packagePath": "/Vehicles/AquaRail/Materials/MI_AquaRail_Burn.uasset"
+			},
+			"1": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_Decal_Burn",
+				"name": "MI_Decal_Burn",
+				"packagePath": "/Vehicles/AquaRail/Materials/MI_Decal_Burn.uasset"
+			}
+		},
+		"ExportName": "Default__AquaRail_C.VehicleEffectComponent",
+		"VehicleEffectInfo": {
+			"Boost": {
+				"StrucName": "ObjectProperty"
+			},
+			"Damaged": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Damaged_BP_C",
+				"name": "P_Moto_Damaged_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Damaged_BP.uasset"
+			},
+			"Destroyed": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Fire_BP_C",
+				"name": "P_Moto_Fire_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Fire_BP.uasset"
+			},
+			"EngineSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Boat_Engine",
+				"name": "Vehicle_Boat_Engine",
+				"packagePath": "/WwiseAssets/Vehicles/Boat/Vehicle_Boat_Engine.uasset"
+			},
+			"Explosion": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Explosion_BP_C",
+				"name": "P_Moto_Explosion_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Explosion_BP.uasset"
+			},
+			"FrontFoamLeft": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Aquarail_FrontDrive_FoamLeft_BP_C",
+				"name": "P_Aquarail_FrontDrive_FoamLeft_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Aquarail_FrontDrive_FoamLeft_BP.uasset"
+			},
+			"FrontFoamRight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_AquaRail_FrontDrive_FoamRight_BP_C",
+				"name": "P_AquaRail_FrontDrive_FoamRight_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_AquaRail_FrontDrive_FoamRight_BP.uasset"
+			},
+			"FrontTrail": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_AquaRail_Drive_Ripples_BP_C",
+				"name": "P_AquaRail_Drive_Ripples_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_AquaRail_Drive_Ripples_BP.uasset"
+			},
+			"Muffler": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Muffler_BP_C",
+				"name": "P_Moto_Muffler_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Muffler_BP.uasset"
+			},
+			"RearTrail": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_AquaRail_Drive_Ripples_BP_C",
+				"name": "P_AquaRail_Drive_Ripples_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_AquaRail_Drive_Ripples_BP.uasset"
+			},
+			"StrucName": "VehicleEffectInfo",
+			"Thruster2": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_AquaRail_Drive_Foam_BP_C",
+				"name": "P_AquaRail_Drive_Foam_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_AquaRail_Drive_Foam_BP.uasset"
+			}
+		}
+	},
+	"VehicleHitComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"CharacterDamageSpeedCurve_Console": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "VehicleCollisionCharacterDamage_Console",
+			"name": "VehicleCollisionCharacterDamage_Console",
+			"packagePath": "/Vehicles/Base_Vehicle/VehicleCollisionCharacterDamage_Console.uasset"
+		},
+		"ClassName": "TslVehicleHitComponent",
+		"ExplosionBaseDamage": 200,
+		"ExportName": "Default__AquaRail_C.VehicleHitComponent",
+		"ImpulseLimitationSpeedThreshold_Console": 1667,
+		"PhysicsImpactAbsorptionRider_Console": 500000,
+		"PhysicsImpactAbsorption_Console": 1000000,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.00001,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.0001
+	},
+	"VehicleSeatComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__AquaRail_C.VehicleSeatComponent"
+	},
+	"VehicleSyncComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__AquaRail_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__AquaRail_C.VehicleXRayComponent"
+	},
+	"WeaponCollisionComponent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.WeaponCollisionComponent"
+	},
+	"WeaponCollisionComponentEngine": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "AquaRail_C.WeaponCollisionComponentEngine"
+	},
+	"WeaponCollisionComponentEngine_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "AquaRail_C.WeaponCollisionComponentEngine_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				124.265617,
+				0.000122070313,
+				7.47465e-21
+			]
+		},
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_AquaRail_Collision_Engine",
+			"name": "SM_AquaRail_Collision_Engine",
+			"packagePath": "/Vehicles/AquaRail/Mesh/SM_AquaRail_Collision_Engine.uasset"
+		},
+		"bReceivesDecals": false,
+		"bVisible": false
+	},
+	"WeaponCollisionComponent_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "AquaRail_C.WeaponCollisionComponent_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_AquaRail_Collision_Body",
+			"name": "SM_AquaRail_Collision_Body",
+			"packagePath": "/Vehicles/AquaRail/Mesh/SM_AquaRail_Collision_Body.uasset"
+		},
+		"bReceivesDecals": false,
+		"bVisible": false
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"Default__Item_Weapon_AUG_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"AmmoPerClip": 30,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_AUG_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_UnEquip_Weapon_Common",
+			"name": "UI_Item_UnEquip_Weapon_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_UnEquip_Weapon_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/AUGA3/Meshes/AUGA3_Drop.AUGA3_Drop",
+		"DroppedMeshScale": 1.1,
+		"ExportName": "Default__Item_Weapon_AUG_C",
+		"HudDisplayEquipIcon": "AssetObject==/Game/UI/Weapon/weapons_gun__AUGA3.weapons_gun__AUGA3",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_AUGA3.icon_weapon_AUGA3",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "085C3CFB4E93EE01E8ED3FBD44AFF576",
+			"Namespace": "",
+			"SourceString": "Main Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_AUG",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_AUG",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_AUG",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapAUG_C",
+			"name": "WeapAUG_C",
+			"packagePath": "/Blueprints/Weapons/WeapAUG.uasset"
+		},
+		"SkinTag": "Item_Weapon_AUG",
+		"SortPriority": 7,
+		"SpacePerItem": 500,
+		"StackCountMax": 1,
+		"SubCategory": "Main",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_AUGA3.icon_weapon_AUGA3",
+		"WeaponTag": "AUG",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapAUG_C",
+			"name": "WeapAUG_C",
+			"packagePath": "/Blueprints/Weapons/WeapAUG.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_AUG_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_AUG_C"
+	}
+}

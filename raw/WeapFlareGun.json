@@ -1,0 +1,300 @@
+{
+	"CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue"
+	},
+	"CallFunc_BreakTransform_Location": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_BreakTransform_Location"
+	},
+	"CallFunc_BreakTransform_Rotation": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_BreakTransform_Rotation"
+	},
+	"CallFunc_BreakTransform_Scale": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_BreakTransform_Scale"
+	},
+	"CallFunc_FinishSpawningActor_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_FinishSpawningActor_ReturnValue"
+	},
+	"CallFunc_GetSocketTransform_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_GetSocketTransform_ReturnValue"
+	},
+	"CallFunc_LocalPositionToServer_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_LocalPositionToServer_ReturnValue"
+	},
+	"CallFunc_MakeTransform_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.CallFunc_MakeTransform_ReturnValue"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapFlareGun_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapFlareGun_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslWeapon_Gun_Projectile",
+		"ClassName": "WeapFlareGun_C",
+		"ExportName": "Default__WeapFlareGun_C",
+		"FlareClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "Flare_Projectile_C",
+			"name": "Flare_Projectile_C",
+			"packagePath": "/Export_Marek/Exp_Flare/Flare_Projectile.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapFlareGun_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleAttachPoint": "Muzzle",
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_Flaregun",
+			"name": "P_Muzzle_Flaregun",
+			"packagePath": "/Assets/Effects/ParticleSystem/Muzzle/Other/P_Muzzle_Flaregun.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapFlareGun_C.RootScene",
+			"name": "RootScene"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"UseCustomAimingCrosshair": true,
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Recoil_1911_Montage",
+				"name": "Recoil_1911_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/1911/Recoil/Recoil_1911_Montage.uasset"
+			},
+			"StrucName": "WeaponData",
+			"WeaponClass": "EWeaponClass::Class_Pistol"
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapFlareGun_WeaponGunData",
+			"name": "WeapFlareGun_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapFlareGun_WeaponGunData.uasset"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_FLAREGUN",
+			"name": "weapons_gun_FLAREGUN",
+			"packagePath": "/UI/Weapon/weapons_gun_FLAREGUN.uasset"
+		},
+		"WeaponIconRatio": 1.37,
+		"bHideCrosshairWhileNotAiming": true
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.EntryPoint"
+	},
+	"ExecuteUbergraph_WeapFlareGun": {
+		"@Remaining": 402,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun"
+	},
+	"K2Node_CustomEvent_Loc": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.K2Node_CustomEvent_Loc"
+	},
+	"K2Node_CustomEvent_Rot": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun.K2Node_CustomEvent_Rot"
+	},
+	"Loc": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.Server_ShootFlare.Loc"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapFlareGun_C.RootScene"
+	},
+	"Rot": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.Server_ShootFlare.Rot"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 16,
+			"index": -17,
+			"name": "SceneComponent",
+			"pkgIndex": -45
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapFlareGun_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapFlareGun_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:25E0AE814CF50C75221791BC403C98B0"
+		}
+	},
+	"Server_ShootFlare": {
+		"@Remaining": 76,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapFlareGun_C.Server_ShootFlare"
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapFlareGun_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "WeapFlareGun_C.SimpleConstructionScript_0"
+	},
+	"SimulateFire_BP": {
+		"@Remaining": 54,
+		"@SuperName": "SimulateFire_BP",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapFlareGun_C.SimulateFire_BP"
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapFlareGun_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 39,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapFlareGun_C.UserConstructionScript"
+	},
+	"WeapFlareGun_C": {
+		"@Remaining": 120,
+		"@SuperName": "TslWeapon_Gun_Projectile",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapFlareGun_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapFlareGun_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "WeapFlareGun_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "WeapFlareGun_C.ExecuteUbergraph_WeapFlareGun",
+			"name": "ExecuteUbergraph_WeapFlareGun"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Flaregun_C",
+			"name": "ABP_Flaregun_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Flaregun/Weapon/ABP_Flaregun.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapFlareGun_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapFlareGun_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_Flaregun",
+			"name": "SK_Flaregun",
+			"packagePath": "/Weapon/Pistols/FLAREGUN/Meshes/SK_Flaregun.uasset"
+		}
+	}
+}

@@ -1,0 +1,383 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapSaiga12_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapSaiga12_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Upper_Small",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Large",
+						"AttachmentTag": "UpperLarge",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineLarge",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Muzzle_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleLarge",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleDuckbill",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Upper_Angled",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Angled",
+						"AttachmentTag": "RMR",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapSaiga12_C",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/saiga-12/Meshes/Saiga12_mag_setting.Saiga12_mag_setting",
+				"AttachmentMeshName": "MagazineDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "MagazineDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 23,
+					"index": -24,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -51
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Rifle",
+			"name": "Weapons_Equip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Rifle.uasset"
+		},
+		"ExportName": "Default__WeapSaiga12_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_Shotgun_C",
+			"name": "CS_WeapGun_Shotgun_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+		},
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Saiga12_Fire_LongTail",
+			"name": "Weapon_Saiga12_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Saiga12/Weapon_Saiga12_Fire_LongTail.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Saiga12_Fire_ShortTail",
+			"name": "Weapon_Saiga12_Fire_ShortTail",
+			"packagePath": "/WwiseAssets/Weapons/Saiga12/Weapon_Saiga12_Fire_ShortTail.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Shotgun_C",
+			"name": "GunImpact_Shotgun_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Shotgun.uasset"
+		},
+		"LightImpactTemplate": {
+			"StrucName": "ObjectProperty"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapSaiga12_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_04_Shotgun",
+			"name": "P_Muzzle_04_Shotgun",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_04_Shotgun.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapSaiga12_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"ShellFxClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Shotgun_Saiga12_BP_C",
+			"name": "P_Shotgun_Saiga12_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Weapons/Shell/P_Shotgun_Saiga12_BP.uasset"
+		},
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.05,
+			"FiringSpreadBase": 0,
+			"RecoilPatternScale": 1,
+			"RecoilPatterns": [
+				{
+					"Angle": 90,
+					"Magnitude": 1.5,
+					"StrucName": "RecoilPatternData"
+				}
+			],
+			"RecoilRecoverySpeed": 3,
+			"RecoilSpeed": 22,
+			"ScopingSpreadModifier": 0.025,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 6
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"AnimationKick": 0.8,
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1,
+			"CameraDOF_Range": 30,
+			"HoldBreathFOV": 60,
+			"IronSightZeroingDistances": [
+				50
+			],
+			"PhysicalBodyHitImpactPower": 5000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Rifle_Recoil_12cal_Montage",
+				"name": "Rifle_Recoil_12cal_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/Rifle/Recoil/Rifle_Recoil_12cal_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					6,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					34,
+					-5
+				]
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 75,
+			"WeaponClass": "EWeaponClass::Class_Shotgun",
+			"WeaponEquipDuration": 0.25,
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapSaiga12_WeaponGunData",
+			"name": "WeapSaiga12_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapSaiga12_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.55,
+			"DepthBlurBlackPoint": 50,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 10,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_saiga12",
+			"name": "weapons_gun_saiga12",
+			"packagePath": "/UI/Weapon/weapons_gun_saiga12.uasset"
+		},
+		"WeaponIconRatio": 3.28,
+		"WeaponTag": "Saiga12",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapSaiga12_WeaponTrajectoryData",
+			"name": "WeapSaiga12_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapSaiga12_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapSaiga12_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 20,
+			"index": -21,
+			"name": "SceneComponent",
+			"pkgIndex": -50
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapSaiga12_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapSaiga12_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D6F634D44DBF99D659773C9A370D8B0F"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapSaiga12_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapSaiga12_C.SimpleConstructionScript_1"
+	},
+	"WeapSaiga12_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapSaiga12_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapSaiga12_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Weapon_Saiga_C",
+			"name": "ABP_Weapon_Saiga_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Saiga/Weapon/ABP_Weapon_Saiga.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapSaiga12_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 16.7855129,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapSaiga12_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "Saiga12_setting",
+			"name": "Saiga12_setting",
+			"packagePath": "/Weapon/Rifles/saiga-12/Meshes/Saiga12_setting.uasset"
+		}
+	}
+}

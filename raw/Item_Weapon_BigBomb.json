@@ -1,0 +1,75 @@
+{
+	"Default__Item_Weapon_BigBomb_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_BigBomb_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop",
+			"name": "UI_Inventory_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Environment/Mock-up/SurvivalProps/Models/Apple_mdl.Apple_mdl",
+		"ExportName": "Default__Item_Weapon_BigBomb_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_BigBomb.icon_weapon_BigBomb",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "BC20ECA545D96393CAE788B2A6B7DDD2",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "1F8946CB4E0D9A054B017DB9FF4F06D1",
+			"Namespace": "",
+			"SourceString": "BIG BOMB",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "AAB2EDF245B5762B4512C6A5CCA9F27F",
+			"Namespace": "",
+			"SourceString": "Apple",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "4ED3CFD44854840F4124BC8B4AC6BDCF",
+			"Namespace": "",
+			"SourceString": "Apple",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapBigBomb_C",
+			"name": "WeapBigBomb_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapBigBomb.uasset"
+		},
+		"SkinTag": "Item_Weapon_Apple",
+		"SortPriority": 7,
+		"SpacePerItem": 10,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_BigBomb.icon_weapon_BigBomb",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapBigBomb_C",
+			"name": "WeapBigBomb_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapBigBomb.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_BigBomb_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_BigBomb_C"
+	}
+}

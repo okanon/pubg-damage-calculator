@@ -1,0 +1,76 @@
+{
+	"Weapvz61Skorpion_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "Weapvz61Skorpion_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.024
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_Skorpion",
+				"name": "C_Recoil_SMG_Skorpion",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_Skorpion.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.35,
+			"RecoilModifier_Crouch": 0.85,
+			"RecoilModifier_Prone": 0.8,
+			"RecoilSpeed_Horizontal": 14,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.016
+				]
+			},
+			"RecoilValue_Climb": 0.23,
+			"RecoilValue_Fall": 1.25,
+			"RecoverySpeed_Vertical": 12,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 4,
+			"VerticalRecoveryMax": 3
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Skorpion",
+				"name": "C_Ballistic_Skorpion",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Skorpion.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 22,
+			"InitialSpeed": 350,
+			"RangeModifier": 0.88,
+			"ReferenceDistance": 150,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.65
+		}
+	}
+}

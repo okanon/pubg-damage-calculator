@@ -1,0 +1,47 @@
+{
+	"WeapBerreta686_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapBerreta686_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_Winchester",
+				"name": "C_Recoil_Winchester",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_Winchester.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.25,
+			"RecoilSpeed_Horizontal": 8,
+			"RecoilSpeed_Vertical": 12,
+			"RecoilValue_Fall": 2,
+			"RecoverySpeed_Vertical": 6,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMin": 0.1,
+			"VerticalRecoveryClamp": 6,
+			"VerticalRecoveryModifier": 0.33
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 24,
+			"InitialSpeed": 370,
+			"RangeModifier": 0.72,
+			"ReferenceDistance": 80,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"bUseAdvancedBallistics": false
+		}
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"Default__Item_Weapon_Shield_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ShieldItem",
+		"ClassName": "Item_Weapon_Shield_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Melee/Shield/Shield_Drop.Shield_Drop",
+		"DroppedMeshScale": 1.5,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Shield_C",
+		"Icon": "AssetObject==/Game/UI/Inventory/icon/icon_shield.icon_shield",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"ItemCategory": {
+			"Key": "8D6828194BA4B1725FE959AD362574BA",
+			"Namespace": "",
+			"SourceString": "Melee Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Pan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "B57F98854D4521B864323FA9F8A2995F",
+			"Namespace": "[BD2744084A42DA176BD7FC9E1CC9806B]",
+			"SourceString": "Tactical Shield",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "0613E41E4B4CC440D83332ACE8FA83C6",
+			"Namespace": "[BD2744084A42DA176BD7FC9E1CC9806B]",
+			"SourceString": "Shield",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapTacticalShield_C",
+			"name": "WeapTacticalShield_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapTacticalShield.uasset"
+		},
+		"PickUpAnimationOverride": "Shield",
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"ProjectileData": {
+			"CollisionRadius": 40,
+			"Friction": 0.6,
+			"Mesh": "AssetObject==/Game/Weapon/Melee/Shield/Shield_DropProjectile.Shield_DropProjectile",
+			"StrucName": "ItemProjectileData"
+		},
+		"SkinTag": "Item_Weapon_Shield",
+		"SortPriority": 7,
+		"SpacePerItem": 120,
+		"StackCountMax": 1,
+		"SubCategory": "Melee",
+		"ToolTipIcon": "AssetObject==/Game/UI/Inventory/icon/icon_shield.icon_shield",
+		"WeaponTag": "TacticalShield",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapTacticalShield_C",
+			"name": "WeapTacticalShield_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapTacticalShield.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Shield_C": {
+		"@Remaining": 72,
+		"@SuperName": "ShieldItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Shield_C"
+	}
+}

@@ -1,0 +1,352 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapBizonPP19_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapBizonPP19_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Upper_Small",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineMedium",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Muzzle_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleMedium",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Upper_Angled",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Angled",
+						"AttachmentTag": "RMR",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapBizonPP19_C",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/BizonPP19/Meshes/SM_BizonPP19_Magazine.SM_BizonPP19_Magazine",
+				"AttachmentMeshName": "MagazineDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "MagazineDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 20,
+					"index": -21,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -45
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_SMG",
+			"name": "Weapons_Equip_SMG",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_SMG.uasset"
+		},
+		"ExportName": "Default__WeapBizonPP19_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_SMG_UMP_C",
+			"name": "CS_WeapGun_SMG_UMP_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_UMP.uasset"
+		},
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Bizon_Fire_LongTail",
+			"name": "Weapons_Bizon_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Bizon/Weapons_Bizon_Fire_LongTail.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Bizon_Fire_LongTail",
+			"name": "Weapons_Bizon_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Bizon/Weapons_Bizon_Fire_LongTail.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapBizonPP19_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_03_SMG",
+			"name": "P_Muzzle_03_SMG",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapBizonPP19_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"ShellFxClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_SMG_UMP9_BP_C",
+			"name": "P_SMG_UMP9_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Weapons/Shell/P_SMG_UMP9_BP.uasset"
+		},
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.14,
+			"FiringSpreadBase": 17,
+			"RecoilPatternScale": 0.6,
+			"RecoilPatterns": [],
+			"RecoilSpeed": 9,
+			"ScopingSpreadModifier": 0.04,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 4.5
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1.5,
+			"CameraDOF_Range": 30,
+			"HoldBreathFOV": 60,
+			"IronSightZeroingDistances": [
+				100
+			],
+			"PhysicalBodyHitImpactPower": 7000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "SMG_Recoil_9_Montage",
+				"name": "SMG_Recoil_9_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/Rifle/Recoil/SMG_Recoil_9_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					6,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					30,
+					-5
+				]
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 75,
+			"WeaponClass": "EWeaponClass::Class_SMG",
+			"WeaponEquipDuration": 0.25,
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapPP19Bizon_WeaponGunData",
+			"name": "WeapPP19Bizon_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapPP19Bizon_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.52,
+			"DepthBlurBlackPoint": 30,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 5,
+			"ReticleAngularSize": 15,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_BizonPP19",
+			"name": "weapons_gun_BizonPP19",
+			"packagePath": "/UI/Weapon/weapons_gun_BizonPP19.uasset"
+		},
+		"WeaponIconRatio": 3.2,
+		"WeaponTag": "PP19",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapPP19Bizon_WeaponTrajectoryData",
+			"name": "WeapPP19Bizon_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapPP19Bizon_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapBizonPP19_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 17,
+			"index": -18,
+			"name": "SceneComponent",
+			"pkgIndex": -44
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapBizonPP19_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapBizonPP19_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D6F634D44DBF99D659773C9A370D8B0F"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapBizonPP19_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapBizonPP19_C.SimpleConstructionScript_1"
+	},
+	"WeapBizonPP19_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapBizonPP19_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapBizonPP19_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_PP19_Bizon_C",
+			"name": "ABP_PP19_Bizon_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/PP19Bizon/Weapon/ABP_PP19_Bizon.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapBizonPP19_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapBizonPP19_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_BizonPP19",
+			"name": "SK_BizonPP19",
+			"packagePath": "/Weapon/Rifles/BizonPP19/Meshes/SK_BizonPP19.uasset"
+		}
+	}
+}

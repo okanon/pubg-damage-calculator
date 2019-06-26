@@ -1,0 +1,340 @@
+{
+	"CallFunc_GetTslPlayerController_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.SendSystemMessage.CallFunc_GetTslPlayerController_ReturnValue"
+	},
+	"CallFunc_GetVehicleCommonComponent_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.Refule.CallFunc_GetVehicleCommonComponent_ReturnValue"
+	},
+	"CallFunc_GetVehicleFuelPercent_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_GetVehicleFuelPercent_ReturnValue"
+	},
+	"CallFunc_GetVehiclePawn_ReturnValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.UseBy.CallFunc_GetVehiclePawn_ReturnValue"
+	},
+	"CallFunc_IsValid_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.UseBy.CallFunc_IsValid_ReturnValue"
+	},
+	"CallFunc_NearlyEqual_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_NearlyEqual_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Not_PreBool_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.UseBy.CallFunc_Not_PreBool_ReturnValue"
+	},
+	"Character": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.UseBy.Character"
+	},
+	"Default__Item_JerryCan_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CastableItem",
+		"CastConfig": {
+			"CastName": {
+				"Key": "6DD32F674EB2A7C3B4C9C386876CACA3",
+				"Namespace": "[60B5091C483BE9158492CCA5FEF78465]",
+				"SourceString": "Refueling vehicle",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 3,
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "Item_JerryCan_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"name": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_JeeryCan.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/BarrelsAndCans/Models/JerryCan_01.JerryCan_01",
+		"ExplosionDamage": 100,
+		"ExplosionDamageCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "JerryCanDamageCurve",
+			"name": "JerryCanDamageCurve",
+			"packagePath": "/Item/Curves/JerryCanDamageCurve.uasset"
+		},
+		"ExplosionDamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgTypeExplosion_JerryCan_C",
+			"name": "DmgTypeExplosion_JerryCan_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgTypeExplosion_JerryCan.uasset"
+		},
+		"ExplosionDelay": 0.2,
+		"ExplosionRadius": 600,
+		"ExplosionTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "JerryCan_Explosion_C",
+			"name": "JerryCan_Explosion_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/JerryCan_Explosion.uasset"
+		},
+		"ExportName": "Default__Item_JerryCan_C",
+		"Fuel": 400,
+		"HealthMax": 200,
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_jerrycan.icon_jerrycan",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"name": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_JeeryCan.uasset"
+		},
+		"ItemCategory": {
+			"Key": "C0A089FB4B7BF602F3685AA5EC11B819",
+			"Namespace": "",
+			"SourceString": "Fuel",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_JerryCan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "Itemff_JerryCan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "Itemff_JerryCan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"name": "Play_UI_Item_Equip_Usable_JeeryCan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_JeeryCan.uasset"
+		},
+		"SortPriority": 979,
+		"SpacePerItem": 20,
+		"StackCountMax": 100,
+		"SubCategory": "Fuel",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/boost/icon_jerrycan.icon_jerrycan",
+		"bUsable": true
+	},
+	"Fuel": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_JerryCan_C.Fuel"
+	},
+	"GetCastFailMessage": {
+		"@Remaining": 513,
+		"@SuperName": "GetCastFailMessage",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage"
+	},
+	"IsCastable": {
+		"@Remaining": 244,
+		"@SuperName": "IsCastable",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_JerryCan_C.IsCastable"
+	},
+	"Item_JerryCan_C": {
+		"@Remaining": 132,
+		"@SuperName": "CastableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_JerryCan_C"
+	},
+	"Message": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_JerryCan_C.SendSystemMessage.Message"
+	},
+	"PlayerController": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.SendSystemMessage.PlayerController"
+	},
+	"Refule": {
+		"@Remaining": 136,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_JerryCan_C.Refule"
+	},
+	"ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.UseBy.ReturnValue"
+	},
+	"SendSystemMessage": {
+		"@Remaining": 101,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_JerryCan_C.SendSystemMessage"
+	},
+	"UseBy": {
+		"@Remaining": 211,
+		"@SuperName": "UseBy",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_JerryCan_C.UseBy"
+	},
+	"Vehicle": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.Refule.Vehicle"
+	},
+	"__CallFunc_GetVehicleCommonComponent_ReturnValue_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_GetVehicleCommonComponent_ReturnValue"
+	},
+	"__CallFunc_GetVehicleCommonComponent_ReturnValue_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_GetVehicleCommonComponent_ReturnValue"
+	},
+	"__CallFunc_GetVehicleFuelPercent_ReturnValue_1": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_GetVehicleFuelPercent_ReturnValue"
+	},
+	"__CallFunc_GetVehiclePawn_ReturnValue_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_GetVehiclePawn_ReturnValue"
+	},
+	"__CallFunc_GetVehiclePawn_ReturnValue_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_GetVehiclePawn_ReturnValue"
+	},
+	"__CallFunc_IsValid_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.Refule.CallFunc_IsValid_ReturnValue"
+	},
+	"__CallFunc_IsValid_ReturnValue_2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_IsValid_ReturnValue"
+	},
+	"__CallFunc_IsValid_ReturnValue_3": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_IsValid_ReturnValue"
+	},
+	"__CallFunc_NearlyEqual_FloatFloat_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_NearlyEqual_FloatFloat_ReturnValue"
+	},
+	"__CallFunc_Not_PreBool_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.CallFunc_Not_PreBool_ReturnValue"
+	},
+	"__CallFunc_Not_PreBool_ReturnValue_2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.CallFunc_Not_PreBool_ReturnValue"
+	},
+	"__Character_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.Character"
+	},
+	"__Character_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.Character"
+	},
+	"__ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.IsCastable.ReturnValue"
+	},
+	"__ReturnValue_2": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_JerryCan_C.GetCastFailMessage.ReturnValue"
+	},
+	"bIsProcessing": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_JerryCan_C.bIsProcessing"
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"Default__Vest_Repair_Kit_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__EquipmentRepairKitItem_C",
+		"CastConfig": {
+			"CastName": {
+				"Key": "7A3147CD4ABEA72349ACA999A47DEAEB",
+				"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
+				"SourceString": "Repairing Armor",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "Vest_Repair_Kit_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal20mm/cal20mm_CaseCover.cal20mm_CaseCover",
+		"EquipSlot": "EEquipSlotID::TorsoArmor",
+		"ExportName": "Default__Vest_Repair_Kit_C",
+		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Armor.icon_Special_RepairKit_Armor",
+		"ItemDescription": {
+			"Key": "99AD2CC04B2A38EB57A336892F77CFCF",
+			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
+			"SourceString": "$$ $$",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "72A5FAA84DF62F776104C7911EC42C8A",
+			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
+			"SourceString": "Armor Repair Kit",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "A0C1197B4F04A733C40CFB9B20AF5980",
+			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
+			"SourceString": "Armor Repair Kit",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"RepairAmount": 100,
+		"StackCount": 2,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Armor.icon_Special_RepairKit_Armor"
+	},
+	"Vest_Repair_Kit_C": {
+		"@Remaining": 72,
+		"@SuperName": "EquipmentRepairKitItem_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Vest_Repair_Kit_C"
+	}
+}

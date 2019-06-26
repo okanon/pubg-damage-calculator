@@ -1,0 +1,382 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapVSS_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapVSS_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "UpperDefault",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "UpperDefault",
+						"AttachmentTag": "UpperDefault",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineSniperRifle",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "StockSniperRifle",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Stock_Default",
+						"AttachmentTag": "StockSniperRifle",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapVSS_C",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/Vss/Mesh/Vss_01_Mag.Vss_01_Mag",
+				"AttachmentMeshName": "MagazineDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "MagazineDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 20,
+					"index": -21,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -47
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			},
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/Vss/Mesh/vss_sight.Vss_Sight",
+				"AttachmentMeshName": "UpperDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"AttachmentTag": "UpperDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 20,
+					"index": -21,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -47
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Rifle",
+			"name": "Weapons_Equip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Rifle.uasset"
+		},
+		"ExportName": "Default__WeapVSS_C",
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_SKS_Fire_LongTail",
+			"name": "Weapons_SKS_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/SKS/Weapons_SKS_Fire_LongTail.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_VSS_Fire_Suppressed",
+			"name": "Weapon_VSS_Fire_Suppressed",
+			"packagePath": "/WwiseAssets/Weapons/VSS/Weapon_VSS_Fire_Suppressed.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapVSS_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_02_AR_Suppressor",
+			"name": "P_Muzzle_02_AR_Suppressor",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_02_AR_Suppressor.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"ReticlePostprocessData": {
+			"StrucName": "ObjectProperty",
+			"className": "ReticlePostprocessData",
+			"importName": "Sight_VSS_PostprocessData",
+			"name": "Sight_VSS_PostprocessData",
+			"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_VSS_PostprocessData.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapVSS_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"ShellFxClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_AR_AKM_BP_C",
+			"name": "P_AR_AKM_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Weapons/Shell/P_AR_AKM_BP.uasset"
+		},
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.15,
+			"FiringSpreadBase": 9,
+			"RecoilPatternScale": 0.73,
+			"RecoilPatterns": [],
+			"RecoilRecoverySpeed": 6,
+			"RecoilSpeed": 12,
+			"ScopingSpreadModifier": 0.01,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 7
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 55,
+			"CameraDOF_Power": 2,
+			"CameraDOF_Range": 45,
+			"HoldBreathFOV": 20,
+			"IronSightZeroingDistances": [
+				100,
+				125,
+				150,
+				175,
+				200
+			],
+			"PhysicalBodyHitImpactPower": 20000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Rifle_Recoil_9_VSS_Montage",
+				"name": "Rifle_Recoil_9_VSS_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/Rifle/Recoil/Rifle_Recoil_9_VSS_Montage.uasset"
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 20,
+			"WeaponClass": "EWeaponClass::Class_DMR",
+			"WeaponEquipDuration": 0.25,
+			"WeaponReadyDuration": 0.4,
+			"WeaponSensitivityOverride": "Scope4X",
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapVSS_WeaponGunData",
+			"name": "WeapVSS_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapVSS_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.8,
+			"DepthBlurBlackPoint": 1,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 50,
+			"NearClipStaticOffset": 2,
+			"ParallaxMovementScale": 4.5,
+			"ParallaxRadiusScale": 1.3,
+			"RelativeOffsetMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					8
+				]
+			},
+			"ReticleAngularSize": 3.7,
+			"ReticleSettings": {
+				"StrucName": "ObjectProperty",
+				"className": "ReticleSettings",
+				"importName": "VSS",
+				"name": "VSS",
+				"packagePath": "/Weapon/Accessories/ReticleSettings/VSS.uasset"
+			},
+			"ReticleTexture": {
+				"StrucName": "ObjectProperty",
+				"className": "Texture2D",
+				"importName": "Vss_Reticle",
+				"name": "Vss_Reticle",
+				"packagePath": "/Weapon/Rifles/Vss/Materials/Vss_Reticle.uasset"
+			},
+			"ScopeLensCA": 0.1,
+			"ScopeLensDistortion": -0.045,
+			"ScopeLensTint": {
+				"StrucName": "LinearColor",
+				"value": [
+					0.9,
+					0.9,
+					1,
+					1
+				]
+			},
+			"ScopeOuterBrightness": 1.05,
+			"ScopeRadiusFar": 2.85,
+			"ScopeRadiusNear": 1.75,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_vss",
+			"name": "weapons_gun_vss",
+			"packagePath": "/UI/Weapon/weapons_gun_vss.uasset"
+		},
+		"WeaponIconRatio": 3.2,
+		"WeaponTag": "VSS",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapVSS_WeaponTrajectoryData",
+			"name": "WeapVSS_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapVSS_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapVSS_C.RootScene"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 17,
+			"index": -18,
+			"name": "SceneComponent",
+			"pkgIndex": -46
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapVSS_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapVSS_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:4B1B0ABE483B9FB5B48D1D92B9412BF2"
+		}
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapVSS_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "WeapVSS_C.SimpleConstructionScript_0"
+	},
+	"WeapVSS_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapVSS_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapVSS_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_VSS_C",
+			"name": "ABP_VSS_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/Weapon/ABP_VSS.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapVSS_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 14.3185482,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapVSS_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "Vss_Setting",
+			"name": "Vss_Setting",
+			"packagePath": "/Weapon/Rifles/Vss/Mesh/Vss_setting.uasset"
+		}
+	}
+}

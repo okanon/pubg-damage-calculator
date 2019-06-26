@@ -1,0 +1,162 @@
+{
+	"WeapM24_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapM24_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_M24_BoltAction_Montage",
+				"name": "CharacterWeapon_M24_BoltAction_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/M24/CharacterWeapon_M24_BoltAction_Montage.uasset"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_M24_Grip",
+				"name": "Weapon_M24_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/M24/Weapon_M24_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_M24_Charge_Montage",
+				"name": "CharacterWeapon_M24_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/M24/CharacterWeapon_M24_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_M24_Reload_Montage",
+				"name": "CharacterWeapon_M24_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/M24/CharacterWeapon_M24_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty",
+				"className": "CameraAnim",
+				"importName": "CSA_Sniper_M24_Cycle",
+				"name": "CSA_Sniper_M24_Cycle",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CSA_Sniper_M24_Cycle.uasset"
+			},
+			"FireCycleDelay": 0.28,
+			"FireCycleDuration": 1.7,
+			"RecoilKickADS": 0.053,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 4.2,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 1.8,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_762_M24_C",
+				"name": "CS_WeapGun_Sniper_762_M24_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_M24.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_762_M24_ADS_C",
+				"name": "CS_WeapGun_Sniper_762_M24_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_M24_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_762_M24_ADS_C",
+				"name": "CS_WeapGun_Sniper_762_M24_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_M24_ADS.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"bCycleAfterLastShot": false,
+			"bCycleDuringReload": true,
+			"bUseBoltAction": true
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 4,
+			"DeviationBaseADS": 0.0025,
+			"DeviationBaseAim": 2.3,
+			"DeviationMax": 8,
+			"DeviationMaxMove": 2.5,
+			"DeviationMoveMaxReferenceVelocity": 300,
+			"DeviationMoveMultiplier": 1.5,
+			"DeviationRecoilGain": 1.3,
+			"DeviationRecoilGainAim": 0.8,
+			"MOA": 0.33,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_762mm_C",
+				"name": "Item_Ammo_762mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_762mm.uasset"
+			},
+			"AmmoPerClip": 5,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					4
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					2,
+					0.5,
+					3
+				]
+			},
+			"NoAnimReloadDuration": 3.7,
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 1.8,
+			"TracerClass": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Tracer1",
+				"name": "P_Tracer1",
+				"packagePath": "/Export_Marek/Tracer/P_Tracer1.uasset"
+			},
+			"WeaponLength": 62,
+			"bManualCycleAfterShot": true
+		}
+	}
+}

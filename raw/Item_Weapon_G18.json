@@ -1,0 +1,50 @@
+{
+	"Default__Item_Weapon_G18_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_M1911_C",
+		"AmmoPerClip": 17,
+		"ClassName": "Item_Weapon_G18_C",
+		"DroppedMesh": "AssetObject==/Game/Weapon/Pistols/GLOCK18C/Meshes/GLOCK18C_01.GLOCK18C_01",
+		"ExportName": "Default__Item_Weapon_G18_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_GLOCK18C.icon_weapon_GLOCK18C",
+		"ItemDescription": {
+			"Key": "Item_Weapon_G18",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_G18",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_G18",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapG18_C",
+			"name": "WeapG18_C",
+			"packagePath": "/Blueprints/Weapons/WeapG18.uasset"
+		},
+		"SkinTag": "Item_Weapon_G18",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_GLOCK18C.icon_weapon_GLOCK18C",
+		"WeaponTag": "G18",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapG18_C",
+			"name": "WeapG18_C",
+			"packagePath": "/Blueprints/Weapons/WeapG18.uasset"
+		}
+	},
+	"Item_Weapon_G18_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_M1911_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_G18_C"
+	}
+}

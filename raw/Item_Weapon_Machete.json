@@ -1,0 +1,90 @@
+{
+	"Default__Item_Weapon_Machete_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"ClassName": "Item_Weapon_Machete_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Machete",
+			"name": "Play_UI_Item_Equip_Machete",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Machete.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Melee/Machete/Machete_01.Machete_01",
+		"DroppedMeshScale": 1.5,
+		"EquipSlotID": "EEquipSlotID::WeaponMelee",
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Machete",
+			"name": "Play_UI_Item_Equip_Machete",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Machete.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Machete_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Machete.icon_weapon_Machete",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Machete",
+			"name": "Play_UI_Item_Equip_Machete",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Machete.uasset"
+		},
+		"ItemCategory": {
+			"Key": "2F6EB34F40D151482676A3A500113319",
+			"Namespace": "",
+			"SourceString": "Melee Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Machete",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Machete",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Machete",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMachete_C",
+			"name": "WeapMachete_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapMachete.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Machete",
+			"name": "Play_UI_Item_Equip_Machete",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Machete.uasset"
+		},
+		"SkinTag": "Item_Weapon_Machete",
+		"SortPriority": 7,
+		"SpacePerItem": 120,
+		"StackCountMax": 1,
+		"SubCategory": "Melee",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Machete.icon_weapon_Machete",
+		"WeaponTag": "Machete",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMachete_C",
+			"name": "WeapMachete_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapMachete.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Machete_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Machete_C"
+	}
+}

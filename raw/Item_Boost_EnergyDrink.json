@@ -1,0 +1,266 @@
+{
+	"BoostGaugeAmount": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.BoostGaugeAmount"
+	},
+	"BoostGaugeUp": {
+		"@Remaining": 211,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_EnergyDrink_C.BoostGaugeUp"
+	},
+	"CallFunc_Add_FloatFloat_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.BoostGaugeUp.CallFunc_Add_FloatFloat_ReturnValue"
+	},
+	"CallFunc_BooleanAND_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable.CallFunc_BooleanAND_ReturnValue"
+	},
+	"CallFunc_Conv_IntToText_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.CallFunc_Conv_IntToText_ReturnValue"
+	},
+	"CallFunc_FMin_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.BoostGaugeUp.CallFunc_FMin_ReturnValue"
+	},
+	"CallFunc_Format_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.CallFunc_Format_ReturnValue"
+	},
+	"CallFunc_GreaterEqual_IntInt_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.CallFunc_GreaterEqual_IntInt_ReturnValue"
+	},
+	"CallFunc_IsCastable_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable.CallFunc_IsCastable_ReturnValue"
+	},
+	"CallFunc_Less_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.UseBy.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Subtract_IntInt_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.CallFunc_Subtract_IntInt_ReturnValue"
+	},
+	"Character": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.Character"
+	},
+	"Default__Item_Boost_EnergyDrink_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CastableItem",
+		"BoostGaugeAmount": 40,
+		"CastConfig": {
+			"CastAnim": "ECastAnim::EnergyDrink",
+			"CastName": {
+				"Key": "D1B4AEA14C9EA0BA8799F6A0AABB6559",
+				"Namespace": "[8A96D73D4C3272C451BC318759DE48B4]",
+				"SourceString": "Drinking Energy Drink",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::Normal",
+			"CastTime": 4,
+			"MaxLinAcceleration": 3,
+			"StrucName": "CastConfig",
+			"bCanCastInsideMovingVehicle": true
+		},
+		"CastableItemType": "ECastableItemType::EnergyDrink",
+		"ClassName": "Item_Boost_EnergyDrink_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"name": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_EnergyDrink.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Drink/Drink_Static.Drink_Static",
+		"DroppedMeshScale": 1.5,
+		"ExportName": "Default__Item_Boost_EnergyDrink_C",
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_Boost_EnergyDrink.icon_Boost_EnergyDrink",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"name": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_EnergyDrink.uasset"
+		},
+		"ItemCategory": {
+			"Key": "F756072C42B3F4B9A3BA88AA1C88E413",
+			"Namespace": "",
+			"SourceString": "Boost",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Boost_EnergyDrink",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Boost_EnergyDrink",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Boost_EnergyDrink",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"name": "Play_UI_Item_Equip_Usable_EnergyDrink",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_EnergyDrink.uasset"
+		},
+		"PrintTime": 4,
+		"SortPriority": 987,
+		"SpacePerItem": 4,
+		"StackCountMax": 100,
+		"SubCategory": "Boost",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/boost/icon_Boost_EnergyDrink.icon_Boost_EnergyDrink",
+		"bStackable": true,
+		"bUsable": true
+	},
+	"IsCastable": {
+		"@Remaining": 143,
+		"@SuperName": "IsCastable",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable"
+	},
+	"Item_Boost_EnergyDrink_C": {
+		"@Remaining": 120,
+		"@SuperName": "CastableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Boost_EnergyDrink_C"
+	},
+	"K2Node_MakeArray_Array": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.K2Node_MakeArray_Array.K2Node_MakeArray_Array"
+	},
+	"K2Node_MakeStruct_FormatArgumentData": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.K2Node_MakeStruct_FormatArgumentData"
+	},
+	"PrintCastingTime": {
+		"@Remaining": 517,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime"
+	},
+	"PrintTime": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintTime"
+	},
+	"ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.UseBy.ReturnValue"
+	},
+	"UseBy": {
+		"@Remaining": 478,
+		"@SuperName": "UseBy",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_EnergyDrink_C.UseBy"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.BoostGaugeUp.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__Character_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.UseBy.Character"
+	},
+	"__Character_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable.Character"
+	},
+	"__K2Node_MakeArray_Array_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ArrayProperty",
+		"ClassName": "ArrayProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.PrintCastingTime.K2Node_MakeArray_Array"
+	},
+	"__ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.IsCastable.ReturnValue"
+	},
+	"isProcessing": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_EnergyDrink_C.isProcessing"
+	}
+}

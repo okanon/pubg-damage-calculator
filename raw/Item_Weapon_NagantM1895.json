@@ -1,0 +1,105 @@
+{
+	"Default__Item_Weapon_NagantM1895_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"AmmoPerClip": 7,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_NagantM1895_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_UnEquip_Weapon_Common",
+			"name": "UI_Item_UnEquip_Weapon_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_UnEquip_Weapon_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Pistols/NagantM1895/Meshes/Nagant_01.Nagant_01",
+		"DroppedMeshScale": 1.5,
+		"EquipSlotID": "EEquipSlotID::WeaponSecondary",
+		"ExportName": "Default__Item_Weapon_NagantM1895_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_NagantM1895.icon_weapon_NagantM1895",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "EF3B3AA64DCE56492B9E50B76CDB364F",
+			"Namespace": "",
+			"SourceString": "Handgun",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_NagantM1895",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_NagantM1895",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_NagantM1895",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapNagantM1895_C",
+			"name": "WeapNagantM1895_C",
+			"packagePath": "/Blueprints/Weapons/WeapNagantM1895.uasset"
+		},
+		"SkinTag": "Item_Weapon_NagantM1895",
+		"SortPriority": 7,
+		"SpacePerItem": 80,
+		"StackCountMax": 1,
+		"SubCategory": "Handgun",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_NagantM1895.icon_weapon_NagantM1895",
+		"WeaponTag": "NagantM1895",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapNagantM1895_C",
+			"name": "WeapNagantM1895_C",
+			"packagePath": "/Blueprints/Weapons/WeapNagantM1895.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_NagantM1895_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_NagantM1895_C"
+	}
+}

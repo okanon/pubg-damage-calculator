@@ -1,0 +1,21 @@
+{
+	"ST_Item_Usable_ItemNames": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "ST_Item_Usable_ItemNames",
+		"KeysToSourceStrings": {
+			"ItemName_Boost_AdrenalineSyringe": "Adrenaline Syringe",
+			"ItemName_Boost_EnergyDrink": "Energy Drink",
+			"ItemName_Boost_PainKiller": "Painkiller",
+			"ItemName_Heal_Bandage": "Bandage",
+			"ItemName_Heal_FirstAid": "First Aid Kit",
+			"ItemName_Heal_MedKit": "Med Kit",
+			"ItemName_InstantRevivalKit": "Critical Response Kit",
+			"ItemName_Vehicle_Repair_Kit": "Mechanic's Toolbox",
+			"Itemff_JerryCan": "Gas Can"
+		},
+		"TableNamespace": "ST_Item_Usable_ItemNames"
+	}
+}

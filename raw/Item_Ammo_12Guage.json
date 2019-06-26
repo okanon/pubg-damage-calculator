@@ -1,0 +1,71 @@
+{
+	"Default__Item_Ammo_12Guage_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"AmmoIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_ammo_12Guage",
+			"name": "weapons_ammo_12Guage",
+			"packagePath": "/UI/Weapon/weapons_ammo_12Guage.uasset"
+		},
+		"ClassName": "Item_Ammo_12Guage_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_12Guage",
+			"name": "Play_UI_Item_Equip_Ammo_12Guage",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_12Guage.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal12Gauge/SM_cal12Gauge_PaperBoxOpen_01.SM_cal12Gauge_PaperBoxOpen_01",
+		"ExportName": "Default__Item_Ammo_12Guage_C",
+		"Icon": "AssetObject==/Game/UI/item/ammo/icon_ammo_12Guage.icon_ammo_12Guage",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_12Guage",
+			"name": "Play_UI_Item_Equip_Ammo_12Guage",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_12Guage.uasset"
+		},
+		"ItemCategory": {
+			"Key": "01C004B74C4FE641EF4B7FACFE7048E5",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Ammo_12Guage",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemDescriptions.ST_Item_Ammo_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Ammo_12Guage",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Ammo_12Guage",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_12Guage",
+			"name": "Play_UI_Item_Equip_Ammo_12Guage",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_12Guage.uasset"
+		},
+		"SortPriority": 117,
+		"SpacePerItem": 1.25,
+		"StackCount": 10,
+		"StackCountMax": 60,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/ammo/icon_ammo_12Guage.icon_ammo_12Guage"
+	},
+	"Item_Ammo_12Guage_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_12Guage_C"
+	}
+}

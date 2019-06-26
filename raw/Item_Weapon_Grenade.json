@@ -1,0 +1,88 @@
+{
+	"Default__Item_Weapon_Grenade_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_Grenade_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Grenades/M67_Frag/M67_01_01.M67_01_01",
+		"DroppedMeshScale": 1.5,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Grenade_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Grenade.icon_weapon_Grenade",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"ItemCategory": {
+			"Key": "7A05ED724426C925D49E68AEF0CFC88B",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Grenade",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Grenade",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Grenade",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapGrenade_C",
+			"name": "WeapGrenade_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapGrenade.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"SkinTag": "Item_Weapon_Grenade",
+		"SortPriority": 700,
+		"SpacePerItem": 18,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Grenade.icon_weapon_Grenade",
+		"WeaponTag": "Grenade",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapGrenade_C",
+			"name": "WeapGrenade_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapGrenade.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Grenade_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Grenade_C"
+	}
+}

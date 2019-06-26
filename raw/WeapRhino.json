@@ -1,0 +1,317 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapRhino_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapRhino_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultPistolSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AmmoIconsCount": 10,
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "UpperSmall",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "UpperSmall",
+						"AttachmentTag": "UpperReddot",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Holo",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Lower_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Lower_Default",
+						"AttachmentTag": "LowerDefault",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapRhino_C",
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_HandGun",
+			"name": "Weapons_Equip_HandGun",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_HandGun.uasset"
+		},
+		"ExportName": "Default__WeapRhino_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_Pistol_M9_C",
+			"name": "CS_WeapGun_Pistol_M9_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_M9.uasset"
+		},
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Rhino_Fire_LongTail",
+			"name": "Weapon_Rhino_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Rhino/Weapon_Rhino_Fire_LongTail.uasset"
+		},
+		"FireForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Fire",
+			"name": "TslFFE_Fire",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Fire.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Rhino_Fire_LongTail",
+			"name": "Weapon_Rhino_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Rhino/Weapon_Rhino_Fire_LongTail.uasset"
+		},
+		"HipDuration": 1.875,
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapRhino_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_01_Pistol_Rhino",
+			"name": "P_Muzzle_01_Pistol_Rhino",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Rhino.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"PrimaryClipIconOffset": 12,
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapRhino_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"SecondaryClipIconOffset": 6,
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.2,
+			"CrouchRecoveryTime": 0.5,
+			"FiringSpreadBase": 20,
+			"ProneRecoveryTime": 0.5,
+			"RecoilPatterns": [],
+			"RecoilSpeed": 23,
+			"ScopingSpreadModifier": 0.05,
+			"StandRecoveryTime": 0.5,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 3.5
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_HandGun",
+			"name": "Weapons_UnEquip_HandGun",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_HandGun.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1.5,
+			"CameraDOF_Range": 30,
+			"HoldBreathFOV": 65,
+			"IronSightZeroingDistances": [
+				50
+			],
+			"PhysicalBodyHitImpactPower": 8000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Rifle_Recoil_Rhino_Montage",
+				"name": "Rifle_Recoil_Rhino_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/Recoil/Rifle_Recoil_Rhino_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					7,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					6,
+					40,
+					5
+				]
+			},
+			"StrucName": "WeaponData",
+			"SwayModifier_Pitch": 2,
+			"SwayModifier_YawOffset": 2,
+			"TargetingFOV": 80,
+			"WeaponEquipDuration": 0.2
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapRhino_WeaponGunData",
+			"name": "WeapRhino_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapRhino_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 1,
+			"DepthBlurBlackPoint": 35,
+			"DepthBlurPower": 0.5,
+			"DepthBlurWhitePoint": 7,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponHand": "EWeaponHand::Right",
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_Rhino",
+			"name": "weapons_gun_Rhino",
+			"packagePath": "/UI/Weapon/weapons_gun_Rhino.uasset"
+		},
+		"WeaponIconRatio": 1.76,
+		"WeaponTag": "Rhino",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapRhino_WeaponTrajectoryData",
+			"name": "WeapRhino_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapRhino_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapRhino_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 15,
+			"index": -16,
+			"name": "SceneComponent",
+			"pkgIndex": -40
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapRhino_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapRhino_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:BDA1A7CC4A9E5D50F8948EBC0B1B6578"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapRhino_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapRhino_C.SimpleConstructionScript_1"
+	},
+	"WeapRhino_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultPistolSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapRhino_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapRhino_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Rhino_C",
+			"name": "ABP_Rhino_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/Weapon/ABP_Rhino.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapRhino_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 100,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapRhino_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_Rhino_1",
+			"name": "SK_Rhino_1",
+			"packagePath": "/Weapon/Pistols/Rhino/Meshes/SK_Rhino_1.uasset"
+		}
+	}
+}

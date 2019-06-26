@@ -1,0 +1,50 @@
+{
+	"WeapG18_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapG18_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_Pistol_G18",
+				"name": "C_Recoil_Pistol_G18",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_Pistol_G18.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.15,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 12,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 0.18,
+			"RecoilValue_Fall": 1.5,
+			"RecoverySpeed_Vertical": 11,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 8,
+			"VerticalRecoveryMax": 2,
+			"VerticalRecoveryModifier": 0.2
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 23,
+			"InitialSpeed": 375,
+			"RangeModifier": 0.83,
+			"ReferenceDistance": 75,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"bUseAdvancedBallistics": false
+		}
+	}
+}

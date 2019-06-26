@@ -1,0 +1,111 @@
+{
+	"Default__Item_Weapon_Pan_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"ClassName": "Item_Weapon_Pan_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Melee/Pan/Pan_01.Pan_01",
+		"DroppedMeshScale": 1.5,
+		"EquipSlotID": "EEquipSlotID::WeaponMelee",
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Pan_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Pan.icon_weapon_Pan",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"ItemCategory": {
+			"Key": "8D6828194BA4B1725FE959AD362574BA",
+			"Namespace": "",
+			"SourceString": "Melee Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Pan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Pan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Pan",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapPan_C",
+			"name": "WeapPan_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapPan.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Pan",
+			"name": "Play_UI_Item_Equip_Pan",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Pan.uasset"
+		},
+		"SkinTag": "Item_Weapon_Pan",
+		"SortPriority": 7,
+		"SpacePerItem": 120,
+		"StackCountMax": 1,
+		"SubCategory": "Melee",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Pan.icon_weapon_Pan",
+		"WeaponTag": "Pan",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapPan_C",
+			"name": "WeapPan_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapPan.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Pan_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Pan_C"
+	}
+}

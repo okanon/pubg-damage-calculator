@@ -1,0 +1,100 @@
+{
+	"Default__Item_Attach_Weapon_Upper_Scope6x_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"name": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Scopes.uasset"
+		},
+		"AttachmentData": {
+			"ADSSpeedMultiplier": 0.8,
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+			"AttachmentTag": "UpperSmall",
+			"FPPSocketOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-1.55
+				]
+			},
+			"MagnificationFOV": 13.333333,
+			"MagnificationFOVMaxIncrement": 13.3333664,
+			"MagnificationFOVSteps": 9,
+			"MouseSensitiveName": "Scope6X",
+			"Name": "Item_Attach_Weapon_Upper_Scope6x_C",
+			"ScopePostprocessData": {
+				"StrucName": "ObjectProperty",
+				"className": "ReticlePostprocessData",
+				"importName": "Sight_Scope6x_PostprocessData",
+				"name": "Sight_Scope6x_PostprocessData",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_Scope6x_PostprocessData.uasset"
+			},
+			"StrucName": "WeaponAttachmentData",
+			"ZeroingDistances": [
+				100
+			]
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Scope6x/Mesh/SM_Scope6x.SM_Scope6x",
+		"ClassName": "Item_Attach_Weapon_Upper_Scope6x_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/Scope6x/Mesh/SM_Scope6x_Drop.SM_Scope6x_Drop",
+		"DroppedMeshScale": 1.3,
+		"ExportName": "Default__Item_Attach_Weapon_Upper_Scope6x_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_Scope6X_01.icon_attach_Upper_Scope6X_01",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "831258F14997CA6F399CEB81E058973A",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Upper_Scope6x",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Upper_Scope6x",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Upper_Scope6x",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 887,
+		"SpacePerItem": 20,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_Scope6X_01.icon_attach_Upper_Scope6X_01"
+	},
+	"Item_Attach_Weapon_Upper_Scope6x_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Upper_Scope6x_C"
+	}
+}

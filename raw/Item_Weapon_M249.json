@@ -1,0 +1,109 @@
+{
+	"Default__Item_Weapon_M249_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"AmmoPerClip": 100,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_M249_C",
+		"DropAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropAndInventoryPutAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Trash_Bundle",
+			"name": "UI_Inventory_Trash_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Trash_Bundle.uasset"
+		},
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_UnEquip_Weapon_Common",
+			"name": "UI_Item_UnEquip_Weapon_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_UnEquip_Weapon_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/M249/Meshes/M249_01.M249_01",
+		"DroppedMeshScale": 1.3,
+		"ExportName": "Default__Item_Weapon_M249_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_M249.icon_weapon_M249",
+		"InventoryPutAllAttachmentsSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop_Bundle",
+			"name": "UI_Inventory_Drop_Bundle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop_Bundle.uasset"
+		},
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "75B43536437FD443E5E100B45025B30D",
+			"Namespace": "",
+			"SourceString": "Main Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_M249",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_M249",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_M249",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapM249_C",
+			"name": "WeapM249_C",
+			"packagePath": "/Blueprints/Weapons/WeapM249.uasset"
+		},
+		"SkinTag": "Item_Weapon_M249",
+		"SortPriority": 7,
+		"SpacePerItem": 500,
+		"StackCountMax": 1,
+		"SubCategory": "Main",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_M249.icon_weapon_M249",
+		"WeaponTag": "M249",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapM249_C",
+			"name": "WeapM249_C",
+			"packagePath": "/Blueprints/Weapons/WeapM249.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_M249_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_M249_C"
+	}
+}

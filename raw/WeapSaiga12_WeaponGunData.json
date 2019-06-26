@@ -1,0 +1,209 @@
+{
+	"WeapSaiga12_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapSaiga12_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Saiga_Grip",
+				"name": "Weapon_Saiga_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Saiga/Weapon_Saiga_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Saiga_Reload_Charge_Montage",
+				"name": "CharacterWeapon_Saiga_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Saiga/CharacterWeapon_Saiga_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Saiga_Reload_Tactical_Montage",
+				"name": "CharacterWeapon_Saiga_Reload_Tactical_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Saiga/CharacterWeapon_Saiga_Reload_Tactical_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"RecoilKickADS": 1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 3,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 2.4,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 1.5,
+			"DeviationBaseAim": 0.8,
+			"DeviationMax": 7,
+			"DeviationMaxMove": 2,
+			"DeviationMoveMaxReferenceVelocity": 300,
+			"DeviationMoveMultiplier": 1.7,
+			"DeviationRecoilGainADS": 0.5,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_12Guage_C",
+				"name": "Item_Ammo_12Guage_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_12Guage.uasset"
+			},
+			"AmmoPerClip": 5,
+			"BulletPerFiring": 9,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 5.5,
+			"GridPelletSpreadHalfAngle": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					1,
+					0,
+					0
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					1,
+					4
+				]
+			},
+			"NoAnimReloadDuration": 2.3,
+			"PelletGrid": {
+				"0": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0
+					]
+				},
+				"1": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.848,
+						-0.848
+					]
+				},
+				"2": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.848,
+						0.848
+					]
+				},
+				"3": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.848,
+						-0.848
+					]
+				},
+				"4": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.848,
+						0.848
+					]
+				},
+				"5": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						-1.2
+					]
+				},
+				"6": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						1.2
+					]
+				},
+				"7": {
+					"StrucName": "Vector2D",
+					"value": [
+						-1.2,
+						0
+					]
+				},
+				"8": {
+					"StrucName": "Vector2D",
+					"value": [
+						1.2,
+						0
+					]
+				}
+			},
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.25,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 45,
+			"bUseGridPelletSpread": true
+		}
+	}
+}

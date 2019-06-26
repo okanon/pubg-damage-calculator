@@ -1,0 +1,77 @@
+{
+	"Default__Item_Weapon_Stone_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_Stone_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop",
+			"name": "UI_Inventory_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Effects/Clets/Mesh/Dirt_Stone.Dirt_Stone",
+		"DroppedMeshScale": 1.5,
+		"ExportName": "Default__Item_Weapon_Stone_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Stone.icon_weapon_Stone",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "FC62F585406E8DF323C431A3450246E5",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "746B69CC490C21F8937503B3640081CC",
+			"Namespace": "",
+			"SourceString": "Useless.",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "BE83A0D6464458D6F62B3D9C8DB5E652",
+			"Namespace": "",
+			"SourceString": "Stone",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "FC341B084C51B24891E7BBB8B2F72DCA",
+			"Namespace": "",
+			"SourceString": "Stone",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapStone_C",
+			"name": "WeapStone_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapStone.uasset"
+		},
+		"SkinTag": "Item_Weapon_Stone",
+		"SortPriority": 700,
+		"SpacePerItem": 15,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Stone.icon_weapon_Stone",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapStone_C",
+			"name": "WeapStone_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapStone.uasset"
+		},
+		"bIsLobbyWeapon": true,
+		"bStackable": false
+	},
+	"Item_Weapon_Stone_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Stone_C"
+	}
+}

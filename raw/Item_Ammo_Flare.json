@@ -1,0 +1,70 @@
+{
+	"Default__Item_Ammo_Flare_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"AmmoIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_ammo_12Guage",
+			"name": "weapons_ammo_12Guage",
+			"packagePath": "/UI/Weapon/weapons_ammo_12Guage.uasset"
+		},
+		"ClassName": "Item_Ammo_Flare_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"name": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Ammunition/Ammunition/FlareBox/FlareBox_Drop.FlareBox_Drop",
+		"ExportName": "Default__Item_Ammo_Flare_C",
+		"Icon": "AssetObject==/Game/UI/item/ammo/icon_ammo_flaregun.icon_ammo_flaregun",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal",
+			"name": "Play_UI_Item_Equip_Ammo_Normal",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal.uasset"
+		},
+		"ItemCategory": {
+			"Key": "2405C93348EE235BCC750C87D510463E",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Ammo_Flare",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemDescriptions.ST_Item_Ammo_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Ammo_Flare",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Ammo_Flare",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal",
+			"name": "Play_UI_Item_Equip_Ammo_Normal",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal.uasset"
+		},
+		"SortPriority": 115,
+		"SpacePerItem": 0.5,
+		"StackCountMax": 140,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/ammo/icon_ammo_flaregun.icon_ammo_flaregun"
+	},
+	"Item_Ammo_Flare_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_Flare_C"
+	}
+}

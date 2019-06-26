@@ -1,0 +1,174 @@
+{
+	"WeapUMP_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapUMP_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_UMP_Firemode_Montage",
+				"name": "CharacterWeapon_UMP_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/CharacterWeapon_UMP_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_UMP_Grip",
+				"name": "Weapon_UMP_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/Weapon_UMP_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace",
+				"importName": "Weapon_UMP_LH_Grip",
+				"name": "Weapon_UMP_LH_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/Weapon_UMP_LH_Grip.uasset"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_UMP_Reload_Charge_Montage",
+				"name": "CharacterWeapon_UMP_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/CharacterWeapon_UMP_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_UMP_Reload_Montage",
+				"name": "CharacterWeapon_UMP_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/CharacterWeapon_UMP_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-100
+				]
+			},
+			"RecoilKickADS": 0.9,
+			"RecoilKick_MovementMaxMultiplier": 1.1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 3.1,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 2.55,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_UMP_C",
+				"name": "CS_WeapGun_SMG_UMP_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_UMP.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_UMP_ADS_C",
+				"name": "CS_WeapGun_SMG_UMP_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_UMP_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_UMP_Ironsight_C",
+				"name": "CS_WeapGun_SMG_UMP_Ironsight_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_UMP_Ironsight.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_UMP_Reload_Charge_Montage",
+				"name": "Weapon_UMP_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/Weapon/Weapon_UMP_Reload_Charge_Montage.uasset"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_UMP_Reload_Montage",
+				"name": "Weapon_UMP_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/UMP/Weapon/Weapon_UMP_Reload_Montage.uasset"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 2.1,
+			"DeviationBaseADS": 0.06,
+			"DeviationBaseAim": 1.3,
+			"DeviationMax": 7,
+			"DeviationMaxMove": 2,
+			"DeviationMoveMaxReferenceVelocity": 400,
+			"DeviationMoveMinReferenceVelocity": 150,
+			"DeviationMoveMultiplier": 1.6,
+			"DeviationRecoilGain": 1.2,
+			"DeviationRecoilGainADS": 0.15,
+			"DeviationStanceCrouch": 0.82,
+			"DeviationStanceProne": 0.65,
+			"MOA": 4.5,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"ADSTimeMultiplier": 1.3,
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_45ACP_C",
+				"name": "Item_Ammo_45ACP_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_45ACP.uasset"
+			},
+			"AmmoPerClip": 25,
+			"BurstShots": 2,
+			"FiringBulletsSpread": 1,
+			"FiringModes": [
+				"EFiringMode::Normal",
+				"EFiringMode::Burst",
+				"EFiringMode::FullAuto"
+			],
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					5,
+					-1,
+					3
+				]
+			},
+			"MovementModifierAim": 1.6,
+			"MovementModifierScope": 1.4,
+			"NoAnimReloadDuration": 3.1,
+			"ShoulderLength": 22,
+			"StabilityForceModifier": 0.35,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenBursts": 0.0923,
+			"TimeBetweenShots": 0.0923,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 15
+		}
+	}
+}

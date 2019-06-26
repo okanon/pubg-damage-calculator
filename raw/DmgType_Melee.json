@@ -1,0 +1,56 @@
+{
+	"Default__DmgType_Melee_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslDamageType",
+		"ClassName": "DmgType_Melee_C",
+		"DamageImpulse": 0,
+		"DamageRatioInfos": [
+			{
+				"DamageRatio": 2,
+				"DamageVictimActorType": "EDamageVictimActorType::DestructibleActor",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 0.1,
+				"DamageVictimActorType": "EDamageVictimActorType::Vehicle",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 0,
+				"DamageVictimActorType": "EDamageVictimActorType::ExplosiveItem",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageRatioInfos_Console": [
+			{
+				"DamageRatio": 0,
+				"DamageVictimActorType": "EDamageVictimActorType::ExplosiveItem",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageTypeCategory": "EDamageTypeCategory::Damage_Melee",
+		"ExportName": "Default__DmgType_Melee_C",
+		"HitForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Damaged",
+			"name": "TslFFE_Damaged",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Damaged.uasset"
+		},
+		"HitReaction": true,
+		"KilledForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Killed",
+			"name": "TslFFE_Killed",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Killed.uasset"
+		}
+	},
+	"DmgType_Melee_C": {
+		"@Remaining": 72,
+		"@SuperName": "TslDamageType",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DmgType_Melee_C"
+	}
+}

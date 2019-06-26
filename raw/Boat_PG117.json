@@ -1,0 +1,1766 @@
+{
+	"Boat_PG117_C": {
+		"@Remaining": 120,
+		"@SuperName": "BoatBase_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Boat_PG117_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "Boat_PG117_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "Boat_PG117_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "Boat_PG117_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117",
+			"name": "ExecuteUbergraph_Boat_PG117"
+		}
+	},
+	"BuoyancyForceComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Boat_PG117_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"ClassName": "BuoyancyForceComponent",
+		"ExportName": "Default__Boat_PG117_C.BuoyancyForceComponent",
+		"FluidAngularDamping": 0,
+		"FluidLinearDamping": 0,
+		"MeshDensity": 700,
+		"PointDensityOverride": [
+			250,
+			350,
+			300,
+			300,
+			225,
+			225,
+			325,
+			325,
+			500
+		],
+		"TestPoints": [
+			{
+				"StrucName": "Vector",
+				"value": [
+					320,
+					0,
+					10
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-400,
+					0,
+					20
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-170,
+					110,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-170,
+					-110,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					160,
+					100,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					160,
+					-100,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-320,
+					90,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-320,
+					-90,
+					15
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					400,
+					0,
+					20
+				]
+			}
+		],
+		"VelocityDamper": {
+			"StrucName": "Vector",
+			"value": [
+				0.1,
+				0.1,
+				0.5
+			]
+		}
+	},
+	"DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.OnDeath.DamageCauser"
+	},
+	"DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Boat_PG117_C.OnDeath.DamageEvent"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "Boat_PG117_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__Boat_PG117_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoatBase_C",
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuoyancyForceComponent",
+			"exportName": "Default__Boat_PG117_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"ClassName": "Boat_PG117_C",
+		"ExportName": "Default__Boat_PG117_C",
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__Boat_PG117_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"MeshComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Boat_PG117_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"MovementComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslFloatingVehicleMovement",
+			"exportName": "Default__Boat_PG117_C.MovementComponent",
+			"name": "MovementComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Boat_PG117_C.SkeletalMeshComponent",
+			"name": "SkeletalMeshComponent"
+		},
+		"StopSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Boat_Engine_Stop",
+			"name": "Vehicle_Boat_Engine_Stop",
+			"packagePath": "/WwiseAssets/Vehicles/Boat/Vehicle_Boat_Engine_Stop.uasset"
+		},
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__Boat_PG117_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__Boat_PG117_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__Boat_PG117_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleEnginePoint": "Socket_PowerOutput",
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__Boat_PG117_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		},
+		"VelocityFOVHigh": 1750,
+		"VelocityFOVLow": 1250,
+		"bUseDynamicCamera": true
+	},
+	"DriverSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.DriverSeat"
+	},
+	"DriverSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Boat_PG117_C.DriverSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "2D1298CF485729E5169B6392BEB26E97",
+			"Namespace": "",
+			"SourceString": "Drive",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "8A817D9D4EFEB0A159DCCA8AD5E63B42",
+			"Namespace": "",
+			"SourceString": "Boat",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketFL",
+		"RiderType": "ERiderType::Driver",
+		"SeatAnimationType": "EVehicleAnimType::BoatDriver"
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.EntryPoint"
+	},
+	"ExecuteUbergraph_Boat_PG117": {
+		"@Remaining": 126,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117"
+	},
+	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "Boat_PG117_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-67,
+				-40,
+				105
+			]
+		}
+	},
+	"GamePadInputAixsComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__Boat_PG117_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__Boat_PG117_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__Boat_PG117_C.HornComponent"
+	},
+	"InheritableComponentHandler": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "Boat_PG117_C.InheritableComponentHandler",
+		"Records": [
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 37,
+					"index": -38,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -102
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:A75E40734B4F43F92FE8FAB560F27C8C"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BoatBase_C",
+						"name": "BoatBase_C",
+						"packagePath": "/Vehicles/BoatBase.uasset"
+					},
+					"SCSVariableName": "ThirdPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "Boat_PG117_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 37,
+					"index": -38,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -102
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:14EB50704ED2BFBB73E22586B5BECBE0"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BoatBase_C",
+						"name": "BoatBase_C",
+						"packagePath": "/Vehicles/BoatBase.uasset"
+					},
+					"SCSVariableName": "FirstPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "Boat_PG117_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "FirstPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			}
+		]
+	},
+	"K2Node_CreateDelegate_OutputDelegate": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DelegateProperty",
+		"ClassName": "DelegateProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.K2Node_CreateDelegate_OutputDelegate"
+	},
+	"K2Node_CustomEvent_DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.K2Node_CustomEvent_DamageCauser"
+	},
+	"K2Node_CustomEvent_DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.K2Node_CustomEvent_DamageEvent"
+	},
+	"K2Node_CustomEvent_KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.K2Node_CustomEvent_KillingDamage"
+	},
+	"K2Node_CustomEvent_PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.ExecuteUbergraph_Boat_PG117.K2Node_CustomEvent_PlayerInstigator"
+	},
+	"KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Boat_PG117_C.OnDeath.KillingDamage"
+	},
+	"MovementComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComponent",
+		"ClassName": "TslFloatingVehicleMovement",
+		"ExportName": "Default__Boat_PG117_C.MovementComponent",
+		"MaxAcceleration": 2500,
+		"MaxRotationYawAngle": 20,
+		"RotationYawRate": 20,
+		"StopAccelerationRate": 2000
+	},
+	"OnDeath": {
+		"@Remaining": 94,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Boat_PG117_C.OnDeath"
+	},
+	"PassengerBCSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.PassengerBCSeat"
+	},
+	"PassengerBCSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Boat_PG117_C.PassengerBCSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "72545F1C4E8645CD529245905D790C96",
+			"Namespace": "",
+			"SourceString": "Boat",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketRC",
+		"SeatAnimationType": "EVehicleAnimType::BoatPassengerFR",
+		"SeatIndex": 4,
+		"ViewPitchMin": -10,
+		"bCanOnlyFireWhileAiming": true
+	},
+	"PassengerBLSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.PassengerBLSeat"
+	},
+	"PassengerBLSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Boat_PG117_C.PassengerBLSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "72545F1C4E8645CD529245905D790C96",
+			"Namespace": "",
+			"SourceString": "Boat",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketRL",
+		"SeatAnimationType": "EVehicleAnimType::BoatPassengerFR",
+		"SeatIndex": 2,
+		"ViewPitchMin": -10,
+		"bCanOnlyFireWhileAiming": true
+	},
+	"PassengerBRSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.PassengerBRSeat"
+	},
+	"PassengerBRSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Boat_PG117_C.PassengerBRSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "72545F1C4E8645CD529245905D790C96",
+			"Namespace": "",
+			"SourceString": "Boat",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketRR",
+		"SeatAnimationType": "EVehicleAnimType::BoatPassengerFR",
+		"SeatIndex": 3,
+		"ViewPitchMin": -10,
+		"bCanOnlyFireWhileAiming": true
+	},
+	"PassengerFRSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.PassengerFRSeat"
+	},
+	"PassengerFRSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Boat_PG117_C.PassengerFRSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "72545F1C4E8645CD529245905D790C96",
+			"Namespace": "",
+			"SourceString": "Boat",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketFR",
+		"SeatAnimationType": "EVehicleAnimType::BoatPassengerFR",
+		"SeatIndex": 1,
+		"ViewPitchMin": -10,
+		"bCanOnlyFireWhileAiming": true
+	},
+	"PawnInputBindingComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__Boat_PG117_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.OnDeath.PlayerInstigator"
+	},
+	"ReceiveBeginPlay": {
+		"@Remaining": 54,
+		"@SuperName": "ReceiveBeginPlay",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Boat_PG117_C.ReceiveBeginPlay"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 29,
+			"index": -30,
+			"name": "SceneComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Boat_PG117_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:FAD587854C15DFFE23EBD2A89EFE50E3"
+		}
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFL",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 51,
+			"index": -52,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "Boat_PG117_C.DriverSeat_GEN_VARIABLE",
+			"name": "DriverSeat_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "DriverSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:635F778843AAB1CA399D8694600A5B4D"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_10": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketRC",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 51,
+			"index": -52,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "Boat_PG117_C.PassengerBCSeat_GEN_VARIABLE",
+			"name": "PassengerBCSeat_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_10",
+		"InternalVariableName": "PassengerBCSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:6805B67F452D360B232FD1BA385FE4E7"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_11": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 33,
+			"index": -34,
+			"name": "SphereComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "Boat_PG117_C.Sphere4_GEN_VARIABLE",
+			"name": "Sphere4_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_11",
+		"InternalVariableName": "Sphere4",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:6320AF674A77E841A881F2A9C8996771"
+		}
+	},
+	"SCS_Node_12": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 48,
+			"index": -49,
+			"name": "TslVehicleSinkComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSinkComponent",
+			"exportName": "Boat_PG117_C.TslVehicleSink_GEN_VARIABLE",
+			"name": "TslVehicleSink_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_12",
+		"InternalVariableName": "TslVehicleSink",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:F1A020CD44BE9E4FEDE0CAAC79F1F516"
+		}
+	},
+	"SCS_Node_13": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 34,
+			"index": -35,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "Boat_PG117_C.WeaponCollisionComponent_GEN_VARIABLE",
+			"name": "WeaponCollisionComponent_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_13",
+		"InternalVariableName": "WeaponCollisionComponent",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:B75050984F41B1BF4B877FB83DC97921"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_14": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Rudder",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 34,
+			"index": -35,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "Boat_PG117_C.WeaponCollisionComponentRudder_GEN_VARIABLE",
+			"name": "WeaponCollisionComponentRudder_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_14",
+		"InternalVariableName": "WeaponCollisionComponentRudder",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:FAC9DCBC4369D4BEA90EA6A50A21B8D5"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 34,
+			"index": -35,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "Boat_PG117_C.StaticMesh_GEN_VARIABLE",
+			"name": "StaticMesh_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "StaticMesh",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:BDB284164007B6F529DEDC972C175310"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_3": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 33,
+			"index": -34,
+			"name": "SphereComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "Boat_PG117_C.Sphere_GEN_VARIABLE",
+			"name": "Sphere_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_3",
+		"InternalVariableName": "Sphere",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:1A27943146AD78B64793D4AE213E98EE"
+		}
+	},
+	"SCS_Node_4": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 51,
+			"index": -52,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "Boat_PG117_C.PassengerFRSeat_GEN_VARIABLE",
+			"name": "PassengerFRSeat_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_4",
+		"InternalVariableName": "PassengerFRSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:C959202B4ECC84F6569278965B12E474"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_5": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 33,
+			"index": -34,
+			"name": "SphereComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "Boat_PG117_C.Sphere1_GEN_VARIABLE",
+			"name": "Sphere1_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_5",
+		"InternalVariableName": "Sphere1",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:2FCFECDB40E2EE2A8BCDAEA3F0DE7897"
+		}
+	},
+	"SCS_Node_6": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketRL",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 51,
+			"index": -52,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "Boat_PG117_C.PassengerBLSeat_GEN_VARIABLE",
+			"name": "PassengerBLSeat_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_6",
+		"InternalVariableName": "PassengerBLSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:A11B43654C79AF0E826047842AEE4F5D"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_7": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 33,
+			"index": -34,
+			"name": "SphereComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "Boat_PG117_C.Sphere2_GEN_VARIABLE",
+			"name": "Sphere2_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_7",
+		"InternalVariableName": "Sphere2",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:6087A1A14C9F7023A760C085ADC36DF7"
+		}
+	},
+	"SCS_Node_8": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketRR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 51,
+			"index": -52,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -102
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "Boat_PG117_C.PassengerBRSeat_GEN_VARIABLE",
+			"name": "PassengerBRSeat_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_8",
+		"InternalVariableName": "PassengerBRSeat",
+		"ParentComponentOrVariableName": "SkeletalMeshComponent",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:35EAD41E46447A59EF3CE4ACC97CC6BE"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_9": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 33,
+			"index": -34,
+			"name": "SphereComponent",
+			"pkgIndex": -100
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "Boat_PG117_C.Sphere3_GEN_VARIABLE",
+			"name": "Sphere3_GEN_VARIABLE"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_9",
+		"InternalVariableName": "Sphere3",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:43BA1E1949C73AB4AB3A2A9833B619A7"
+		}
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_13",
+				"name": "SCS_Node_13"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_14",
+				"name": "SCS_Node_14"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "Boat_PG117_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_13",
+				"name": "SCS_Node_13"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Boat_PG117_C.SimpleConstructionScript_0.SCS_Node_14",
+				"name": "SCS_Node_14"
+			}
+		]
+	},
+	"SkeletalMeshComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "SkeletalMeshComponent",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "Boat_PG117_Animation_C",
+			"name": "Boat_PG117_Animation_C",
+			"packagePath": "/Vehicles/Boat_PG117/Boat_PG117_Animation.uasset"
+		},
+		"BodyInstance": {
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "Boat_PG117_PhysicalMaterial",
+				"name": "Boat_PG117_PhysicalMaterial",
+				"packagePath": "/Vehicles/Boat_PG117/Boat_PG117_PhysicalMaterial.uasset"
+			},
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__Boat_PG117_C.SkeletalMeshComponent",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "Boat_PG117_setting",
+			"name": "Boat_PG117_setting",
+			"packagePath": "/Vehicles/Boat_PG117/Boat_PG117_setting.uasset"
+		},
+		"bCastInsetShadow": true
+	},
+	"Sphere": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.Sphere"
+	},
+	"Sphere1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.Sphere1"
+	},
+	"Sphere1_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "Boat_PG117_C.Sphere1_GEN_VARIABLE"
+	},
+	"Sphere2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.Sphere2"
+	},
+	"Sphere2_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "Boat_PG117_C.Sphere2_GEN_VARIABLE"
+	},
+	"Sphere3": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.Sphere3"
+	},
+	"Sphere3_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "Boat_PG117_C.Sphere3_GEN_VARIABLE"
+	},
+	"Sphere4": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.Sphere4"
+	},
+	"Sphere4_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "Boat_PG117_C.Sphere4_GEN_VARIABLE"
+	},
+	"Sphere_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "Boat_PG117_C.Sphere_GEN_VARIABLE"
+	},
+	"StaticMesh": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.StaticMesh"
+	},
+	"StaticMesh_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::NoCollision",
+			"CollisionProfileName": "NoCollision",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_WorldStatic",
+			"StrucName": "BodyInstance"
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ComponentTags": [],
+		"ExportName": "Boat_PG117_C.StaticMesh_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_WaterBlock",
+				"name": "M_WaterBlock",
+				"packagePath": "/Effects/tooner/Materials/M_WaterBlock.uasset"
+			}
+		],
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-150.859772,
+				0,
+				74.2962341
+			]
+		},
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				0,
+				1.08758461,
+				0
+			]
+		},
+		"RelativeScale3D": {
+			"StrucName": "Vector",
+			"value": [
+				3.44048142,
+				1.49035335,
+				0.628810167
+			]
+		},
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "Cube",
+			"name": "Cube",
+			"packagePath": "/BasicShapes/Cube.uasset"
+		},
+		"bReceivesDecals": false,
+		"bRenderInMainPass": false
+	},
+	"ThirdPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "Boat_PG117_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"SocketOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				0
+			]
+		},
+		"TargetArmLength": 720
+	},
+	"TslVehicleSink": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.TslVehicleSink"
+	},
+	"TslVehicleSink_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslVehicleSinkComponent",
+		"ClassName": "TslVehicleSinkComponent",
+		"DensityChangeCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_BoatSinkCurve",
+			"name": "C_BoatSinkCurve",
+			"packagePath": "/Vehicles/Boat_PG117/C_BoatSinkCurve.uasset"
+		},
+		"ExportName": "Boat_PG117_C.TslVehicleSink_GEN_VARIABLE",
+		"FinalSplashFxTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Final_Splash_BP_C",
+			"name": "P_Sinking_Final_Splash_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Final_Splash_BP.uasset"
+		},
+		"MaxSinkingTime": 30,
+		"RippleEmissionScaleParam": "SpawnRateScale",
+		"RippleEmissionScalePerDepthCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_BoatRippleEmissionRateByDepth",
+			"name": "C_BoatRippleEmissionRateByDepth",
+			"packagePath": "/Vehicles/Boat_PG117/C_BoatRippleEmissionRateByDepth.uasset"
+		},
+		"SinkingSpeedMul": [
+			0.01
+		],
+		"SurfaceRippleFx": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Ripples_BP_C",
+			"name": "P_Sinking_Ripples_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Ripples_BP.uasset"
+		}
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Boat_PG117_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 45,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Boat_PG117_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"ClassName": "TslVehicleCommonComponent",
+		"ExportName": "Default__Boat_PG117_C.VehicleCommonComponent",
+		"FuelMax": 1000,
+		"HealthMax": 750,
+		"VehicleUI": {
+			"StrucName": "ObjectProperty",
+			"className": "WidgetBlueprintGeneratedClass",
+			"importName": "BoatStanceWidget_C",
+			"name": "BoatStanceWidget_C",
+			"packagePath": "/Blueprints/UI/HUD/Stance/VehicleStance/BoatStanceWidget.uasset"
+		}
+	},
+	"VehicleEffectComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"ApplyDestroyedMaterialDelay": 0.3,
+		"ClassName": "TslVehicleEffectComponent",
+		"DestroyedMaterialMap": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Boat_PG117_Exterior_Burn",
+				"name": "Boat_PG117_Exterior_Burn",
+				"packagePath": "/Vehicles/Boat_PG117/Materials/Boat_PG117_Exterior_Burn.uasset"
+			},
+			"1": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Boat_PG117_Interior_Burn",
+				"name": "Boat_PG117_Interior_Burn",
+				"packagePath": "/Vehicles/Boat_PG117/Materials/Boat_PG117_Interior_Burn.uasset"
+			},
+			"2": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Boat_PG117_Glass_Dirty",
+				"name": "Boat_PG117_Glass_Dirty",
+				"packagePath": "/Vehicles/Boat_PG117/Materials/Boat_PG117_Glass_Dirty.uasset"
+			}
+		},
+		"ExportName": "Default__Boat_PG117_C.VehicleEffectComponent",
+		"VehicleEffectInfo": {
+			"EngineSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Boat_Engine",
+				"name": "Vehicle_Boat_Engine",
+				"packagePath": "/WwiseAssets/Vehicles/Boat/Vehicle_Boat_Engine.uasset"
+			},
+			"FrontFoamLeft": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Boat_FrontDrive_FoamLeft_BP_C",
+				"name": "P_Boat_FrontDrive_FoamLeft_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Boat_FrontDrive_FoamLeft_BP.uasset"
+			},
+			"FrontFoamRight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Boat_FrontDrive_FoamRight_BP_C",
+				"name": "P_Boat_FrontDrive_FoamRight_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Boat_FrontDrive_FoamRight_BP.uasset"
+			},
+			"StrucName": "VehicleEffectInfo"
+		}
+	},
+	"VehicleHitComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"CharacterDamageSpeedCurve_Console": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "VehicleCollisionCharacterDamage_Console",
+			"name": "VehicleCollisionCharacterDamage_Console",
+			"packagePath": "/Vehicles/Base_Vehicle/VehicleCollisionCharacterDamage_Console.uasset"
+		},
+		"ClassName": "TslVehicleHitComponent",
+		"ExplosionBaseDamage": 200,
+		"ExportName": "Default__Boat_PG117_C.VehicleHitComponent",
+		"ImpulseLimitationSpeedThreshold_Console": 1667,
+		"PhysicsImpactAbsorptionRider_Console": 500000,
+		"PhysicsImpactAbsorption_Console": 1000000,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.00001,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.0001
+	},
+	"VehicleSeatComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__Boat_PG117_C.VehicleSeatComponent"
+	},
+	"VehicleSyncComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__Boat_PG117_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__Boat_PG117_C.VehicleXRayComponent"
+	},
+	"WeaponCollisionComponent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.WeaponCollisionComponent"
+	},
+	"WeaponCollisionComponentRudder": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Boat_PG117_C.WeaponCollisionComponentRudder"
+	},
+	"WeaponCollisionComponentRudder_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "Boat_PG117_C.WeaponCollisionComponentRudder_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				444.5,
+				0.000104445018,
+				28.7
+			]
+		},
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				-0.0000915527344,
+				0,
+				0
+			]
+		},
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_PG117_Collision_rudder",
+			"name": "SM_PG117_Collision_rudder",
+			"packagePath": "/Vehicles/Boat_PG117/Meshes/SM_PG117_Collision_rudder.uasset"
+		},
+		"bReceivesDecals": false,
+		"bVisible": false
+	},
+	"WeaponCollisionComponent_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "Boat_PG117_C.WeaponCollisionComponent_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_PG117_Collision_Body",
+			"name": "SM_PG117_Collision_Body",
+			"packagePath": "/Vehicles/Boat_PG117/Meshes/SM_PG117_Collision_Body.uasset"
+		},
+		"bReceivesDecals": false,
+		"bVisible": false
+	}
+}

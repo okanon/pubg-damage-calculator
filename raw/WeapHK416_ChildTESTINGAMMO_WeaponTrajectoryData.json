@@ -1,0 +1,63 @@
+{
+	"WeapHK416_ChildTESTINGAMMO_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapHK416_ChildTESTINGAMMO_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": -0.1,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.04
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_HK416",
+				"name": "C_Recoil_HK416",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_HK416.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.4,
+			"RecoilModifier_Crouch": 0.84,
+			"RecoilSpeed_Horizontal": 12,
+			"RecoilSpeed_Vertical": 12,
+			"RecoilValue_Climb": 0.7,
+			"RecoilValue_Fall": 2.1,
+			"RecoverySpeed_Vertical": 7,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilMin": 0.05,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 5,
+			"VerticalRecoveryMax": 2.4
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_HK416",
+				"name": "C_Ballistic_HK416",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_HK416.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 43,
+			"InitialSpeed": 880,
+			"RangeModifier": 0.94,
+			"ReferenceDistance": 360,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.76
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapHK416_ChildTESTINGAMMO_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapHK416_ChildTESTINGAMMO_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeapHK416_C",
+		"ClassName": "WeapHK416_ChildTESTINGAMMO_C",
+		"ExportName": "Default__WeapHK416_ChildTESTINGAMMO_C",
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapHK416_ChildTESTINGAMMO_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapHK416_ChildTESTINGAMMO_C.RootScene",
+			"name": "RootScene"
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapHK416_ChildTESTINGAMMO_WeaponGunData",
+			"name": "WeapHK416_ChildTESTINGAMMO_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapHK416_ChildTESTINGAMMO_WeaponGunData.uasset"
+		},
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapHK416_ChildTESTINGAMMO_WeaponTrajectoryData",
+			"name": "WeapHK416_ChildTESTINGAMMO_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapHK416_ChildTESTINGAMMO_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapHK416_ChildTESTINGAMMO_C.RootScene"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 4,
+			"index": -5,
+			"name": "SceneComponent",
+			"pkgIndex": -13
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapHK416_ChildTESTINGAMMO_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapHK416_ChildTESTINGAMMO_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:3F3B8092413EC95EFF7D849DF81D0956"
+		}
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapHK416_ChildTESTINGAMMO_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "WeapHK416_ChildTESTINGAMMO_C.SimpleConstructionScript_0"
+	},
+	"WeapHK416_ChildTESTINGAMMO_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeapHK416_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapHK416_ChildTESTINGAMMO_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapHK416_ChildTESTINGAMMO_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapHK416_ChildTESTINGAMMO_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapHK416_ChildTESTINGAMMO_C.WeaponMesh3P"
+	}
+}

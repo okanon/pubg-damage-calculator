@@ -1,0 +1,69 @@
+{
+	"WeapG36C_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapG36C_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": 0.1,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.032
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_G36",
+				"name": "C_Recoil_G36",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_G36.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.4,
+			"RecoilModifier_Crouch": 0.84,
+			"RecoilSpeed_Horizontal": 11,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilValue_Climb": 0.65,
+			"RecoilValue_Fall": 2.3,
+			"RecoverySpeed_Vertical": 8,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 5,
+			"VerticalRecoveryMax": 3
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_G36",
+				"name": "C_Ballistic_G36",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_G36.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 43,
+			"InitialSpeed": 870,
+			"RangeModifier": 0.94,
+			"ReferenceDistance": 350,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.75
+		}
+	}
+}

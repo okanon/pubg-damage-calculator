@@ -1,0 +1,131 @@
+{
+	"DefaultDamageConfig": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslPlayerDamageConfig",
+		"ClassName": "TslPlayerDamageConfig",
+		"DamageZones": {
+			"EDamageZoneType::Arm": {
+				"ArmorSlot": "EEquipSlotID::MaxOrNone",
+				"BonesMultipliers": {
+					"hand_l": 0.3,
+					"hand_r": 0.3,
+					"lowerarm_l": 0.5,
+					"lowerarm_r": 0.5,
+					"upperarm_l": 0.6,
+					"upperarm_r": 0.6
+				},
+				"DamageReason": "EDamageReason::ArmShot",
+				"GlobalMultiplier": 1,
+				"PunchMultiplier": 1.2,
+				"StrucName": "None",
+				"WeaponClassMultipliers": {
+					"EWeaponClass::Class_Carbine": 1,
+					"EWeaponClass::Class_DMR": 0.95,
+					"EWeaponClass::Class_LMG": 0.9,
+					"EWeaponClass::Class_Melee": 1.2,
+					"EWeaponClass::Class_Pistol": 1,
+					"EWeaponClass::Class_Rifle": 0.9,
+					"EWeaponClass::Class_SMG": 1.25,
+					"EWeaponClass::Class_Shotgun": 0.9,
+					"EWeaponClass::Class_Sniper": 0.95
+				}
+			},
+			"EDamageZoneType::Head": {
+				"ArmorSlot": "EEquipSlotID::Head",
+				"BonesMultipliers": {
+					"head": 1,
+					"neck_01": 0.75
+				},
+				"DamageReason": "EDamageReason::HeadShot",
+				"GlobalMultiplier": 1,
+				"PunchMultiplier": 1.5,
+				"StrucName": "None",
+				"WeaponClassMultipliers": {
+					"EWeaponClass::Class_Carbine": 2.3,
+					"EWeaponClass::Class_DMR": 2.35,
+					"EWeaponClass::Class_LMG": 2.3,
+					"EWeaponClass::Class_Melee": 1.5,
+					"EWeaponClass::Class_Pistol": 2,
+					"EWeaponClass::Class_Rifle": 2.35,
+					"EWeaponClass::Class_SMG": 1.8,
+					"EWeaponClass::Class_Shotgun": 1.5,
+					"EWeaponClass::Class_Sniper": 2.5
+				}
+			},
+			"EDamageZoneType::Leg": {
+				"ArmorSlot": "EEquipSlotID::MaxOrNone",
+				"BonesMultipliers": {
+					"calf_l": 0.5,
+					"calf_r": 0.5,
+					"foot_l": 0.3,
+					"foot_r": 0.3,
+					"thigh_l": 0.6,
+					"thigh_r": 0.6
+				},
+				"DamageReason": "EDamageReason::LegShot",
+				"GlobalMultiplier": 1,
+				"PunchMultiplier": 1.2,
+				"StrucName": "None",
+				"WeaponClassMultipliers": {
+					"EWeaponClass::Class_Carbine": 1,
+					"EWeaponClass::Class_DMR": 0.95,
+					"EWeaponClass::Class_LMG": 0.9,
+					"EWeaponClass::Class_Melee": 1.2,
+					"EWeaponClass::Class_Pistol": 1,
+					"EWeaponClass::Class_Rifle": 0.9,
+					"EWeaponClass::Class_SMG": 1.25,
+					"EWeaponClass::Class_Shotgun": 0.9,
+					"EWeaponClass::Class_Sniper": 0.95
+				}
+			},
+			"EDamageZoneType::Pelvis": {
+				"ArmorSlot": "EEquipSlotID::TorsoArmor",
+				"BonesMultipliers": {
+					"pelvis": 1
+				},
+				"DamageReason": "EDamageReason::PelvisShot",
+				"GlobalMultiplier": 1,
+				"PunchMultiplier": 1,
+				"StrucName": "None",
+				"WeaponClassMultipliers": {
+					"EWeaponClass::Class_Carbine": 1,
+					"EWeaponClass::Class_DMR": 1.05,
+					"EWeaponClass::Class_LMG": 1,
+					"EWeaponClass::Class_Melee": 1,
+					"EWeaponClass::Class_Pistol": 1,
+					"EWeaponClass::Class_Rifle": 1,
+					"EWeaponClass::Class_SMG": 1,
+					"EWeaponClass::Class_Shotgun": 1,
+					"EWeaponClass::Class_Sniper": 1.1
+				}
+			},
+			"EDamageZoneType::Torso": {
+				"ArmorSlot": "EEquipSlotID::TorsoArmor",
+				"BonesMultipliers": {
+					"clavicle_l": 1,
+					"clavicle_r": 1,
+					"spine_01": 0.95,
+					"spine_02": 1,
+					"spine_03": 1.1
+				},
+				"DamageReason": "EDamageReason::TorsoShot",
+				"GlobalMultiplier": 1,
+				"PunchMultiplier": 1,
+				"StrucName": "None",
+				"WeaponClassMultipliers": {
+					"EWeaponClass::Class_Carbine": 1,
+					"EWeaponClass::Class_DMR": 1.05,
+					"EWeaponClass::Class_LMG": 1,
+					"EWeaponClass::Class_Melee": 1,
+					"EWeaponClass::Class_Pistol": 1,
+					"EWeaponClass::Class_Rifle": 1,
+					"EWeaponClass::Class_SMG": 1,
+					"EWeaponClass::Class_Shotgun": 1,
+					"EWeaponClass::Class_Sniper": 1.3
+				}
+			}
+		},
+		"ExportName": "DefaultDamageConfig"
+	}
+}

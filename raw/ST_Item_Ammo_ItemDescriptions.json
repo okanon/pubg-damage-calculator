@@ -1,0 +1,20 @@
+{
+	"ST_Item_Ammo_ItemDescriptions": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "ST_Item_Ammo_ItemDescriptions",
+		"KeysToSourceStrings": {
+			"Item_Ammo_12Guage": "Ammo for S12K, S1897, S686, Sawed-Off",
+			"Item_Ammo_300Magnum": "Ammo for AWM",
+			"Item_Ammo_45ACP": "Ammo for P1911, R45, Tommy Gun, UMP45, Win94",
+			"Item_Ammo_556mm": "Ammo for AUG, G36C, M16A4, M416, QBZ, SCAR-L, M249, Mini14, QBU",
+			"Item_Ammo_762mm": "Ammo for R1895, AKM, Beryl M762, Groza, Mk47 Mutant, DP-28, M24, Mk14, Kar98k, SKS, SLR",
+			"Item_Ammo_9mm": "Ammo for P18C, P92, Skorpion, Micro UZI, MP5K, PP-19 Bizon, Vector, VSS",
+			"Item_Ammo_Bolt": "Ammo for Crossbow",
+			"Item_Ammo_Flare": "Ammo for Flare Gun"
+		},
+		"TableNamespace": "ST_Item_Ammo_ItemDescriptions"
+	}
+}

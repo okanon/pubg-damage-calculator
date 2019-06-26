@@ -1,0 +1,64 @@
+{
+	"WeapBerylM762_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapBerylM762_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": -0.1,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.04
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_BerylM762",
+				"name": "C_Recoil_BerylM762",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_BerylM762.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.48,
+			"RecoilModifier_Crouch": 0.88,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 10,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 0.7,
+			"RecoilValue_Fall": 2.15,
+			"RecoverySpeed_Vertical": 8.2,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 8,
+			"VerticalRecoilMin": 0.05,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 4.5,
+			"VerticalRecoveryMax": 2,
+			"VerticalRecoveryModifier": 0.55
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_BerylM762",
+				"name": "C_Ballistic_BerylM762",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_BerylM762.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 47,
+			"InitialSpeed": 715,
+			"RangeModifier": 0.95,
+			"ReferenceDistance": 380,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000
+		}
+	}
+}

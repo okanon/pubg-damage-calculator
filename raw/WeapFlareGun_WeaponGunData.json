@@ -1,0 +1,106 @@
+{
+	"WeapFlareGun_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapFlareGun_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Flaregun_Grip",
+				"name": "Weapon_Flaregun_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Flaregun/Weapon_Flaregun_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Flaregun_Grip",
+				"name": "Weapon_Flaregun_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Flaregun/Weapon_Flaregun_Grip.uasset"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Flaregun_Reload_Montage",
+				"name": "CharacterWeapon_Flaregun_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Flaregun/CharacterWeapon_Flaregun_Reload_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Flaregun_Reload_Montage",
+				"name": "CharacterWeapon_Flaregun_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Flaregun/CharacterWeapon_Flaregun_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"Fire": {
+				"StrucName": "ObjectProperty"
+			},
+			"RecoilKickADS": 0.5,
+			"Reload": {
+				"StrucName": "ObjectProperty"
+			},
+			"ReloadDurationCharge": 3.5,
+			"ReloadDurationTactical": 3.5,
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_Flare_C",
+				"name": "Item_Ammo_Flare_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_Flare.uasset"
+			},
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					20,
+					2,
+					4
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					19,
+					-2,
+					7
+				]
+			},
+			"ShoulderLength": 10,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			}
+		}
+	}
+}

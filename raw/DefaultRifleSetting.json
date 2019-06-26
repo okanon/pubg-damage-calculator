@@ -1,0 +1,453 @@
+{
+	"DefaultRifleSetting_C": {
+		"@Remaining": 96,
+		"@SuperName": "TslWeapon_Trajectory",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DefaultRifleSetting_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "DefaultRifleSetting_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "DefaultRifleSetting_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "DefaultRifleSetting_C.ExecuteUbergraph_DefaultRifleSetting",
+			"name": "ExecuteUbergraph_DefaultRifleSetting"
+		}
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "DefaultRifleSetting_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__DefaultRifleSetting_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslWeapon_Trajectory",
+		"AmmoIconsCount": 10,
+		"ClassName": "DefaultRifleSetting_C",
+		"ExportName": "Default__DefaultRifleSetting_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_Rifle_762_C",
+			"name": "CS_WeapGun_Rifle_762_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_762.uasset"
+		},
+		"FireForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Fire",
+			"name": "TslFFE_Fire",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Fire.uasset"
+		},
+		"HipDuration": 0.1,
+		"History_RecoilTargetX": {
+			"MaxSamples": 100,
+			"MaxValue": 0,
+			"MinValue": 0,
+			"Samples": [],
+			"StrucName": "DebugFloatHistory",
+			"bAutoAdjustMinMax": true
+		},
+		"History_RecoilTargetY": {
+			"MaxSamples": 100,
+			"MaxValue": 0,
+			"MinValue": 0,
+			"Samples": [],
+			"StrucName": "DebugFloatHistory",
+			"bAutoAdjustMinMax": true
+		},
+		"History_RecoilValue": {
+			"MaxSamples": 100,
+			"MaxValue": 0,
+			"MinValue": 0,
+			"Samples": [],
+			"StrucName": "DebugFloatHistory",
+			"bAutoAdjustMinMax": true
+		},
+		"History_RecoveryTarget": {
+			"MaxSamples": 100,
+			"MaxValue": 0,
+			"MinValue": 0,
+			"Samples": [],
+			"StrucName": "DebugFloatHistory",
+			"bAutoAdjustMinMax": true
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Med_C",
+			"name": "GunImpact_Med_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Med.uasset"
+		},
+		"LightImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Med_Light_C",
+			"name": "GunImpact_Med_Light_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Med_Light.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__DefaultRifleSetting_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleAttachPoint": "MuzzleFlashSocket",
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_AP5_Barrel_Smoke",
+			"name": "P_AP5_Barrel_Smoke",
+			"packagePath": "/Weapons/FPSWeaponPack/Effects/ParticlesSystems/Weapons/AP5/P_AP5_Barrel_Smoke.uasset"
+		},
+		"PrimaryClipIconOffset": 12,
+		"ProneRollAnim": {
+			"RollLeft": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_ProneRoll_L_Loop_IP_Montage",
+				"name": "MIL2_M3_W2_ProneRoll_L_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_ProneRoll_L_Loop_IP_Montage.uasset"
+			},
+			"RollRight": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_ProneRoll_R_Loop_IP_Montage",
+				"name": "MIL2_M3_W2_ProneRoll_R_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_ProneRoll_R_Loop_IP_Montage.uasset"
+			},
+			"StrucName": "WeaponRollAnim"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultRifleSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"SecondaryClipIconOffset": 6,
+		"TrailFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_AssaultRifle_Trail",
+			"name": "P_AssaultRifle_Trail",
+			"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/P_AssaultRifle_Trail.uasset"
+		},
+		"TrailTargetParam": "ShockBeamEnd",
+		"TrajectoryConfig": {
+			"FiringSpreadBase": 0.05,
+			"RecoilPatternScale": 0.55,
+			"RecoilPatterns": [
+				{
+					"Angle": 90,
+					"Magnitude": 0.7,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 110,
+					"Magnitude": 0.7,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 95,
+					"Magnitude": 0.7,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 125,
+					"Magnitude": 1,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 55,
+					"Magnitude": 0.8,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 3,
+					"Magnitude": 0.5,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 45,
+					"Magnitude": 0.9,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 45,
+					"Magnitude": 1,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 80,
+					"Magnitude": 0.3,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 110,
+					"Magnitude": 0.9,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 110,
+					"Magnitude": 0.9,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 90,
+					"Magnitude": 0.3,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 110,
+					"Magnitude": 0.8,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 225,
+					"Magnitude": 0.05,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 135,
+					"Magnitude": 0.9,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 100,
+					"Magnitude": 0.8,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 100,
+					"Magnitude": 0.1,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 95,
+					"Magnitude": 1.2,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 40,
+					"Magnitude": 0.3,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 180,
+					"Magnitude": 0.05,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 90,
+					"Magnitude": 0.2,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 80,
+					"Magnitude": 0.1,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 170,
+					"Magnitude": 0.2,
+					"StrucName": "RecoilPatternData"
+				},
+				{
+					"Angle": 90,
+					"Magnitude": 0.7,
+					"StrucName": "RecoilPatternData"
+				}
+			],
+			"RecoilSpeed": 3.5,
+			"StrucName": "TrajectoryWeaponData"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"UnderWaterTrailFXClassPerLength": {
+			"80": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "BP_UnderwaterBulletTrailEffectShort_C",
+				"name": "BP_UnderwaterBulletTrailEffectShort_C",
+				"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/BP_UnderwaterBulletTrailEffectShort.uasset"
+			},
+			"300": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "BP_UnderwaterBulletTrailEffectMid_C",
+				"name": "BP_UnderwaterBulletTrailEffectMid_C",
+				"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/BP_UnderwaterBulletTrailEffectMid.uasset"
+			}
+		},
+		"VariableZoomStepAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Common_VariableZoomStep",
+			"name": "Weapons_Common_VariableZoomStep",
+			"packagePath": "/WwiseAssets/Weapons/_Common/Weapons_Common_VariableZoomStep.uasset"
+		},
+		"WeaponAnim": {
+			"PickUp": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Glean_Montage",
+				"name": "MIL2_M3_W2_Glean_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Glean_Montage.uasset"
+			},
+			"StrucName": "WeaponBasicAnim"
+		},
+		"ZeroingStepAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Common_ZeroingStep",
+			"name": "Weapons_Common_ZeroingStep",
+			"packagePath": "/WwiseAssets/Weapons/_Common/Weapons_Common_ZeroingStep.uasset"
+		}
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "DefaultRifleSetting_C.ExecuteUbergraph_DefaultRifleSetting.EntryPoint"
+	},
+	"ExecuteUbergraph_DefaultRifleSetting": {
+		"@Remaining": 45,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "DefaultRifleSetting_C.ExecuteUbergraph_DefaultRifleSetting"
+	},
+	"History_RecoilTargetX": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "DefaultRifleSetting_C.History_RecoilTargetX"
+	},
+	"History_RecoilTargetY": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "DefaultRifleSetting_C.History_RecoilTargetY"
+	},
+	"History_RecoilValue": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "DefaultRifleSetting_C.History_RecoilValue"
+	},
+	"History_RecoveryTarget": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "DefaultRifleSetting_C.History_RecoveryTarget"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__DefaultRifleSetting_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 25,
+			"index": -26,
+			"name": "SceneComponent",
+			"pkgIndex": -51
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "DefaultRifleSetting_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "DefaultRifleSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:0C6D3A3A4277CE702C29309CF1123538"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "DefaultRifleSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "DefaultRifleSetting_C.SimpleConstructionScript_1"
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "DefaultRifleSetting_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 39,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "DefaultRifleSetting_C.UserConstructionScript"
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultRifleSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__DefaultRifleSetting_C.WeaponMesh3P",
+		"bComponentUseFixedSkelBounds": true,
+		"bEnablePhysicsOnDedicatedServer": false
+	},
+	"bDebugMuzzleVector": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "DefaultRifleSetting_C.bDebugMuzzleVector"
+	},
+	"bDebugRecoil": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "DefaultRifleSetting_C.bDebugRecoil"
+	}
+}

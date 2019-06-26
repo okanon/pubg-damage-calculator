@@ -1,0 +1,625 @@
+{
+	"Default__Item_Attach_Weapon_Upper_ACOG_01_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"name": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Scopes.uasset"
+		},
+		"AttachmentData": {
+			"ADSAlphaVectorCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_ADSAlpha_ACOG",
+				"name": "C_ADSAlpha_ACOG",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/C_ADSAlpha_Acog.uasset"
+			},
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+			"AttachmentTag": "UpperSmall",
+			"FPPSocketOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-1.55
+				]
+			},
+			"MagnificationFOV": 19,
+			"MouseSensitiveName": "Scope4X",
+			"Name": "Item_Attach_Weapon_Upper_ACOG_01_C",
+			"ReticleSettingsOverrides": {
+				"@Values": [
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapAK47_C",
+							"name": "WeapAK47_C",
+							"packagePath": "/Blueprints/Weapons/WeapAK47.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_AK",
+							"name": "ACOG_AK",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_AK.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapGroza_C",
+							"name": "WeapGroza_C",
+							"packagePath": "/Blueprints/Weapons/WeapGroza.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_AK",
+							"name": "ACOG_AK",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_AK.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapM24_C",
+							"name": "WeapM24_C",
+							"packagePath": "/Blueprints/Weapons/WeapM24.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapAWM_C",
+							"name": "WeapAWM_C",
+							"packagePath": "/Blueprints/Weapons/WeapAWM.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapKar98k_C",
+							"name": "WeapKar98k_C",
+							"packagePath": "/Blueprints/Weapons/WeapKar98k.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapSKS_C",
+							"name": "WeapSKS_C",
+							"packagePath": "/Blueprints/Weapons/WeapSKS.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMk14_C",
+							"name": "WeapMk14_C",
+							"packagePath": "/Blueprints/Weapons/WeapMk14.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapUMP_C",
+							"name": "WeapUMP_C",
+							"packagePath": "/Blueprints/Weapons/WeapUMP.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapVector_C",
+							"name": "WeapVector_C",
+							"packagePath": "/Blueprints/Weapons/WeapVector.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapFNFal_C",
+							"name": "WeapFNFal_C",
+							"packagePath": "/Blueprints/Weapons/WeapFNFal.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapBerylM762_C",
+							"name": "WeapBerylM762_C",
+							"packagePath": "/Blueprints/Weapons/WeapBerylM762.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_AK",
+							"name": "ACOG_AK",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_AK.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMk47Mutant_C",
+							"name": "WeapMk47Mutant_C",
+							"packagePath": "/Blueprints/Weapons/WeapMk47Mutant.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_AK",
+							"name": "ACOG_AK",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_AK.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapBizonPP19_C",
+							"name": "WeapBizonPP19_C",
+							"packagePath": "/Blueprints/Weapons/WeapBizonPP19.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMP5K_C",
+							"name": "WeapMP5K_C",
+							"packagePath": "/Blueprints/Weapons/WeapMP5K.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "ReticleSettings",
+							"importName": "ACOG_M24",
+							"name": "ACOG_M24",
+							"packagePath": "/Weapon/Accessories/ReticleSettings/ACOG_M24.uasset"
+						}
+					]
+				]
+			},
+			"ReticleTextureOverrides": {
+				"@Values": [
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapAK47_C",
+							"name": "WeapAK47_C",
+							"packagePath": "/Blueprints/Weapons/WeapAK47.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_AK_D_Postprocess",
+							"name": "ACOG_Reticle_AK_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_AK_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapM24_C",
+							"name": "WeapM24_C",
+							"packagePath": "/Blueprints/Weapons/WeapM24.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapAWM_C",
+							"name": "WeapAWM_C",
+							"packagePath": "/Blueprints/Weapons/WeapAWM.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapKar98k_C",
+							"name": "WeapKar98k_C",
+							"packagePath": "/Blueprints/Weapons/WeapKar98k.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapSKS_C",
+							"name": "WeapSKS_C",
+							"packagePath": "/Blueprints/Weapons/WeapSKS.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapSCAR-L_C",
+							"name": "WeapSCAR-L_C",
+							"packagePath": "/Blueprints/Weapons/WeapSCAR-L.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapHK416_C",
+							"name": "WeapHK416_C",
+							"packagePath": "/Blueprints/Weapons/WeapHK416.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMini14_C",
+							"name": "WeapMini14_C",
+							"packagePath": "/Blueprints/Weapons/WeapMini14.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapGroza_C",
+							"name": "WeapGroza_C",
+							"packagePath": "/Blueprints/Weapons/WeapGroza.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_AK_D_Postprocess",
+							"name": "ACOG_Reticle_AK_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_AK_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapM249_C",
+							"name": "WeapM249_C",
+							"packagePath": "/Blueprints/Weapons/WeapM249.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "Toy_WeapSaiga12_C",
+							"name": "Toy_WeapSaiga12_C",
+							"packagePath": "/Item/ToyItem/Toy_WeapSaiga12.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMk14_C",
+							"name": "WeapMk14_C",
+							"packagePath": "/Blueprints/Weapons/WeapMk14.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapUMP_C",
+							"name": "WeapUMP_C",
+							"packagePath": "/Blueprints/Weapons/WeapUMP.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapAUG_C",
+							"name": "WeapAUG_C",
+							"packagePath": "/Blueprints/Weapons/WeapAUG.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M16_D_Postprocess",
+							"name": "ACOG_Reticle_M16_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M16_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapVector_C",
+							"name": "WeapVector_C",
+							"packagePath": "/Blueprints/Weapons/WeapVector.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapFNFal_C",
+							"name": "WeapFNFal_C",
+							"packagePath": "/Blueprints/Weapons/WeapFNFal.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapBizonPP19_C",
+							"name": "WeapBizonPP19_C",
+							"packagePath": "/Blueprints/Weapons/WeapBizonPP19.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					],
+					[
+						{
+							"StrucName": "ObjectProperty",
+							"className": "BlueprintGeneratedClass",
+							"importName": "WeapMP5K_C",
+							"name": "WeapMP5K_C",
+							"packagePath": "/Blueprints/Weapons/WeapMP5K.uasset"
+						},
+						{
+							"StrucName": "ObjectProperty",
+							"className": "Texture2D",
+							"importName": "ACOG_Reticle_M24_new_D_Postprocess",
+							"name": "ACOG_Reticle_M24_new_D_Postprocess",
+							"packagePath": "/Weapon/Accessories/ACOG/ACOG_Reticle_M24_new_D_Postprocess.uasset"
+						}
+					]
+				]
+			},
+			"ScopePostprocessData": {
+				"StrucName": "ObjectProperty",
+				"className": "ReticlePostprocessData",
+				"importName": "Sight_ACOG_PostprocessData",
+				"name": "Sight_ACOG_PostprocessData",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_ACOG_PostprocessData.uasset"
+			},
+			"StrucName": "WeaponAttachmentData",
+			"ZeroingDistances": [
+				100
+			],
+			"bUseCustomADSAlpha": true
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Sight/New/ACOG_setting.ACOG_setting",
+		"ClassName": "Item_Attach_Weapon_Upper_ACOG_01_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/ACOG/ACOG_01.ACOG_01",
+		"DroppedMeshScale": 2.1,
+		"ExportName": "Default__Item_Attach_Weapon_Upper_ACOG_01_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_ACOG_01.icon_attach_Upper_ACOG_01",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "021229B043F7EAAE9B45398BE786D2B6",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Upper_ACOG_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Upper_ACOG_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Upper_ACOG_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 886,
+		"SpacePerItem": 15,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_ACOG_01.icon_attach_Upper_ACOG_01"
+	},
+	"Item_Attach_Weapon_Upper_ACOG_01_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Upper_ACOG_01_C"
+	}
+}

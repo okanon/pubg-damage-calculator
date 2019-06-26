@@ -1,0 +1,63 @@
+{
+	"WeapGroza_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapGroza_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.04
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_Groza",
+				"name": "C_Recoil_Groza",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_Groza.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.35,
+			"RecoilSpeed_Horizontal": 11,
+			"RecoilSpeed_Vertical": 14,
+			"RecoilValue_Climb": 0.65,
+			"RecoilValue_Fall": 2.1,
+			"RecoverySpeed_Vertical": 8.2,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 8,
+			"VerticalRecoilMin": 0.05,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 5,
+			"VerticalRecoveryMax": 2.2,
+			"VerticalRecoveryModifier": 0.55
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.9,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Groza",
+				"name": "C_Ballistic_Groza",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Groza.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 49,
+			"InitialSpeed": 715,
+			"RangeModifier": 0.95,
+			"ReferenceDistance": 380,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.757
+		}
+	}
+}

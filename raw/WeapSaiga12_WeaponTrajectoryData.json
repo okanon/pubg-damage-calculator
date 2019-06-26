@@ -1,0 +1,55 @@
+{
+	"WeapSaiga12_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapSaiga12_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": 0.1,
+			"LeftMax": -1.5,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_Saiga",
+				"name": "C_Recoil_Saiga",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_Saiga.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.25,
+			"RecoilModifier_Crouch": 0.85,
+			"RecoilModifier_Prone": 0.75,
+			"RecoilSpeed_Horizontal": 16,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 1.8,
+			"RecoilValue_Fall": 3,
+			"RecoverySpeed_Vertical": 7,
+			"RightMax": 1.5,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 9,
+			"VerticalRecoilVariation": 0.2,
+			"VerticalRecoveryClamp": 8,
+			"VerticalRecoveryMax": 15,
+			"VerticalRecoveryModifier": 0.3
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 22,
+			"InitialSpeed": 350,
+			"RangeModifier": 0.7,
+			"ReferenceDistance": 65,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"bUseAdvancedBallistics": false
+		}
+	}
+}

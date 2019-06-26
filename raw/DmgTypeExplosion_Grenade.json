@@ -1,0 +1,76 @@
+{
+	"Default__DmgTypeExplosion_Grenade_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslDamageType",
+		"ClassName": "DmgTypeExplosion_Grenade_C",
+		"DamageCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CameraShake_GrenadeDamage_C",
+			"name": "CameraShake_GrenadeDamage_C",
+			"packagePath": "/Effects/tooner/Camera/CameraShake_GrenadeDamage.uasset"
+		},
+		"DamageImpulse": 1000,
+		"DamageRatioInfos": [
+			{
+				"DamageRatio": 5,
+				"DamageVictimActorType": "EDamageVictimActorType::DestructibleActor",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 2,
+				"DamageVictimActorType": "EDamageVictimActorType::Vehicle",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 2,
+				"DamageVictimActorType": "EDamageVictimActorType::Wheel",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageRatioInfos_Console": [
+			{
+				"DamageRatio": 5,
+				"DamageVictimActorType": "EDamageVictimActorType::DestructibleActor",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 2.2,
+				"DamageVictimActorType": "EDamageVictimActorType::Vehicle",
+				"StrucName": "DamageRatioInfo"
+			},
+			{
+				"DamageRatio": 2.2,
+				"DamageVictimActorType": "EDamageVictimActorType::Wheel",
+				"StrucName": "DamageRatioInfo"
+			}
+		],
+		"DamageTypeCategory": "EDamageTypeCategory::Damage_Explosion_Grenade",
+		"ExportName": "Default__DmgTypeExplosion_Grenade_C",
+		"HitForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Damaged",
+			"name": "TslFFE_Damaged",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Damaged.uasset"
+		},
+		"KilledForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Killed",
+			"name": "TslFFE_Killed",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Killed.uasset"
+		},
+		"bIgnoreCharacterImpulse": true,
+		"bRadialDamageVelChange": true,
+		"bScaleMomentumByMass": false,
+		"bUseDamageCameraShake": true
+	},
+	"DmgTypeExplosion_Grenade_C": {
+		"@Remaining": 72,
+		"@SuperName": "TslDamageType",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DmgTypeExplosion_Grenade_C"
+	}
+}

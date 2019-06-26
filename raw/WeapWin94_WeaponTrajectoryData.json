@@ -1,0 +1,57 @@
+{
+	"WeapWin94_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapWin94_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": 0.1,
+			"LeftMax": -0.8,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_W94",
+				"name": "C_Recoil_W94",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_W94.uasset"
+			},
+			"RecoilSpeed_Horizontal": 7,
+			"RecoilSpeed_Vertical": 13.4,
+			"RecoilValue_Climb": 1.5,
+			"RecoilValue_Fall": 2.8,
+			"RecoverySpeed_Vertical": 5.5,
+			"RightMax": 0.8,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 3,
+			"VerticalRecoveryMax": 15,
+			"VerticalRecoveryModifier": 0.6
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.85,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_WinchesterRifle",
+				"name": "C_Ballistic_WinchesterRifle",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_WinchesterRifle.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 66,
+			"InitialSpeed": 760,
+			"RangeModifier": 0.95,
+			"ReferenceDistance": 500,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.801
+		}
+	}
+}

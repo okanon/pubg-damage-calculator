@@ -1,0 +1,220 @@
+{
+	"WeapBerreta686_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapBerreta686_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_686_Grip",
+				"name": "Weapon_686_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/Weapon_686_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_686_Reload_Montage",
+				"name": "CharacterWeapon_686_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/CharacterWeapon_686_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_686_Reload_Montage",
+				"name": "CharacterWeapon_686_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/CharacterWeapon_686_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_686_Reload_Montage",
+				"name": "CharacterWeapon_686_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/CharacterWeapon_686_Reload_Montage.uasset"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_686_Reload_Montage",
+				"name": "CharacterWeapon_686_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/CharacterWeapon_686_Reload_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_686_Reload_Montage",
+				"name": "CharacterWeapon_686_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/686/CharacterWeapon_686_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 3,
+			"ReloadDurationLoop": 2,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 3,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 1.5,
+			"DeviationBaseAim": 0.9,
+			"DeviationMax": 7,
+			"DeviationMaxMove": 2,
+			"DeviationMoveMaxReferenceVelocity": 400,
+			"DeviationMoveMultiplier": 1.7,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_12Guage_C",
+				"name": "Item_Ammo_12Guage_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_12Guage.uasset"
+			},
+			"AmmoPerClip": 2,
+			"BulletPerFiring": 9,
+			"BurstDelay": 0.12,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 5.5,
+			"GridPelletSpreadHalfAngle": 0.95,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					5
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					7
+				]
+			},
+			"NoAnimReloadDuration": 2.3,
+			"PelletGrid": {
+				"0": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0
+					]
+				},
+				"1": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.705197,
+						-0.705197
+					]
+				},
+				"2": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.705197,
+						0.705197
+					]
+				},
+				"3": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.705197,
+						-0.705197
+					]
+				},
+				"4": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.705197,
+						0.705197
+					]
+				},
+				"5": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						-0.99792
+					]
+				},
+				"6": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0.99792
+					]
+				},
+				"7": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.99792,
+						0
+					]
+				},
+				"8": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.99792,
+						0
+					]
+				}
+			},
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 62.5,
+			"bUseGridPelletSpread": true
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"WeapCrossbow_1_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapCrossbow_1_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Crossbow_Grip",
+				"name": "Weapon_Crossbow_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Crossbow/Weapon_Crossbow_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Crossbow_Load_Montage",
+				"name": "CharacterWeapon_Crossbow_Load_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Crossbow/CharacterWeapon_Crossbow_Load_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 3.549655,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 3.549655,
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 1.5,
+			"DeviationBaseAim": 1,
+			"MOA": 0.5,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_Bolt_C",
+				"name": "Item_Ammo_Bolt_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_Bolt.uasset"
+			},
+			"AmmoPerClip": 1,
+			"BurstShots": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					11,
+					0,
+					-2
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					9,
+					2,
+					0.4
+				]
+			},
+			"NoAnimReloadDuration": 2.5,
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.075,
+			"TracerClass": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Arrow_1",
+				"name": "P_Arrow_1",
+				"packagePath": "/Effects/tooner/Projectiles/Arrows/P_Arrow_1.uasset"
+			},
+			"WeaponLength": 42,
+			"bIsArrowProjectile": true
+		}
+	}
+}

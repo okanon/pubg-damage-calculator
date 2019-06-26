@@ -1,0 +1,88 @@
+{
+	"Default__Item_Weapon_Molotov_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_Molotov_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Molotov",
+			"name": "Play_UI_Item_Equip_Molotov",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Molotov.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Grenades/Molotov/Molotov_01.Molotov_01",
+		"DroppedMeshScale": 1.5,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Molotov",
+			"name": "Play_UI_Item_Equip_Molotov",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Molotov.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Molotov_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Molotov.icon_weapon_Molotov",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Molotov",
+			"name": "Play_UI_Item_Equip_Molotov",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Molotov.uasset"
+		},
+		"ItemCategory": {
+			"Key": "CBE3F2A445FCE4DEA363979059DBEC76",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Molotov",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Molotov",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Molotov",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMolotov_C",
+			"name": "WeapMolotov_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapMolotov.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Molotov",
+			"name": "Play_UI_Item_Equip_Molotov",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Molotov.uasset"
+		},
+		"SkinTag": "Item_Weapon_Molotov",
+		"SortPriority": 700,
+		"SpacePerItem": 16,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Molotov.icon_weapon_Molotov",
+		"WeaponTag": "Molotov",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMolotov_C",
+			"name": "WeapMolotov_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapMolotov.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Molotov_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Molotov_C"
+	}
+}

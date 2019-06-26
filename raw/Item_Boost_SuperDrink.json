@@ -1,0 +1,30 @@
+{
+	"Default__Item_Boost_SuperDrink_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Heal_Bandage_C",
+		"CastConfig": {
+			"CastAnim": "ECastAnim::EnergyDrink",
+			"CastTime": 8,
+			"StrucName": "CastConfig"
+		},
+		"CastableItemType": "ECastableItemType::EnergyDrink",
+		"ClassName": "Item_Boost_SuperDrink_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Super_Drink/SM_Super_Drink_Drop.SM_Super_Drink_Drop",
+		"DroppedMeshScale": 1.5,
+		"ExportName": "Default__Item_Boost_SuperDrink_C",
+		"HealOverTimeBuffClass": {
+			"StrucName": "ObjectProperty"
+		},
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_Boost_Super_Drink.icon_Boost_Super_Drink",
+		"SpacePerItem": 4,
+		"StackCount": 1,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/boost/icon_Boost_Super_Drink.icon_Boost_Super_Drink"
+	},
+	"Item_Boost_SuperDrink_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Heal_Bandage_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Boost_SuperDrink_C"
+	}
+}

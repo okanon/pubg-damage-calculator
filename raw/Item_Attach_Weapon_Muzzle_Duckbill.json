@@ -1,0 +1,143 @@
+{
+	"Default__Item_Attach_Weapon_Muzzle_Duckbill_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Muzzle",
+			"name": "UI_Item_Equip_Attachment_Attached_Muzzle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Muzzle.uasset"
+		},
+		"AttachmentData": {
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+			"AttachmentTag": "MuzzleDuckbill",
+			"MultipleFiringBulletsSpread": 0.8,
+			"Name": "Item_Attach_Weapon_Muzzle_Duckbill_C",
+			"PelletGridOverride": {
+				"0": {
+					"StrucName": "Vector2D",
+					"value": [
+						1.538462,
+						0
+					]
+				},
+				"1": {
+					"StrucName": "Vector2D",
+					"value": [
+						1.153846,
+						0
+					]
+				},
+				"2": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.730769,
+						0
+					]
+				},
+				"3": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.346154,
+						0
+					]
+				},
+				"4": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0
+					]
+				},
+				"5": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.346154,
+						0
+					]
+				},
+				"6": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.730769,
+						0
+					]
+				},
+				"7": {
+					"StrucName": "Vector2D",
+					"value": [
+						-1.153846,
+						0
+					]
+				},
+				"8": {
+					"StrucName": "Vector2D",
+					"value": [
+						-1.538462,
+						0
+					]
+				}
+			},
+			"StrucName": "WeaponAttachmentData",
+			"bUsePelletGridOverride": true
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Shotgun_Choke/DuckBill/DuckBill_Set.DuckBill_Set",
+		"ClassName": "Item_Attach_Weapon_Muzzle_Duckbill_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/Shotgun_Choke/DuckBill/DuckBill_Drop.DuckBill_Drop",
+		"ExportName": "Default__Item_Attach_Weapon_Muzzle_Duckbill_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Muzzle_DuckBill.icon_attach_Muzzle_DuckBill",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "6E87699F40AEE54D1BA5468466966D75",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Muzzle_Duckbill",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Muzzle_Duckbill",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Muzzle_Duckbill",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 850,
+		"SpacePerItem": 5,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Muzzle_DuckBill.icon_attach_Muzzle_DuckBill"
+	},
+	"Item_Attach_Weapon_Muzzle_Duckbill_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Muzzle_Duckbill_C"
+	}
+}

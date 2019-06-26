@@ -1,0 +1,175 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapUziPro_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapUziPro_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeapUZI_C",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineMedium",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Muzzle_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleMedium",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Stock_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Stock_Default",
+						"AttachmentTag": "StockUZI",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Upper_Small",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperReddot",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"ClassName": "WeapUziPro_C",
+		"ExportName": "Default__WeapUziPro_C",
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapUziPro_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapUziPro_C.RootScene",
+			"name": "RootScene"
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapUZIPro_WeaponGunData",
+			"name": "WeapUZIPro_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapUZIPro_WeaponGunData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapUziPro_C.RootScene"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 4,
+			"index": -5,
+			"name": "SceneComponent",
+			"pkgIndex": -13
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapUziPro_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapUziPro_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:FB5F038E481E4CDC79B7D2BD9115AB8D"
+		}
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapUziPro_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "WeapUziPro_C.SimpleConstructionScript_0"
+	},
+	"WeapUziPro_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeapUZI_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapUziPro_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapUziPro_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapUziPro_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapUziPro_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_Uzi_Pro",
+			"name": "SK_Uzi_Pro",
+			"packagePath": "/Weapon/Rifles/UZIPro/Meshes/SK_Uzi_Pro.uasset"
+		}
+	}
+}

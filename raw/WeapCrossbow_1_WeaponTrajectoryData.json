@@ -1,0 +1,34 @@
+{
+	"WeapCrossbow_1_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapCrossbow_1_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty"
+			},
+			"StrucName": "WeaponRecoilConfig"
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 105,
+			"InitialSpeed": 160,
+			"RangeModifier": 0.98,
+			"ReferenceDistance": 100,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"bUseAdvancedBallistics": false
+		}
+	}
+}

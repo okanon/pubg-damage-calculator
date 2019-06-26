@@ -1,0 +1,91 @@
+{
+	"Default__Item_Head_G_01_Lv3_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__EquipableItem",
+		"ClassName": "Item_Head_G_01_Lv3_C",
+		"CustomizableObjectIdentifierForFemale": {
+			"CustomizableObjectGroupName": "Head",
+			"CustomizableObjectName": "F_Head_G_01",
+			"Guid": "A6F0FB474AE07FF2991968838BF2C695",
+			"StrucName": "CustomizableObjectIdentifier"
+		},
+		"CustomizableObjectIdentifierForMale": {
+			"CustomizableObjectGroupName": "Head",
+			"CustomizableObjectName": "M_Head_G_01",
+			"Guid": "DA326AB047231058C3105F874C45F093",
+			"StrucName": "CustomizableObjectIdentifier"
+		},
+		"DamageReductionRate": 0.55,
+		"DamageTransferRate": 0.75,
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Head_EFG",
+			"name": "Play_UI_Item_Equip_Head_EFG",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Head/Play_UI_Item_Equip_Head_EFG.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Character/ItemSpawner/ItemSpawner_Item_Head_Lv3.ItemSpawner_Item_Head_Lv3",
+		"DurabilityMax": 230,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Head_EFG",
+			"name": "Play_UI_Item_Equip_Head_EFG",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Head/Play_UI_Item_Equip_Head_EFG.uasset"
+		},
+		"ExportName": "Default__Item_Head_G_01_Lv3_C",
+		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/equipment_helmet03.equipment_helmet03",
+		"Icon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Head_G_01.icon_equipment_Head_G_01",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Head_EFG",
+			"name": "Play_UI_Item_Equip_Head_EFG",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Head/Play_UI_Item_Equip_Head_EFG.uasset"
+		},
+		"ItemCategory": {
+			"Key": "Headgear",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/1_Item_Category_StringTableDef.1_Item_Category_StringTableDef"
+		},
+		"ItemDescription": {
+			"Flags": "None",
+			"HistoryType": -1,
+			"SourceString": null,
+			"StrucName": "FText"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemDetailedName_Head_G_01_Lv3",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/ST_item_equipment_ItemNames.ST_Item_Equipment_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Head_G_01_Lv3",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Equip/ST_item_equipment_ItemNames.ST_Item_Equipment_ItemNames"
+		},
+		"LobbyItemDesc": {
+			"Category": "ELobbyItemCategory::Head",
+			"StrucName": "LobbyItemDesc"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Head_EFG",
+			"name": "Play_UI_Item_Equip_Head_EFG",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Head/Play_UI_Item_Equip_Head_EFG.uasset"
+		},
+		"SkinTag": "Helmet_Lv3",
+		"SortPriority": 279,
+		"SpacePerItem": 60,
+		"SubCategory": "Headgear",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Head_G_01.icon_equipment_Head_G_01"
+	},
+	"Item_Head_G_01_Lv3_C": {
+		"@Remaining": 72,
+		"@SuperName": "EquipableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Head_G_01_Lv3_C"
+	}
+}

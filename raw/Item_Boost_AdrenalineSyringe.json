@@ -1,0 +1,243 @@
+{
+	"BoostGaugeUp": {
+		"@Remaining": 145,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.BoostGaugeUp"
+	},
+	"CallFunc_BooleanAND_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable.CallFunc_BooleanAND_ReturnValue"
+	},
+	"CallFunc_Conv_IntToText_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.CallFunc_Conv_IntToText_ReturnValue"
+	},
+	"CallFunc_Format_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.CallFunc_Format_ReturnValue"
+	},
+	"CallFunc_Greater_IntInt_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.CallFunc_Greater_IntInt_ReturnValue"
+	},
+	"CallFunc_IsCastable_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable.CallFunc_IsCastable_ReturnValue"
+	},
+	"CallFunc_Less_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.UseBy.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Subtract_IntInt_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.CallFunc_Subtract_IntInt_ReturnValue"
+	},
+	"Character": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.Character"
+	},
+	"Default__Item_Boost_AdrenalineSyringe_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CastableItem",
+		"CastConfig": {
+			"CastAnim": "ECastAnim::Adrenaline",
+			"CastName": {
+				"Key": "88DBA74545CC8D39E9069B8ADB6BAF24",
+				"Namespace": "[83BE7EE74F712E9C0AC94E84AC5385CF]",
+				"SourceString": "Injecting Adrenaline Shot",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 5.9,
+			"MaxLinAcceleration": 3,
+			"StrucName": "CastConfig",
+			"bCanCastInsideMovingVehicle": true
+		},
+		"CastableItemType": "ECastableItemType::Adrenaline",
+		"ClassName": "Item_Boost_AdrenalineSyringe_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"name": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_AdrenalineSyringe.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Injection/Injection_Static.Injection_Static",
+		"DroppedMeshScale": 2.5,
+		"ExportName": "Default__Item_Boost_AdrenalineSyringe_C",
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_Boost_AdrenalineSyringe.icon_Boost_AdrenalineSyringe",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"name": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_AdrenalineSyringe.uasset"
+		},
+		"ItemCategory": {
+			"Key": "1B1A1CD144932CD6E769099EC063A34D",
+			"Namespace": "",
+			"SourceString": "Boost",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Boost_AdrenalineSyringe",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Boost_AdrenalineSyringe",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Boost_AdrenalineSyringe",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"name": "Play_UI_Item_Equip_Usable_AdrenalineSyringe",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_AdrenalineSyringe.uasset"
+		},
+		"PrintTime": 24,
+		"SortPriority": 989,
+		"SpacePerItem": 20,
+		"StackCountMax": 100,
+		"SubCategory": "Boost",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/boost/icon_Boost_AdrenalineSyringe.icon_Boost_AdrenalineSyringe",
+		"bUsable": true
+	},
+	"IsCastable": {
+		"@Remaining": 143,
+		"@SuperName": "IsCastable",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable"
+	},
+	"Item_Boost_AdrenalineSyringe_C": {
+		"@Remaining": 120,
+		"@SuperName": "CastableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C"
+	},
+	"K2Node_MakeArray_Array": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.K2Node_MakeArray_Array.K2Node_MakeArray_Array"
+	},
+	"K2Node_MakeStruct_FormatArgumentData": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.K2Node_MakeStruct_FormatArgumentData"
+	},
+	"PrintCastingTime": {
+		"@Remaining": 517,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime"
+	},
+	"PrintTime": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintTime"
+	},
+	"ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.UseBy.ReturnValue"
+	},
+	"UseBy": {
+		"@Remaining": 507,
+		"@SuperName": "UseBy",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.UseBy"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.BoostGaugeUp.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__Character_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.UseBy.Character"
+	},
+	"__Character_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable.Character"
+	},
+	"__K2Node_MakeArray_Array_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ArrayProperty",
+		"ClassName": "ArrayProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.PrintCastingTime.K2Node_MakeArray_Array"
+	},
+	"__ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.IsCastable.ReturnValue"
+	},
+	"isProcessing": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_AdrenalineSyringe_C.isProcessing"
+	}
+}

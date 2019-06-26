@@ -1,0 +1,266 @@
+{
+	"BoostGaugeAmount": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_PainKiller_C.BoostGaugeAmount"
+	},
+	"BoostGaugeUp": {
+		"@Remaining": 211,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_PainKiller_C.BoostGaugeUp"
+	},
+	"CallFunc_Add_FloatFloat_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_PainKiller_C.BoostGaugeUp.CallFunc_Add_FloatFloat_ReturnValue"
+	},
+	"CallFunc_BooleanAND_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable.CallFunc_BooleanAND_ReturnValue"
+	},
+	"CallFunc_Conv_IntToText_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.CallFunc_Conv_IntToText_ReturnValue"
+	},
+	"CallFunc_FMin_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "Item_Boost_PainKiller_C.BoostGaugeUp.CallFunc_FMin_ReturnValue"
+	},
+	"CallFunc_Format_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.CallFunc_Format_ReturnValue"
+	},
+	"CallFunc_Greater_IntInt_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.CallFunc_Greater_IntInt_ReturnValue"
+	},
+	"CallFunc_IsCastable_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable.CallFunc_IsCastable_ReturnValue"
+	},
+	"CallFunc_Less_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.UseBy.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Subtract_IntInt_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.CallFunc_Subtract_IntInt_ReturnValue"
+	},
+	"Character": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_PainKiller_C.Character"
+	},
+	"Default__Item_Boost_PainKiller_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CastableItem",
+		"BoostGaugeAmount": 60,
+		"CastConfig": {
+			"CastAnim": "ECastAnim::Painkiller",
+			"CastName": {
+				"Key": "856C201E4D3F821BA873C8B03E2EFD7D",
+				"Namespace": "[DAF1AB074F3FE36E7D40DEAB686EE00D]",
+				"SourceString": "Taking Painkillers",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 5.9,
+			"MaxLinAcceleration": 3,
+			"StrucName": "CastConfig",
+			"bCanCastInsideMovingVehicle": true
+		},
+		"CastableItemType": "ECastableItemType::Painkiller",
+		"ClassName": "Item_Boost_PainKiller_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_PainKiller",
+			"name": "Play_UI_Item_Equip_Usable_PainKiller",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_PainKiller.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Pills_Jar/Pills_Jar_Static.Pills_Jar_Static",
+		"DroppedMeshScale": 2.5,
+		"ExportName": "Default__Item_Boost_PainKiller_C",
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_Boost_PainKiller.icon_Boost_PainKiller",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_PainKiller",
+			"name": "Play_UI_Item_Equip_Usable_PainKiller",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_PainKiller.uasset"
+		},
+		"ItemCategory": {
+			"Key": "448EA5D5499BF2139BE2F4B8C2F87B88",
+			"Namespace": "",
+			"SourceString": "Boost",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Boost_PainKiller",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Boost_PainKiller",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Boost_PainKiller",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_PainKiller",
+			"name": "Play_UI_Item_Equip_Usable_PainKiller",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_PainKiller.uasset"
+		},
+		"PrintTime": 14,
+		"SortPriority": 988,
+		"SpacePerItem": 10,
+		"StackCountMax": 100,
+		"SubCategory": "Boost",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/boost/icon_Boost_PainKiller.icon_Boost_PainKiller",
+		"bStackable": true,
+		"bUsable": true
+	},
+	"IsCastable": {
+		"@Remaining": 143,
+		"@SuperName": "IsCastable",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable"
+	},
+	"Item_Boost_PainKiller_C": {
+		"@Remaining": 120,
+		"@SuperName": "CastableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Boost_PainKiller_C"
+	},
+	"K2Node_MakeArray_Array": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.K2Node_MakeArray_Array.K2Node_MakeArray_Array"
+	},
+	"K2Node_MakeStruct_FormatArgumentData": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.K2Node_MakeStruct_FormatArgumentData"
+	},
+	"PrintCastingTime": {
+		"@Remaining": 519,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime"
+	},
+	"PrintTime": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintTime"
+	},
+	"ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.UseBy.ReturnValue"
+	},
+	"UseBy": {
+		"@Remaining": 478,
+		"@SuperName": "UseBy",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Boost_PainKiller_C.UseBy"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__CallFunc_Less_FloatFloat_ReturnValue_2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.BoostGaugeUp.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"__Character_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_PainKiller_C.UseBy.Character"
+	},
+	"__Character_2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable.Character"
+	},
+	"__K2Node_MakeArray_Array_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ArrayProperty",
+		"ClassName": "ArrayProperty",
+		"ExportName": "Item_Boost_PainKiller_C.PrintCastingTime.K2Node_MakeArray_Array"
+	},
+	"__ReturnValue_1": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.IsCastable.ReturnValue"
+	},
+	"isProcessing": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Boost_PainKiller_C.isProcessing"
+	}
+}

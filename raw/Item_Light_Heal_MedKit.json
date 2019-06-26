@@ -1,0 +1,32 @@
+{
+	"Default__Item_Light_Heal_MedKit_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Heal_Bandage_C",
+		"CastConfig": {
+			"CastAnim": "ECastAnim::FirstAid",
+			"CastTime": 3,
+			"StrucName": "CastConfig"
+		},
+		"CastableItemType": "ECastableItemType::FirstAid",
+		"ClassName": "Item_Light_Heal_MedKit_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/FirstAidKit/Models/SM_FirstAidPack.SM_FirstAidPack",
+		"ExportName": "Default__Item_Light_Heal_MedKit_C",
+		"HealOverTimeBuffClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "Buff_HealOverTime_Child1_C",
+			"name": "Buff_HealOverTime_Child1_C",
+			"packagePath": "/Blueprints/Buff/Buff_HealOverTime_Child1.uasset"
+		},
+		"Icon": "AssetObject==/Game/UI/item/boost/icon_Boost_EnergyDrink.icon_Boost_EnergyDrink",
+		"SpacePerItem": 7,
+		"StackCount": 2
+	},
+	"Item_Light_Heal_MedKit_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Heal_Bandage_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Light_Heal_MedKit_C"
+	}
+}

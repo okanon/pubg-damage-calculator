@@ -1,0 +1,1948 @@
+{
+	"Default__Item_Attach_Weapon_Muzzle_Suppressor_Medium_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Muzzle",
+			"name": "UI_Item_Equip_Attachment_Attached_Muzzle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Muzzle.uasset"
+		},
+		"AttachmentData": {
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+			"AttachmentTag": "MuzzleMedium",
+			"BarrelLengthAdditive": 15,
+			"DeviationMultiplier": 0.95,
+			"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+			"MuzzleFx": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Muzzle_03_SMG_Suppressor",
+				"name": "P_Muzzle_03_SMG_Suppressor",
+				"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+			},
+			"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+			"StrucName": "WeaponAttachmentData",
+			"bIsSuppressor": true
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_setting.Medium_Suppressor_setting",
+		"AttachmentWeaponTagData": [
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_MicroUzi_Fire_Suppressed",
+						"name": "Weapon_MicroUzi_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/MicroUzi/Weapon_MicroUzi_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_Uzi_setting.Medium_Suppressor_Uzi_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "UZI"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_UMP_Fire_Suppressed",
+						"name": "Weapon_UMP_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/UMP/Weapon_UMP_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_setting.Medium_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "UMP"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_Thompson_Fire_Suppressed",
+						"name": "Weapon_Thompson_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/Thompson/Weapon_Thompson_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_setting.Medium_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "Thompson"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.97,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapons_Vector_Fire_Suppressed",
+						"name": "Weapons_Vector_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/Vector/Weapons_Vector_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_setting.Medium_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "Vector"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.97,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapons_Bizon_Fire_Suppressed",
+						"name": "Weapons_Bizon_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/Bizon/Weapons_Bizon_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/BizonPP19/Meshes/SM_BizonPP19_PBS.SM_BizonPP19_PBS",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "PP19"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleMedium",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.97,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_03_SMG_Suppressor",
+						"name": "P_Muzzle_03_SMG_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_03_SMG_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_MP5K_Fire_Suppressed",
+						"name": "Weapon_MP5K_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/MP5K/Weapon_MP5K_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Medium_Suppressor_setting.Medium_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "MP5K"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleSmall",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_01_Pistol_Suppressor",
+						"name": "P_Muzzle_01_Pistol_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_BerretaM9_Fire_Suppressed",
+						"name": "Weapon_BerretaM9_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/BerretaM9/Weapon_BerretaM9_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Small_Suppressor_setting.Small_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "M9"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleSmall",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_01_Pistol_Suppressor",
+						"name": "P_Muzzle_01_Pistol_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_M1911_Fire_Suppressed",
+						"name": "Weapon_M1911_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/M1911/Weapon_M1911_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Small_Suppressor_setting.Small_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "M1911"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleSmall",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_01_Pistol_Suppressor",
+						"name": "P_Muzzle_01_Pistol_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_NagantM1895_Fire_Suppressed",
+						"name": "Weapon_NagantM1895_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/NagantM1895/Weapon_NagantM1895_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Small_Suppressor_setting.Small_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "NagantM1895"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleSmall",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_01_Pistol_Suppressor",
+						"name": "P_Muzzle_01_Pistol_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_Glock18C_Fire_Suppressed",
+						"name": "Weapon_Glock18C_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/Glock18C/Weapon_Glock18C_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Muzzle/Suppressor/Small_Suppressor_setting.Small_Suppressor_setting",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "G18"
+			},
+			{
+				"AttachmentData": {
+					"ADSAlphaVectorCurve": {
+						"StrucName": "ObjectProperty"
+					},
+					"ADSSpeedMultiplier": 1,
+					"AmmoPerClip": 0,
+					"AnimationKickMultiplier": 1,
+					"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+					"AttachmentTag": "MuzzleSmall",
+					"BarrelLengthAdditive": 15,
+					"CantedWeaponRotation": 0,
+					"CharacterReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"CharacterReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"DecreaseRecoilPatternScale": 0,
+					"DeviationMultiplier": 0.95,
+					"FPPSocketOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"GripType_MN": 0,
+					"IKHandOffset": {
+						"StrucName": "Vector",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"IKHandRotation": {
+						"StrucName": "Rotator",
+						"value": [
+							0,
+							0,
+							0
+						]
+					},
+					"MagnificationFOV": 1,
+					"MagnificationFOVMaxIncrement": 0,
+					"MagnificationFOVSteps": 5,
+					"MouseSensitiveName": "None",
+					"MultipleAmmoSpeed": 1,
+					"MultipleFiringBulletsSpread": 1,
+					"MultipleFiringSpreadBase": 1,
+					"MuzzleAttachPoint": "MuzzleFlashSocket_Suppressor",
+					"MuzzleFx": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_Muzzle_01_Pistol_Suppressor",
+						"name": "P_Muzzle_01_Pistol_Suppressor",
+						"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol_Suppressor.uasset"
+					},
+					"MuzzleSound": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Weapon_Glock18C_Fire_Suppressed",
+						"name": "Weapon_Glock18C_Fire_Suppressed",
+						"packagePath": "/WwiseAssets/Weapons/Glock18C/Weapon_Glock18C_Fire_Suppressed.uasset"
+					},
+					"Name": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+					"PelletGridOverride": {},
+					"RecoilEarlyExitScale": 0,
+					"RecoilMultiplierHorizontal": 1,
+					"RecoilMultiplierVertical": 1,
+					"RecoilRecoveryMultiplier": 1,
+					"ReloadAnimationPlayRate": 1,
+					"ReticleBrightnessConfig": {
+						"ReticleBrightnessParamX": "None",
+						"ReticleBrightnessParamY": "None",
+						"ReticleBrightnessParamZ": "None",
+						"ReticleBrightnessSettingsCurve": {
+							"StrucName": "ObjectProperty"
+						},
+						"StrucName": "BrightnessConfig"
+					},
+					"ReticleMaterialOverrides": {
+						"@Values": []
+					},
+					"ReticleSettingsOverrides": {
+						"@Values": []
+					},
+					"ReticleTextureDataArray": [],
+					"ReticleTextureOverrides": {
+						"@Values": []
+					},
+					"ScopeGlintConfig": {
+						"GlintColor": {
+							"StrucName": "LinearColor",
+							"value": [
+								0.45,
+								0.45,
+								0.45,
+								1
+							]
+						},
+						"GlintEnabled": false,
+						"GlintRadiusScreen": 0.016,
+						"GlintStartFade": {
+							"StrucName": "Vector2D",
+							"value": [
+								0,
+								1000
+							]
+						},
+						"GlintVisibilityArcLength": {
+							"StrucName": "Vector2D",
+							"value": [
+								25,
+								150
+							]
+						},
+						"ScopeEndPositionLS": {
+							"StrucName": "Vector",
+							"value": [
+								0,
+								0,
+								0
+							]
+						},
+						"ScopeRadiusLS": 1.2,
+						"ScopeRadiusScreen": 0.014,
+						"StrucName": "ScopeGlintConfig"
+					},
+					"ScopePostprocessData": {
+						"StrucName": "ObjectProperty"
+					},
+					"StabilityMinForceAdditive": 0,
+					"StabilitySpeedScalar": 1,
+					"StrucName": "WeaponAttachmentData",
+					"SwayMultiplier": 1,
+					"WeaponGripLeft": "EWeaponGripLeftHand::NormalRifle",
+					"WeaponReloadCharge": {
+						"StrucName": "ObjectProperty"
+					},
+					"WeaponReloadTactical": {
+						"StrucName": "ObjectProperty"
+					},
+					"ZeroingDistances": [
+						100,
+						200,
+						300,
+						400,
+						500,
+						600,
+						700,
+						800
+					],
+					"bIsSuppressor": true,
+					"bUseCustomADSAlpha": false,
+					"bUseDefaultReticleCaching": false,
+					"bUsePelletGridOverride": false,
+					"bUseReticleTypeOverride": false
+				},
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Pistols/Skorpion/Meshes/SM_vz61Skorpion_Silencer.SM_vz61Skorpion_Silencer",
+				"AttachmentMeshName": "None",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty"
+				},
+				"StrucName": "WeaponAttachmentWeaponTagData",
+				"WeaponTag": "Skorpion"
+			}
+		],
+		"ClassName": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/Suppressor/Medium_Suppressor/Medium_Suppressor_01.Medium_Suppressor_01",
+		"ExportName": "Default__Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Muzzle_Suppressor_Medium.icon_attach_Muzzle_Suppressor_Medium",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "E0535D2F4A5B050D031B1798D87AE5DE",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Muzzle_Suppressor_Medium",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Muzzle_Suppressor_Medium",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Muzzle_Suppressor_Medium",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 860,
+		"SpacePerItem": 15,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Muzzle_Suppressor_Medium.icon_attach_Muzzle_Suppressor_Medium"
+	},
+	"Item_Attach_Weapon_Muzzle_Suppressor_Medium_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C"
+	}
+}

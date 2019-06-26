@@ -1,0 +1,116 @@
+{
+	"Default__Item_Attach_Weapon_Upper_PM2_01_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"name": "UI_Item_Equip_Attachment_Attached_Scopes",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Scopes.uasset"
+		},
+		"AttachmentData": {
+			"ADSAlphaVectorCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_ADSAlpha_PM2",
+				"name": "C_ADSAlpha_PM2",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/C_ADSAlpha_PM2.uasset"
+			},
+			"ADSSpeedMultiplier": 0.78,
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+			"AttachmentTag": "UpperLarge",
+			"FPPSocketOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-1.45
+				]
+			},
+			"MagnificationFOV": 6.666667,
+			"MagnificationFOVMaxIncrement": 6.666667,
+			"MouseSensitiveName": "Scope15X",
+			"Name": "Item_Attach_Weapon_Upper_PM2_01_C",
+			"ScopePostprocessData": {
+				"StrucName": "ObjectProperty",
+				"className": "ReticlePostprocessData",
+				"importName": "Sight_PM2_PostprocessData",
+				"name": "Sight_PM2_PostprocessData",
+				"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_PM2_PostprocessData.uasset"
+			},
+			"StrucName": "WeaponAttachmentData",
+			"ZeroingDistances": [
+				100,
+				200,
+				300,
+				400,
+				500,
+				600,
+				700,
+				800,
+				900,
+				1000
+			],
+			"bUseCustomADSAlpha": true
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/New/Sight/New/PM11_setting.PM11_setting",
+		"ClassName": "Item_Attach_Weapon_Upper_PM2_01_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Accessories/PM11/PM11_01.PM11_01",
+		"DroppedMeshScale": 1.3,
+		"ExportName": "Default__Item_Attach_Weapon_Upper_PM2_01_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_PM2_01.icon_attach_Upper_PM2_01",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "2FA44F6B442563494DEE7FAF82F14D3C",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Attach_Weapon_Upper_PM2_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemDescriptions.ST_Item_Attach_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Upper_PM2_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Upper_PM2_01",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Attachment/ST_Item_Attach_ItemNames.ST_Item_Attach_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 888,
+		"SpacePerItem": 20,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Upper_PM2_01.icon_attach_Upper_PM2_01"
+	},
+	"Item_Attach_Weapon_Upper_PM2_01_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Upper_PM2_01_C"
+	}
+}

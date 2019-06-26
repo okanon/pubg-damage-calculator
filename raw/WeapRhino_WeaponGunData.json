@@ -1,0 +1,153 @@
+{
+	"WeapRhino_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapRhino_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Rhino_Fire_Montage",
+				"name": "CharacterWeapon_Rhino_Fire_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/CharacterWeapon_Rhino_Fire_Montage.uasset"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Rhino_Grip",
+				"name": "Weapon_Rhino_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/Weapon_Rhino_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Rhino_Reload_Montage",
+				"name": "CharacterWeapon_Rhino_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/CharacterWeapon_Rhino_Reload_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Rhino_Reload_Montage",
+				"name": "CharacterWeapon_Rhino_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Rhino/CharacterWeapon_Rhino_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"RecoilKickADS": 0.9,
+			"RecoilKick_MovementMaxMultiplier": 1.2,
+			"Reload": {
+				"StrucName": "ObjectProperty"
+			},
+			"ReloadDurationCharge": 3.2,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 3.2,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_M9_C",
+				"name": "CS_WeapGun_Pistol_M9_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_M9.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_Nagant_ADS_C",
+				"name": "CS_WeapGun_Pistol_Nagant_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_Nagant_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Pistol_Nagant_ADS_C",
+				"name": "CS_WeapGun_Pistol_Nagant_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Pistol_Nagant_ADS.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"bCycleAfterLastShot": false
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 2.7,
+			"DeviationBaseADS": 0.03,
+			"DeviationBaseAim": 1.5,
+			"DeviationMax": 4,
+			"DeviationMaxMove": 1.5,
+			"DeviationMoveMaxReferenceVelocity": 480,
+			"DeviationMoveMinReferenceVelocity": 160,
+			"DeviationMoveMultiplier": 1.7,
+			"DeviationRecoilGain": 0.8,
+			"DeviationRecoilGainADS": 0.03,
+			"DeviationRecoilGainAim": 0.7,
+			"DeviationStanceJump": 1.2,
+			"MOA": 4,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_45ACP_C",
+				"name": "Item_Ammo_45ACP_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_45ACP.uasset"
+			},
+			"AmmoPerClip": 7,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					18,
+					1,
+					7
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					20,
+					-2,
+					10
+				]
+			},
+			"MovementModifierAim": 1.8,
+			"MovementModifierScope": 1.6,
+			"NoAnimReloadDuration": 3,
+			"ShoulderLength": 10,
+			"StabilityForceModifier": 0.2,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.25,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 10,
+			"WeaponToShoulderOffset": -20
+		}
+	}
+}

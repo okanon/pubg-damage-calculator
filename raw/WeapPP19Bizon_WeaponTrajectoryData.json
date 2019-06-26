@@ -1,0 +1,76 @@
+{
+	"WeapPP19Bizon_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapPP19Bizon_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": -0.175,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.06
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_Bizon",
+				"name": "C_Recoil_SMG_Bizon",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_Bizon.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.7,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 6.5,
+			"RecoilSpeed_Vertical": 10,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.024
+				]
+			},
+			"RecoilValue_Climb": 0.56,
+			"RecoilValue_Fall": 1.87,
+			"RecoverySpeed_Vertical": 7,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 4.05,
+			"VerticalRecoveryMax": 1.6
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Bizon",
+				"name": "C_Ballistic_Bizon",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Bizon.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 35,
+			"InitialSpeed": 350,
+			"RangeModifier": 0.89,
+			"ReferenceDistance": 200,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.68
+		}
+	}
+}

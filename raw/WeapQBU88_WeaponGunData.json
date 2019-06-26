@@ -1,0 +1,173 @@
+{
+	"WeapQBU88_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapQBU88_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Character_Weapon_M16_Firemode_Montage",
+				"name": "Character_Weapon_M16_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/M16/Character_Weapon_M16_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_QBU_Grip",
+				"name": "Weapon_QBU_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/QBU88/Weapon_QBU_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_QBU_Reload_Charge_Montage",
+				"name": "CharacterWeapon_QBU_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/QBU88/CharacterWeapon_QBU_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_QBU_Reload_Montage",
+				"name": "CharacterWeapon_QBU_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/QBU88/CharacterWeapon_QBU_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"MagDropAngularVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					50,
+					0
+				]
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-100
+				]
+			},
+			"RecoilKickADS": 1,
+			"RecoilKick_MovementMaxMultiplier": 1.3,
+			"Reload": {
+				"StrucName": "ObjectProperty"
+			},
+			"ReloadDurationCharge": 3,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 2.25,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_556_C",
+				"name": "CS_WeapGun_Rifle_556_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_556.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_556_Mini14_ADS_C",
+				"name": "CS_WeapGun_Rifle_556_Mini14_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_556_Mini14_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_556_Mini14_Ironsight_C",
+				"name": "CS_WeapGun_Rifle_556_Mini14_Ironsight_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_556_Mini14_Ironsight.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_Mini14_Reload_Charge_Montage",
+				"name": "Weapon_Mini14_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Mini14/Weapon/Weapon_Mini14_Reload_Charge_Montage.uasset"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_Mini14_Reload_Charge_Montage",
+				"name": "Weapon_Mini14_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Mini14/Weapon/Weapon_Mini14_Reload_Charge_Montage.uasset"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 3.5,
+			"DeviationBaseADS": 0.003,
+			"DeviationBaseAim": 1.2,
+			"DeviationMax": 8,
+			"DeviationMaxMove": 3.4,
+			"DeviationMoveMaxReferenceVelocity": 300,
+			"DeviationRecoilGain": 1.3,
+			"DeviationRecoilGainADS": 0.03,
+			"DeviationRecoilGainAim": 0.8,
+			"DeviationStanceJump": 1.65,
+			"MOA": 1.5,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_556mm_C",
+				"name": "Item_Ammo_556mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_556mm.uasset"
+			},
+			"AmmoPerClip": 10,
+			"BurstShots": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					-1,
+					1
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					1
+				]
+			},
+			"NoAnimReloadDuration": 2.5,
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.1,
+			"TracerClass": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Tracer_Mini14",
+				"name": "P_Tracer_Mini14",
+				"packagePath": "/Export_Marek/Tracer/P_Tracer_Mini14.uasset"
+			},
+			"WeaponLength": 57
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"Default__Item_Weapon_UziPro_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_UZI_C",
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_UziPro_C",
+		"ExportName": "Default__Item_Weapon_UziPro_C",
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapUziPro_C",
+			"name": "WeapUziPro_C",
+			"packagePath": "/Blueprints/Weapons/WeapUziPro.uasset"
+		},
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapUziPro_C",
+			"name": "WeapUziPro_C",
+			"packagePath": "/Blueprints/Weapons/WeapUziPro.uasset"
+		}
+	},
+	"Item_Weapon_UziPro_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_UZI_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_UziPro_C"
+	}
+}

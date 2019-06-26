@@ -1,0 +1,77 @@
+{
+	"WeapMP5K_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapMP5K_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": 0.05,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.04
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_MP5K",
+				"name": "C_Recoil_SMG_MP5K",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_MP5K.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.6,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 12,
+			"RecoilSpeed_Vertical": 12,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.7,
+					1.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.025
+				]
+			},
+			"RecoilValue_Climb": 0.6,
+			"RecoilValue_Fall": 2.5,
+			"RecoverySpeed_Vertical": 8.5,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 5.5,
+			"VerticalRecoveryMax": 1.5,
+			"VerticalRecoveryModifier": 0.6
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_MP5K",
+				"name": "C_Ballistic_MP5K",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_MP5K.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 33,
+			"InitialSpeed": 400,
+			"RangeModifier": 0.89,
+			"ReferenceDistance": 200,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.68
+		}
+	}
+}

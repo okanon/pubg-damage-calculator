@@ -1,0 +1,168 @@
+{
+	"WeapWin94_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapWin94_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Win1894_BoltAction_Fast_Montage",
+				"name": "CharacterWeapon_Win1894_BoltAction_Fast_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/CharacterWeapon_Win1894_BoltAction_Fast_Montage.uasset"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Win1894_Grip",
+				"name": "Weapon_Win1894_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/Weapon_Win1894_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Win1894_Reload_Montage",
+				"name": "CharacterWeapon_Win1894_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/CharacterWeapon_Win1894_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Win1894_Reload_Montage",
+				"name": "CharacterWeapon_Win1894_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/CharacterWeapon_Win1894_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Win1894_Reload_Montage",
+				"name": "CharacterWeapon_Win1894_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/CharacterWeapon_Win1894_Reload_Montage.uasset"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"CycleAfterReloadDelay": 0.3,
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty",
+				"className": "CameraAnim",
+				"importName": "CSA_Sniper_Win1984_Cycle",
+				"name": "CSA_Sniper_Win1984_Cycle",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CSA_Sniper_Win1984_Cycle.uasset"
+			},
+			"FireCycleDelay": 0.25,
+			"FireCycleDuration": 0.6,
+			"RecoilKickADS": 0.25,
+			"Reload": {
+				"StrucName": "ObjectProperty"
+			},
+			"ReloadDurationCharge": 4,
+			"ReloadDurationLoop": 0.736,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationStart": 0.3,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_762_Kar98_C",
+				"name": "CS_WeapGun_Sniper_762_Kar98_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_Kar98.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_762_Kar98_Scope_C",
+				"name": "CS_WeapGun_Sniper_762_Kar98_Scope_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_Kar98_Scope.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Sniper_Win1894_Ironsight_C",
+				"name": "CS_WeapGun_Sniper_Win1894_Ironsight_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_Win1894_Ironsight.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"bCycleAfterLastShot": false,
+			"bUseBoltAction": true
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 3.7,
+			"DeviationBaseADS": 0.005,
+			"DeviationBaseAim": 1.3,
+			"DeviationMax": 8,
+			"DeviationMaxMove": 2.5,
+			"DeviationMoveMultiplier": 1.5,
+			"DeviationRecoilGain": 1.3,
+			"DeviationRecoilGainADS": 0.02,
+			"DeviationRecoilGainAim": 0.8,
+			"MOA": 1.33,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_45ACP_C",
+				"name": "Item_Ammo_45ACP_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_45ACP.uasset"
+			},
+			"AmmoPerClip": 5,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					-1.5,
+					4
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					2,
+					0.5,
+					2
+				]
+			},
+			"NoAnimReloadDuration": 2,
+			"ReloadDurationByOneInitial": 0.551,
+			"ReloadDurationByOneLoop": 0.736,
+			"ReloadMethod": "EWeaponReloadMethod::OneByOne",
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.6,
+			"TraceRadius": 1.8,
+			"TracerClass": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Tracer1",
+				"name": "P_Tracer1",
+				"packagePath": "/Export_Marek/Tracer/P_Tracer1.uasset"
+			},
+			"WeaponLength": 48,
+			"bManualCycleAfterShot": true,
+			"bManualCycleInitialStateReady": false
+		}
+	}
+}

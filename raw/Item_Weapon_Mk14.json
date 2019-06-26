@@ -1,0 +1,76 @@
+{
+	"Default__Item_Weapon_Mk14_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_SKS_C",
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_Mk14_C",
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/MK14/Meshes/MK14EBR_Drop.MK14EBR_Drop",
+		"ExportName": "Default__Item_Weapon_Mk14_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_MI_Mk14EBR.icon_weapon_MI_Mk14EBR",
+		"ItemDescription": {
+			"Key": "Item_Weapon_Mk14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemDetailedName_Weapon_Mk14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Mk14",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMk14_C",
+			"name": "WeapMk14_C",
+			"packagePath": "/Blueprints/Weapons/WeapMk14.uasset"
+		},
+		"SkinTag": "Item_Weapon_Mk14",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_MI_Mk14EBR.icon_weapon_MI_Mk14EBR",
+		"WeaponTag": "Mk14",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapMk14_C",
+			"name": "WeapMk14_C",
+			"packagePath": "/Blueprints/Weapons/WeapMk14.uasset"
+		}
+	},
+	"Item_Weapon_Mk14_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_SKS_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Mk14_C"
+	}
+}

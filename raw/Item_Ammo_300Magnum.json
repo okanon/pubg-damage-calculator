@@ -1,0 +1,72 @@
+{
+	"Default__Item_Ammo_300Magnum_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"AmmoIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_ammo_300magnum",
+			"name": "weapons_ammo_300magnum",
+			"packagePath": "/UI/Weapon/weapons_ammo_300magnum.uasset"
+		},
+		"ClassName": "Item_Ammo_300Magnum_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal50/Cal50_CaseClosed.Cal50_CaseClosed",
+		"DroppedMeshScale": 0.6,
+		"ExportName": "Default__Item_Ammo_300Magnum_C",
+		"Icon": "AssetObject==/Game/UI/item/ammo/icon_ammo_300Magnum.icon_ammo_300Magnum",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"ItemCategory": {
+			"Key": "EEFDD24D46420BFFB25B59877CD94A75",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Ammo_300Magnum",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemDescriptions.ST_Item_Ammo_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Ammo_300Magnum",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Ammo_300Magnum",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"SortPriority": 113,
+		"SpacePerItem": 1,
+		"StackCount": 10,
+		"StackCountMax": 70,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/ammo/icon_ammo_300Magnum.icon_ammo_300Magnum"
+	},
+	"Item_Ammo_300Magnum_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_300Magnum_C"
+	}
+}

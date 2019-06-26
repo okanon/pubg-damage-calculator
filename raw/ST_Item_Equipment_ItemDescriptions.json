@@ -1,0 +1,24 @@
+{
+	"ST_Item_Equipment_ItemDescriptions": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "ST_Item_Equipment_ItemDescriptions",
+		"KeysToSourceStrings": {
+			"Item_Armor_C_01_Lv3": "Capacity +50",
+			"Item_Armor_D_01_Lv2": "Capacity +50",
+			"Item_Armor_E_01_Lv1": "Capacity +50",
+			"Item_Back_C_01_Lv3": "Capacity +250",
+			"Item_Back_C_02_Lv3": "Capacity +250",
+			"Item_Back_E_01_Lv1": "Capacity +150",
+			"Item_Back_E_02_Lv1": "Capacity +150",
+			"Item_Back_F_01_Lv2": "Capacity +200",
+			"Item_Back_F_02_Lv2": "Capacity +200",
+			"Item_Belt_C_01": "Capacity +50",
+			"Item_Belt_D_01": "Capacity +50",
+			"Item_Belt_D_02": "Capacity +50"
+		},
+		"TableNamespace": "ST_Item_Equipment_ItemDescriptions"
+	}
+}

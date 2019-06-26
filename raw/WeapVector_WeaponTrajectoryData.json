@@ -1,0 +1,76 @@
+{
+	"WeapVector_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapVector_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": 0.03,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.03
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_Vector",
+				"name": "C_Recoil_SMG_Vector",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_Vector.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.55,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 16,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.016
+				]
+			},
+			"RecoilValue_Climb": 0.5,
+			"RecoilValue_Fall": 2.2,
+			"RecoverySpeed_Vertical": 12,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 5,
+			"VerticalRecoveryMax": 1.5,
+			"VerticalRecoveryModifier": 0.4
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Vector9",
+				"name": "C_Ballistic_Vector9",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Vector9.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 31,
+			"RangeModifier": 0.8,
+			"ReferenceDistance": 150,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.65
+		}
+	}
+}

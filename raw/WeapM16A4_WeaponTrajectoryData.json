@@ -1,0 +1,56 @@
+{
+	"WeapM16A4_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapM16A4_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_M16A4",
+				"name": "C_Recoil_M16A4",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_M16A4.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.4,
+			"RecoilModifier_Crouch": 0.84,
+			"RecoilSpeed_Horizontal": 13,
+			"RecoilSpeed_Vertical": 11,
+			"RecoilValue_Climb": 0.8,
+			"RecoilValue_Fall": 2.4,
+			"RecoverySpeed_Vertical": 8,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilMin": 0.025,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 4.55,
+			"VerticalRecoveryMax": 1.4,
+			"VerticalRecoveryModifier": 0.54
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_M16A4",
+				"name": "C_Ballistic_M16A4",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_M16A4.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 43,
+			"InitialSpeed": 900,
+			"RangeModifier": 0.94,
+			"ReferenceDistance": 400,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.781
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"WeapUZI_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapUZI_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.024
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_Uzi",
+				"name": "C_Recoil_SMG_Uzi",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_Uzi.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.35,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 14,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.016
+				]
+			},
+			"RecoilValue_Climb": 0.2,
+			"RecoilValue_Fall": 1.25,
+			"RecoverySpeed_Vertical": 12,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 4,
+			"VerticalRecoveryMax": 3
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Uzi",
+				"name": "C_Ballistic_Uzi",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Uzi.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 26,
+			"InitialSpeed": 350,
+			"RangeModifier": 0.88,
+			"ReferenceDistance": 150,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.65
+		}
+	}
+}

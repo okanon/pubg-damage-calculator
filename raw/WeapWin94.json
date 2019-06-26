@@ -1,0 +1,320 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapWin94_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapWin94_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Stock_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Stock_Default",
+						"AttachmentTag": "StockSniperRifleBullet",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapWin94_C",
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Snipe",
+			"name": "Weapons_Equip_Snipe",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Snipe.uasset"
+		},
+		"ExportName": "Default__WeapWin94_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_Sniper_762_Kar98_C",
+			"name": "CS_WeapGun_Sniper_762_Kar98_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Sniper_762_Kar98.uasset"
+		},
+		"FireLoopSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Winchester1894_Fire_ShortTail",
+			"name": "Weapon_Winchester1894_Fire_ShortTail",
+			"packagePath": "/WwiseAssets/Weapons/Winchester1894/Weapon_Winchester1894_Fire_ShortTail.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Winchester1894_Fire_LongTail",
+			"name": "Weapon_Winchester1894_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Winchester1894/Weapon_Winchester1894_Fire_LongTail.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Large_TN_C",
+			"name": "GunImpact_Large_TN_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Large_TN.uasset"
+		},
+		"LightImpactTemplate": {
+			"StrucName": "ObjectProperty"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapWin94_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_05_Rifle",
+			"name": "P_Muzzle_05_Rifle",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_05_Rifle.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapWin94_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.1,
+			"CrouchRecoveryTime": 0.55,
+			"FiringSpreadBase": 13.5,
+			"ProneRecoveryTime": 0.5,
+			"RecoilPatternScale": 0.4,
+			"RecoilPatterns": [],
+			"RecoilRecoverySpeed": 4,
+			"RecoilSpeed": 19,
+			"ScopingSpreadModifier": 0.007,
+			"StandRecoveryTime": 0.6,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 8
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1.5,
+			"CameraDOF_Range": 45,
+			"HoldBreathFOV": 38,
+			"IronSightZeroingDistances": [
+				100,
+				200,
+				300,
+				400,
+				500
+			],
+			"PhysicalBodyHitImpactPower": 16000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Rifle_Recoil_Sniper_Montage",
+				"name": "Rifle_Recoil_Sniper_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/Rifle/Recoil/Rifle_Recoil_Sniper_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					6,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					33,
+					0
+				]
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 52,
+			"WeaponClass": "EWeaponClass::Class_Sniper",
+			"WeaponEquipDuration": 0.25,
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapWin94_WeaponGunData",
+			"name": "WeapWin94_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapWin94_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.5,
+			"DepthBlurBlackPoint": 45,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 3,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_Winchester",
+			"name": "weapons_gun_Winchester",
+			"packagePath": "/UI/Weapon/weapons_gun_Winchester.uasset"
+		},
+		"WeaponIconRatio": 3.64,
+		"WeaponTag": "Win94",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapWin94_WeaponTrajectoryData",
+			"name": "WeapWin94_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapWin94_WeaponTrajectoryData.uasset"
+		}
+	},
+	"InheritableComponentHandler": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "WeapWin94_C.InheritableComponentHandler"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapWin94_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 19,
+			"index": -20,
+			"name": "SceneComponent",
+			"pkgIndex": -47
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapWin94_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapWin94_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D6F634D44DBF99D659773C9A370D8B0F"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapWin94_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapWin94_C.SimpleConstructionScript_1"
+	},
+	"WeapWin94_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapWin94_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "WeapWin94_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapWin94_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Weapon_Win94_C",
+			"name": "ABP_Weapon_Win94_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Win1894/Weapon/ABP_Weapon_Win94.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapWin94_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 3.45744419,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapWin94_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_Win1894",
+			"name": "SK_Win1894",
+			"packagePath": "/Weapon/Rifles/Winchester/Mesh/SK_Win1894.uasset"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"Default__Item_Weapon_Snowball_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_Snowball_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop",
+			"name": "UI_Inventory_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Grenades/SnowBall/SM_SnowBall.SM_SnowBall",
+		"DroppedMeshScale": 1.7,
+		"ExportName": "Default__Item_Weapon_Snowball_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Snowball.icon_weapon_Snowball",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "27D0705345D67E7E50768FA1340D8B8D",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Snowball",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Snowball",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Snowball",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapSnowball_C",
+			"name": "WeapSnowball_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapSnowball.uasset"
+		},
+		"SkinTag": "Item_Weapon_Snowball",
+		"SortPriority": 700,
+		"SpacePerItem": 1,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Snowball.icon_weapon_Snowball",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapSnowball_C",
+			"name": "WeapSnowball_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapSnowball.uasset"
+		},
+		"bIsLobbyWeapon": true,
+		"bIsToy": true
+	},
+	"Item_Weapon_Snowball_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Snowball_C"
+	}
+}

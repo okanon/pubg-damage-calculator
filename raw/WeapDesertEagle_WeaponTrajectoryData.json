@@ -1,0 +1,58 @@
+{
+	"WeapDesertEagle_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapDesertEagle_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": 0.17,
+			"LeftMax": -0.9,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_Pistol_DesertEagle",
+				"name": "C_Recoil_Pistol_DesertEagle",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_Pistol_DesertEagle.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.42,
+			"RecoilModifier_Crouch": 0.82,
+			"RecoilModifier_Prone": 0.75,
+			"RecoilSpeed_Horizontal": 12,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 1.2,
+			"RecoilValue_Fall": 1.9,
+			"RecoverySpeed_Vertical": 11,
+			"RightMax": 0.9,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.05,
+			"VerticalRecoveryClamp": 8,
+			"VerticalRecoveryMax": 5,
+			"VerticalRecoveryModifier": 0.2
+		},
+		"TrajectoryConfig": {
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Eagle",
+				"name": "C_Ballistic_Eagle",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Eagle.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 62,
+			"InitialSpeed": 450,
+			"RangeModifier": 0.93,
+			"ReferenceDistance": 200,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.85
+		}
+	}
+}

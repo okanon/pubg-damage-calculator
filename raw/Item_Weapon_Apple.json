@@ -1,0 +1,69 @@
+{
+	"Default__Item_Weapon_Apple_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_Apple_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Drop",
+			"name": "UI_Inventory_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Environment/Mock-up/SurvivalProps/Models/Apple_mdl.Apple_mdl",
+		"DroppedMeshScale": 1.7,
+		"ExportName": "Default__Item_Weapon_Apple_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Apple.icon_weapon_Apple",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Inventory_Put",
+			"name": "UI_Inventory_Put",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Common/UI_Inventory/UI_Inventory_Put.uasset"
+		},
+		"ItemCategory": {
+			"Key": "27D0705345D67E7E50768FA1340D8B8D",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "067F3682490B5A27E59592A5C1AF8BEA",
+			"Namespace": "[9AAA43614BB67224B3554F9A853168BB]",
+			"SourceString": "Apple. For throwing, not eating!",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "799DCA9F43E296914E1AF9955CB6AB94",
+			"Namespace": "",
+			"SourceString": "Apple",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "4ED3CFD44854840F4124BC8B4AC6BDCF",
+			"Namespace": "",
+			"SourceString": "Apple",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"SkinTag": "Item_Weapon_Apple",
+		"SortPriority": 700,
+		"SpacePerItem": 1,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Apple.icon_weapon_Apple",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapApple_C",
+			"name": "WeapApple_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapApple.uasset"
+		},
+		"bIsToy": true
+	},
+	"Item_Weapon_Apple_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Apple_C"
+	}
+}

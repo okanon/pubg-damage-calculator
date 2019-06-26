@@ -1,0 +1,21 @@
+{
+	"ST_Item_Usable_ItemDescriptions": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "ST_Item_Usable_ItemDescriptions",
+		"KeysToSourceStrings": {
+			"InstantRevivalKit": "Revives your knocked down teammate in 1 second. Performing certain actions while using this item will cancel it.",
+			"Item_Boost_AdrenalineSyringe": "Increases a player's boost by 100 instantly. Performing certain actions while using this item will cancel it. Boosted players can run faster and fully heal over time.",
+			"Item_Boost_EnergyDrink": "Increases a player's boost by 40 instantly. Performing certain actions while using this item will cancel it. Boosted players can run faster and fully heal over time.",
+			"Item_Boost_PainKiller": "Increases a player's boost by 60 instantly. Performing certain actions while using this item will cancel it. Boosted players can run faster and fully heal over time.",
+			"Item_Heal_Bandage": "Heals a player's health by 10 over time. Performing certain actions while using this item will cancel it. This item cannot be used when a player's health is over 75.",
+			"Item_Heal_FirstAid": "Heals a player's health by 75 over time. Performing certain actions while using this item will cancel it. This item cannot be used when a player's health is over 75.",
+			"Item_Heal_MedKit": "Heals a player's health to 100 instantly. Performing certain actions while using this item will cancel it.",
+			"Item_JerryCan": "Fills up a vehicle's gas tank instantly.",
+			"Vehicle_Repair_Kit": "Contains equipment you can use to fix damaged vehicles. It repairs a vehicle's health to 450 instantly. Performing certain actions while using this item will cancel it."
+		},
+		"TableNamespace": "ST_Item_Usable_ItemDescriptions"
+	}
+}

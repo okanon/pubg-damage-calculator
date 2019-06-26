@@ -1,0 +1,1667 @@
+{
+	"DefaultMeleeSetting_C": {
+		"@Remaining": 72,
+		"@SuperName": "TslWeapon_Melee",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "DefaultMeleeSetting_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "DefaultMeleeSetting_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "DefaultMeleeSetting_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__DefaultMeleeSetting_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslWeapon_Melee",
+		"AmmoIconsCount": 10,
+		"AttackAnims": [
+			{
+				"AttackAnim": {
+					"StrucName": "ObjectProperty",
+					"className": "AnimMontage",
+					"importName": "W4_Melee_Attack_01_Montage",
+					"name": "W4_Melee_Attack_01_Montage",
+					"packagePath": "/Characters/Animations/Human_Biped/Melee_Weapon/W4_Melee_Attack_01_Montage.uasset"
+				},
+				"AttackDecalEffectDataSet": {
+					"CactusDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"ConcreteDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"CropsDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"DefaultDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"DirtDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"FabricDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"FleshDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"GlassDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"GrassDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"IceDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"MetalDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"MudDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"PaperDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"RockDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"RubberDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"SnowDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"SnowRockDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"StrucName": "DecalEffectDataSet",
+					"WaterDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"WoodDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"bHideOnMovableObjects": false
+				},
+				"StrucName": "MeleeWeaponAnim"
+			},
+			{
+				"AttackAnim": {
+					"StrucName": "ObjectProperty",
+					"className": "AnimMontage",
+					"importName": "W4_Melee_Attack_02_Montage",
+					"name": "W4_Melee_Attack_02_Montage",
+					"packagePath": "/Characters/Animations/Human_Biped/Melee_Weapon/W4_Melee_Attack_02_Montage.uasset"
+				},
+				"AttackDecalEffectDataSet": {
+					"CactusDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"ConcreteDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"CropsDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"DefaultDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"DirtDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"FabricDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"FleshDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"GlassDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"GrassDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"IceDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"MetalDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"MudDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"PaperDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"RockDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"RubberDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"SnowDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"SnowRockDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"StrucName": "DecalEffectDataSet",
+					"WaterDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"WoodDecal": {
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false
+					},
+					"bHideOnMovableObjects": false
+				},
+				"StrucName": "MeleeWeaponAnim"
+			}
+		],
+		"ClassName": "DefaultMeleeSetting_C",
+		"DamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgType_Melee_C",
+			"name": "DmgType_Melee_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgType_Melee.uasset"
+		},
+		"ExportName": "Default__DefaultMeleeSetting_C",
+		"FireForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Fire",
+			"name": "TslFFE_Fire",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Fire.uasset"
+		},
+		"HipDuration": 0.1,
+		"HitCapsuleComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "CapsuleComponent",
+			"exportName": "Default__DefaultMeleeSetting_C.HitCollisionCylinder",
+			"name": "HitCollisionCylinder"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "MeleeWeaponImpact_Default_C",
+			"name": "MeleeWeaponImpact_Default_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/MeleeWeaponImpact_Default.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__DefaultMeleeSetting_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleAttachPoint": "MuzzleFlashSocket",
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_AP5_Barrel_Smoke",
+			"name": "P_AP5_Barrel_Smoke",
+			"packagePath": "/Weapons/FPSWeaponPack/Effects/ParticlesSystems/Weapons/AP5/P_AP5_Barrel_Smoke.uasset"
+		},
+		"PrimaryClipIconOffset": 12,
+		"ProneRollAnim": {
+			"RollLeft": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MOB1_M1_ProneRoll_L_Loop_IP_Montage",
+				"name": "MOB1_M1_ProneRoll_L_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Mobility/MOB1_M1_ProneRoll_L_Loop_IP_Montage.uasset"
+			},
+			"RollRight": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MOB1_M1_ProneRoll_R_Loop_IP_Montage",
+				"name": "MOB1_M1_ProneRoll_R_Loop_IP_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Mobility/MOB1_M1_ProneRoll_R_Loop_IP_Montage.uasset"
+			},
+			"StrucName": "WeaponRollAnim"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultMeleeSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"SecondaryClipIconOffset": 6,
+		"WeaponAnim": {
+			"PickUp": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MOB1_M1_Glean_Montage",
+				"name": "MOB1_M1_Glean_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Mobility/MOB1_M1_Glean_Montage.uasset"
+			},
+			"StrucName": "WeaponBasicAnim"
+		},
+		"WeaponConfig": {
+			"StrucName": "WeaponData",
+			"WeaponClass": "EWeaponClass::Class_Melee"
+		},
+		"bHideCrosshairWhileNotAiming": true
+	},
+	"HitCollisionCylinder": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HitCollisionCylinder",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__DefaultMeleeSetting_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"BodyInstance": {
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel6",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "CapsuleComponent",
+		"ExportName": "Default__DefaultMeleeSetting_C.HitCollisionCylinder"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__DefaultMeleeSetting_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 13,
+			"index": -14,
+			"name": "SceneComponent",
+			"pkgIndex": -31
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "DefaultMeleeSetting_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "DefaultMeleeSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:0C6D3A3A4277CE702C29309CF1123538"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "DefaultMeleeSetting_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "DefaultMeleeSetting_C.SimpleConstructionScript_1"
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__DefaultMeleeSetting_C.RootScene",
+			"name": "RootScene"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__DefaultMeleeSetting_C.WeaponMesh3P"
+	}
+}

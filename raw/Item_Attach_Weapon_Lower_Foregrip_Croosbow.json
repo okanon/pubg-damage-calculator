@@ -1,0 +1,98 @@
+{
+	"Default__Item_Attach_Weapon_Lower_Foregrip_Croosbow_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AttachableItem",
+		"AttachedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Attached_Lower",
+			"name": "UI_Item_Equip_Attachment_Attached_Lower",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Attached_Lower.uasset"
+		},
+		"AttachmentData": {
+			"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+			"AttachmentTag": "LowerCrossbow",
+			"DecreaseRecoilPatternScale": 0.2,
+			"IKHandOffset": {
+				"StrucName": "Vector",
+				"value": [
+					10,
+					-8,
+					0
+				]
+			},
+			"IKHandRotation": {
+				"StrucName": "Rotator",
+				"value": [
+					0,
+					5,
+					180
+				]
+			},
+			"Name": "Item_Attach_Weapon_Lower_Foregrip_Croosbow_C",
+			"StrucName": "WeaponAttachmentData",
+			"WeaponGripLeft": "EWeaponGripLeftHand::Foregrip1"
+		},
+		"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/Grip/Crossbow_Grip_setting.Crossbow_Grip_setting",
+		"ClassName": "Item_Attach_Weapon_Lower_Foregrip_Croosbow_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/CrossBow/Crossbow_Grip_01.Crossbow_Grip_01",
+		"DroppedMeshScale": 1.4,
+		"ExportName": "Default__Item_Attach_Weapon_Lower_Foregrip_Croosbow_C",
+		"Icon": "AssetObject==/Game/UI/item/attach/icon_attach_Lower_Foregrip_Croosbow.icon_attach_Lower_Foregrip_Croosbow",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"ItemCategory": {
+			"Key": "2C57D7FB4070F242A36AC5910A1B4BC3",
+			"Namespace": "",
+			"SourceString": "Attachment",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "791FF56A4ABB1A5AFC426C8F9928827B",
+			"Namespace": "",
+			"SourceString": "Attachable Weapon: Crossbow",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "4813D06F47C8C2F9FF5083814B932872",
+			"Namespace": "",
+			"SourceString": "Vertical Foregrip for Crossbow",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "D6024D1C42A47CEE4FB191B3FB4A8742",
+			"Namespace": "",
+			"SourceString": "Vertical Foregrip (Crossbow)",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "UI_Item_Equip_Attachment_Common",
+			"name": "UI_Item_Equip_Attachment_Common",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Attachment/UI_Item_Equip_Attachment_Common.uasset"
+		},
+		"SortPriority": 820,
+		"SpacePerItem": 10,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/attach/icon_attach_Lower_Foregrip_Croosbow.icon_attach_Lower_Foregrip_Croosbow"
+	},
+	"Item_Attach_Weapon_Lower_Foregrip_Croosbow_C": {
+		"@Remaining": 72,
+		"@SuperName": "AttachableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Attach_Weapon_Lower_Foregrip_Croosbow_C"
+	}
+}

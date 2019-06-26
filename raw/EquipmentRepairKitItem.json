@@ -1,0 +1,58 @@
+{
+	"Default__EquipmentRepairKitItem_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__EquipmentRepairKitItem",
+		"CastConfig": {
+			"CastName": {
+				"Key": "529E17C74E3B6B105052E7B71325FFAB",
+				"Namespace": "[016519A043E5D4521BCF2F9188CCF80A]",
+				"SourceString": "Repairing equipment",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 3,
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "EquipmentRepairKitItem_C",
+		"EquipSlot": "EEquipSlotID::Head",
+		"ExportName": "Default__EquipmentRepairKitItem_C",
+		"ItemCategory": {
+			"Key": "69F7D3CD47E6EF6B01B319B224172C41",
+			"Namespace": "[016519A043E5D4521BCF2F9188CCF80A]",
+			"SourceString": "Repair",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "B6E5A6764507B05DF853DBBDDA78074F",
+			"Namespace": "[016519A043E5D4521BCF2F9188CCF80A]",
+			"SourceString": "$$$$",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "66208D1845801A93DEDCA380313678C5",
+			"Namespace": "[016519A043E5D4521BCF2F9188CCF80A]",
+			"SourceString": "Patch",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "D265646346E95B55736FC2B179FF73CF",
+			"Namespace": "[016519A043E5D4521BCF2F9188CCF80A]",
+			"SourceString": "Patch",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"RepairAmount": 50,
+		"SortPriority": 997,
+		"SpacePerItem": 10,
+		"StackCountMax": 100,
+		"SubCategory": "Repair",
+		"bStackable": true,
+		"bUsable": true
+	},
+	"EquipmentRepairKitItem_C": {
+		"@Remaining": 72,
+		"@SuperName": "EquipmentRepairKitItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "EquipmentRepairKitItem_C"
+	}
+}

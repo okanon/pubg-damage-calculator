@@ -1,0 +1,386 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapMini14_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapMini14_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Upper_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Default",
+						"AttachmentTag": "UpperDefault",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Large",
+						"AttachmentTag": "UpperLarge",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Reddot",
+						"AttachmentTag": "UpperReddot",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineSniperRifle",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Muzzle_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleSniperRifle",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Upper_Angled",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Angled",
+						"AttachmentTag": "RMR",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapMini14_C",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/Mini14/Meshes/Mini14_Mag_01_Set.Mini14_Mag_01_Set",
+				"AttachmentMeshName": "MagazineDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "MagazineDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 19,
+					"index": -20,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -43
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			},
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Rifles/Mini14/Meshes/Mini14_Muzzle_Set.Mini14_Muzzle_Set",
+				"AttachmentMeshName": "Muzzle_Default",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"AttachmentTag": "Muzzle_Default",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 19,
+					"index": -20,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -43
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Rifle",
+			"name": "Weapons_Equip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Rifle.uasset"
+		},
+		"ExportName": "Default__WeapMini14_C",
+		"FireCameraShake": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "CS_WeapGun_Rifle_556_C",
+			"name": "CS_WeapGun_Rifle_556_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_556.uasset"
+		},
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Mini14_Fire_LongTail",
+			"name": "Weapon_Mini14_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Mini14/Weapon_Mini14_Fire_LongTail.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Mini14_Fire_LongTail",
+			"name": "Weapon_Mini14_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Mini14/Weapon_Mini14_Fire_LongTail.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapMini14_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_02_AR",
+			"name": "P_Muzzle_02_AR",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_02_AR.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"ReplicatedMovement": {
+			"LocationQuantizationLevel": "EVectorQuantization::RoundOneDecimal",
+			"RotationQuantizationLevel": "ERotatorQuantization::ShortComponents",
+			"StrucName": "RepMovement"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapMini14_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"ShellFxClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_AR_Mini14_BP_C",
+			"name": "P_AR_Mini14_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Weapons/Shell/P_AR_Mini14_BP.uasset"
+		},
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.15,
+			"FiringSpreadBase": 8.5,
+			"RecoilPatternScale": 0.71,
+			"RecoilPatterns": [],
+			"RecoilSpeed": 12,
+			"ScopingSpreadModifier": 0.02,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 5
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 20,
+			"CameraDOF_Power": 1.2,
+			"CameraDOF_Range": 10,
+			"HoldBreathFOV": 55,
+			"IronSightZeroingDistances": [
+				100,
+				200
+			],
+			"PhysicalBodyHitImpactPower": 10000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "DMR_Recoil_556_Montage",
+				"name": "DMR_Recoil_556_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/Rifle/Recoil/DMR_Recoil_556_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					6,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					28,
+					-4
+				]
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 70,
+			"WeaponClass": "EWeaponClass::Class_DMR",
+			"WeaponEquipDuration": 0.25,
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapMini14_WeaponGunData",
+			"name": "WeapMini14_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapMini14_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.6,
+			"DepthBlurBlackPoint": 70,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 5,
+			"ReticleAngularSize": 15,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_mini14",
+			"name": "weapons_gun_mini14",
+			"packagePath": "/UI/Weapon/weapons_gun_mini14.uasset"
+		},
+		"WeaponIconRatio": 3.28,
+		"WeaponTag": "Mini14",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapMini14_WeaponTrajectoryData",
+			"name": "WeapMini14_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapMini14_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapMini14_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 16,
+			"index": -17,
+			"name": "SceneComponent",
+			"pkgIndex": -42
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapMini14_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapMini14_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D6F634D44DBF99D659773C9A370D8B0F"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapMini14_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapMini14_C.SimpleConstructionScript_1"
+	},
+	"WeapMini14_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapMini14_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapMini14_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Mini14_C",
+			"name": "ABP_Mini14_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Mini14/Weapon/ABP_Mini14.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapMini14_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 0,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapMini14_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "Mini14_Set",
+			"name": "Mini14_Set",
+			"packagePath": "/Weapon/Rifles/Mini14/Meshes/Mini14_Set.uasset"
+		}
+	}
+}

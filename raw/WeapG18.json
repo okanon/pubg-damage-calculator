@@ -1,0 +1,358 @@
+{
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapG18_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapG18_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultPistolSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AmmoIconsCount": 10,
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Magazine_Default",
+						"AttachmentTag": "MagazineSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Muzzle_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Muzzle_Default",
+						"AttachmentTag": "MuzzleSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Upper_Small",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperReddot",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Holo",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Lower_Default",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Lower_Default",
+						"AttachmentTag": "LowerDefault",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapG18_C",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Pistols/GLOCK18C/Meshes/GLOCK18C_Mag_01_setting.GLOCK18C_Mag_01_setting",
+				"AttachmentMeshName": "MagazineDefault",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "MagazineDefault",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 19,
+					"index": -20,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -43
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_HandGun",
+			"name": "Weapons_Equip_HandGun",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_HandGun.uasset"
+		},
+		"ExportName": "Default__WeapG18_C",
+		"FireFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Glock18C_Fire_LongTail",
+			"name": "Weapon_Glock18C_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Glock18C/Weapon_Glock18C_Fire_LongTail.uasset"
+		},
+		"FireForceFeedback": {
+			"StrucName": "ObjectProperty",
+			"className": "TslForceFeedbackEffect",
+			"importName": "TslFFE_Fire",
+			"name": "TslFFE_Fire",
+			"packagePath": "/Effects/ForceFeedback/TslFFE_Fire.uasset"
+		},
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Glock18C_Fire_LongTail",
+			"name": "Weapon_Glock18C_Fire_LongTail",
+			"packagePath": "/WwiseAssets/Weapons/Glock18C/Weapon_Glock18C_Fire_LongTail.uasset"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapG18_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty",
+			"className": "ParticleSystem",
+			"importName": "P_Muzzle_01_Pistol",
+			"name": "P_Muzzle_01_Pistol",
+			"packagePath": "/Effects/Clets/Particles/Weapons/MuzzleFlash/P_Muzzle_01_Pistol.uasset"
+		},
+		"OutOfAmmoSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "_Weapon_OutOfAmmo",
+			"name": "_Weapon_OutOfAmmo",
+			"packagePath": "/WwiseAssets/Weapon_OutOfAmmo/_Weapon_OutOfAmmo.uasset"
+		},
+		"PrimaryClipIconOffset": 12,
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapG18_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"SecondaryClipIconOffset": 6,
+		"ShellFxClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Pistol_G18_BP_C",
+			"name": "P_Pistol_G18_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Weapons/Shell/P_Pistol_G18_BP.uasset"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.35,
+			"CrouchRecoveryTime": 0.5,
+			"FiringSpreadBase": 12,
+			"ProneRecoveryTime": 0.5,
+			"RecoilRecoverySpeed": 5.5,
+			"RecoilSpeed": 24,
+			"ScopingSpreadModifier": 0.08,
+			"StandRecoveryTime": 0.5,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 3.5
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_HandGun",
+			"name": "Weapons_UnEquip_HandGun",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_HandGun.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1.5,
+			"CameraDOF_Range": 30,
+			"HoldBreathFOV": 65,
+			"IronSightZeroingDistances": [
+				50
+			],
+			"PhysicalBodyHitImpactPower": 7000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Recoil_G18_Montage",
+				"name": "Recoil_G18_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/Recoil/Recoil_G18_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					7,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					6,
+					40,
+					5
+				]
+			},
+			"StrucName": "WeaponData",
+			"SwayModifier_Pitch": 2,
+			"SwayModifier_YawOffset": 2,
+			"TargetingFOV": 80,
+			"WeaponEquipDuration": 0.2
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapG18_WeaponGunData",
+			"name": "WeapG18_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapG18_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.4,
+			"DepthBlurBlackPoint": 50,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 10,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponHand": "EWeaponHand::Right",
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_GLOCK18C",
+			"name": "weapons_gun_GLOCK18C",
+			"packagePath": "/UI/Weapon/weapons_gun_GLOCK18C.uasset"
+		},
+		"WeaponIconRatio": 1.64,
+		"WeaponTag": "G18",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapG18_WeaponTrajectoryData",
+			"name": "WeapG18_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapG18_WeaponTrajectoryData.uasset"
+		}
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapG18_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 16,
+			"index": -17,
+			"name": "SceneComponent",
+			"pkgIndex": -42
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapG18_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapG18_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:BDA1A7CC4A9E5D50F8948EBC0B1B6578"
+		}
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapG18_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapG18_C.SimpleConstructionScript_1"
+	},
+	"WeapG18_C": {
+		"@Remaining": 72,
+		"@SuperName": "DefaultPistolSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapG18_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapG18_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Weapon_Glock18_C",
+			"name": "ABP_Weapon_Glock18_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/G18/Weapon/ABP_Weapon_Glock18.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapG18_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 100,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapG18_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "GLOCK18C_setting",
+			"name": "GLOCK18C_setting",
+			"packagePath": "/Weapon/Pistols/GLOCK18C/Meshes/GLOCK18C_setting.uasset"
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"Default__Item_Ammo_303Ball_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"ClassName": "Item_Ammo_303Ball_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"name": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal50/Cal50_CaseClosed.Cal50_CaseClosed",
+		"DroppedMeshScale": 0.6,
+		"ExportName": "Default__Item_Ammo_303Ball_C",
+		"Icon": "AssetObject==/Game/UI/item/ammo/icon_ammo_12Guage.icon_ammo_12Guage",
+		"IconSizeRatio": 0.307692,
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"ItemCategory": {
+			"Key": "4F4C807F4D92DA02D6F8139565646ACF",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Flags": "None",
+			"HistoryType": -1,
+			"SourceString": null,
+			"StrucName": "FText"
+		},
+		"ItemDetailedName": {
+			"Key": "4A266FA444213A02333B2F801ED58F15",
+			"Namespace": "",
+			"SourceString": ".303 Ball",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "4AED7DBA42E542A77BDBC5B6792A6A04",
+			"Namespace": "",
+			"SourceString": ".303 Ball",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"SortPriority": 100,
+		"SpacePerItem": 1,
+		"StackCount": 5,
+		"StackCountMax": 70
+	},
+	"Item_Ammo_303Ball_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_303Ball_C"
+	}
+}

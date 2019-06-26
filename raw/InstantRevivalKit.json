@@ -1,0 +1,66 @@
+{
+	"Default__InstantRevivalKit_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item",
+		"Category": "EItemCategory::Use",
+		"ClassName": "InstantRevivalKit_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_MedKit",
+			"name": "Play_UI_Item_Equip_Usable_MedKit",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_MedKit.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Hemostatic_Device/Hemostatic_Device_Drop.Hemostatic_Device_Drop",
+		"ExportName": "Default__InstantRevivalKit_C",
+		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_Hermostatic_Device.icon_Special_Hermostatic_Device",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_MedKit",
+			"name": "Play_UI_Item_Equip_Usable_MedKit",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_MedKit.uasset"
+		},
+		"ItemCategory": {
+			"Key": "2D79F2D0454312AB16A871A3B1797AE4",
+			"Namespace": "",
+			"SourceString": "Heal",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "InstantRevivalKit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_InstantRevivalKit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_InstantRevivalKit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_MedKit",
+			"name": "Play_UI_Item_Equip_Usable_MedKit",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_MedKit.uasset"
+		},
+		"SortPriority": 1000,
+		"SpacePerItem": 20,
+		"StackCountMax": 1,
+		"SubCategory": "Heal",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_Hermostatic_Device.icon_Special_Hermostatic_Device",
+		"bIsConsumable": false
+	},
+	"InstantRevivalKit_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "InstantRevivalKit_C"
+	}
+}

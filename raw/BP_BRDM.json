@@ -1,0 +1,4127 @@
+{
+	"BP_BRDM_C": {
+		"@Remaining": 120,
+		"@SuperName": "VehicleBase_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "BP_BRDM_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "BP_BRDM_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "BP_BRDM_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "BP_BRDM_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM",
+			"name": "ExecuteUbergraph_BP_BRDM"
+		}
+	},
+	"BuffComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuffComponent",
+		"ClassName": "BuffComponet",
+		"ExportName": "Default__BP_BRDM_C.BuffComponent"
+	},
+	"BuoyancyForceComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"ClassName": "TslBuoyancyForceComponent",
+		"ExportName": "Default__BP_BRDM_C.BuoyancyForceComponent",
+		"FluidAngularDamping": 1.4,
+		"FluidDensity": 1200,
+		"FluidLinearDamping": 0.5,
+		"MaxUnderwaterVelocity": 1200,
+		"MeshDensity": 950,
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				135,
+				0,
+				108
+			]
+		},
+		"TestPointRadius": 55,
+		"TestPoints": [
+			{
+				"StrucName": "Vector",
+				"value": [
+					230,
+					130,
+					100
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					230,
+					-130,
+					100
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-240,
+					130,
+					102
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-240,
+					-130,
+					102
+				]
+			}
+		],
+		"VelocityDamper": {
+			"StrucName": "Vector",
+			"value": [
+				0.3,
+				0.3,
+				0.5
+			]
+		},
+		"WaveForceMultiplier": 1
+	},
+	"DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.OnDeath.DamageCauser"
+	},
+	"DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "BP_BRDM_C.OnDeath.DamageEvent"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "BP_BRDM_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__BP_BRDM_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleBase_C",
+		"BuffComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuffComponet",
+			"exportName": "Default__BP_BRDM_C.BuffComponent",
+			"name": "BuffComponent"
+		},
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslBuoyancyForceComponent",
+			"exportName": "Default__BP_BRDM_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"CharacterHitSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Common_Impact_Human",
+			"name": "Vehicle_Common_Impact_Human",
+			"packagePath": "/WwiseAssets/Vehicles/Common/Vehicle_Common_Impact_Human.uasset"
+		},
+		"ClassName": "BP_BRDM_C",
+		"ExportName": "Default__BP_BRDM_C",
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__BP_BRDM_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"Mesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"RadioAudioComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleRadioComponent",
+			"exportName": "Default__BP_BRDM_C.RadioAudioComponent",
+			"name": "RadioAudioComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"StopSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_Engine_Stop",
+			"name": "Vehicle_BRDM_Engine_Stop",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Engine_Stop.uasset"
+		},
+		"TorqueMultiplierForBoosting": 1.25,
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__BP_BRDM_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__BP_BRDM_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__BP_BRDM_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleMovement": {
+			"StrucName": "ObjectProperty",
+			"className": "TslWheeledVehicleMovement",
+			"exportName": "Default__BP_BRDM_C.MovementComp",
+			"name": "MovementComp"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__BP_BRDM_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		}
+	},
+	"DriverSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.DriverSeat"
+	},
+	"DriverSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "BP_BRDM_C.DriverSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "2D1298CF485729E5169B6392BEB26E97",
+			"Namespace": "",
+			"SourceString": "Drive",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "VehicleName_BRDM",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Vehicles/ST_Vehicles.ST_Vehicles"
+		},
+		"LeaveSocketName": "LeaveSocketFL",
+		"MaxInteractableDistance": 250,
+		"RiderType": "ERiderType::Driver",
+		"SeatAnimationType": "EVehicleAnimType::BRDM_Driver",
+		"VehicleInsideEvent": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_Enter",
+			"name": "Vehicle_BRDM_Enter",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Enter.uasset"
+		},
+		"ViewPitchMax": 50,
+		"ViewPitchMin": -50,
+		"bBlockDrowning": true,
+		"bBlockFPPCameraUnderWaterEffect": true,
+		"bBlockRadialDamage": true,
+		"bCanAimFromSeat": false,
+		"bCanBeAffectedByFlash": false,
+		"bCanBeAffectedByMolotov": false
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.EntryPoint"
+	},
+	"ExecuteUbergraph_BP_BRDM": {
+		"@Remaining": 126,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM"
+	},
+	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"CameraLagMaxDistance": 5,
+		"CameraLagMaxTimeStep": 0.008333,
+		"CameraLagSpeed": 30,
+		"CameraRotationLagSpeed": 40,
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_BRDM_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-14.4226828,
+				-40.8217621,
+				170.723846
+			]
+		}
+	},
+	"GamePadInputAixsComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__BP_BRDM_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__BP_BRDM_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__BP_BRDM_C.HornComponent"
+	},
+	"InheritableComponentHandler": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "BP_BRDM_C.InheritableComponentHandler",
+		"Records": [
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 89,
+					"index": -90,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -272
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:82BDD588446DBBB873B9AA90F87FD840"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "VehicleBase_C",
+						"name": "VehicleBase_C",
+						"packagePath": "/Vehicles/VehicleBase.uasset"
+					},
+					"SCSVariableName": "ThirdPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "BP_BRDM_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 89,
+					"index": -90,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -272
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:5369BCCF4E6104D8DB62B1820293CDA6"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "VehicleBase_C",
+						"name": "VehicleBase_C",
+						"packagePath": "/Vehicles/VehicleBase.uasset"
+					},
+					"SCSVariableName": "FirstPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "BP_BRDM_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "FirstPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 79,
+					"index": -80,
+					"name": "RadialForceComponent",
+					"pkgIndex": -271
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:5DB890364DCCE945745D63B5B9DFAC38"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "VehicleBase_C",
+						"name": "VehicleBase_C",
+						"packagePath": "/Vehicles/VehicleBase.uasset"
+					},
+					"SCSVariableName": "RadialForce",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "RadialForceComponent",
+					"exportName": "BP_BRDM_C.RadialForce_GEN_VARIABLE",
+					"name": "RadialForce_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			}
+		]
+	},
+	"K2Node_CreateDelegate_OutputDelegate": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DelegateProperty",
+		"ClassName": "DelegateProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.K2Node_CreateDelegate_OutputDelegate"
+	},
+	"K2Node_CustomEvent_DamageCauser": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.K2Node_CustomEvent_DamageCauser"
+	},
+	"K2Node_CustomEvent_DamageEvent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.K2Node_CustomEvent_DamageEvent"
+	},
+	"K2Node_CustomEvent_KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.K2Node_CustomEvent_KillingDamage"
+	},
+	"K2Node_CustomEvent_PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.ExecuteUbergraph_BP_BRDM.K2Node_CustomEvent_PlayerInstigator"
+	},
+	"KillingDamage": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_BRDM_C.OnDeath.KillingDamage"
+	},
+	"MaterialClipVolume": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.MaterialClipVolume"
+	},
+	"MaterialClipVolumeUnderwater": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.MaterialClipVolumeUnderwater"
+	},
+	"MaterialClipVolumeUnderwater_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__MaterialClipVolumeComponent",
+		"BoundingSphere": {
+			"StrucName": "Vector4",
+			"value": [
+				70,
+				0,
+				165,
+				160
+			]
+		},
+		"ClassName": "MaterialClipVolumeComponent",
+		"ConvexHullPlanes": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.548,
+					0,
+					0.76,
+					248.3
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					-0.647,
+					0.655,
+					222.2
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					0.647,
+					0.655,
+					222.2
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0.825,
+					0.55,
+					176
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					-0.825,
+					0.55,
+					176
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-1,
+					0,
+					0,
+					30
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0,
+					1,
+					190
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.04,
+					0,
+					-1,
+					-150
+				]
+			}
+		],
+		"ExportName": "BP_BRDM_C.MaterialClipVolumeUnderwater_GEN_VARIABLE",
+		"GenerateUnderwaterMaskForFirstNPlanes": 5,
+		"VisualizePlaneCollection": 0
+	},
+	"MaterialClipVolume_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__MaterialClipVolumeComponent",
+		"BoundingSphere": {
+			"StrucName": "Vector4",
+			"value": [
+				85,
+				0,
+				140,
+				200
+			]
+		},
+		"ClassName": "MaterialClipVolumeComponent",
+		"ClipMaterials": 1,
+		"ConcavePlaneCollection1": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.4,
+					0,
+					-0.9,
+					-75.1
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					1,
+					0,
+					65
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-0.53,
+					0,
+					-0.8,
+					-202.7
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.8,
+					0,
+					-0.6,
+					3
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.95,
+					0,
+					-0.25,
+					50
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-0.05,
+					0,
+					-0.99,
+					-145
+				]
+			}
+		],
+		"ConcavePlaneCollection2": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.4,
+					0,
+					-0.9,
+					-75.1
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					-1,
+					0,
+					65
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-0.53,
+					0,
+					-0.8,
+					-202.7
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.8,
+					0,
+					-0.6,
+					3
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.95,
+					0,
+					-0.25,
+					50
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-0.05,
+					0,
+					-0.99,
+					-145
+				]
+			}
+		],
+		"ConcavePlaneCollection3": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					-0.647,
+					0.655,
+					222.2
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0,
+					1,
+					151
+				]
+			}
+		],
+		"ConcavePlaneCollection4": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					0.647,
+					0.655,
+					222.2
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0,
+					1,
+					151
+				]
+			}
+		],
+		"ConcavePlaneCollection5": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.548,
+					0,
+					0.76,
+					248.3
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.2,
+					0,
+					0.95,
+					193
+				]
+			}
+		],
+		"ConcavePlaneCollection6": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					-0.647,
+					0.655,
+					223
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.2,
+					-0.15,
+					0.8,
+					206
+				]
+			}
+		],
+		"ConcavePlaneCollection7": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.38,
+					0.647,
+					0.655,
+					223
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.2,
+					0.15,
+					0.8,
+					206
+				]
+			}
+		],
+		"ConvexHullPlanes": [
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0.825,
+					0.55,
+					176
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					-0.825,
+					0.55,
+					176
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					1,
+					0,
+					110
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					-1,
+					0,
+					110
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.707,
+					0,
+					-0.707,
+					100
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					-1,
+					0,
+					0,
+					63
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0,
+					1,
+					200
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0,
+					0,
+					-1,
+					-63.5
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.5,
+					-0.6,
+					-0.52,
+					123.5
+				]
+			},
+			{
+				"StrucName": "Vector4",
+				"value": [
+					0.5,
+					0.6,
+					-0.52,
+					123.5
+				]
+			}
+		],
+		"ExportName": "BP_BRDM_C.MaterialClipVolume_GEN_VARIABLE",
+		"VisualizePlaneCollection": 3
+	},
+	"MovementComp": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComp",
+		"Anim_InterpOfInterpSpeedScale": 0.3,
+		"Anim_SpeedForInputTypeSwitch": 1420,
+		"Anim_SteeringInputInterpSpeed": 5.5,
+		"AntirollSetups": [
+			{
+				"Stiffness": 5000,
+				"StrucName": "VehicleAntiRollbarSetup",
+				"Wheel0": 0,
+				"Wheel1": 1
+			},
+			{
+				"Stiffness": 5000,
+				"StrucName": "VehicleAntiRollbarSetup",
+				"Wheel0": 2,
+				"Wheel1": 3
+			}
+		],
+		"BrakeInputRate": {
+			"FallRate": 7,
+			"RiseRate": 3,
+			"StrucName": "VehicleInputRate"
+		},
+		"ChassisHeight": 160,
+		"ChassisWidth": 200,
+		"ClassName": "TslWheeledVehicleMovement",
+		"CustomTransmission": {
+			"CustomTransmissionMaxSpeed": 8,
+			"StrucName": "CustomTransmissionData",
+			"VelocityGears": [
+				{
+					"DownSpeed": 0,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 12
+				},
+				{
+					"DownSpeed": 15,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 45
+				},
+				{
+					"DownSpeed": 35,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 63
+				},
+				{
+					"DownSpeed": 55,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 70
+				},
+				{
+					"DownSpeed": 65,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 100
+				}
+			],
+			"bDownShiftingOnly": true,
+			"bUseVelocityTransmission": true
+		},
+		"DragCoefficient": 2.4,
+		"EngineSetup": {
+			"DampingRateFullThrottle": 0.3,
+			"DampingRateZeroThrottleClutchDisengaged": 0.5,
+			"MOI": 1.9,
+			"MaxRPM": 5000,
+			"StrucName": "VehicleEngineData",
+			"TorqueCurve": {
+				"EditorCurveData": {
+					"Keys": [
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": 0,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 0,
+								"Value": 700
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0.002031012,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": 0.00203101174,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 1,
+								"TangentWeightMode": 0,
+								"Time": 1500.00012,
+								"Value": 600
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": -0.008229834,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": -0.008176802,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 1,
+								"TangentWeightMode": 0,
+								"Time": 2500,
+								"Value": 600
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": -0.06824858,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": -0.0682486,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 1,
+								"TangentWeightMode": 0,
+								"Time": 3800.00024,
+								"Value": 570
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": 0,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 5000,
+								"Value": 500
+							}
+						}
+					],
+					"StrucName": "RichCurve"
+				},
+				"StrucName": "RuntimeFloatCurve"
+			}
+		},
+		"ExportName": "Default__BP_BRDM_C.MovementComp",
+		"HandbrakeInputRate": {
+			"FallRate": 5,
+			"RiseRate": 5,
+			"StrucName": "VehicleInputRate"
+		},
+		"InertiaTensorScale": {
+			"StrucName": "Vector",
+			"value": [
+				2.8,
+				2.2,
+				1.5
+			]
+		},
+		"Mass": 6000,
+		"MinNormalizedTireLoadFiltered": 0.15,
+		"SpeedDifferentialSetup": {
+			"FrontRearDiffClamp": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.7,
+					1.2
+				]
+			},
+			"StrucName": "DifferentialOverrideData",
+			"bUseSpeedAlphaMap": true
+		},
+		"SteeringCurve": {
+			"EditorCurveData": {
+				"Keys": [
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 0,
+							"Value": 1
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 20,
+							"Value": 0.8
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 55,
+							"Value": 0.4
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 100,
+							"Value": 0.3
+						}
+					}
+				],
+				"StrucName": "RichCurve"
+			},
+			"StrucName": "RuntimeFloatCurve"
+		},
+		"SteeringInputRate": {
+			"FallRate": 2.3,
+			"RiseRate": 1.4,
+			"StrucName": "VehicleInputRate"
+		},
+		"ThrottleInputRate": {
+			"FallRate": 7,
+			"RiseRate": 4,
+			"StrucName": "VehicleInputRate"
+		},
+		"TransmissionSetup": {
+			"ClutchStrength": 50,
+			"FinalRatio": 5,
+			"ForwardGears": [
+				{
+					"DownRatio": 0.7,
+					"Ratio": 5.5,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.95
+				},
+				{
+					"DownRatio": 0.35,
+					"Ratio": 3.5,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				},
+				{
+					"DownRatio": 0.4,
+					"Ratio": 2.3,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				},
+				{
+					"DownRatio": 0.45,
+					"Ratio": 1.8,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.85
+				},
+				{
+					"DownRatio": 0.45,
+					"Ratio": 1.45,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 1
+				}
+			],
+			"GearAutoBoxLatency": 1.6,
+			"GearSwitchTime": 0.9,
+			"ReverseGearRatio": -5,
+			"StrucName": "VehicleTransmissionData"
+		},
+		"WaterControlSetup": {
+			"PropulsionForceInterpSpeed": 0.3,
+			"PropulsionPhysicsForce": 600,
+			"PropulsionPhysicsTorque": 0.9,
+			"PropulsionRadius": 15,
+			"PropulsionSocketName": "Propulsion_Turbine",
+			"PropulsionSpeedMap": {
+				"StrucName": "Vector4",
+				"value": [
+					12,
+					20,
+					1,
+					1.5
+				]
+			},
+			"PropulsionVectorMultiplier": {
+				"StrucName": "Vector",
+				"value": [
+					1,
+					1,
+					0.1
+				]
+			},
+			"StrucName": "WaterControlSetup",
+			"bLockGears": true,
+			"bTickWaterControl": true
+		},
+		"WheelSetups": [
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "PhysicsWheel_FL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_Punctured_C",
+					"name": "BRDM_Wheel_Punctured_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_F_C",
+					"name": "BRDM_Wheel_F_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_F.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "PhysicsWheel_FR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_Punctured_C",
+					"name": "BRDM_Wheel_Punctured_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_FR_C",
+					"name": "BRDM_Wheel_FR_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_FR.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "PhysicsWheel_BL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_Punctured_C",
+					"name": "BRDM_Wheel_Punctured_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_R_C",
+					"name": "BRDM_Wheel_R_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_R.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "PhysicsWheel_BR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_Punctured_C",
+					"name": "BRDM_Wheel_Punctured_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "BRDM_Wheel_R_C",
+					"name": "BRDM_Wheel_R_C",
+					"packagePath": "/Vehicles/BRDM/BRDM_Wheel_R.uasset"
+				}
+			}
+		],
+		"WrongDirectionThreshold": 400,
+		"bDeprecatedSpringOffsetMode": false,
+		"bUseSpeedDifferential": true
+	},
+	"OnDeath": {
+		"@Remaining": 94,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_BRDM_C.OnDeath"
+	},
+	"PassengerBLSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.PassengerBLSeat"
+	},
+	"PassengerBLSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"AllowedWeaponClasses": [
+			"EWeaponClass::Class_Pistol",
+			"EWeaponClass::Class_SMG",
+			"EWeaponClass::Class_Rifle",
+			"EWeaponClass::Class_Carbine",
+			"EWeaponClass::Class_Shotgun",
+			"EWeaponClass::Class_Sniper",
+			"EWeaponClass::Class_DMR",
+			"EWeaponClass::Class_LMG",
+			"EWeaponClass::Class_Throwable"
+		],
+		"ClassName": "VehicleSeatInteractionComponent",
+		"CurvePitchMax": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_BL_Max",
+			"name": "C_Uaz_BL_Max",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_BL_Max.uasset"
+		},
+		"CurvePitchMin": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_BL_Min",
+			"name": "C_Uaz_BL_Min",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_BL_Min.uasset"
+		},
+		"ExportName": "BP_BRDM_C.PassengerBLSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "VehicleName_BRDM",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Vehicles/ST_Vehicles.ST_Vehicles"
+		},
+		"LeaveSocketName": "LeaveSocketRL",
+		"SeatAnimationIdle_Grenade": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BL_Grenade_Idle",
+			"name": "Vehicle_BRDM_Passenger_BL_Grenade_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BL_Grenade_Idle.uasset"
+		},
+		"SeatAnimationIdle_Melee": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BL_Melee_Idle",
+			"name": "Vehicle_BRDM_Passenger_BL_Melee_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BL_Melee_Idle.uasset"
+		},
+		"SeatAnimationIdle_Rifle": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BL_Lowered_Idle",
+			"name": "Vehicle_BRDM_Passenger_BL_Lowered_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BL_Lowered_Idle.uasset"
+		},
+		"SeatAnimationIdle_Unarmed": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BL_Unarmed_Idle",
+			"name": "Vehicle_BRDM_Passenger_BL_Unarmed_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BL_Unarmed_Idle.uasset"
+		},
+		"SeatAnimationType": "EVehicleAnimType::BRDM_Passenger",
+		"SeatIdleAO": {
+			"StrucName": "ObjectProperty",
+			"className": "AimOffsetBlendSpace",
+			"importName": "General_AO",
+			"name": "General_AO",
+			"packagePath": "/Animations/Battlegrounds/Anims/General/General_AO.uasset"
+		},
+		"SeatIndex": 2,
+		"VehicleInsideEvent": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_Enter",
+			"name": "Vehicle_BRDM_Enter",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Enter.uasset"
+		},
+		"ViewPitchMax": 30,
+		"ViewPitchMin": -10,
+		"bBlockDrowning": true,
+		"bBlockFPPCameraUnderWaterEffect": true,
+		"bBlockRadialDamage": true,
+		"bCanAimFromSeat": false,
+		"bCanBeAffectedByFlash": false,
+		"bCanBeAffectedByMolotov": false,
+		"bCanOnlyFireWhileAiming": true,
+		"bRestricWeaponUse": true
+	},
+	"PassengerBRSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.PassengerBRSeat"
+	},
+	"PassengerBRSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"AllowedWeaponClasses": [
+			"EWeaponClass::Class_Pistol",
+			"EWeaponClass::Class_SMG",
+			"EWeaponClass::Class_Rifle",
+			"EWeaponClass::Class_Carbine",
+			"EWeaponClass::Class_Shotgun",
+			"EWeaponClass::Class_Sniper",
+			"EWeaponClass::Class_DMR",
+			"EWeaponClass::Class_LMG",
+			"EWeaponClass::Class_Throwable"
+		],
+		"ClassName": "VehicleSeatInteractionComponent",
+		"CurvePitchMax": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_BR_Max",
+			"name": "C_Uaz_BR_Max",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_BR_Max.uasset"
+		},
+		"CurvePitchMin": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_BR_Min",
+			"name": "C_Uaz_BR_Min",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_BR_Min.uasset"
+		},
+		"ExportName": "BP_BRDM_C.PassengerBRSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "VehicleName_BRDM",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Vehicles/ST_Vehicles.ST_Vehicles"
+		},
+		"LeaveSocketName": "LeaveSocketRR",
+		"MaxInteractableDistance": 250,
+		"SeatAnimationIdle_Grenade": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BR_Grenade_Idle",
+			"name": "Vehicle_BRDM_Passenger_BR_Grenade_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BR_Grenade_Idle.uasset"
+		},
+		"SeatAnimationIdle_Melee": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BR_Melee_Idle",
+			"name": "Vehicle_BRDM_Passenger_BR_Melee_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BR_Melee_Idle.uasset"
+		},
+		"SeatAnimationIdle_Rifle": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BR_Lowered_Idle",
+			"name": "Vehicle_BRDM_Passenger_BR_Lowered_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BR_Lowered_Idle.uasset"
+		},
+		"SeatAnimationIdle_Unarmed": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_BR_Unarmed_Idle",
+			"name": "Vehicle_BRDM_Passenger_BR_Unarmed_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_BR_Unarmed_Idle.uasset"
+		},
+		"SeatAnimationType": "EVehicleAnimType::BRDM_Passenger",
+		"SeatIdleAO": {
+			"StrucName": "ObjectProperty",
+			"className": "AimOffsetBlendSpace",
+			"importName": "General_AO",
+			"name": "General_AO",
+			"packagePath": "/Animations/Battlegrounds/Anims/General/General_AO.uasset"
+		},
+		"SeatIndex": 3,
+		"VehicleInsideEvent": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_Enter",
+			"name": "Vehicle_BRDM_Enter",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Enter.uasset"
+		},
+		"ViewPitchMax": 30,
+		"ViewPitchMin": -10,
+		"bBlockDrowning": true,
+		"bBlockFPPCameraUnderWaterEffect": true,
+		"bBlockRadialDamage": true,
+		"bCanAimFromSeat": false,
+		"bCanBeAffectedByFlash": false,
+		"bCanBeAffectedByMolotov": false,
+		"bCanOnlyFireWhileAiming": true,
+		"bRestricWeaponUse": true
+	},
+	"PassengerFRSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.PassengerFRSeat"
+	},
+	"PassengerFRSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"AllowedWeaponClasses": [
+			"EWeaponClass::Class_Pistol",
+			"EWeaponClass::Class_SMG",
+			"EWeaponClass::Class_Rifle",
+			"EWeaponClass::Class_Carbine",
+			"EWeaponClass::Class_Shotgun",
+			"EWeaponClass::Class_Sniper",
+			"EWeaponClass::Class_DMR",
+			"EWeaponClass::Class_LMG",
+			"EWeaponClass::Class_Throwable"
+		],
+		"ClassName": "VehicleSeatInteractionComponent",
+		"CurvePitchMax": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_FR_Max",
+			"name": "C_Uaz_FR_Max",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_FR_Max.uasset"
+		},
+		"CurvePitchMin": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_FR_Min",
+			"name": "C_Uaz_FR_Min",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_FR_Min.uasset"
+		},
+		"ExportName": "BP_BRDM_C.PassengerFRSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "VehicleName_BRDM",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Vehicles/ST_Vehicles.ST_Vehicles"
+		},
+		"LeaveSocketName": "LeaveSocketFR",
+		"MaxInteractableDistance": 250,
+		"SeatAnimationIdle_Grenade": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_FR_Grenade_Idle",
+			"name": "Vehicle_BRDM_Passenger_FR_Grenade_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_FR_Grenade_Idle.uasset"
+		},
+		"SeatAnimationIdle_Melee": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_FR_Melee_Idle",
+			"name": "Vehicle_BRDM_Passenger_FR_Melee_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_FR_Melee_Idle.uasset"
+		},
+		"SeatAnimationIdle_Rifle": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_FR_Lowered_Idle",
+			"name": "Vehicle_BRDM_Passenger_FR_Lowered_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_FR_Lowered_Idle.uasset"
+		},
+		"SeatAnimationIdle_Unarmed": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_BRDM_Passenger_FR_Unarmed_Idle",
+			"name": "Vehicle_BRDM_Passenger_FR_Unarmed_Idle",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/BRDM/Vehicle_BRDM_Passenger_FR_Unarmed_Idle.uasset"
+		},
+		"SeatAnimationType": "EVehicleAnimType::BRDM_Passenger",
+		"SeatIdleAO": {
+			"StrucName": "ObjectProperty",
+			"className": "AimOffsetBlendSpace",
+			"importName": "General_AO",
+			"name": "General_AO",
+			"packagePath": "/Animations/Battlegrounds/Anims/General/General_AO.uasset"
+		},
+		"SeatIndex": 1,
+		"VehicleInsideEvent": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_Enter",
+			"name": "Vehicle_BRDM_Enter",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Enter.uasset"
+		},
+		"ViewPitchMax": 35,
+		"ViewPitchMin": -10,
+		"bBlockDrowning": true,
+		"bBlockFPPCameraUnderWaterEffect": true,
+		"bBlockRadialDamage": true,
+		"bCanAimFromSeat": false,
+		"bCanBeAffectedByFlash": false,
+		"bCanBeAffectedByMolotov": false,
+		"bCanOnlyFireWhileAiming": true,
+		"bRestricWeaponUse": true
+	},
+	"PawnInputBindingComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__BP_BRDM_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"PlayerInstigator": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.OnDeath.PlayerInstigator"
+	},
+	"RadialForce_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RadialForce_GEN_VARIABLE",
+		"ClassName": "RadialForceComponent",
+		"ExportName": "BP_BRDM_C.RadialForce_GEN_VARIABLE",
+		"ForceStrength": 20000,
+		"ImpulseStrength": 300
+	},
+	"RadioAudioComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RadioAudioComponent",
+		"ClassName": "TslVehicleRadioComponent",
+		"ExportName": "Default__BP_BRDM_C.RadioAudioComponent"
+	},
+	"ReceiveBeginPlay": {
+		"@Remaining": 54,
+		"@SuperName": "ReceiveBeginPlay",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_BRDM_C.ReceiveBeginPlay"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 80,
+			"index": -81,
+			"name": "SceneComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "BP_BRDM_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:16F0B94C4598EABAF999CCA6C473937E"
+		}
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFL",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 105,
+			"index": -106,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_BRDM_C.DriverSeat_GEN_VARIABLE",
+			"name": "DriverSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "DriverSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:6218C5C34DB423463E4AB9977178D3F6"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_10": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "WaterSplitter_02_UpR",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_WaterSplitter_GEN_VARIABLE",
+			"name": "WC_WaterSplitter_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_10",
+		"InternalVariableName": "WC_WaterSplitter",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:E76CA81F47CE037598B4D3863C026D16"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_11": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Turbine_Hatchet_01",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_Turbine_GEN_VARIABLE",
+			"name": "WC_Turbine_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_11",
+		"InternalVariableName": "WC_Turbine",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:038A75034D25B39AD44BF8A37D1CABA3"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_12": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Wheel_FL",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_FL_GEN_VARIABLE",
+			"name": "WC_FL_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_12",
+		"InternalVariableName": "WC_FL",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:C7107B3C4B5D605D6013889AB550F030"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_13": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 100,
+			"index": -101,
+			"name": "TslVehicleSinkComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSinkComponent",
+			"exportName": "BP_BRDM_C.TslVehicleSink_GEN_VARIABLE",
+			"name": "TslVehicleSink_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_13",
+		"InternalVariableName": "TslVehicleSink",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:1E0481C14B25BA00B8554891E4357078"
+		}
+	},
+	"SCS_Node_14": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Wheel_FR",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_FR_GEN_VARIABLE",
+			"name": "WC_FR_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_14",
+		"InternalVariableName": "WC_FR",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:75035E504763C5709EF7DAB98563A355"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_15": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Wheel_BL",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_RL_GEN_VARIABLE",
+			"name": "WC_RL_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_15",
+		"InternalVariableName": "WC_RL",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:30005C0640DDDBE69DEBADA6B4593098"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_16": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Wheel_BR",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_RR_GEN_VARIABLE",
+			"name": "WC_RR_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_16",
+		"InternalVariableName": "WC_RR",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:F0798FA842E0F7F9534466B0C836AD65"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_17": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 88,
+			"index": -89,
+			"name": "MaterialClipVolumeComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "MaterialClipVolumeComponent",
+			"exportName": "BP_BRDM_C.MaterialClipVolume_GEN_VARIABLE",
+			"name": "MaterialClipVolume_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_17",
+		"InternalVariableName": "MaterialClipVolume",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:C4E91D8241CDD19FE428DB87433C65BD"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_18": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 88,
+			"index": -89,
+			"name": "MaterialClipVolumeComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "MaterialClipVolumeComponent",
+			"exportName": "BP_BRDM_C.MaterialClipVolumeUnderwater_GEN_VARIABLE",
+			"name": "MaterialClipVolumeUnderwater_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_18",
+		"InternalVariableName": "MaterialClipVolumeUnderwater",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:7818645A423C9764620426A17765882C"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 84,
+			"index": -85,
+			"name": "SphereComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_BRDM_C.Sphere_GEN_VARIABLE",
+			"name": "Sphere_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "Sphere",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:CBE89C934CF7A01546ED22AD086B6D80"
+		}
+	},
+	"SCS_Node_3": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 105,
+			"index": -106,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_BRDM_C.PassengerFRSeat_GEN_VARIABLE",
+			"name": "PassengerFRSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_3",
+		"InternalVariableName": "PassengerFRSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:9BF64E82479462BC851BE3A2901BE31B"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_4": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 84,
+			"index": -85,
+			"name": "SphereComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_BRDM_C.Sphere1_GEN_VARIABLE",
+			"name": "Sphere1_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_4",
+		"InternalVariableName": "Sphere1",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:B2B994FF4AE3DDC25E26F184587164DF"
+		}
+	},
+	"SCS_Node_5": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketRL",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 105,
+			"index": -106,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_BRDM_C.PassengerBLSeat_GEN_VARIABLE",
+			"name": "PassengerBLSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_5",
+		"InternalVariableName": "PassengerBLSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:B041C92D4D315A937382249C64BF5BF8"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_6": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 84,
+			"index": -85,
+			"name": "SphereComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_BRDM_C.Sphere2_GEN_VARIABLE",
+			"name": "Sphere2_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_6",
+		"InternalVariableName": "Sphere2",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:33A918254E3DE2A7AD432F90F1850CB7"
+		}
+	},
+	"SCS_Node_7": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketRR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 105,
+			"index": -106,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -272
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_BRDM_C.PassengerBRSeat_GEN_VARIABLE",
+			"name": "PassengerBRSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_7",
+		"InternalVariableName": "PassengerBRSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:680467F341DBA2871B80328D44393463"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_8": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 84,
+			"index": -85,
+			"name": "SphereComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_BRDM_C.Sphere3_GEN_VARIABLE",
+			"name": "Sphere3_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_8",
+		"InternalVariableName": "Sphere3",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:EE8282604A090E797D98A088149C4156"
+		}
+	},
+	"SCS_Node_9": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 85,
+			"index": -86,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -271
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_BRDM_C.WC_Body_GEN_VARIABLE",
+			"name": "WC_Body_GEN_VARIABLE"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_9",
+		"InternalVariableName": "WC_Body",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:48933D70410356B5A4873D9E76000FE2"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_14",
+				"name": "SCS_Node_14"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_15",
+				"name": "SCS_Node_15"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_16",
+				"name": "SCS_Node_16"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_13",
+				"name": "SCS_Node_13"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_17",
+				"name": "SCS_Node_17"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_18",
+				"name": "SCS_Node_18"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "BP_BRDM_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_14",
+				"name": "SCS_Node_14"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_15",
+				"name": "SCS_Node_15"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_16",
+				"name": "SCS_Node_16"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_13",
+				"name": "SCS_Node_13"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_17",
+				"name": "SCS_Node_17"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_BRDM_C.SimpleConstructionScript_0.SCS_Node_18",
+				"name": "SCS_Node_18"
+			}
+		]
+	},
+	"Sphere": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.Sphere"
+	},
+	"Sphere1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.Sphere1"
+	},
+	"Sphere1_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_BRDM_C.Sphere1_GEN_VARIABLE"
+	},
+	"Sphere2": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.Sphere2"
+	},
+	"Sphere2_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_BRDM_C.Sphere2_GEN_VARIABLE"
+	},
+	"Sphere3": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.Sphere3"
+	},
+	"Sphere3_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_BRDM_C.Sphere3_GEN_VARIABLE"
+	},
+	"Sphere_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_BRDM_C.Sphere_GEN_VARIABLE"
+	},
+	"ThirdPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_BRDM_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				119.734924
+			]
+		},
+		"SocketOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				20
+			]
+		},
+		"TargetArmLength": 700,
+		"TargetOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				20
+			]
+		}
+	},
+	"TslVehicleSink": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.TslVehicleSink"
+	},
+	"TslVehicleSink_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslVehicleSinkComponent",
+		"ClassName": "TslVehicleSinkComponent",
+		"DensityChangeCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_BoatSinkCurve",
+			"name": "C_BoatSinkCurve",
+			"packagePath": "/Vehicles/Boat_PG117/C_BoatSinkCurve.uasset"
+		},
+		"ExportName": "BP_BRDM_C.TslVehicleSink_GEN_VARIABLE",
+		"FinalSplashFxTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Final_Splash_BP_C",
+			"name": "P_Sinking_Final_Splash_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Final_Splash_BP.uasset"
+		},
+		"MaxSinkingTime": 15,
+		"RippleEmissionScaleParam": "SpawnRateScale",
+		"RippleEmissionScalePerDepthCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_BoatRippleEmissionRateByDepth",
+			"name": "C_BoatRippleEmissionRateByDepth",
+			"packagePath": "/Vehicles/Boat_PG117/C_BoatRippleEmissionRateByDepth.uasset"
+		},
+		"RippleEmitSocketsNames": [],
+		"SinkingSpeedMul": [
+			0.01
+		],
+		"SurfaceRippleFx": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "P_Sinking_Ripples_BP_C",
+			"name": "P_Sinking_Ripples_BP_C",
+			"packagePath": "/Effects/Clets/Particles/Vehicle/P_Sinking_Ripples_BP.uasset"
+		}
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "BP_BRDM_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 45,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_BRDM_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"CharacterDamageIgnores": [
+			"EDamageTypeCategory::Damage_Gun",
+			"EDamageTypeCategory::Damage_Melee",
+			"EDamageTypeCategory::Damage_Punch"
+		],
+		"ClassName": "TslVehicleCommonComponent",
+		"ComplexBodyBoneNames": [],
+		"ComplexCollisionProfileName": "VehicleComplex",
+		"ExportName": "Default__BP_BRDM_C.VehicleCommonComponent",
+		"FuelConsumptionModifierBoost": 3.2,
+		"FuelEfficiency": 3,
+		"FuelMax": 1600,
+		"HealthMax": 2500,
+		"MainComplexBodyBoneName": "Complex",
+		"OnBreak": "*** Property not implemented MulticastDelegateProperty == -1",
+		"SimpleBodyBoneName": "Root",
+		"VehicleArmorData": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleArmorDataAsset",
+			"importName": "VehicleArmor_BRDM",
+			"name": "VehicleArmor_BRDM",
+			"packagePath": "/Vehicles/VehicleData/ArmorData/VehicleArmor_BRDM.uasset"
+		},
+		"VehicleUI": {
+			"StrucName": "ObjectProperty",
+			"className": "WidgetBlueprintGeneratedClass",
+			"importName": "BrdmStanceWidget_C",
+			"name": "BrdmStanceWidget_C",
+			"packagePath": "/Blueprints/UI/HUD/Stance/VehicleStance/BrdmStanceWidget.uasset"
+		},
+		"bAllowVehiclePenetration": false
+	},
+	"VehicleEffectComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"AngularVelocityCoefficient": 0.5,
+		"ApplyDestroyedMaterialDelay": 0.3,
+		"BoostAlphaInterpSpeed": 4,
+		"BoostRPMStaticOffset": 100,
+		"CameraEffectSettings": {
+			"AccelerationInterpSpeed": 20,
+			"AccelerationMovementScalar": 0.3,
+			"AccelerationMovementSizeClamp": 5,
+			"AccelerationTargetScale": {
+				"StrucName": "Vector",
+				"value": [
+					0.02,
+					0.005,
+					0.0033
+				]
+			},
+			"CameraPointName": "FirstPersonCameraPoint",
+			"PostClampAccelerationScale": {
+				"StrucName": "Vector",
+				"value": [
+					1,
+					1,
+					1.3
+				]
+			},
+			"StaticOffset": {
+				"StrucName": "Vector",
+				"value": [
+					-5,
+					0,
+					5
+				]
+			},
+			"StrucName": "VehicleCameraEffectSettings",
+			"bCalculateVelocityAtHeadPoint": true
+		},
+		"ClassName": "TslVehicleEffectComponent",
+		"Curve_EngineAudio": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Engine_BRDM",
+			"name": "C_Engine_BRDM",
+			"packagePath": "/Vehicles/BRDM/Curves/C_Engine_BRDM.uasset"
+		},
+		"DT_Multiplier": 10,
+		"DestroyedMaterialMap": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_A_01",
+				"name": "MI_BRDM_A_01",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_A_01.uasset"
+			},
+			"1": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_B_Burn",
+				"name": "MI_BRDM_B_Burn",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_B_Burn.uasset"
+			},
+			"2": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_C_Burn",
+				"name": "MI_BRDM_C_Burn",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_C_Burn.uasset"
+			},
+			"3": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_D_Burn",
+				"name": "MI_BRDM_D_Burn",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_D_Burn.uasset"
+			},
+			"4": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_E_01",
+				"name": "MI_BRDM_E_01",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_E_01.uasset"
+			},
+			"5": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_F_01",
+				"name": "MI_BRDM_F_01",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_F_01.uasset"
+			},
+			"6": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_G_01",
+				"name": "MI_BRDM_G_01",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_G_01.uasset"
+			},
+			"7": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "MI_BRDM_E_01",
+				"name": "MI_BRDM_E_01",
+				"packagePath": "/Vehicles/BRDM/Materials/MI_BRDM_E_01.uasset"
+			}
+		},
+		"ExportName": "Default__BP_BRDM_C.VehicleEffectComponent",
+		"GearDownSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_GearDown",
+			"name": "Vehicle_BRDM_GearDown",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_GearDown.uasset"
+		},
+		"GearUpSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_BRDM_GearUp",
+			"name": "Vehicle_BRDM_GearUp",
+			"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_GearUp.uasset"
+		},
+		"LateralVelocityClamp": 500,
+		"LateralVelocityCoeffictient": 0.5,
+		"MeasuredWheelIndices": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesBrake": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesSlip": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesSpin": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MinSlip": 0.4,
+		"MinSpin": 0.55,
+		"MinVelocityForSurfaceCheck": 100,
+		"NonBoostedRPMScalar": 0.95,
+		"NonBoostedThrottleScalar": 0.5,
+		"SlipInterpSpeed": 50,
+		"SpinInterpSpeed": 50,
+		"SurfaceActivationValue": 0.6,
+		"SurfaceAudioMap": {
+			"ESurfaceEffect::S_Common_BrakeDisc": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Common_Brakedisc",
+				"name": "VSA_Common_Brakedisc",
+				"packagePath": "/Vehicles/VehicleData/VSA_Common_Brakedisc.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Brake",
+				"name": "VSA_Concrete_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Brake",
+				"name": "VSA_Concrete_Puncture_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Roll",
+				"name": "VSA_Concrete_Puncture_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Skid",
+				"name": "VSA_Concrete_Puncture_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Spin",
+				"name": "VSA_Concrete_Puncture_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Roll",
+				"name": "VSA_Concrete_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Skid",
+				"name": "VSA_Concrete_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Spin",
+				"name": "VSA_Concrete_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Brake",
+				"name": "VSA_Dirt_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Roll",
+				"name": "VSA_Dirt_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Skid",
+				"name": "VSA_Dirt_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Spin",
+				"name": "VSA_Dirt_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Brake",
+				"name": "VSA_Grass_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Roll",
+				"name": "VSA_Grass_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Skid",
+				"name": "VSA_Grass_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Spin",
+				"name": "VSA_Grass_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Brake",
+				"name": "VSA_Ice_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Roll",
+				"name": "VSA_Ice_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Skid",
+				"name": "VSA_Ice_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Spin",
+				"name": "VSA_Ice_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Brake",
+				"name": "VSA_Metal_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Roll",
+				"name": "VSA_Metal_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Skid",
+				"name": "VSA_Metal_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Spin",
+				"name": "VSA_Metal_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Brake",
+				"name": "VSA_Rock_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Roll",
+				"name": "VSA_Rock_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Skid",
+				"name": "VSA_Rock_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Spin",
+				"name": "VSA_Rock_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Brake",
+				"name": "VSA_Sand_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Roll",
+				"name": "VSA_Sand_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Skid",
+				"name": "VSA_Sand_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Spin",
+				"name": "VSA_Sand_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Brake",
+				"name": "VSA_Snow_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Roll",
+				"name": "VSA_Snow_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Skid",
+				"name": "VSA_Snow_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Spin",
+				"name": "VSA_Snow_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Water_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Brake",
+				"name": "VSA_Water_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Water_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Roll",
+				"name": "VSA_Water_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Water_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Skid",
+				"name": "VSA_Water_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Water_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Spin",
+				"name": "VSA_Water_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Brake",
+				"name": "VSA_Wood_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Roll",
+				"name": "VSA_Wood_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Skid",
+				"name": "VSA_Wood_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Spin",
+				"name": "VSA_Wood_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Spin.uasset"
+			}
+		},
+		"SurfaceDeactivationValue": 0.1,
+		"SuspenionOffsetForContact": -22,
+		"VehicleEffectInfo": {
+			"Boost": {
+				"StrucName": "ObjectProperty"
+			},
+			"Damaged": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Vehicle_Damaged_BP_BRDM_C",
+				"name": "P_Vehicle_Damaged_BP_BRDM_C",
+				"packagePath": "/Assets/Effects/Blueprints/Vehicle_VFX/P_Vehicle_Damaged_BP_BRDM.uasset"
+			},
+			"Destroyed": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Vehicle_Destroyed_BP_BRDM_C",
+				"name": "P_Vehicle_Destroyed_BP_BRDM_C",
+				"packagePath": "/Assets/Effects/Blueprints/Vehicle_VFX/P_Vehicle_Destroyed_BP_BRDM.uasset"
+			},
+			"EngineSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_BRDM_Engine_Local",
+				"name": "Vehicle_BRDM_Engine_Local",
+				"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Engine_Local.uasset"
+			},
+			"EngineSound_Remote": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_BRDM_Engine_Remote",
+				"name": "Vehicle_BRDM_Engine_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/BRDM/Vehicle_BRDM_Engine_Remote.uasset"
+			},
+			"Explosion": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Vehicle_Explosion_BP_BRDM_C",
+				"name": "P_Vehicle_Explosion_BP_BRDM_C",
+				"packagePath": "/Assets/Effects/Blueprints/Vehicle_VFX/P_Vehicle_Explosion_BP_BRDM.uasset"
+			},
+			"FrontTrail": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_BRDM_Drive_Foam_Front_BP_C",
+				"name": "P_BRDM_Drive_Foam_Front_BP_C",
+				"packagePath": "/Assets/Effects/Blueprints/VehicleTrails/P_BRDM_Drive_Foam_Front_BP.uasset"
+			},
+			"ImpactConcrete": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactDefault": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactDirt": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactIce": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Ice_BP_BRDM_C",
+				"name": "P_VehicleImpact_Ice_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Ice_BP_BRDM.uasset"
+			},
+			"ImpactMetal": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Metal_BP_BRDM_C",
+				"name": "P_VehicleImpact_Metal_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Metal_BP_BRDM.uasset"
+			},
+			"ImpactRock": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactSand": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactSnow": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Snow_BP_BRDM_C",
+				"name": "P_VehicleImpact_Snow_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Snow_BP_BRDM.uasset"
+			},
+			"ImpactSnowRock": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"name": "P_VehicleImpact_Rock_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Rock_BP_BRDM.uasset"
+			},
+			"ImpactWood": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Wood_BP_BRDM_C",
+				"name": "P_VehicleImpact_Wood_BP_BRDM_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/BRDM/P_VehicleImpact_Wood_BP_BRDM.uasset"
+			},
+			"Muffler": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Vehicle_Muffler_BP_BRDM_C",
+				"name": "P_Vehicle_Muffler_BP_BRDM_C",
+				"packagePath": "/Assets/Effects/Blueprints/Vehicle_VFX/P_Vehicle_Muffler_BP_BRDM.uasset"
+			},
+			"RearTrail": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_BRDM_Drive_Foam_Back_BP_C",
+				"name": "P_BRDM_Drive_Foam_Back_BP_C",
+				"packagePath": "/Assets/Effects/Blueprints/VehicleTrails/P_BRDM_Drive_Foam_Back_BP.uasset"
+			},
+			"SpashEffectOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleWaterSplash_C",
+				"name": "P_VehicleWaterSplash_C",
+				"packagePath": "/Assets/Effects/Blueprints/P_VehicleWaterSplash.uasset"
+			},
+			"StrucName": "VehicleEffectInfo"
+		},
+		"VehicleImpactSettings": {
+			"ImpactTimeout": 0.33,
+			"MaxAbsScrapeDOT": 0.3,
+			"MinImpactSpeed": 4,
+			"MinImpactThreshold": 100,
+			"ScrapeRange": {
+				"LowerBound": {
+					"StrucName": "FloatRangeBound",
+					"Value": 1.5
+				},
+				"StrucName": "FloatRange",
+				"UpperBound": {
+					"StrucName": "FloatRangeBound",
+					"Value": 120
+				}
+			},
+			"StrucName": "VehicleImpactSettings",
+			"SurfaceImpactMap": {
+				"SurfaceType1": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Rock",
+						"name": "Vehicle_BRDM_Impact_Rock",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Rock.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType10": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Rock",
+						"name": "Vehicle_BRDM_Impact_Rock",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Rock.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType11": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Rock",
+						"name": "Vehicle_BRDM_Impact_Rock",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Rock.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType16": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Snow",
+						"name": "Vehicle_BRDM_Impact_Snow",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Snow.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Snow",
+						"name": "P_VehicleImpact_Snow",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Snow.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType18": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Ice",
+						"name": "Vehicle_BRDM_Impact_Ice",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Ice.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Ice",
+						"name": "P_VehicleImpact_Ice",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Ice.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType19": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Snow",
+						"name": "Vehicle_BRDM_Impact_Snow",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Snow.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Snow",
+						"name": "P_VehicleImpact_Snow",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Snow.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType4": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Metal",
+						"name": "Vehicle_BRDM_Impact_Metal",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Metal.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Metal",
+						"name": "P_VehicleImpact_Metal",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Metal.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType5": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Wood",
+						"name": "Vehicle_BRDM_Impact_Wood",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Wood.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Wood",
+						"name": "P_VehicleImpact_Wood",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Wood.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType6": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Wood",
+						"name": "Vehicle_BRDM_Impact_Wood",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Wood.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Wood",
+						"name": "P_VehicleImpact_Wood",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Wood.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType9": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Rock",
+						"name": "Vehicle_BRDM_Impact_Rock",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Rock.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType_Default": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty",
+						"className": "AkAudioEvent",
+						"importName": "Vehicle_BRDM_Impact_Rock",
+						"name": "Vehicle_BRDM_Impact_Rock",
+						"packagePath": "/WwiseAssets/Vehicles/Common/Impact_BRDM/Vehicle_BRDM_Impact_Rock.uasset"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				}
+			},
+			"SurfaceScrapeMap": {
+				"SurfaceType1": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty",
+						"className": "ParticleSystem",
+						"importName": "P_VehicleImpact_Rock",
+						"name": "P_VehicleImpact_Rock",
+						"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock.uasset"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType2": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType4": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType5": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType9": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty"
+					},
+					"StrucName": "None"
+				},
+				"SurfaceType_Default": {
+					"AkEvent": {
+						"StrucName": "ObjectProperty"
+					},
+					"ParticleSystem": {
+						"StrucName": "ObjectProperty"
+					},
+					"StrucName": "None"
+				}
+			},
+			"bUseNewImpactSettings": true
+		},
+		"VelocityInterpSpeed": 150,
+		"bProcessShiftStart": true,
+		"bUseDopplerEffect": true,
+		"bUseNewChassisAudio": true,
+		"bUseNewSurfaceAudio": true,
+		"bUsesBoosting": false
+	},
+	"VehicleHitComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"CharacterDamageMassUnitMultiplier": 0.000333,
+		"ClassName": "TslVehicleHitComponent",
+		"ExplosionBaseDamage": 200,
+		"ExplosionRadiusInner": 100,
+		"ExplosionRadiusOuter": 600,
+		"ExportName": "Default__BP_BRDM_C.VehicleHitComponent",
+		"ImpulseLimitationSpeedThreshold_Console": 2500,
+		"OnCharacterHit": "*** Property not implemented MulticastDelegateProperty == -1",
+		"PhysicsImpactAbsorption": 4500000,
+		"PhysicsImpactAbsorptionRider": 2400000,
+		"PhysicsImpactAbsorptionRiderUpsideDown": 150000,
+		"PhysicsImpactAbsorptionRider_Console": 1666665,
+		"PhysicsImpactAbsorptionUpsideDown": 1350000,
+		"PhysicsImpactAbsorption_Console": 7500000,
+		"PhysicsImpactModifier": 0.9,
+		"PhysicsImpactRiderDamageMultiplier": 0.000003,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.000008,
+		"PhysicsImpactVehicleDamageMultiplier": 0.00005,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.000074,
+		"VehicleHitCharacterDotMapIn": {
+			"StrucName": "Vector2D",
+			"value": [
+				0.1,
+				0.7
+			]
+		},
+		"VehicleHitCharacterDotMapOut": {
+			"StrucName": "Vector2D",
+			"value": [
+				0.2,
+				1
+			]
+		}
+	},
+	"VehicleMesh": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleMesh",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_BRDM_C",
+			"name": "ABP_BRDM_C",
+			"packagePath": "/Vehicles/BRDM/ABP_BRDM.uasset"
+		},
+		"BodyInstance": {
+			"CollisionProfileName": "VehicleSimple",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MaxDepenetrationVelocity": 420,
+			"StrucName": "BodyInstance",
+			"bOverrideMaxDepenetrationVelocity": true
+		},
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__BP_BRDM_C.VehicleMesh",
+		"ExtendedBoundsArray": [
+			{
+				"BoxExtent": {
+					"StrucName": "Vector",
+					"value": [
+						10,
+						10,
+						10
+					]
+				},
+				"Origin": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						10
+					]
+				},
+				"SphereRadius": 5,
+				"StrucName": "BoxSphereBounds"
+			}
+		],
+		"IndoorOutdoorMask": "IOM_BOTH",
+		"LightingChannels": {
+			"StrucName": "LightingChannels",
+			"bChannel1": true
+		},
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_BRDM",
+			"name": "SK_BRDM",
+			"packagePath": "/Vehicles/BRDM/Mesh/SK_BRDM.uasset"
+		},
+		"bIgnoreRadialImpulse": true
+	},
+	"VehicleSeatComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__BP_BRDM_C.VehicleSeatComponent"
+	},
+	"VehicleSyncComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__BP_BRDM_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__BP_BRDM_C.VehicleXRayComponent"
+	},
+	"WC_Body": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_Body"
+	},
+	"WC_Body_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_Body_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Body_Collision",
+			"name": "SM_BRDM_Body_Collision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Body_Collision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_FL": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_FL"
+	},
+	"WC_FL_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_FL_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			},
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Wheel_Colision",
+			"name": "SM_BRDM_Wheel_Colision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Wheel_Colision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_FR": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_FR"
+	},
+	"WC_FR_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_FR_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			},
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				180,
+				0,
+				0
+			]
+		},
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Wheel_Colision",
+			"name": "SM_BRDM_Wheel_Colision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Wheel_Colision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_RL": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_RL"
+	},
+	"WC_RL_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_RL_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			},
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Wheel_Colision",
+			"name": "SM_BRDM_Wheel_Colision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Wheel_Colision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_RR": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_RR"
+	},
+	"WC_RR_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_RR_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			},
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				180,
+				0,
+				0
+			]
+		},
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Wheel_Colision",
+			"name": "SM_BRDM_Wheel_Colision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Wheel_Colision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_Turbine": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_Turbine"
+	},
+	"WC_Turbine_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_Turbine_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Turbine_Collision",
+			"name": "SM_BRDM_Turbine_Collision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Turbine_Collision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"WC_WaterSplitter": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_BRDM_C.WC_WaterSplitter"
+	},
+	"WC_WaterSplitter_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_BRDM_C.WC_WaterSplitter_GEN_VARIABLE",
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_BRDM_Watersplitter_Collision",
+			"name": "SM_BRDM_Watersplitter_Collision",
+			"packagePath": "/Vehicles/BRDM/Mesh/SM_BRDM_Watersplitter_Collision.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	}
+}

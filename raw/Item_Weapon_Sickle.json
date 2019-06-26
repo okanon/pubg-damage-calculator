@@ -1,0 +1,90 @@
+{
+	"Default__Item_Weapon_Sickle_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponItem",
+		"ClassName": "Item_Weapon_Sickle_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Sickle",
+			"name": "Play_UI_Item_Equip_Sickle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Sickle.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Melee/Sickle/Sickle_01.Sickle_01",
+		"DroppedMeshScale": 1.5,
+		"EquipSlotID": "EEquipSlotID::WeaponMelee",
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Sickle",
+			"name": "Play_UI_Item_Equip_Sickle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Sickle.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_Sickle_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Sickle.icon_weapon_Sickle",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Sickle",
+			"name": "Play_UI_Item_Equip_Sickle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Sickle.uasset"
+		},
+		"ItemCategory": {
+			"Key": "3CC69BF34062C471E233FABA894812EB",
+			"Namespace": "",
+			"SourceString": "Melee Weapon",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_Sickle",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Sickle",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Sickle",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapSickle_C",
+			"name": "WeapSickle_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapSickle.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Sickle",
+			"name": "Play_UI_Item_Equip_Sickle",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_MeleeWeapon/Play_UI_Item_Equip_Sickle.uasset"
+		},
+		"SkinTag": "Item_Weapon_Sickle",
+		"SortPriority": 7,
+		"SpacePerItem": 120,
+		"StackCountMax": 1,
+		"SubCategory": "Melee",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_Sickle.icon_weapon_Sickle",
+		"WeaponTag": "Sickle",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapSickle_C",
+			"name": "WeapSickle_C",
+			"packagePath": "/Blueprints/Weapons/Melee/WeapSickle.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_Sickle_C": {
+		"@Remaining": 72,
+		"@SuperName": "WeaponItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Sickle_C"
+	}
+}

@@ -1,0 +1,182 @@
+{
+	"Weapvz61Skorpion_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "Weapvz61Skorpion_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_vz61Skorpion_Firemode_Montage",
+				"name": "CharacterWeapon_vz61Skorpion_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/vz61Skorpion/CharacterWeapon_vz61Skorpion_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_vz61Skorpion_Grip",
+				"name": "Weapon_vz61Skorpion_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/vz61Skorpion/Weapon_vz61Skorpion_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace",
+				"importName": "Weapon_vz61Skorpion_Grip_LH",
+				"name": "Weapon_vz61Skorpion_Grip_LH",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/vz61Skorpion/Weapon_vz61Skorpion_Grip_LH.uasset"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_vz61Skorpion_Reload_Charge_Montage",
+				"name": "CharacterWeapon_vz61Skorpion_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/vz61Skorpion/CharacterWeapon_vz61Skorpion_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_vz61Skorpion_Reload_Tactical_Montage1",
+				"name": "CharacterWeapon_vz61Skorpion_Reload_Tactical_Montage1",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/vz61Skorpion/CharacterWeapon_vz61Skorpion_Reload_Tactical_Montage1.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"LobbyAnimClassOverride": "EWeaponClass::Class_Pistol",
+			"MagDropAngularVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					-50,
+					750,
+					0
+				]
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					-100,
+					-250
+				]
+			},
+			"RecoilKickADS": 1,
+			"RecoilKick_MovementMaxMultiplier": 1.1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 3.08,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 2.5,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_Uzi_C",
+				"name": "CS_WeapGun_SMG_Uzi_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_Uzi.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_Uzi_ADS_C",
+				"name": "CS_WeapGun_SMG_Uzi_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_Uzi_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_SMG_Uzi_ADS_C",
+				"name": "CS_WeapGun_SMG_Uzi_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_SMG_Uzi_ADS.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 2.5,
+			"DeviationBaseADS": 0.2,
+			"DeviationBaseAim": 2.2,
+			"DeviationMax": 7,
+			"DeviationMaxMove": 2,
+			"DeviationMoveMaxReferenceVelocity": 400,
+			"DeviationMoveMinReferenceVelocity": 150,
+			"DeviationMoveMultiplier": 1.7,
+			"DeviationRecoilGainADS": 0.15,
+			"DeviationRecoilGainAim": 0.85,
+			"DeviationStanceCrouch": 0.85,
+			"DeviationStanceProne": 0.69,
+			"MOA": 15,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"ADSTimeMultiplier": 1.3,
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_9mm_C",
+				"name": "Item_Ammo_9mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_9mm.uasset"
+			},
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"FiringModes": [
+				"EFiringMode::Normal",
+				"EFiringMode::FullAuto"
+			],
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					-1,
+					3
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					7.234613,
+					0,
+					5
+				]
+			},
+			"MovementModifierAim": 1.8,
+			"MovementModifierScope": 1.6,
+			"NoAnimReloadDuration": 3.1,
+			"ShoulderLength": 8,
+			"StabilityForceModifier": 0.4,
+			"StabilitySpeedModifier": 1.1,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.070588,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 12,
+			"WeaponToShoulderOffset": -10
+		}
+	}
+}

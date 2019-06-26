@@ -1,0 +1,56 @@
+{
+	"Default__Vehicle_Repair_Kit_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleRepairKitItem",
+		"CastConfig": {
+			"CastName": {
+				"Key": "07C245994FA8760EFFA6558FF9BE9874",
+				"Namespace": "[D5473A03452C5865448A269B9EFF1E56]",
+				"SourceString": "Repairing Vehicle",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 8,
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "Vehicle_Repair_Kit_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/RepairKit/RepairKit_Vehicle_Drop.RepairKit_Vehicle_Drop",
+		"ExportName": "Default__Vehicle_Repair_Kit_C",
+		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Vehicle.icon_Special_RepairKit_Vehicle",
+		"ItemCategory": {
+			"Key": "313B202E42E74D2AD64A06AC6C979A06",
+			"Namespace": "[D5473A03452C5865448A269B9EFF1E56]",
+			"SourceString": "Repair",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Vehicle_Repair_Kit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Vehicle_Repair_Kit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Vehicle_Repair_Kit",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"RepairAmount": 450,
+		"SortPriority": 997,
+		"SpacePerItem": 20,
+		"StackCountMax": 1,
+		"SubCategory": "Repair",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Vehicle.icon_Special_RepairKit_Vehicle",
+		"bUsable": true
+	},
+	"Vehicle_Repair_Kit_C": {
+		"@Remaining": 72,
+		"@SuperName": "VehicleRepairKitItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Vehicle_Repair_Kit_C"
+	}
+}

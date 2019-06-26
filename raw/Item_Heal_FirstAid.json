@@ -1,0 +1,152 @@
+{
+	"CallFunc_Conv_IntToText_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.CallFunc_Conv_IntToText_ReturnValue"
+	},
+	"CallFunc_Format_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TextProperty",
+		"ClassName": "TextProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.CallFunc_Format_ReturnValue"
+	},
+	"CallFunc_Greater_IntInt_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.CallFunc_Greater_IntInt_ReturnValue"
+	},
+	"CallFunc_Subtract_IntInt_ReturnValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.CallFunc_Subtract_IntInt_ReturnValue"
+	},
+	"Default__Item_Heal_FirstAid_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__HealOverTimeItem",
+		"CastConfig": {
+			"CastAnim": "ECastAnim::FirstAid",
+			"CastName": {
+				"Key": "58FE6F7A4A075716B3018C9CE543AFE0",
+				"Namespace": "[6E0E302143CA287D76C74FBB92F7FBBD]",
+				"SourceString": "Using First Aid Kit",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::High",
+			"CastTime": 5.9,
+			"MaxLinAcceleration": 3,
+			"StrucName": "CastConfig"
+		},
+		"CastableItemType": "ECastableItemType::FirstAid",
+		"ClassName": "Item_Heal_FirstAid_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_FirstAid",
+			"name": "Play_UI_Item_Equip_Usable_FirstAid",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_FirstAid.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/FirstAidKit/Models/SM_FirstAidPackMilitary_01.SM_FirstAidPackMilitary_01",
+		"DroppedMeshScale": 2.5,
+		"ExportName": "Default__Item_Heal_FirstAid_C",
+		"HealOverTimeBuffClass": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "Buff_HealOverTime_FirstAid_C",
+			"name": "Buff_HealOverTime_FirstAid_C",
+			"packagePath": "/Blueprints/Buff/Buff_HealOverTime_FirstAid.uasset"
+		},
+		"Icon": "AssetObject==/Game/UI/item/health/icon_Heal_FirstAid.icon_Heal_FirstAid",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_FirstAid",
+			"name": "Play_UI_Item_Equip_Usable_FirstAid",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_FirstAid.uasset"
+		},
+		"ItemCategory": {
+			"Key": "EA484F3B4BDE48D8AEE4A5B2A2A20838",
+			"Namespace": "",
+			"SourceString": "Heal",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Heal_FirstAid",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemDescriptions.ST_Item_Usable_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Heal_FirstAid",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Heal_FirstAid",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/ST_Item_Usable_ItemNames.ST_Item_Usable_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Usable_FirstAid",
+			"name": "Play_UI_Item_Equip_Usable_FirstAid",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Usable/Play_UI_Item_Equip_Usable_FirstAid.uasset"
+		},
+		"PrintTime": 14,
+		"SortPriority": 998,
+		"SpacePerItem": 10,
+		"StackCountMax": 100,
+		"SubCategory": "Heal",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/health/icon_Heal_FirstAid.icon_Heal_FirstAid",
+		"bStackable": true,
+		"bUsable": true
+	},
+	"Item_Heal_FirstAid_C": {
+		"@Remaining": 84,
+		"@SuperName": "HealOverTimeItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Heal_FirstAid_C"
+	},
+	"K2Node_MakeArray_Array": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.K2Node_MakeArray_Array.K2Node_MakeArray_Array"
+	},
+	"K2Node_MakeStruct_FormatArgumentData": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.K2Node_MakeStruct_FormatArgumentData"
+	},
+	"PrintCastingTime": {
+		"@Remaining": 519,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime"
+	},
+	"PrintTime": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintTime"
+	},
+	"__K2Node_MakeArray_Array_1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ArrayProperty",
+		"ClassName": "ArrayProperty",
+		"ExportName": "Item_Heal_FirstAid_C.PrintCastingTime.K2Node_MakeArray_Array"
+	}
+}

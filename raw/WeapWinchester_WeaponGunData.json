@@ -1,0 +1,231 @@
+{
+	"WeapWinchester_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapWinchester_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Winchester_BoltAction_Montage",
+				"name": "CharacterWeapon_Winchester_BoltAction_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/CharacterWeapon_Winchester_BoltAction_Montage.uasset"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Winchester_BoltAction_Montage",
+				"name": "CharacterWeapon_Winchester_BoltAction_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/CharacterWeapon_Winchester_BoltAction_Montage.uasset"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_Winchester_Grip",
+				"name": "Weapon_Winchester_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/Weapon_Winchester_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Winchester_Reload_Montage",
+				"name": "CharacterWeapon_Winchester_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/CharacterWeapon_Winchester_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Winchester_Reload_Montage",
+				"name": "CharacterWeapon_Winchester_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/CharacterWeapon_Winchester_Reload_Montage.uasset"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_Winchester_Reload_Montage",
+				"name": "CharacterWeapon_Winchester_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Winchester/CharacterWeapon_Winchester_Reload_Montage.uasset"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty",
+				"className": "CameraAnim",
+				"importName": "CSA_Shotgun_Winchester_Cycle",
+				"name": "CSA_Shotgun_Winchester_Cycle",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CSA_Shotgun_Winchester_Cycle.uasset"
+			},
+			"FireCycleDelay": 0.3,
+			"FireCycleDuration": 0.67,
+			"RecoilKickADS": 1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationLoop": 0.715,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationStart": 0.635,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Shotgun_C",
+				"name": "CS_WeapGun_Shotgun_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			},
+			"bCycleAfterLastShot": false,
+			"bUseBoltAction": true
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 1.5,
+			"DeviationBaseAim": 0.9,
+			"DeviationMax": 7,
+			"DeviationMaxMove": 2,
+			"DeviationMoveMaxReferenceVelocity": 400,
+			"DeviationMoveMultiplier": 1.7,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_12Guage_C",
+				"name": "Item_Ammo_12Guage_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_12Guage.uasset"
+			},
+			"AmmoPerClip": 5,
+			"BulletPerFiring": 9,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 5.5,
+			"GridPelletSpreadHalfAngle": 1,
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					4
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					5
+				]
+			},
+			"NoAnimReloadDuration": 2.3,
+			"PelletGrid": {
+				"0": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0
+					]
+				},
+				"1": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.705197,
+						-0.705197
+					]
+				},
+				"2": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.705197,
+						0.705197
+					]
+				},
+				"3": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.705197,
+						-0.705197
+					]
+				},
+				"4": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.705197,
+						0.705197
+					]
+				},
+				"5": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						-0.99792
+					]
+				},
+				"6": {
+					"StrucName": "Vector2D",
+					"value": [
+						0,
+						0.99792
+					]
+				},
+				"7": {
+					"StrucName": "Vector2D",
+					"value": [
+						-0.99792,
+						0
+					]
+				},
+				"8": {
+					"StrucName": "Vector2D",
+					"value": [
+						0.99792,
+						0
+					]
+				}
+			},
+			"ReloadMethod": "EWeaponReloadMethod::OneByOne",
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.75,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 55,
+			"bManualCycleAfterShot": true,
+			"bManualCycleInitialStateReady": false,
+			"bUseGridPelletSpread": true
+		}
+	}
+}

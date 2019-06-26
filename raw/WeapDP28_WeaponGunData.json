@@ -1,0 +1,167 @@
+{
+	"WeapDP28_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapDP28_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Character_Weapon_AK_Firemode_Montage",
+				"name": "Character_Weapon_AK_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/AK/Character_Weapon_AK_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_DP28_Grip",
+				"name": "Weapon_DP28_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/DP28/Weapon_DP28_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_DP28_Reload_Charge_Montage",
+				"name": "CharacterWeapon_DP28_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/DP28/CharacterWeapon_DP28_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_DP28_Reload_Montage",
+				"name": "CharacterWeapon_DP28_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/DP28/CharacterWeapon_DP28_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"MagDropAngularVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					-3,
+					-20,
+					3
+				]
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-200
+				]
+			},
+			"RecoilKickADS": 1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 5.5,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 4.5,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_762_C",
+				"name": "CS_WeapGun_Rifle_762_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_762.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_762_ADS_C",
+				"name": "CS_WeapGun_Rifle_762_ADS_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_762_ADS.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Rifle_762_Ironsight_C",
+				"name": "CS_WeapGun_Rifle_762_Ironsight_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Rifle_762_Ironsight.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 3.1,
+			"DeviationBaseADS": 0.02,
+			"DeviationBaseAim": 1.4,
+			"DeviationMax": 8,
+			"DeviationMaxMove": 3.5,
+			"DeviationMoveMaxReferenceVelocity": 300,
+			"DeviationRecoilGain": 1.4,
+			"DeviationRecoilGainADS": 0.022,
+			"DeviationRecoilGainAim": 0.9,
+			"MOA": 4.6,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_762mm_C",
+				"name": "Item_Ammo_762mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_762mm.uasset"
+			},
+			"AmmoPerClip": 47,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"FiringModes": [
+				"EFiringMode::FullAuto"
+			],
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					1
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					7,
+					0.5,
+					3.5
+				]
+			},
+			"NoAnimReloadDuration": 3.1,
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.109,
+			"TracerClass": {
+				"StrucName": "ObjectProperty"
+			},
+			"WeaponLength": 55
+		}
+	}
+}

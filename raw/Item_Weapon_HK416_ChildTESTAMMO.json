@@ -1,0 +1,61 @@
+{
+	"Default__Item_Weapon_HK416_ChildTESTAMMO_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_HK416_C",
+		"AmmoCount": 300,
+		"AmmoPerClip": 300,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_HK416_ChildTESTAMMO_C",
+		"ExportName": "Default__Item_Weapon_HK416_ChildTESTAMMO_C",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapHK416_ChildTESTINGAMMO_C",
+			"name": "WeapHK416_ChildTESTINGAMMO_C",
+			"packagePath": "/Blueprints/Weapons/WeapHK416_ChildTESTINGAMMO.uasset"
+		}
+	},
+	"Item_Weapon_HK416_ChildTESTAMMO_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_HK416_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_HK416_ChildTESTAMMO_C"
+	}
+}

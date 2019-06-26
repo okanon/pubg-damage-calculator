@@ -1,0 +1,67 @@
+{
+	"Default__Item_Weapon_Groza_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_SKS_C",
+		"AmmoPerClip": 30,
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_Groza_C",
+		"DroppedMesh": "AssetObject==/Game/Weapon/Rifles/GROZA/Meshes/GROZA_Drop.GROZA_Drop",
+		"ExportName": "Default__Item_Weapon_Groza_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_GROZA.icon_weapon_GROZA",
+		"ItemDescription": {
+			"Key": "Item_Weapon_Groza",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_Groza",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_Groza",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapGroza_C",
+			"name": "WeapGroza_C",
+			"packagePath": "/Blueprints/Weapons/WeapGroza.uasset"
+		},
+		"SkinTag": "Item_Weapon_Groza",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_GROZA.icon_weapon_GROZA",
+		"WeaponTag": "Groza",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapGroza_C",
+			"name": "WeapGroza_C",
+			"packagePath": "/Blueprints/Weapons/WeapGroza.uasset"
+		}
+	},
+	"Item_Weapon_Groza_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_SKS_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Groza_C"
+	}
+}

@@ -1,0 +1,2835 @@
+{
+	"AxisValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_Motorbike_04_C.InpAxisEvt_AirControlRoll_K2Node_InputAxisEvent_13.AxisValue"
+	},
+	"BP_Motorbike_04_C": {
+		"@Remaining": 144,
+		"@SuperName": "TslMotorbikeVehicle_Standalone",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"DynamicBindingObjects": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "InputAxisDelegateBinding",
+				"exportName": "BP_Motorbike_04_C.InputAxisDelegateBinding_2",
+				"name": "InputAxisDelegateBinding_2"
+			}
+		],
+		"ExportName": "BP_Motorbike_04_C",
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "BP_Motorbike_04_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04",
+			"name": "ExecuteUbergraph_BP_Motorbike_04"
+		}
+	},
+	"BuffComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuffComponent",
+		"ClassName": "BuffComponet",
+		"ExportName": "Default__BP_Motorbike_04_C.BuffComponent"
+	},
+	"BuoyancyForceComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"ClassName": "TslBuoyancyForceComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.BuoyancyForceComponent",
+		"MeshDensity": 1500,
+		"TestPoints": [
+			{
+				"StrucName": "Vector",
+				"value": [
+					110,
+					0,
+					45
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-140,
+					0,
+					45
+				]
+			}
+		]
+	},
+	"CallFunc_Greater_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_Greater_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Greater_FloatFloat_ReturnValue2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_Greater_FloatFloat_ReturnValue2"
+	},
+	"CallFunc_HasContact_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_HasContact_ReturnValue"
+	},
+	"CallFunc_Less_FloatFloat_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_Less_FloatFloat_ReturnValue"
+	},
+	"CallFunc_Less_FloatFloat_ReturnValue2": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_Less_FloatFloat_ReturnValue2"
+	},
+	"CallFunc_Not_PreBool_ReturnValue": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.CallFunc_Not_PreBool_ReturnValue"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "BP_Motorbike_04_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__BP_Motorbike_04_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__TslMotorbikeVehicle_Standalone",
+		"AirControlB_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				150
+			]
+		},
+		"AirControlE_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				-38
+			]
+		},
+		"AirControlF_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				-150
+			]
+		},
+		"AirControlL_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				-28
+			]
+		},
+		"AirControlQ_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				38
+			]
+		},
+		"AirControlR_VelMap": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				28
+			]
+		},
+		"AirControl_FB_Torque": 37500000,
+		"AirControl_LR_Torque": 4125000,
+		"AirControl_QE_Torque": 6250000,
+		"AnimUpdateRateSettings": {
+			"BaseVisibleDistanceFactorThesholds": [
+				0.025,
+				0.005,
+				0.0005
+			],
+			"StrucName": "AnimUpdateRateSettings"
+		},
+		"AutoEjectGroundDistance": 250,
+		"AutoEjectPitch": 82,
+		"AutoEjectRoll": 82,
+		"AutoEject_RiseRate": 3,
+		"BuffComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuffComponet",
+			"exportName": "Default__BP_Motorbike_04_C.BuffComponent",
+			"name": "BuffComponent"
+		},
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslBuoyancyForceComponent",
+			"exportName": "Default__BP_Motorbike_04_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"CharacterHitSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Motorcycle_Impact_Human",
+			"name": "Vehicle_Motorcycle_Impact_Human",
+			"packagePath": "/WwiseAssets/Vehicles/Common/Vehicle_Motorcycle_Impact_Human.uasset"
+		},
+		"ClassName": "BP_Motorbike_04_C",
+		"ContactAlpha_FallRate": 2,
+		"ContactAlpha_LowerClamp": 0.08,
+		"ContactAlpha_MapPitchIn": {
+			"StrucName": "Vector2D",
+			"value": [
+				40,
+				45
+			]
+		},
+		"ContactAlpha_MapRollIn": {
+			"StrucName": "Vector2D",
+			"value": [
+				30,
+				40
+			]
+		},
+		"ContactAlpha_RiseRate": 4,
+		"CounterSteerScalar_Brake": 0.1,
+		"Curve_Roll": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_Stabilize",
+			"name": "Curve_Moto_Stabilize",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_Stabilize.uasset"
+		},
+		"Curve_RollReturn": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_StabilizeReturn",
+			"name": "Curve_Moto_StabilizeReturn",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_StabilizeReturn.uasset"
+		},
+		"Curve_Steer": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_Steer",
+			"name": "Curve_Moto_Steer",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_Steer.uasset"
+		},
+		"Curve_Torque": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_StabilizeToqrue",
+			"name": "Curve_Moto_StabilizeToqrue",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_StabilizeToqrue.uasset"
+		},
+		"Curve_Yaw": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_Yaw",
+			"name": "Curve_Moto_Yaw",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_Yaw.uasset"
+		},
+		"DefaultAngularDamp": 0.4,
+		"DefaultAngularDamping_Client": 0.4,
+		"DefaultAngularDamping_Server": 0.4,
+		"DefaultMAV": 720,
+		"DirectStabilizeSpeedKickstand": 120,
+		"DirectStabilizeSpeedKickstand_LowRoll": 20,
+		"ExportName": "Default__BP_Motorbike_04_C",
+		"FC_PitchDown": 200,
+		"FC_PitchUp": -360,
+		"FuelMax": 400,
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__BP_Motorbike_04_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"HealthMax": 50,
+		"InitialFlipTimer": 0.2,
+		"KickstandStabLinearDamp": 3,
+		"KickstandStabilizeRollScalar": 0.05,
+		"KickstandStabilizeTorqueScalar": 1,
+		"MainBodyCOM_Initial": {
+			"StrucName": "Vector",
+			"value": [
+				10,
+				0,
+				-20
+			]
+		},
+		"MaxClampThrottleInClutch": 0.5,
+		"Mesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"MinSuspensionOffsetForContact": -9,
+		"MinVelocityForFlipping": 50,
+		"MinVelocityForStabilizeOverride": 216,
+		"MotoRollDampSettings": {
+			"StrucName": "MotoRollDampSettings",
+			"bVelDampening": true
+		},
+		"RadioAudioComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleRadioComponent",
+			"exportName": "Default__BP_Motorbike_04_C.RadioAudioComponent",
+			"name": "RadioAudioComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"SinkBuffType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "Buff_BreakSunkenVehicle_C",
+			"name": "Buff_BreakSunkenVehicle_C",
+			"packagePath": "/Blueprints/Buff/Buff_BreakSunkenVehicle.uasset"
+		},
+		"SinkPoint": "Socket_Engine",
+		"StabNoDriverVector": {
+			"StrucName": "Vector",
+			"value": [
+				-15,
+				0,
+				15
+			]
+		},
+		"StabStaticVector": {
+			"StrucName": "Vector",
+			"value": [
+				8,
+				0,
+				-5
+			]
+		},
+		"StabTorque_ForceScalar": -200000,
+		"StabX_Pitch_Out": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				5
+			]
+		},
+		"StabX_Velocity_In": {
+			"StrucName": "Vector2D",
+			"value": [
+				20,
+				120
+			]
+		},
+		"StabX_Velocity_Out": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				15
+			]
+		},
+		"StabZ_Pitch_Out": {
+			"StrucName": "Vector2D",
+			"value": [
+				0,
+				0
+			]
+		},
+		"StabZ_Roll_In": {
+			"StrucName": "Vector2D",
+			"value": [
+				20,
+				60
+			]
+		},
+		"StabZ_Velocity_In": {
+			"StrucName": "Vector2D",
+			"value": [
+				30,
+				100
+			]
+		},
+		"StabZ_Velocity_Out": {
+			"StrucName": "Vector2D",
+			"value": [
+				-2,
+				3
+			]
+		},
+		"StabilizeBone_High": "Stabilizer_High",
+		"StabilizeBone_Low": "Stabilizer_Low",
+		"StabilizeInitialTimer": 1,
+		"StopSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Motorcycle_Engine_Stop",
+			"name": "Vehicle_Motorcycle_Engine_Stop",
+			"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Engine_Stop.uasset"
+		},
+		"TorqueMultiplierForBoosting": 1,
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__BP_Motorbike_04_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__BP_Motorbike_04_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__BP_Motorbike_04_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleMovement": {
+			"StrucName": "ObjectProperty",
+			"className": "TslWheeledVehicleMovement",
+			"exportName": "Default__BP_Motorbike_04_C.MovementComp",
+			"name": "MovementComp"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__BP_Motorbike_04_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		},
+		"bApplyCustomAnimUpdaterateSettings": true,
+		"bProcessAutoEject": true,
+		"bProcessCounterSteerNoInput": true,
+		"bProcessCounterSteerOnRemote": true,
+		"bProcessCounterSteering": true,
+		"bRunStabilizeOnEntry": true,
+		"bStabilizeOnRemoteClient": true,
+		"bStabilizeOnServer": true,
+		"bUseAnchoring": true,
+		"bUseKickstandStabilize": true,
+		"bUseMainBodyCOMNoDriver": true,
+		"bUseSleepForcingOnStabilize": false
+	},
+	"DriverCollision": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.DriverCollision"
+	},
+	"DriverCollision_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+			"CollisionProfileName": "Vehicle",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassInKgOverride": 0.01,
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CanCharacterStepUpOn": "ECB_No",
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_Motorbike_04_C.DriverCollision_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-10.33606,
+				0,
+				134.700317
+			]
+		},
+		"SphereRadius": 30,
+		"bCanEverAffectNavigation": false
+	},
+	"DriverSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.DriverSeat"
+	},
+	"DriverSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__MotorbikeVehicleSeatInteraction",
+		"ClassName": "MotorbikeVehicleSeatInteraction",
+		"DriverAirControl_FrontBack": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Leaning_Vertical_3_FB",
+			"name": "Vehicle_Motorbike_Leaning_Vertical_3_FB",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Leaning_Vertical_3_FB.uasset"
+		},
+		"DriverAirControl_LeftRight": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Leaning_Vertical_3_LR",
+			"name": "Vehicle_Motorbike_Leaning_Vertical_3_LR",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Leaning_Vertical_3_LR.uasset"
+		},
+		"DriverLeanHorizontalMeshSpaceAdditive": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Leaning_Horizontal",
+			"name": "Vehicle_Motorbike_Leaning_Horizontal",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Leaning_Horizontal.uasset"
+		},
+		"DriverLeanVerticalMeshSpaceAdditive": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Leaning_Vertical_2",
+			"name": "Vehicle_Motorbike_Leaning_Vertical_2",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Leaning_Vertical_2.uasset"
+		},
+		"DriverMain": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Driver",
+			"name": "Vehicle_Motorbike_Driver",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Driver.uasset"
+		},
+		"DriverStopBase": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Driver_To_Stop",
+			"name": "Vehicle_Motorbike_Driver_To_Stop",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Driver_To_Stop.uasset"
+		},
+		"DriverStopMeshSpaceAdditive": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Motorbike_Driver_Stop",
+			"name": "Vehicle_Motorbike_Driver_Stop",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Motorbike/Vehicle_Motorbike_Driver_Stop.uasset"
+		},
+		"ExportName": "BP_Motorbike_04_C.DriverSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "378F2FFC4C09388EEEDF1CA6E7F98AFA",
+			"Namespace": "[705A72794339E8F505CCD0AD1FE5F603]",
+			"SourceString": "Drive",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "16F9AA354BC76C905DA5579252E46FD4",
+			"Namespace": "[705A72794339E8F505CCD0AD1FE5F603]",
+			"SourceString": "Motorbike",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "Sock_DriverOut",
+		"RiderCollisionComponentName": "DriverCollision",
+		"RiderType": "ERiderType::Driver",
+		"SeatAnimDynamicsScale": 3,
+		"SeatAnimationType": "EVehicleAnimType::MotoDriver",
+		"ViewPitchMax": 70,
+		"ViewPitchMin": -60,
+		"ViewYawMax": 130,
+		"ViewYawMin": -130,
+		"bEjectOnSeatChangeFail": true,
+		"bUseSeatChangeAngleRestriction": true
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.EntryPoint"
+	},
+	"ExecuteUbergraph_BP_Motorbike_04": {
+		"@Remaining": 498,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04"
+	},
+	"FirstPersonCameraInVehicle": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.FirstPersonCameraInVehicle"
+	},
+	"FirstPersonCameraInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CameraComponent",
+		"ClassName": "CameraComponent",
+		"ExportName": "BP_Motorbike_04_C.FirstPersonCameraInVehicle_GEN_VARIABLE"
+	},
+	"FirstPersonSpringArmInVehicle": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.FirstPersonSpringArmInVehicle"
+	},
+	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SpringArmInVehicleComponent",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_Motorbike_04_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				24.7618,
+				0,
+				140
+			]
+		},
+		"TargetArmLength": 0,
+		"bAutoActivate": false,
+		"bEnableCameraRotationLag": true,
+		"bUsePawnControlRotation": true
+	},
+	"GamePadInputAixsComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.HornComponent",
+		"HornSounds_Local": {
+			"HornOffSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Horn_Release_Local",
+				"name": "Vehicle_Motorcycle_Horn_Release_Local",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Horn_Release_Local.uasset"
+			},
+			"HornOnSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Horn_Local",
+				"name": "Vehicle_Motorcycle_Horn_Local",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Horn_Local.uasset"
+			},
+			"StrucName": "HornSoundInfo"
+		},
+		"HornSounds_Remote": {
+			"HornOffSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Horn_Release_Remote",
+				"name": "Vehicle_Motorcycle_Horn_Release_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Horn_Release_Remote.uasset"
+			},
+			"HornOnSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Horn_Remote",
+				"name": "Vehicle_Motorcycle_Horn_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Horn_Remote.uasset"
+			},
+			"StrucName": "HornSoundInfo"
+		}
+	},
+	"InpAxisEvt_AirControlPitch_K2Node_InputAxisEvent_7": {
+		"@Remaining": 64,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.InpAxisEvt_AirControlPitch_K2Node_InputAxisEvent_7"
+	},
+	"InpAxisEvt_AirControlRoll_K2Node_InputAxisEvent_13": {
+		"@Remaining": 64,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.InpAxisEvt_AirControlRoll_K2Node_InputAxisEvent_13"
+	},
+	"InputAxisDelegateBinding_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InputAxisDelegateBinding",
+		"ClassName": "InputAxisDelegateBinding",
+		"ExportName": "BP_Motorbike_04_C.InputAxisDelegateBinding_2",
+		"InputAxisDelegateBindings": [
+			{
+				"FunctionNameToBind": "InpAxisEvt_AirControlRoll_K2Node_InputAxisEvent_13",
+				"InputAxisName": "AirControlRoll",
+				"StrucName": "BlueprintInputAxisDelegateBinding",
+				"bConsumeInput": true,
+				"bExecuteWhenPaused": false,
+				"bOverrideParentBinding": true
+			},
+			{
+				"FunctionNameToBind": "InpAxisEvt_AirControlPitch_K2Node_InputAxisEvent_7",
+				"InputAxisName": "AirControlPitch",
+				"StrucName": "BlueprintInputAxisDelegateBinding",
+				"bConsumeInput": true,
+				"bExecuteWhenPaused": false,
+				"bOverrideParentBinding": true
+			}
+		]
+	},
+	"K2Node_InputAxisEvent_AxisValue": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.K2Node_InputAxisEvent_AxisValue"
+	},
+	"K2Node_InputAxisEvent_AxisValue2": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_Motorbike_04_C.ExecuteUbergraph_BP_Motorbike_04.K2Node_InputAxisEvent_AxisValue2"
+	},
+	"MovementComp": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComp",
+		"AckermannAccuracy": 0,
+		"ChassisHeight": 80,
+		"ChassisWidth": 100,
+		"ClassName": "TslWheeledVehicleMovement",
+		"DifferentialSetup": {
+			"DifferentialType": "EVehicleDifferential4W::LimitedSlip_RearDrive",
+			"RearBias": 1,
+			"StrucName": "VehicleDifferential4WData"
+		},
+		"DragCoefficient": 0.7,
+		"EngineSetup": {
+			"DampingRateZeroThrottleClutchDisengaged": 0.36,
+			"DampingRateZeroThrottleClutchEngaged": 0.18,
+			"MOI": 0.6,
+			"MaxRPM": 5000,
+			"StrucName": "VehicleEngineData",
+			"TorqueCurve": {
+				"EditorCurveData": {
+					"Keys": [
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": -0.0289707165,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": -0.0289707053,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 1,
+								"TangentWeightMode": 0,
+								"Time": 0,
+								"Value": 170
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0.04364329,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": 0.0436043367,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 1,
+								"TangentWeightMode": 0,
+								"Time": 3500,
+								"Value": 350
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": 0,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 5000,
+								"Value": 280
+							}
+						}
+					],
+					"StrucName": "RichCurve"
+				},
+				"StrucName": "RuntimeFloatCurve"
+			}
+		},
+		"ExportName": "Default__BP_Motorbike_04_C.MovementComp",
+		"HighForwardSpeedSubStepCount": 4,
+		"InertiaTensorScale": {
+			"StrucName": "Vector",
+			"value": [
+				14,
+				6,
+				7.2
+			]
+		},
+		"LowForwardSpeedSubStepCount": 4,
+		"Mass": 400,
+		"MaxNormalizedTireLoad": 2.5,
+		"MaxNormalizedTireLoadFiltered": 2.5,
+		"MinNormalizedTireLoadFiltered": 0.225,
+		"SteeringCurve": {
+			"EditorCurveData": {
+				"Keys": [
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 0,
+							"Value": 1
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 20,
+							"Value": 0.82
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 60,
+							"Value": 0.42
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 120,
+							"Value": 0.31
+						}
+					}
+				],
+				"StrucName": "RichCurve"
+			},
+			"StrucName": "RuntimeFloatCurve"
+		},
+		"SteeringInputRate": {
+			"FallRate": 2.6,
+			"RiseRate": 2.9,
+			"StrucName": "VehicleInputRate"
+		},
+		"StopThreshold": 15,
+		"ThrottleInputRate": {
+			"FallRate": 5,
+			"StrucName": "VehicleInputRate"
+		},
+		"TransmissionSetup": {
+			"ClutchStrength": 11,
+			"FinalRatio": 2.5,
+			"ForwardGears": [
+				{
+					"DownRatio": 0.4,
+					"Ratio": 3.7,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.95
+				},
+				{
+					"DownRatio": 0.5,
+					"Ratio": 2.2,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.95
+				},
+				{
+					"DownRatio": 0.5,
+					"Ratio": 1.65,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.95
+				},
+				{
+					"DownRatio": 0.55,
+					"Ratio": 1.3,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				},
+				{
+					"DownRatio": 0.6,
+					"Ratio": 1.1,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				}
+			],
+			"GearAutoBoxLatency": 0.5,
+			"GearSwitchTime": 0.16,
+			"ReverseGearRatio": -18,
+			"StrucName": "VehicleTransmissionData"
+		},
+		"WheelSetups": [
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						-2,
+						0
+					]
+				},
+				"BoneName": "Helper_FL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_FL_Punctured_C",
+					"name": "Motorbike_Wheel_FL_Punctured_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_FL_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_F_C",
+					"name": "Motorbike_Wheel_F_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_F.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						2,
+						0
+					]
+				},
+				"BoneName": "Helper_FR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_FR_Punctured_C",
+					"name": "Motorbike_Wheel_FR_Punctured_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_FR_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_FR_C",
+					"name": "Motorbike_Wheel_FR_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_FR.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						-2,
+						0
+					]
+				},
+				"BoneName": "Helper_RL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_RL_Punctured_C",
+					"name": "Motorbike_Wheel_RL_Punctured_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_RL_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_R_C",
+					"name": "Motorbike_Wheel_R_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_R.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						2,
+						0
+					]
+				},
+				"BoneName": "Helper_RR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_RR_Punctured_C",
+					"name": "Motorbike_Wheel_RR_Punctured_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_RR_Punctured.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "Motorbike_Wheel_RR_C",
+					"name": "Motorbike_Wheel_RR_C",
+					"packagePath": "/Vehicles/Motorcycle/Motorbike_Wheel_RR.uasset"
+				}
+			}
+		],
+		"bAlwaysUseDirectInput": true
+	},
+	"MovementComponent_Ref": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.MovementComponent_Ref"
+	},
+	"PassengerCollision": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.PassengerCollision"
+	},
+	"PassengerCollision_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+			"CollisionProfileName": "Vehicle",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassInKgOverride": 0.01,
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CanCharacterStepUpOn": "ECB_No",
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_Motorbike_04_C.PassengerCollision_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-70.33606,
+				0,
+				134.700317
+			]
+		},
+		"SphereRadius": 30,
+		"bCanEverAffectNavigation": false
+	},
+	"PassengerSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.PassengerSeat"
+	},
+	"PassengerSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__MotorbikeVehicleSeatInteraction",
+		"AllowedWeaponClasses": [
+			"EWeaponClass::Class_Pistol",
+			"EWeaponClass::Class_SMG",
+			"EWeaponClass::Class_Throwable"
+		],
+		"ClassName": "MotorbikeVehicleSeatInteraction",
+		"ExportName": "BP_Motorbike_04_C.PassengerSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "2A7B06DC46F113138418CEBDDA746204",
+			"Namespace": "[705A72794339E8F505CCD0AD1FE5F603]",
+			"SourceString": "Motorbike",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "Sock_PassengerOut",
+		"RiderCollisionComponentName": "PassengerCollision",
+		"SeatAnimDynamicsScale": 3,
+		"SeatAnimationType": "EVehicleAnimType::MotoPassenger",
+		"SeatIndex": 1,
+		"ViewYawPerWeaponOverrideMap": "*** TODO: This property skipped",
+		"bCanOnlyFireWhileAiming": true,
+		"bRestricWeaponUse": true
+	},
+	"PawnInputBindingComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"RadialForce": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.RadialForce"
+	},
+	"RadialForce_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__RadialForceComponent",
+		"ClassName": "RadialForceComponent",
+		"DestructibleDamage": 100,
+		"ExportName": "BP_Motorbike_04_C.RadialForce_GEN_VARIABLE",
+		"Falloff": "RIF_Linear",
+		"ForceStrength": 20000000,
+		"ObjectTypesToAffect": [
+			71,
+			2,
+			0,
+			0,
+			0
+		],
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-40,
+				0,
+				40
+			]
+		},
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				0,
+				0.000027,
+				0
+			]
+		},
+		"bAutoActivate": false,
+		"bImpulseVelChange": true
+	},
+	"RadioAudioComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RadioAudioComponent",
+		"ClassName": "TslVehicleRadioComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.RadioAudioComponent"
+	},
+	"ReceiveBeginPlay": {
+		"@Remaining": 54,
+		"@SuperName": "ReceiveBeginPlay",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.ReceiveBeginPlay"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 64,
+			"index": -65,
+			"name": "SceneComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "BP_Motorbike_04_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:69F158FB4D21479550C421BFAC104EF8"
+		}
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 68,
+			"index": -69,
+			"name": "SphereComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_Motorbike_04_C.PassengerCollision_GEN_VARIABLE",
+			"name": "PassengerCollision_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "PassengerCollision",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:34170FBF42EB41045537A9BED79FDA75"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_10": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 68,
+			"index": -69,
+			"name": "SphereComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_Motorbike_04_C.Sphere1_GEN_VARIABLE",
+			"name": "Sphere1_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_10",
+		"InternalVariableName": "Sphere1",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:1A790C3F4C460BFF93E082A149B72412"
+		}
+	},
+	"SCS_Node_11": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 68,
+			"index": -69,
+			"name": "SphereComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_Motorbike_04_C.DriverCollision_GEN_VARIABLE",
+			"name": "DriverCollision_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_11",
+		"InternalVariableName": "DriverCollision",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:AE513D924E49FD7294CA90AD2BD5ABFD"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_12": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 69,
+			"index": -70,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_Motorbike_04_C.WeaponCollision_Body_GEN_VARIABLE",
+			"name": "WeaponCollision_Body_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_12",
+		"InternalVariableName": "WeaponCollision_Body",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:9C9C1BA04611B2D9BED27B9C08201D5A"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 75,
+			"index": -76,
+			"name": "SpringArmInVehicleComponent",
+			"pkgIndex": -277
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SpringArmInVehicleComponent",
+			"exportName": "BP_Motorbike_04_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+			"name": "FirstPersonSpringArmInVehicle_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "FirstPersonSpringArmInVehicle",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:20453B8644109F036386F39F9CF42954"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_3": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 59,
+			"index": -60,
+			"name": "CameraComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "CameraComponent",
+			"exportName": "BP_Motorbike_04_C.FirstPersonCameraInVehicle_GEN_VARIABLE",
+			"name": "FirstPersonCameraInVehicle_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_3",
+		"InternalVariableName": "FirstPersonCameraInVehicle",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:5D3A75D0493540595E16639EB844847D"
+		}
+	},
+	"SCS_Node_4": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 63,
+			"index": -64,
+			"name": "RadialForceComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "RadialForceComponent",
+			"exportName": "BP_Motorbike_04_C.RadialForce_GEN_VARIABLE",
+			"name": "RadialForce_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_4",
+		"InternalVariableName": "RadialForce",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:7A0072BF4BCD31B0CDF7EFBC94988F83"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_5": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 75,
+			"index": -76,
+			"name": "SpringArmInVehicleComponent",
+			"pkgIndex": -277
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SpringArmInVehicleComponent",
+			"exportName": "BP_Motorbike_04_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+			"name": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_5",
+		"InternalVariableName": "ThirdPersonSpringArmInVehicle",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:9C61FBCE47CBA00AD9CE8D9672B14594"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_6": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 59,
+			"index": -60,
+			"name": "CameraComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "CameraComponent",
+			"exportName": "BP_Motorbike_04_C.ThirdPersonCameraInVehicle_GEN_VARIABLE",
+			"name": "ThirdPersonCameraInVehicle_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_6",
+		"InternalVariableName": "ThirdPersonCameraInVehicle",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:CD18CE184C3DBA2C6B822A957D9CDFAF"
+		}
+	},
+	"SCS_Node_7": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Sock_Driver",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 74,
+			"index": -75,
+			"name": "MotorbikeVehicleSeatInteraction",
+			"pkgIndex": -277
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "MotorbikeVehicleSeatInteraction",
+			"exportName": "BP_Motorbike_04_C.DriverSeat_GEN_VARIABLE",
+			"name": "DriverSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_7",
+		"InternalVariableName": "DriverSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:EF79C7674283CBBE2606268F3D631695"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_8": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 68,
+			"index": -69,
+			"name": "SphereComponent",
+			"pkgIndex": -275
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_Motorbike_04_C.Sphere_GEN_VARIABLE",
+			"name": "Sphere_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_8",
+		"InternalVariableName": "Sphere",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:9ABB019D47DE19AB1A203A925436F44A"
+		}
+	},
+	"SCS_Node_9": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Sock_Passenger",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 74,
+			"index": -75,
+			"name": "MotorbikeVehicleSeatInteraction",
+			"pkgIndex": -277
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "MotorbikeVehicleSeatInteraction",
+			"exportName": "BP_Motorbike_04_C.PassengerSeat_GEN_VARIABLE",
+			"name": "PassengerSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_9",
+		"InternalVariableName": "PassengerSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:E616901141386BE0B1DA7B8E9E4EE2B2"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SetScalarParameters": {
+		"@Remaining": 107,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.SetScalarParameters"
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_6",
+				"name": "SCS_Node_6"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_8",
+				"name": "SCS_Node_8"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_10",
+				"name": "SCS_Node_10"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "BP_Motorbike_04_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_7",
+				"name": "SCS_Node_7"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_9",
+				"name": "SCS_Node_9"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_11",
+				"name": "SCS_Node_11"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_Motorbike_04_C.SimpleConstructionScript_0.SCS_Node_12",
+				"name": "SCS_Node_12"
+			}
+		]
+	},
+	"Sphere": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.Sphere"
+	},
+	"Sphere1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.Sphere1"
+	},
+	"Sphere1_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_Motorbike_04_C.Sphere1_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				-43.2113647,
+				0,
+				0
+			]
+		}
+	},
+	"Sphere_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_Motorbike_04_C.Sphere_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				9.479519,
+				-6.66667346e-21,
+				0.000108875036
+			]
+		},
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				0,
+				0,
+				0.0000273207534
+			]
+		}
+	},
+	"ThirdPersonCameraInVehicle": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.ThirdPersonCameraInVehicle"
+	},
+	"ThirdPersonCameraInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__CameraComponent",
+		"ClassName": "CameraComponent",
+		"ExportName": "BP_Motorbike_04_C.ThirdPersonCameraInVehicle_GEN_VARIABLE"
+	},
+	"ThirdPersonSpringArmInVehicle": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.ThirdPersonSpringArmInVehicle"
+	},
+	"ThirdPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SpringArmInVehicleComponent",
+		"CameraLagMaxDistance": 20,
+		"CameraLagSpeed": 20,
+		"CameraRotationLagSpeed": 7,
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_Motorbike_04_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				140
+			]
+		},
+		"TargetArmLength": 430,
+		"bAutoActivate": false,
+		"bEnableCameraLag": true,
+		"bEnableCameraRotationLag": true,
+		"bInheritPitch": false,
+		"bInheritRoll": false
+	},
+	"TslMovementRef": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.TslMovementRef"
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "BP_Motorbike_04_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 39,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_Motorbike_04_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"ClassName": "TslVehicleCommonComponent",
+		"ComplexBodyBoneNames": [],
+		"ComplexCollisionProfileName": "VehicleComplex",
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleCommonComponent",
+		"FuelConsumptionCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_FuelConsumption_Buggy",
+			"name": "Curve_FuelConsumption_Buggy",
+			"packagePath": "/Vehicles/CustomVehicleCurves/Curve_FuelConsumption_Buggy.uasset"
+		},
+		"FuelConsumptionModifierBoost": 1,
+		"FuelEfficiency": 0.18,
+		"MainComplexBodyBoneName": "ComplexCollisionTemp",
+		"OnBreak": "*** Property not implemented MulticastDelegateProperty == -1",
+		"SimpleBodyBoneName": "Root",
+		"SimpleBodyMassMultiplier": 0.99,
+		"VehicleExplosionDamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgTypeExplosion_Vehicle_C",
+			"name": "DmgTypeExplosion_Vehicle_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgTypeExplosion_Vehicle.uasset"
+		},
+		"VehicleUI": {
+			"StrucName": "ObjectProperty",
+			"className": "WidgetBlueprintGeneratedClass",
+			"importName": "BikeWidget_C",
+			"name": "BikeWidget_C",
+			"packagePath": "/Blueprints/UI/HUD/Stance/VehicleStance/BikeWidget.uasset"
+		}
+	},
+	"VehicleEffectComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"AngularVelocityCoefficient": 0.6,
+		"CameraEffectSettings": {
+			"AccelerationInterpSpeed": 2,
+			"AccelerationMovementScalar": 0.005,
+			"AccelerationMovementSizeClamp": 0.5,
+			"StrucName": "VehicleCameraEffectSettings",
+			"VelocityToFovInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					2000,
+					4000
+				]
+			},
+			"VelocityToFovMaxOffset": 20
+		},
+		"ClassName": "TslVehicleEffectComponent",
+		"Curve_EngineAudio": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "Curve_Moto_Engine1",
+			"name": "Curve_Moto_Engine1",
+			"packagePath": "/Vehicles/Motorcycle/Curves/Curve_Moto_Engine1.uasset"
+		},
+		"DT_Multiplier": 10,
+		"DestroyedMaterialMap": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_tire_Burn",
+				"name": "ve_motorcycle_tire_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_tire_Burn.uasset"
+			},
+			"1": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_wheel_Burn",
+				"name": "ve_motorcycle_wheel_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_wheel_Burn.uasset"
+			},
+			"2": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_frame_Burn",
+				"name": "ve_motorcycle_frame_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_frame_Burn.uasset"
+			},
+			"3": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_engine_Burn",
+				"name": "ve_motorcycle_engine_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_engine_Burn.uasset"
+			},
+			"4": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_Decal",
+				"name": "ve_motorcycle_Decal",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_Decal.uasset"
+			},
+			"5": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_bag_Burn",
+				"name": "ve_motorcycle_bag_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_bag_Burn.uasset"
+			},
+			"6": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_details_Burn",
+				"name": "ve_motorcycle_details_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_details_Burn.uasset"
+			},
+			"7": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_lights_Burn",
+				"name": "ve_motorcycle_lights_Burn",
+				"packagePath": "/Vehicles/Motorcycle/Materials_02/ve_motorcycle_lights_Burn.uasset"
+			}
+		},
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleEffectComponent",
+		"GearDownSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Motorcycle_GearUp",
+			"name": "Vehicle_Motorcycle_GearUp",
+			"packagePath": "/WwiseAssets/Vehicles/Common/Gear/Vehicle_Motorcycle_GearUp.uasset"
+		},
+		"GearUpSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Motorcycle_GearUp",
+			"name": "Vehicle_Motorcycle_GearUp",
+			"packagePath": "/WwiseAssets/Vehicles/Common/Gear/Vehicle_Motorcycle_GearUp.uasset"
+		},
+		"LateralVelocityClamp": 450,
+		"LateralVelocityCoeffictient": 0.4,
+		"LightSettings": {
+			"CurveEngineOff": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveFloat",
+				"importName": "VehicleHeadLights_TurnOff",
+				"name": "VehicleHeadLights_TurnOff",
+				"packagePath": "/Vehicles/VehicleHeadLights_TurnOff.uasset"
+			},
+			"CurveEngineOn": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveFloat",
+				"importName": "VehicleHeadLights_TurnOn",
+				"name": "VehicleHeadLights_TurnOn",
+				"packagePath": "/Vehicles/VehicleHeadLights_TurnOn.uasset"
+			},
+			"HeadLightIntensity_Mat": 200,
+			"StrucName": "VehicleLightSettings",
+			"TailLampEmissiveValue": 8
+		},
+		"MeasuredWheelIndices": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesBrake": [
+			1,
+			3
+		],
+		"MeasuredWheelIndicesSlip": [
+			3,
+			2
+		],
+		"MeasuredWheelIndicesSpin": [
+			2,
+			3
+		],
+		"MinSlip": 0.2,
+		"MinSpin": 0.4,
+		"MinVelocityForSurfaceCheck": 50,
+		"SlipInterpSpeed": 50,
+		"SpinInterpSpeed": 50,
+		"SurfaceActivationValue": 0.6,
+		"SurfaceAudioMap": {
+			"ESurfaceEffect::S_Common_BrakeDisc": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Common_Brakedisc",
+				"name": "VSA_Common_Brakedisc",
+				"packagePath": "/Vehicles/VehicleData/VSA_Common_Brakedisc.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Brake",
+				"name": "VSA_Concrete_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Brake",
+				"name": "VSA_Concrete_Puncture_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Roll",
+				"name": "VSA_Concrete_Puncture_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Skid",
+				"name": "VSA_Concrete_Puncture_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Spin",
+				"name": "VSA_Concrete_Puncture_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Roll",
+				"name": "VSA_Concrete_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Skid",
+				"name": "VSA_Concrete_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Spin",
+				"name": "VSA_Concrete_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Brake",
+				"name": "VSA_Dirt_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Roll",
+				"name": "VSA_Dirt_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Skid",
+				"name": "VSA_Dirt_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Spin",
+				"name": "VSA_Dirt_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Brake",
+				"name": "VSA_Grass_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Roll",
+				"name": "VSA_Grass_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Skid",
+				"name": "VSA_Grass_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Spin",
+				"name": "VSA_Grass_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Brake",
+				"name": "VSA_Ice_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Roll",
+				"name": "VSA_Ice_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Skid",
+				"name": "VSA_Ice_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Spin",
+				"name": "VSA_Ice_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Brake",
+				"name": "VSA_Metal_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Roll",
+				"name": "VSA_Metal_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Skid",
+				"name": "VSA_Metal_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Spin",
+				"name": "VSA_Metal_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Brake",
+				"name": "VSA_Rock_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Roll",
+				"name": "VSA_Rock_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Skid",
+				"name": "VSA_Rock_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Spin",
+				"name": "VSA_Rock_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Brake",
+				"name": "VSA_Sand_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Roll",
+				"name": "VSA_Sand_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Skid",
+				"name": "VSA_Sand_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Spin",
+				"name": "VSA_Sand_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Brake",
+				"name": "VSA_Snow_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Roll",
+				"name": "VSA_Snow_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Skid",
+				"name": "VSA_Snow_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Spin",
+				"name": "VSA_Snow_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Water_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Brake",
+				"name": "VSA_Water_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Water_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Roll",
+				"name": "VSA_Water_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Water_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Skid",
+				"name": "VSA_Water_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Water_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Spin",
+				"name": "VSA_Water_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Brake",
+				"name": "VSA_Wood_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Roll",
+				"name": "VSA_Wood_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Skid",
+				"name": "VSA_Wood_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Spin",
+				"name": "VSA_Wood_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Spin.uasset"
+			}
+		},
+		"SurfaceDeactivationValue": 0.2,
+		"SuspenionOffsetForContact": -9,
+		"VehicleEffectInfo": {
+			"Damaged": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Damaged_BP_C",
+				"name": "P_Moto_Damaged_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Damaged_BP.uasset"
+			},
+			"Destroyed": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Fire_BP_C",
+				"name": "P_Moto_Fire_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Fire_BP.uasset"
+			},
+			"EngineSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Engine_Local",
+				"name": "Vehicle_Motorcycle_Engine_Local",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Engine_Local.uasset"
+			},
+			"EngineSound_Remote": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_Motorcycle_Engine_Remote",
+				"name": "Vehicle_Motorcycle_Engine_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/Motorcycle/Vehicle_Motorcycle_Engine_Remote.uasset"
+			},
+			"Explosion": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Moto_Explosion_BP_C",
+				"name": "P_Moto_Explosion_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_Moto_Explosion_BP.uasset"
+			},
+			"ImpactConcrete": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_C",
+				"name": "P_VehicleImpact_Rock_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock_BP.uasset"
+			},
+			"ImpactDefault": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_C",
+				"name": "P_VehicleImpact_Rock_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock_BP.uasset"
+			},
+			"ImpactDirt": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_C",
+				"name": "P_VehicleImpact_Rock_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock_BP.uasset"
+			},
+			"ImpactMetal": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Vehicle_BP_C",
+				"name": "P_VehicleImpact_Vehicle_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Vehicle_BP.uasset"
+			},
+			"ImpactRock": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_C",
+				"name": "P_VehicleImpact_Rock_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock_BP.uasset"
+			},
+			"ImpactSand": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Rock_BP_C",
+				"name": "P_VehicleImpact_Rock_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Rock_BP.uasset"
+			},
+			"ImpactWood": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_VehicleImpact_Wood_BP_C",
+				"name": "P_VehicleImpact_Wood_BP_C",
+				"packagePath": "/Effects/Clets/Particles/Vehicle/P_VehicleImpact_Wood_BP.uasset"
+			},
+			"Muffler": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "P_Vehicle_Muffler_BP_Motorcycle_C",
+				"name": "P_Vehicle_Muffler_BP_Motorcycle_C",
+				"packagePath": "/Assets/Effects/Blueprints/Vehicle_VFX/P_Vehicle_Muffler_BP_Motorcycle.uasset"
+			},
+			"StrucName": "VehicleEffectInfo"
+		},
+		"VelocityInterpSpeed": 250,
+		"bProcessShiftStart": true,
+		"bUseDopplerEffect": true,
+		"bUseNewChassisAudio": true,
+		"bUseNewSurfaceAudio": true,
+		"bUsesBoosting": false
+	},
+	"VehicleHitComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"CharacterDamageMassCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "VehicleCollisionCharacterDamageMass",
+			"name": "VehicleCollisionCharacterDamageMass",
+			"packagePath": "/Vehicles/Base_Vehicle/VehicleCollisionCharacterDamageMass.uasset"
+		},
+		"CharacterDamageSpeedCurve": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "VehicleCollisionCharacterDamage",
+			"name": "VehicleCollisionCharacterDamage",
+			"packagePath": "/Vehicles/Base_Vehicle/VehicleCollisionCharacterDamage.uasset"
+		},
+		"CharacterDamageSpeedCurve_Console": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "VehicleCollisionCharacterDamage_Console",
+			"name": "VehicleCollisionCharacterDamage_Console",
+			"packagePath": "/Vehicles/Base_Vehicle/VehicleCollisionCharacterDamage_Console.uasset"
+		},
+		"CharacterLaunchSpeedMultiplier": 0.5,
+		"ClassName": "TslVehicleHitComponent",
+		"ExplosionBaseDamage": 150,
+		"ExplosionDamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgTypeExplosion_Vehicle_C",
+			"name": "DmgTypeExplosion_Vehicle_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgTypeExplosion_Vehicle.uasset"
+		},
+		"ExplosionRadiusOuter": 250,
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleHitComponent",
+		"HitAbsorberTypes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Class",
+				"classPackage": "/Script/CoreUObject",
+				"importIndex": 72,
+				"index": -73,
+				"name": "CarePackageItem",
+				"pkgIndex": -277
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Class",
+				"classPackage": "/Script/CoreUObject",
+				"importIndex": 90,
+				"index": -91,
+				"name": "TslWheeledVehicle",
+				"pkgIndex": -277
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Class",
+				"classPackage": "/Script/CoreUObject",
+				"importIndex": 77,
+				"index": -78,
+				"name": "TslFloatingVehicle",
+				"pkgIndex": -277
+			}
+		],
+		"ImpulseLimitationSpeedThreshold_Console": 2500,
+		"OnCharacterHit": "*** Property not implemented MulticastDelegateProperty == -1",
+		"PhysicsImpactAbsorption": 500000,
+		"PhysicsImpactAbsorptionRider": 200000,
+		"PhysicsImpactAbsorptionRiderUpsideDown": 0,
+		"PhysicsImpactAbsorptionRider_Console": 74074.07,
+		"PhysicsImpactAbsorptionUpsideDown": 150000,
+		"PhysicsImpactAbsorption_Console": 555556,
+		"PhysicsImpactModifier": 1.5,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.00006428571,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.000230769234,
+		"VehicleCrashDamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgType_VehicleCrashHit_C",
+			"name": "DmgType_VehicleCrashHit_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgType_VehicleCrashHit.uasset"
+		},
+		"VehicleHitDamageType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "DmgType_VehicleHit_C",
+			"name": "DmgType_VehicleHit_C",
+			"packagePath": "/Blueprints/Damage_Type/DmgType_VehicleHit.uasset"
+		},
+		"VoidPhysicalMaterial": {
+			"StrucName": "ObjectProperty",
+			"className": "PhysicalMaterial",
+			"importName": "PhysMat_Void",
+			"name": "PhysMat_Void",
+			"packagePath": "/Environment/PhysicalMaterials/PhysMat_Void.uasset"
+		}
+	},
+	"VehicleMesh": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleMesh",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Motorbike_04_C",
+			"name": "ABP_Motorbike_04_C",
+			"packagePath": "/Vehicles/Motorcycle/ABP_Motorbike_04.uasset"
+		},
+		"BodyInstance": {
+			"AngularDamping": 0.7,
+			"CollisionProfileName": "VehicleSimple",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"CustomDOFPlaneNormal": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					1
+				]
+			},
+			"MaxAngularVelocity": 360,
+			"MaxDepenetrationVelocity": 500,
+			"StrucName": "BodyInstance",
+			"WalkableSlopeOverride": {
+				"StrucName": "WalkableSlopeOverride",
+				"WalkableSlopeAngle": 20,
+				"WalkableSlopeBehavior": "WalkableSlope_Decrease"
+			},
+			"bLockTranslation": false,
+			"bOverrideMaxAngularVelocity": true,
+			"bOverrideMaxDepenetrationVelocity": true,
+			"bStartAwake": false,
+			"bUseCCD": true
+		},
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleMesh",
+		"IndoorOutdoorMask": "IOM_BOTH",
+		"LightingChannels": {
+			"StrucName": "LightingChannels",
+			"bChannel1": true
+		},
+		"MeshComponentUpdateFlag": "EMeshComponentUpdateFlag::OnlyTickPoseWhenRendered",
+		"OnComponentSleep": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_tire",
+				"name": "ve_motorcycle_tire",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_tire.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_wheel",
+				"name": "ve_motorcycle_wheel",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_wheel.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_frame",
+				"name": "ve_motorcycle_frame",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_frame.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_engine",
+				"name": "ve_motorcycle_engine",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_engine.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_Decal",
+				"name": "ve_motorcycle_Decal",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_Decal.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_bag",
+				"name": "ve_motorcycle_bag",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_bag.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_details",
+				"name": "ve_motorcycle_details",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_details.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "ve_motorcycle_lights",
+				"name": "ve_motorcycle_lights",
+				"packagePath": "/Vehicles/Motorcycle/Materials/ve_motorcycle_lights.uasset"
+			}
+		],
+		"PhysicsAssetOverride": {
+			"StrucName": "ObjectProperty",
+			"className": "PhysicsAsset",
+			"importName": "Motorbike_03_PhysicsAsset_SimpleCollision",
+			"name": "Motorbike_03_PhysicsAsset_SimpleCollision",
+			"packagePath": "/Vehicles/Motorcycle/Motorbike_03_PhysicsAsset_SimpleCollision.uasset"
+		},
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "Motorbike_03",
+			"name": "Motorbike_03",
+			"packagePath": "/Vehicles/Motorcycle/Motorbike_03.uasset"
+		},
+		"bDisableForceFromCharacter": true,
+		"bEnableUpdateRateOptimizations": true,
+		"bReceivesDecals": false,
+		"bSyncBodySleep": true
+	},
+	"VehicleSeatComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleSeatComponent",
+		"FlipForce": 500,
+		"MinEntryAngle": 45,
+		"OnLeaveVelocityMultiplier": 0.75,
+		"bDampenPlayerVelocityOnLeave": true,
+		"bDoEntryAngleCheck": true,
+		"bDoFlipCheck": true,
+		"bUseActiveStabilize": true
+	},
+	"VehicleSyncComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__BP_Motorbike_04_C.VehicleXRayComponent"
+	},
+	"WeaponCollision_Body": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_Motorbike_04_C.WeaponCollision_Body"
+	},
+	"WeaponCollision_Body_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MassScale": 0,
+			"ObjectType": "ECC_Vehicle",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_Motorbike_04_C.WeaponCollision_Body_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_Motorcycle_Collision_Body",
+			"name": "SM_Motorcycle_Collision_Body",
+			"packagePath": "/Vehicles/Motorcycle/SM_Motorcycle_Collision_Body.uasset"
+		},
+		"bCanEverAffectNavigation": false,
+		"bVisible": false,
+		"bVisibleInReflectionCaptures": false
+	},
+	"__AxisValue_1": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__FloatProperty",
+		"ClassName": "FloatProperty",
+		"ExportName": "BP_Motorbike_04_C.InpAxisEvt_AirControlPitch_K2Node_InputAxisEvent_7.AxisValue"
+	}
+}

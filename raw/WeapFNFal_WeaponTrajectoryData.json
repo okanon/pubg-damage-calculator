@@ -1,0 +1,58 @@
+{
+	"WeapFNFal_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapFNFal_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": -0.1,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_FAL",
+				"name": "C_Recoil_FAL",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_FAL.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.4,
+			"RecoilModifier_Crouch": 0.75,
+			"RecoilSpeed_Horizontal": 10,
+			"RecoilSpeed_Vertical": 11.5,
+			"RecoilValue_Climb": 1.1,
+			"RecoilValue_Fall": 2.5,
+			"RecoverySpeed_Vertical": 5.3,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 8,
+			"VerticalRecoilMin": 0.1,
+			"VerticalRecoilVariation": 0.15,
+			"VerticalRecoveryClamp": 4.4,
+			"VerticalRecoveryMax": 1.2,
+			"VerticalRecoveryModifier": 0.55
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.85,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_FAL",
+				"name": "C_Ballistic_FAL",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_FAL.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 58,
+			"InitialSpeed": 840,
+			"RangeModifier": 0.96,
+			"ReferenceDistance": 500,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.723
+		}
+	}
+}

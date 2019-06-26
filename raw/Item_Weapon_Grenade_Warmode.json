@@ -1,0 +1,16 @@
+{
+	"Default__Item_Weapon_Grenade_Warmode_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_Grenade_C",
+		"ClassName": "Item_Weapon_Grenade_Warmode_C",
+		"ExportName": "Default__Item_Weapon_Grenade_Warmode_C",
+		"SpacePerItem": 1
+	},
+	"Item_Weapon_Grenade_Warmode_C": {
+		"@Remaining": 72,
+		"@SuperName": "Item_Weapon_Grenade_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_Grenade_Warmode_C"
+	}
+}

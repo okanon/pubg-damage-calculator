@@ -1,0 +1,77 @@
+{
+	"WeapThompson_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapThompson_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 2,
+			"HorizontalTendency": 0.033,
+			"RecoilBlendInOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.05
+				]
+			},
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_SMG_Thompson",
+				"name": "C_Recoil_SMG_Thompson",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_SMG_Thompson.uasset"
+			},
+			"RecoilHorizontalMinScalar": 0.3,
+			"RecoilModifier_Prone": 0.7,
+			"RecoilSpeed_Horizontal": 11,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilStartTimeInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0.1,
+					0.25
+				]
+			},
+			"RecoilStartTimeOutMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					0,
+					0.016
+				]
+			},
+			"RecoilValue_Climb": 0.5,
+			"RecoilValue_Fall": 1.5,
+			"RecoverySpeed_Vertical": 12,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilVariation": 0.08,
+			"VerticalRecoveryClamp": 5,
+			"VerticalRecoveryMax": 1.9,
+			"VerticalRecoveryModifier": 0.48
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Thompson",
+				"name": "C_Ballistic_Thompson",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_Thompson.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 40,
+			"InitialSpeed": 280,
+			"RangeModifier": 0.92,
+			"ReferenceDistance": 250,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.65
+		}
+	}
+}

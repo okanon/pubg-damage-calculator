@@ -1,0 +1,72 @@
+{
+	"Default__Item_Ammo_762mm_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"AmmoIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_ammo_762mm",
+			"name": "weapons_ammo_762mm",
+			"packagePath": "/UI/Weapon/weapons_ammo_762mm.uasset"
+		},
+		"ClassName": "Item_Ammo_762mm_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"name": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal7_62/SM_cal__62_PaperBox_Open_01.SM_cal__62_PaperBox_Open_01",
+		"DroppedMeshScale": 1.4,
+		"ExportName": "Default__Item_Ammo_762mm_C",
+		"Icon": "AssetObject==/Game/UI/item/ammo/icon_ammo_762mm.icon_ammo_762mm",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"name": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal_Drop.uasset"
+		},
+		"ItemCategory": {
+			"Key": "BC5BE26B425BABB81AF13E8B215A95E0",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Ammo_762mm",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemDescriptions.ST_Item_Ammo_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Ammo_762mm",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Ammo_762mm",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Ammunitations/ST_Item_Ammo_ItemNames.ST_Item_Ammo_ItemNames"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal",
+			"name": "Play_UI_Item_Equip_Ammo_Normal",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal.uasset"
+		},
+		"SortPriority": 114,
+		"SpacePerItem": 0.7,
+		"StackCount": 30,
+		"StackCountMax": 100,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/ammo/icon_ammo_762mm.icon_ammo_762mm"
+	},
+	"Item_Ammo_762mm_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_762mm_C"
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"Default__Helmet_Repair_Kit_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__EquipmentRepairKitItem_C",
+		"CastConfig": {
+			"CastName": {
+				"Key": "0A38E79341F596ECC6DEC2B775562800",
+				"Namespace": "[21AD5BF54325D2889D55D5A26D3C09F5]",
+				"SourceString": "Repairing Helmet",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastTime": 5,
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "Helmet_Repair_Kit_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/ThirdParty/AmmoSet/Models/cal20mm/cal20mm_CaseCover.cal20mm_CaseCover",
+		"ExportName": "Default__Helmet_Repair_Kit_C",
+		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Helmet.icon_Special_RepairKit_Helmet",
+		"ItemDescription": {
+			"Key": "BFB956FE407B53A902C7CCA01665C730",
+			"Namespace": "[21AD5BF54325D2889D55D5A26D3C09F5]",
+			"SourceString": "$$ $$",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "44DEAB60420BAEEAB22D4DA24FDDA44A",
+			"Namespace": "[21AD5BF54325D2889D55D5A26D3C09F5]",
+			"SourceString": "Helmet Repair Kit",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "7263E2FA48A52CEAB7D48591F4E00015",
+			"Namespace": "[21AD5BF54325D2889D55D5A26D3C09F5]",
+			"SourceString": "Helmet Repair Kit",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"RepairAmount": 120,
+		"StackCount": 2,
+		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Helmet.icon_Special_RepairKit_Helmet"
+	},
+	"Helmet_Repair_Kit_C": {
+		"@Remaining": 72,
+		"@SuperName": "EquipmentRepairKitItem_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Helmet_Repair_Kit_C"
+	}
+}

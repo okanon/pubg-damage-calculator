@@ -1,0 +1,68 @@
+{
+	"Default__Item_Ammo_44Magnum_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__AmmoItem",
+		"ClassName": "Item_Ammo_44Magnum_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"name": "Play_UI_Item_Equip_Ammo_Normal_Drop",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_Normal_Drop.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Assets/World/Baltic/Props/Common/Meshes/SM_Baltic_AmmoBox01.SM_Baltic_AmmoBox01",
+		"DroppedMeshScale": 0.5,
+		"ExportName": "Default__Item_Ammo_44Magnum_C",
+		"Icon": "AssetObject==/Game/UI/Weapon/weapons_ammo_44Magnum.weapons_ammo_44Magnum",
+		"IconSizeRatio": 0.307692,
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"ItemCategory": {
+			"Key": "9DA022724E05899A294081BDB652807D",
+			"Namespace": "",
+			"SourceString": "Ammunition",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Flags": "None",
+			"HistoryType": -1,
+			"SourceString": null,
+			"StrucName": "FText"
+		},
+		"ItemDetailedName": {
+			"Key": "D7171B73451C4A89B08EE69A34FD1567",
+			"Namespace": "",
+			"SourceString": ".44 Magnum",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "E59F4A89406C6D51E61ECFAA7B258AED",
+			"Namespace": "",
+			"SourceString": ".44 Magnum",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"name": "Play_UI_Item_Equip_Ammo_300Magnum",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Ammo/Play_UI_Item_Equip_Ammo_300Magnum.uasset"
+		},
+		"SortPriority": 100,
+		"SpacePerItem": 0.7,
+		"StackCount": 7,
+		"StackCountMax": 100
+	},
+	"Item_Ammo_44Magnum_C": {
+		"@Remaining": 72,
+		"@SuperName": "AmmoItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Ammo_44Magnum_C"
+	}
+}

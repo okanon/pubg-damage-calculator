@@ -1,0 +1,14 @@
+{
+	"ST_Item_Usable_CastFailMessage": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "ST_Item_Usable_CastFailMessage",
+		"KeysToSourceStrings": {
+			"Item_JerryCan_CastFailMessage_FullFuel": "Gas Tank is Full",
+			"Item_JerryCan_CastFailMessage_NotInVehicle": "You can refuel when you are sitting in a vehicle"
+		},
+		"TableNamespace": "ST_Item_Usable_ItemCastFaulMessage"
+	}
+}

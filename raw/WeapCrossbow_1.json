@@ -1,0 +1,448 @@
+{
+	"CurrentState_0": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ByteProperty",
+		"ClassName": "ByteProperty",
+		"ExportName": "WeapCrossbow_1_C.CurrentState_0"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "WeapCrossbow_1_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__WeapCrossbow_1_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__DefaultRifleSetting_C",
+		"AimingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Finish_Ak47",
+			"name": "Weapon_Aiming_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Finish_Ak47.uasset"
+		},
+		"AimingStartSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Aiming_Start_Ak47",
+			"name": "Weapon_Aiming_Start_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Aiming_Start_Ak47.uasset"
+		},
+		"AttachmentAniRateCalculateType": "EAttachmentCalculateType::Multiply",
+		"AttachmentPositionData": [
+			{
+				"AttachmentPoint": "Upper_Small",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperSmall",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					},
+					{
+						"AttachmentPoint": "Upper_Small",
+						"AttachmentTag": "UpperHolo",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Magazine_Default",
+				"AttachmentPointByTag": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentPositionData"
+			},
+			{
+				"AttachmentPoint": "Lower_Default_01",
+				"AttachmentPointByTag": [
+					{
+						"AttachmentPoint": "Lower_Default_01",
+						"AttachmentTag": "QuiverCrossbow",
+						"StrucName": "WeaponAttachmentTagPositionData"
+					}
+				],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::LowerRail",
+				"StrucName": "WeaponAttachmentPositionData"
+			}
+		],
+		"AttachmentRecoilPatternScaleCalculateType": "EAttachmentCalculateType::Multiply",
+		"ClassName": "WeapCrossbow_1_C",
+		"CurrentState_0": "ENUM_CrossbowState::NewEnumerator2",
+		"DefaultAttachedItemAssets": [
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/Accessories/TN_RDS/SM_RDS_Crossbow.SM_RDS_Crossbow",
+				"AttachmentMeshName": "RDS",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"AttachmentTag": "RDS",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 29,
+					"index": -30,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -57
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			},
+			{
+				"AttachmentMeshAsset": "AssetObject==/Game/Weapon/CrossBow/Bolt_setting.Bolt_setting",
+				"AttachmentMeshName": "Arrow",
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"AttachmentTag": "Arrow",
+				"AttachmentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 29,
+					"index": -30,
+					"name": "AsyncStaticMeshComponent",
+					"pkgIndex": -57
+				},
+				"StrucName": "WeaponAttachmentAssetData"
+			}
+		],
+		"EquipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_Equip_Rifle",
+			"name": "Weapons_Equip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_Equip_Rifle.uasset"
+		},
+		"ExportName": "Default__WeapCrossbow_1_C",
+		"FireSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_CrossBow_Fire",
+			"name": "Weapon_CrossBow_Fire",
+			"packagePath": "/WwiseAssets/Weapons/Crossbow/Weapon_CrossBow_Fire.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Arrow_C",
+			"name": "GunImpact_Arrow_C",
+			"packagePath": "/Blueprints/Weapons/WeaponConfig/GunImpact_Arrow.uasset"
+		},
+		"LastState": "ENUM_CrossbowState::NewEnumerator2",
+		"LightImpactTemplate": {
+			"StrucName": "ObjectProperty"
+		},
+		"Mesh3P": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponMeshComponent",
+			"exportName": "Default__WeapCrossbow_1_C.WeaponMesh3P",
+			"name": "WeaponMesh3P"
+		},
+		"MuzzleFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"ReplicatedMovement": {
+			"LocationQuantizationLevel": "EVectorQuantization::RoundOneDecimal",
+			"RotationQuantizationLevel": "ERotatorQuantization::ShortComponents",
+			"StrucName": "RepMovement"
+		},
+		"ReticlePostprocessData": {
+			"StrucName": "ObjectProperty",
+			"className": "ReticlePostprocessData",
+			"importName": "Sight_Reddot_Crossbow_PostprocessData",
+			"name": "Sight_Reddot_Crossbow_PostprocessData",
+			"packagePath": "/Item/Attachment/AttachmentDataAssets/Sight_Reddot_Crossbow_PostprocessData.uasset"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapCrossbow_1_C.RootScene",
+			"name": "RootScene"
+		},
+		"ScopingFinishSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapon_Scooping_Finish_Ak47",
+			"name": "Weapon_Scooping_Finish_Ak47",
+			"packagePath": "/WwiseAssets/Weapons_Handling/Ak47/Weapon_Scooping_Finish_Ak47.uasset"
+		},
+		"ShellFxAttachPoint": "CartridgeChamber",
+		"TrailFX": {
+			"StrucName": "ObjectProperty"
+		},
+		"TrajectoryConfig": {
+			"AimingSpreadModifier": 0.07,
+			"FiringSpreadBase": 8.5,
+			"RecoilPatternScale": 0.52,
+			"RecoilPatterns": [],
+			"RecoilRecoverySpeed": 3,
+			"RecoilSpeed": 8,
+			"ScopingSpreadModifier": 0.001,
+			"StrucName": "TrajectoryWeaponData",
+			"WeaponSpread": 5
+		},
+		"UberGraphFrame": {
+			"StrucName": "PointerToUberGraphFrame"
+		},
+		"UnderWaterTrailFXClassPerLength": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "BP_UnderwaterArrowTrailEffect_C",
+				"name": "BP_UnderwaterArrowTrailEffect_C",
+				"packagePath": "/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/BP_UnderwaterArrowTrailEffect.uasset"
+			},
+			"@RemoveKeys": [
+				"80",
+				"300"
+			]
+		},
+		"UnequipSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Weapons_UnEquip_Rifle",
+			"name": "Weapons_UnEquip_Rifle",
+			"packagePath": "/WwiseAssets/Weapons_Equip/Weapons_UnEquip_Rifle.uasset"
+		},
+		"UseCustomCrosshair": true,
+		"WeaponConfig": {
+			"CameraDOF_NearRange": 60,
+			"CameraDOF_Power": 1.5,
+			"CameraDOF_Range": 30,
+			"DestructibleDoor": false,
+			"HoldBreathFOV": 51,
+			"IronSightZeroingDistances": [
+				25
+			],
+			"PhysicalBodyHitImpactPower": 8000,
+			"RecoilMontage": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_Crossbow_Fire_Montage",
+				"name": "Weapon_Crossbow_Fire_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Crossbow/Weapon_Crossbow_Fire_Montage.uasset"
+			},
+			"SocketOffset_Hand": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					6,
+					0.5
+				]
+			},
+			"SocketOffset_Shoulder": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					28,
+					-4
+				]
+			},
+			"StrucName": "WeaponData",
+			"TargetingFOV": 62,
+			"WeaponClass": "EWeaponClass::Class_Carbine",
+			"WeaponEquipDuration": 0.25,
+			"WeaponUnequipDuration": 0.45
+		},
+		"WeaponGunData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunDataAsset",
+			"importName": "WeapCrossbow_1_WeaponGunData",
+			"name": "WeapCrossbow_1_WeaponGunData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapCrossbow_1_WeaponGunData.uasset"
+		},
+		"WeaponGunPostprocessSettings": {
+			"BlurLevel": 0.52,
+			"DepthBlurBlackPoint": 40,
+			"DepthBlurPower": 1,
+			"DepthBlurWhitePoint": 10,
+			"ScopeRadiusFar": 0.1,
+			"ScopeRadiusNear": 0.1,
+			"StrucName": "WeaponPPSettings"
+		},
+		"WeaponIcon": {
+			"StrucName": "ObjectProperty",
+			"className": "Texture2D",
+			"importName": "weapons_gun_crossbow",
+			"name": "weapons_gun_crossbow",
+			"packagePath": "/UI/Weapon/weapons_gun_crossbow.uasset"
+		},
+		"WeaponIconRatio": 3.2,
+		"WeaponTag": "Crossbow",
+		"WeaponTrajectoryData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponTrajectoryData",
+			"importName": "WeapCrossbow_1_WeaponTrajectoryData",
+			"name": "WeapCrossbow_1_WeaponTrajectoryData",
+			"packagePath": "/Blueprints/Weapons/DataAssets/WeapCrossbow_1_WeaponTrajectoryData.uasset"
+		},
+		"bAlwaysUseIronSightZeroing": true
+	},
+	"EntryPoint": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__IntProperty",
+		"ClassName": "IntProperty",
+		"ExportName": "WeapCrossbow_1_C.ExecuteUbergraph_WeapCrossbow_1.EntryPoint"
+	},
+	"ExecuteUbergraph_WeapCrossbow_1": {
+		"@Remaining": 66,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapCrossbow_1_C.ExecuteUbergraph_WeapCrossbow_1"
+	},
+	"K2Node_CustomEvent_NewAmmoState": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ByteProperty",
+		"ClassName": "ByteProperty",
+		"ExportName": "WeapCrossbow_1_C.ExecuteUbergraph_WeapCrossbow_1.K2Node_CustomEvent_NewAmmoState"
+	},
+	"LastState": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ByteProperty",
+		"ClassName": "ByteProperty",
+		"ExportName": "WeapCrossbow_1_C.LastState"
+	},
+	"NewAmmoState": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ByteProperty",
+		"ClassName": "ByteProperty",
+		"ExportName": "WeapCrossbow_1_C.ServerSetAmmoState.NewAmmoState"
+	},
+	"RootScene": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RootScene",
+		"AttachmentChangedDelegate": "*** Property not implemented MulticastDelegateProperty == -1",
+		"ClassName": "SceneComponent",
+		"ExportName": "Default__WeapCrossbow_1_C.RootScene"
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 26,
+			"index": -27,
+			"name": "SceneComponent",
+			"pkgIndex": -56
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "WeapCrossbow_1_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "WeapCrossbow_1_C.SimpleConstructionScript_1.SCS_Node_1",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D6F634D44DBF99D659773C9A370D8B0F"
+		}
+	},
+	"ServerSetAmmoState": {
+		"@Remaining": 66,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapCrossbow_1_C.ServerSetAmmoState"
+	},
+	"SimpleConstructionScript_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "WeapCrossbow_1_C.SimpleConstructionScript_1.SCS_Node_1",
+			"name": "SCS_Node_1"
+		},
+		"ExportName": "WeapCrossbow_1_C.SimpleConstructionScript_1"
+	},
+	"UberGraphFrame": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StructProperty",
+		"ClassName": "StructProperty",
+		"ExportName": "WeapCrossbow_1_C.UberGraphFrame"
+	},
+	"UserConstructionScript": {
+		"@Remaining": 45,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "WeapCrossbow_1_C.UserConstructionScript"
+	},
+	"WeapCrossbow_1_C": {
+		"@Remaining": 108,
+		"@SuperName": "DefaultRifleSetting_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "WeapCrossbow_1_C",
+		"NumReplicatedProperties": 1,
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "WeapCrossbow_1_C.SimpleConstructionScript_1",
+			"name": "SimpleConstructionScript_1"
+		},
+		"UberGraphFramePointerProperty": {
+			"StrucName": "ObjectProperty",
+			"className": "StructProperty",
+			"exportName": "WeapCrossbow_1_C.UberGraphFrame",
+			"name": "UberGraphFrame"
+		},
+		"UberGraphFunction": {
+			"StrucName": "ObjectProperty",
+			"className": "Function",
+			"exportName": "WeapCrossbow_1_C.ExecuteUbergraph_WeapCrossbow_1",
+			"name": "ExecuteUbergraph_WeapCrossbow_1"
+		}
+	},
+	"WeaponMesh3P": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "WeaponMesh3P",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_Weapon_Crossbow_C",
+			"name": "ABP_Weapon_Crossbow_C",
+			"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/Crossbow/Weapon/ABP_Weapon_Crossbow.uasset"
+		},
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Default__WeapCrossbow_1_C.RootScene",
+			"name": "RootScene"
+		},
+		"BodyInstance": {
+			"MassInKgOverride": 0,
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "WeaponMeshComponent",
+		"ExportName": "Default__WeapCrossbow_1_C.WeaponMesh3P",
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "crossbow",
+			"name": "crossbow",
+			"packagePath": "/Weapon/CrossBow/crossbow.uasset"
+		}
+	},
+	"bWantsToReload": {
+		"@Remaining": 30,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoolProperty",
+		"ClassName": "BoolProperty",
+		"ExportName": "WeapCrossbow_1_C.bWantsToReload"
+	}
+}

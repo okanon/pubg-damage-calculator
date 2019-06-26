@@ -1,0 +1,1865 @@
+{
+	"BP_PickupTruck_C": {
+		"@Remaining": 84,
+		"@SuperName": "VehicleBase_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "BP_PickupTruck_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "BP_PickupTruck_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		}
+	},
+	"BuffComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuffComponent",
+		"ClassName": "BuffComponet",
+		"ExportName": "Default__BP_PickupTruck_C.BuffComponent"
+	},
+	"BuoyancyForceComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"ClassName": "TslBuoyancyForceComponent",
+		"ExportName": "Default__BP_PickupTruck_C.BuoyancyForceComponent",
+		"MeshDensity": 1500,
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				135,
+				0,
+				108
+			]
+		},
+		"TestPoints": [
+			{
+				"StrucName": "Vector",
+				"value": [
+					150,
+					85,
+					45
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-129,
+					85,
+					45
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					150,
+					-85,
+					45
+				]
+			},
+			{
+				"StrucName": "Vector",
+				"value": [
+					-129,
+					-85,
+					45
+				]
+			}
+		]
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "BP_PickupTruck_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__BP_PickupTruck_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleBase_C",
+		"BuffComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuffComponet",
+			"exportName": "Default__BP_PickupTruck_C.BuffComponent",
+			"name": "BuffComponent"
+		},
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslBuoyancyForceComponent",
+			"exportName": "Default__BP_PickupTruck_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"CharacterHitSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_Common_Impact_Human",
+			"name": "Vehicle_Common_Impact_Human",
+			"packagePath": "/WwiseAssets/Vehicles/Common/Vehicle_Common_Impact_Human.uasset"
+		},
+		"ClassName": "BP_PickupTruck_C",
+		"ExportName": "Default__BP_PickupTruck_C",
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__BP_PickupTruck_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"HealthMax": 1200,
+		"MaxClampThrottleInClutch": 0.7,
+		"Mesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"RadioAudioComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleRadioComponent",
+			"exportName": "Default__BP_PickupTruck_C.RadioAudioComponent",
+			"name": "RadioAudioComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"StopSound": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_PickupTruck_Engine_Stop",
+			"name": "Vehicle_PickupTruck_Engine_Stop",
+			"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Engine_Stop.uasset"
+		},
+		"TorqueMultiplierForBoosting": 1.35,
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__BP_PickupTruck_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__BP_PickupTruck_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__BP_PickupTruck_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleMovement": {
+			"StrucName": "ObjectProperty",
+			"className": "TslWheeledVehicleMovement",
+			"exportName": "Default__BP_PickupTruck_C.MovementComp",
+			"name": "MovementComp"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__BP_PickupTruck_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		}
+	},
+	"DriverSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_PickupTruck_C.DriverSeat"
+	},
+	"DriverSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "BP_PickupTruck_C.DriverSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "2D1298CF485729E5169B6392BEB26E97",
+			"Namespace": "",
+			"SourceString": "Drive",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "C0283AE543CDAF40B1971FA6E4CBB340",
+			"Namespace": "[402D83154A456E06DE297BB3B3571F55]",
+			"SourceString": "Pickup",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketFL",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				12.4030762,
+				0.0000114440918,
+				7.0074855e-22
+			]
+		},
+		"RiderType": "ERiderType::Driver",
+		"SeatAnimationType": "EVehicleAnimType::PickupTruckDriver",
+		"ViewPitchMax": 50,
+		"ViewPitchMin": -50
+	},
+	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"CameraLagMaxDistance": 5,
+		"CameraLagSpeed": 25,
+		"CameraRotationLagSpeed": 30,
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_PickupTruck_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				-45,
+				180
+			]
+		},
+		"bEnableCameraLag": true,
+		"bEnableCameraRotationLag": true
+	},
+	"GamePadInputAixsComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__BP_PickupTruck_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__BP_PickupTruck_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__BP_PickupTruck_C.HornComponent",
+		"HornSounds_Local": {
+			"HornOffSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Horn_Release_Local",
+				"name": "Vehicle_PickupTruck_Horn_Release_Local",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Horn_Release_Local.uasset"
+			},
+			"HornOnSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Horn_Local",
+				"name": "Vehicle_PickupTruck_Horn_Local",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Horn_Local.uasset"
+			},
+			"StrucName": "HornSoundInfo"
+		},
+		"HornSounds_Remote": {
+			"HornOffSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Horn_Release_Remote",
+				"name": "Vehicle_PickupTruck_Horn_Release_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Horn_Release_Remote.uasset"
+			},
+			"HornOnSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Horn_Remote",
+				"name": "Vehicle_PickupTruck_Horn_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Horn_Remote.uasset"
+			},
+			"StrucName": "HornSoundInfo"
+		}
+	},
+	"InheritableComponentHandler": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "BP_PickupTruck_C.InheritableComponentHandler",
+		"Records": [
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 43,
+					"index": -44,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -163
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:82BDD588446DBBB873B9AA90F87FD840"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "VehicleBase_C",
+						"name": "VehicleBase_C",
+						"packagePath": "/Vehicles/VehicleBase.uasset"
+					},
+					"SCSVariableName": "ThirdPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "BP_PickupTruck_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 43,
+					"index": -44,
+					"name": "SpringArmInVehicleComponent",
+					"pkgIndex": -163
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:5369BCCF4E6104D8DB62B1820293CDA6"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "VehicleBase_C",
+						"name": "VehicleBase_C",
+						"packagePath": "/Vehicles/VehicleBase.uasset"
+					},
+					"SCSVariableName": "FirstPersonSpringArmInVehicle",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "SpringArmInVehicleComponent",
+					"exportName": "BP_PickupTruck_C.FirstPersonSpringArmInVehicle_GEN_VARIABLE",
+					"name": "FirstPersonSpringArmInVehicle_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			}
+		]
+	},
+	"MovementComp": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComp",
+		"AckermannAccuracy": 0.8,
+		"Anim_InterpOfInterpSpeedScale": 0.3,
+		"Anim_SpeedForInputTypeSwitch": 1420,
+		"Anim_SteeringInputInterpSpeed": 5.5,
+		"BrakeInputRate": {
+			"FallRate": 9,
+			"RiseRate": 5,
+			"StrucName": "VehicleInputRate"
+		},
+		"ChassisHeight": 160,
+		"ChassisWidth": 200,
+		"ClassName": "TslWheeledVehicleMovement",
+		"CustomTransmission": {
+			"CustomTransmissionMaxSpeed": 3,
+			"StrucName": "CustomTransmissionData",
+			"VelocityGears": [
+				{
+					"DownSpeed": 0,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 12
+				},
+				{
+					"DownSpeed": 0,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 45
+				},
+				{
+					"DownSpeed": 35,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 63
+				},
+				{
+					"DownSpeed": 55,
+					"StrucName": "VelocityGearData",
+					"UpSpeed": 200
+				}
+			],
+			"bDownShiftingOnly": true,
+			"bUseVelocityTransmission": true
+		},
+		"DifferentialSetup": {
+			"CentreBias": 1.5,
+			"RearBias": 1.6,
+			"StrucName": "VehicleDifferential4WData"
+		},
+		"DragCoefficient": 1,
+		"EngineSetup": {
+			"DampingRateFullThrottle": 0.25,
+			"DampingRateZeroThrottleClutchDisengaged": 0.7,
+			"DampingRateZeroThrottleClutchEngaged": 0.2,
+			"MOI": 1.6,
+			"MaxRPM": 5200,
+			"StrucName": "VehicleEngineData",
+			"TorqueCurve": {
+				"EditorCurveData": {
+					"Keys": [
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0.125255391,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": 0,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 0,
+								"Value": 350
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0.07709375,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": 0.07709375,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 2000,
+								"Value": 500
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": -0.01,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 2,
+								"LeaveTangent": -0.01,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 3200,
+								"Value": 550
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": -0.0648242,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": -0.0648242,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 4000,
+								"Value": 480
+							}
+						},
+						{
+							"StrucName": "RichCurveKey",
+							"value": {
+								"ArriveTangent": 0,
+								"ArriveTangentWeight": 0,
+								"InterpMode": 0,
+								"LeaveTangent": 0,
+								"LeaveTangentWeight": 0,
+								"StrucName": "FRichCurveKey",
+								"TangentMode": 0,
+								"TangentWeightMode": 0,
+								"Time": 6000,
+								"Value": 300
+							}
+						}
+					],
+					"StrucName": "RichCurve"
+				},
+				"StrucName": "RuntimeFloatCurve"
+			}
+		},
+		"ExportName": "Default__BP_PickupTruck_C.MovementComp",
+		"InertiaTensorScale": {
+			"StrucName": "Vector",
+			"value": [
+				3.5,
+				2.3,
+				1.3
+			]
+		},
+		"Mass": 1950,
+		"MaxNormalizedTireLoadFiltered": 3.3,
+		"MinNormalizedTireLoadFiltered": 0.275,
+		"SteeringCurve": {
+			"EditorCurveData": {
+				"Keys": [
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 0,
+							"Value": 1
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 20,
+							"Value": 0.85
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 55,
+							"Value": 0.52
+						}
+					},
+					{
+						"StrucName": "RichCurveKey",
+						"value": {
+							"ArriveTangent": 0,
+							"ArriveTangentWeight": 0,
+							"InterpMode": 0,
+							"LeaveTangent": 0,
+							"LeaveTangentWeight": 0,
+							"StrucName": "FRichCurveKey",
+							"TangentMode": 0,
+							"TangentWeightMode": 0,
+							"Time": 123.156761,
+							"Value": 0.35
+						}
+					}
+				],
+				"StrucName": "RichCurve"
+			},
+			"StrucName": "RuntimeFloatCurve"
+		},
+		"SteeringInputRate": {
+			"FallRate": 2.5,
+			"RiseRate": 1.8,
+			"StrucName": "VehicleInputRate"
+		},
+		"TransmissionSetup": {
+			"ClutchStrength": 15,
+			"FinalRatio": 5,
+			"ForwardGears": [
+				{
+					"DownRatio": 0.7,
+					"Ratio": 3.6,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				},
+				{
+					"DownRatio": 0.35,
+					"Ratio": 2.3,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.9
+				},
+				{
+					"DownRatio": 0.4,
+					"Ratio": 1.5,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.82
+				},
+				{
+					"DownRatio": 0.5,
+					"Ratio": 1,
+					"StrucName": "VehicleGearData",
+					"UpRatio": 0.65
+				}
+			],
+			"GearAutoBoxLatency": 1,
+			"GearSwitchTime": 0.4,
+			"ReverseGearRatio": -3,
+			"StrucName": "VehicleTransmissionData"
+		},
+		"WheelSetups": [
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "Phys_Wheel_FL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_WheelPucture_F_C",
+					"name": "PickupTruck_WheelPucture_F_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_WheelPucture_F.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_Wheel_FL_C",
+					"name": "PickupTruck_Wheel_FL_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_Wheel_FL.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "Phys_Wheel_FR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_WheelPucture_F_C",
+					"name": "PickupTruck_WheelPucture_F_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_WheelPucture_F.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_Wheel_FR_C",
+					"name": "PickupTruck_Wheel_FR_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_Wheel_FR.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "Phys_Wheel_BL",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_WheelPucture_R_C",
+					"name": "PickupTruck_WheelPucture_R_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_WheelPucture_R.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_Wheel_RL_C",
+					"name": "PickupTruck_Wheel_RL_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_Wheel_RL.uasset"
+				}
+			},
+			{
+				"AdditionalOffset": {
+					"StrucName": "Vector",
+					"value": [
+						0,
+						0,
+						0
+					]
+				},
+				"BoneName": "Phys_Wheel_BR",
+				"DefaultWheelClass": {
+					"StrucName": "ObjectProperty"
+				},
+				"PuncturedWheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_WheelPucture_R_C",
+					"name": "PickupTruck_WheelPucture_R_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_WheelPucture_R.uasset"
+				},
+				"StrucName": "WheelSetup",
+				"WheelClass": {
+					"StrucName": "ObjectProperty",
+					"className": "BlueprintGeneratedClass",
+					"importName": "PickupTruck_Wheel_RR_C",
+					"name": "PickupTruck_Wheel_RR_C",
+					"packagePath": "/Vehicles/Pickup/PickupTruck_Wheel_RR.uasset"
+				}
+			}
+		],
+		"bDeprecatedSpringOffsetMode": false
+	},
+	"PassengerFRSeat": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_PickupTruck_C.PassengerFRSeat"
+	},
+	"PassengerFRSeat_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleSeatInteractionComponent",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"CurvePitchMax": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Uaz_FR_Max",
+			"name": "C_Uaz_FR_Max",
+			"packagePath": "/Vehicles/Uaz/UAZ_SeatConfig/C_Uaz_FR_Max.uasset"
+		},
+		"CurvePitchMin": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Pickup_FR_Min",
+			"name": "C_Pickup_FR_Min",
+			"packagePath": "/Vehicles/Pickup/Curves/C_Pickup_FR_Min.uasset"
+		},
+		"ExportName": "BP_PickupTruck_C.PassengerFRSeat_GEN_VARIABLE",
+		"InteractionVerb": {
+			"Key": "48A4FC53465B8573726F2BBC805DDE7F",
+			"Namespace": "",
+			"SourceString": "Get In",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"InteractiveObjectName": {
+			"Key": "ED63F7C0475C794EEE39C8AD3824AC73",
+			"Namespace": "[402D83154A456E06DE297BB3B3571F55]",
+			"SourceString": "Pickup",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"LeaveSocketName": "LeaveSocketFR",
+		"SeatAnimationIdle_Grenade": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"name": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/Vehicle_Pickup_Passenger_FR_Unarmed.uasset"
+		},
+		"SeatAnimationIdle_Melee": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"name": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/Vehicle_Pickup_Passenger_FR_Unarmed.uasset"
+		},
+		"SeatAnimationIdle_Rifle": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Pickup_Passenger_FR_Lowered",
+			"name": "Vehicle_Pickup_Passenger_FR_Lowered",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/Vehicle_Pickup_Passenger_FR_Lowered.uasset"
+		},
+		"SeatAnimationIdle_Unarmed": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimSequence",
+			"importName": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"name": "Vehicle_Pickup_Passenger_FR_Unarmed",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/Vehicle_Pickup_Passenger_FR_Unarmed.uasset"
+		},
+		"SeatAnimationType": "EVehicleAnimType::PickupTruckPassengerFR",
+		"SeatBlendspaceAiming": {
+			"StrucName": "ObjectProperty",
+			"className": "BlendSpace1D",
+			"importName": "BS_Pickup_Passenger_FR",
+			"name": "BS_Pickup_Passenger_FR",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/BS_Pickup_Passenger_FR.uasset"
+		},
+		"SeatBlendspaceFPPAiming": {
+			"StrucName": "ObjectProperty",
+			"className": "BlendSpace1D",
+			"importName": "BS_Pickup_Passenger_FR_FPP",
+			"name": "BS_Pickup_Passenger_FR_FPP",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/BS_Pickup_Passenger_FR_FPP.uasset"
+		},
+		"SeatIdleAO": {
+			"StrucName": "ObjectProperty",
+			"className": "AimOffsetBlendSpace",
+			"importName": "General_AO",
+			"name": "General_AO",
+			"packagePath": "/Animations/Battlegrounds/Anims/General/General_AO.uasset"
+		},
+		"SeatIndex": 1,
+		"TransitionInBlendspace": {
+			"StrucName": "ObjectProperty",
+			"className": "BlendSpace1D",
+			"importName": "BS_Pickup_Passenger_FR_IN",
+			"name": "BS_Pickup_Passenger_FR_IN",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/BS_Pickup_Passenger_FR_IN.uasset"
+		},
+		"TransitionOutBlendspace": {
+			"StrucName": "ObjectProperty",
+			"className": "BlendSpace1D",
+			"importName": "BS_Pickup_Passenger_FR_OUT",
+			"name": "BS_Pickup_Passenger_FR_OUT",
+			"packagePath": "/Animations/Battlegrounds/Anims/Vehicle/Pickup/BS_Pickup_Passenger_FR_OUT.uasset"
+		},
+		"ViewPitchMax": 35,
+		"ViewPitchMin": -10,
+		"bCanOnlyFireWhileAiming": true
+	},
+	"PawnInputBindingComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__BP_PickupTruck_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"RadioAudioComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "RadioAudioComponent",
+		"ClassName": "TslVehicleRadioComponent",
+		"ExportName": "Default__BP_PickupTruck_C.RadioAudioComponent"
+	},
+	"SCS_Node_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 35,
+			"index": -36,
+			"name": "SceneComponent",
+			"pkgIndex": -162
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "BP_PickupTruck_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:16F0B94C4598EABAF999CCA6C473937E"
+		}
+	},
+	"SCS_Node_1": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFL",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 56,
+			"index": -57,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -163
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_PickupTruck_C.DriverSeat_GEN_VARIABLE",
+			"name": "DriverSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "DriverSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:6218C5C34DB423463E4AB9977178D3F6"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 39,
+			"index": -40,
+			"name": "SphereComponent",
+			"pkgIndex": -162
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_PickupTruck_C.Sphere_GEN_VARIABLE",
+			"name": "Sphere_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "Sphere",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:CBE89C934CF7A01546ED22AD086B6D80"
+		}
+	},
+	"SCS_Node_3": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "RideSocketFR",
+		"ChildNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			}
+		],
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 56,
+			"index": -57,
+			"name": "VehicleSeatInteractionComponent",
+			"pkgIndex": -163
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "VehicleSeatInteractionComponent",
+			"exportName": "BP_PickupTruck_C.PassengerFRSeat_GEN_VARIABLE",
+			"name": "PassengerFRSeat_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_3",
+		"InternalVariableName": "PassengerFRSeat",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:9BF64E82479462BC851BE3A2901BE31B"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_4": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 39,
+			"index": -40,
+			"name": "SphereComponent",
+			"pkgIndex": -162
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SphereComponent",
+			"exportName": "BP_PickupTruck_C.Sphere1_GEN_VARIABLE",
+			"name": "Sphere1_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_4",
+		"InternalVariableName": "Sphere1",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:B2B994FF4AE3DDC25E26F184587164DF"
+		}
+	},
+	"SCS_Node_5": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 40,
+			"index": -41,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -162
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "BP_PickupTruck_C.WeaponCollisionComponent_GEN_VARIABLE",
+			"name": "WeaponCollisionComponent_GEN_VARIABLE"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_5",
+		"InternalVariableName": "WeaponCollisionComponent",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:0E839CD54719D86DEF643AA9610377CB"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SimpleConstructionScript_0": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_4",
+				"name": "SCS_Node_4"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "BP_PickupTruck_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_3",
+				"name": "SCS_Node_3"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "BP_PickupTruck_C.SimpleConstructionScript_0.SCS_Node_5",
+				"name": "SCS_Node_5"
+			}
+		]
+	},
+	"Sphere": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_PickupTruck_C.Sphere"
+	},
+	"Sphere1": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_PickupTruck_C.Sphere1"
+	},
+	"Sphere1_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_PickupTruck_C.Sphere1_GEN_VARIABLE"
+	},
+	"Sphere_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SphereComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "InteractiveObject",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_GameTraceChannel5",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "SphereComponent",
+		"ExportName": "BP_PickupTruck_C.Sphere_GEN_VARIABLE"
+	},
+	"ThirdPersonSpringArmInVehicle_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"ClassName": "SpringArmInVehicleComponent",
+		"ExportName": "BP_PickupTruck_C.ThirdPersonSpringArmInVehicle_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				119.734924
+			]
+		},
+		"SocketOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				20
+			]
+		},
+		"TargetArmLength": 550,
+		"TargetOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				20
+			]
+		}
+	},
+	"UserConstructionScript": {
+		"@Remaining": 45,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "BP_PickupTruck_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"ClassName": "TslVehicleCommonComponent",
+		"ComplexBodyBoneNames": [],
+		"ComplexCollisionProfileName": "VehicleComplex",
+		"ExportName": "Default__BP_PickupTruck_C.VehicleCommonComponent",
+		"FuelConsumptionModifierBoost": 3,
+		"FuelEfficiency": 1.4,
+		"FuelMax": 1000,
+		"HealthMax": 1200,
+		"MainComplexBodyBoneName": "complex",
+		"OnBreak": "*** Property not implemented MulticastDelegateProperty == -1",
+		"SimpleBodyBoneName": "root",
+		"VehicleUI": {
+			"StrucName": "ObjectProperty",
+			"className": "WidgetBlueprintGeneratedClass",
+			"importName": "PickUpStanceWidget_C",
+			"name": "PickUpStanceWidget_C",
+			"packagePath": "/Blueprints/UI/HUD/Stance/VehicleStance/PickUpStanceWidget.uasset"
+		}
+	},
+	"VehicleEffectComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"AngularVelocityCoefficient": 0.8,
+		"ApplyDestroyedMaterialDelay": 0.3,
+		"ClassName": "TslVehicleEffectComponent",
+		"Curve_EngineAudio": {
+			"StrucName": "ObjectProperty",
+			"className": "CurveFloat",
+			"importName": "C_Engine_PickupTruck",
+			"name": "C_Engine_PickupTruck",
+			"packagePath": "/Vehicles/Pickup/Curves/C_Engine_PickupTruck.uasset"
+		},
+		"DT_Multiplier": 10,
+		"DestroyedMaterialMap": {
+			"0": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_A_Interior_Burn",
+				"name": "Pickup_A_Interior_Burn",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_A_Interior_Burn.uasset"
+			},
+			"1": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_A_Exterior_Burn",
+				"name": "Pickup_A_Exterior_Burn",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_A_Exterior_Burn.uasset"
+			},
+			"2": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_A_Underbody_Burn",
+				"name": "Pickup_A_Underbody_Burn",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_A_Underbody_Burn.uasset"
+			},
+			"3": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Uaz_Glass_Dirty",
+				"name": "Uaz_Glass_Dirty",
+				"packagePath": "/Vehicles/Pickup/Material/Uaz_Glass_Dirty.uasset"
+			},
+			"4": {
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_Light_01_Burn",
+				"name": "Pickup_Light_01_Burn",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_Light_01_Burn.uasset"
+			}
+		},
+		"ExportName": "Default__BP_PickupTruck_C.VehicleEffectComponent",
+		"GearDownSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_UAZ_GearDown",
+			"name": "Vehicle_UAZ_GearDown",
+			"packagePath": "/WwiseAssets/Vehicles/UAZ/Vehicle_UAZ_GearDown.uasset"
+		},
+		"GearUpSound_Start": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Vehicle_UAZ_GearUp",
+			"name": "Vehicle_UAZ_GearUp",
+			"packagePath": "/WwiseAssets/Vehicles/UAZ/Vehicle_UAZ_GearUp.uasset"
+		},
+		"LateralVelocityClamp": 400,
+		"LateralVelocityCoeffictient": 0.63,
+		"MeasuredWheelIndices": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesBrake": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesSlip": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MeasuredWheelIndicesSpin": [
+			0,
+			1,
+			2,
+			3
+		],
+		"MinVelocityForSurfaceCheck": 100,
+		"SlipInterpSpeed": 50,
+		"SpinInterpSpeed": 50,
+		"SurfaceActivationValue": 0.6,
+		"SurfaceAudioMap": {
+			"ESurfaceEffect::S_Common_BrakeDisc": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Common_Brakedisc",
+				"name": "VSA_Common_Brakedisc",
+				"packagePath": "/Vehicles/VehicleData/VSA_Common_Brakedisc.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Brake",
+				"name": "VSA_Concrete_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Brake",
+				"name": "VSA_Concrete_Puncture_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Roll",
+				"name": "VSA_Concrete_Puncture_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Skid",
+				"name": "VSA_Concrete_Puncture_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Punctured_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Puncture_Spin",
+				"name": "VSA_Concrete_Puncture_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Puncture_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Roll",
+				"name": "VSA_Concrete_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Skid",
+				"name": "VSA_Concrete_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Concrete_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Concrete_Spin",
+				"name": "VSA_Concrete_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Concrete_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Brake",
+				"name": "VSA_Dirt_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Roll",
+				"name": "VSA_Dirt_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Skid",
+				"name": "VSA_Dirt_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Dirt_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Dirt_Spin",
+				"name": "VSA_Dirt_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Dirt_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Brake",
+				"name": "VSA_Grass_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Roll",
+				"name": "VSA_Grass_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Skid",
+				"name": "VSA_Grass_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Grass_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Grass_Spin",
+				"name": "VSA_Grass_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Grass_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Brake",
+				"name": "VSA_Ice_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Roll",
+				"name": "VSA_Ice_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Skid",
+				"name": "VSA_Ice_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Ice_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Ice_Spin",
+				"name": "VSA_Ice_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Ice_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Brake",
+				"name": "VSA_Metal_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Roll",
+				"name": "VSA_Metal_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Skid",
+				"name": "VSA_Metal_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Metal_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Metal_Spin",
+				"name": "VSA_Metal_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Metal_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Brake",
+				"name": "VSA_Rock_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Roll",
+				"name": "VSA_Rock_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Skid",
+				"name": "VSA_Rock_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Rock_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Rock_Spin",
+				"name": "VSA_Rock_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Rock_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Brake",
+				"name": "VSA_Sand_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Roll",
+				"name": "VSA_Sand_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Skid",
+				"name": "VSA_Sand_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Sand_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Sand_Spin",
+				"name": "VSA_Sand_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Sand_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Brake",
+				"name": "VSA_Snow_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Roll",
+				"name": "VSA_Snow_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Skid",
+				"name": "VSA_Snow_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Snow_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Snow_Spin",
+				"name": "VSA_Snow_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Snow_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Water_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Brake",
+				"name": "VSA_Water_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Water_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Roll",
+				"name": "VSA_Water_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Water_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Skid",
+				"name": "VSA_Water_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Water_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Water_Spin",
+				"name": "VSA_Water_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Water_Spin.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Brake": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Brake",
+				"name": "VSA_Wood_Brake",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Brake.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Roll": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Roll",
+				"name": "VSA_Wood_Roll",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Roll.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Skid": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Skid",
+				"name": "VSA_Wood_Skid",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Skid.uasset"
+			},
+			"ESurfaceEffect::S_Wood_Spin": {
+				"StrucName": "ObjectProperty",
+				"className": "VehicleSurfaceAudioData",
+				"importName": "VSA_Wood_Spin",
+				"name": "VSA_Wood_Spin",
+				"packagePath": "/Vehicles/VehicleData/VSA_Wood_Spin.uasset"
+			}
+		},
+		"SurfaceDeactivationValue": 0.2,
+		"SuspenionOffsetForContact": -14,
+		"VehicleEffectInfo": {
+			"EngineSound": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Engine_Local",
+				"name": "Vehicle_PickupTruck_Engine_Local",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Engine_Local.uasset"
+			},
+			"EngineSound_Remote": {
+				"StrucName": "ObjectProperty",
+				"className": "AkAudioEvent",
+				"importName": "Vehicle_PickupTruck_Engine_Remote",
+				"name": "Vehicle_PickupTruck_Engine_Remote",
+				"packagePath": "/WwiseAssets/Vehicles/PickupTruck/Vehicle_PickupTruck_Engine_Remote.uasset"
+			},
+			"StrucName": "VehicleEffectInfo"
+		},
+		"VelocityInterpSpeed": 150,
+		"bProcessShiftStart": true,
+		"bUseDopplerEffect": true,
+		"bUseNewChassisAudio": true,
+		"bUseNewSurfaceAudio": true
+	},
+	"VehicleHitComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"ClassName": "TslVehicleHitComponent",
+		"ExplosionBaseDamage": 200,
+		"ExplosionRadiusInner": 100,
+		"ExplosionRadiusOuter": 350,
+		"ExportName": "Default__BP_PickupTruck_C.VehicleHitComponent",
+		"ImpulseLimitationSpeedThreshold_Console": 2500,
+		"OnCharacterHit": "*** Property not implemented MulticastDelegateProperty == -1",
+		"PhysicsImpactAbsorption": 1500000,
+		"PhysicsImpactAbsorptionRider": 450000,
+		"PhysicsImpactAbsorptionRiderUpsideDown": 50000,
+		"PhysicsImpactAbsorptionRider_Console": 555555.6,
+		"PhysicsImpactAbsorptionUpsideDown": 450000,
+		"PhysicsImpactAbsorption_Console": 2500000,
+		"PhysicsImpactModifier": 0.9,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.000025,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.000205
+	},
+	"VehicleMesh": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleMesh",
+		"AnimClass": {
+			"StrucName": "ObjectProperty",
+			"className": "AnimBlueprintGeneratedClass",
+			"importName": "ABP_PickupTruck_C",
+			"name": "ABP_PickupTruck_C",
+			"packagePath": "/Vehicles/Pickup/Mesh/ABP_PickupTruck.uasset"
+		},
+		"BodyInstance": {
+			"CollisionProfileName": "VehicleSimple",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"MaxDepenetrationVelocity": 170,
+			"StrucName": "BodyInstance",
+			"bOverrideMaxDepenetrationVelocity": true
+		},
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__BP_PickupTruck_C.VehicleMesh",
+		"IndoorOutdoorMask": "IOM_BOTH",
+		"LightingChannels": {
+			"StrucName": "LightingChannels",
+			"bChannel1": true
+		},
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_A_Exterior_05",
+				"name": "Pickup_A_Exterior_05",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_A_Exterior_05.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "Pickup_A_Underbody_01",
+				"name": "Pickup_A_Underbody_01",
+				"packagePath": "/Vehicles/Pickup/Material/Pickup_A_Underbody_01.uasset"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "MaterialInstanceConstant",
+				"importName": "pickup_Window_01",
+				"name": "pickup_Window_01",
+				"packagePath": "/Vehicles/Pickup/Material/pickup_Window_01.uasset"
+			}
+		],
+		"PhysicsAssetOverride": {
+			"StrucName": "ObjectProperty",
+			"className": "PhysicsAsset",
+			"importName": "SK_Pickup_Closed_PhysicsAsset",
+			"name": "SK_Pickup_Closed_PhysicsAsset",
+			"packagePath": "/Vehicles/Pickup/Mesh/SK_Pickup_Closed_PhysicsAsset.uasset"
+		},
+		"SkeletalMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMesh",
+			"importName": "SK_Pickup_Closed",
+			"name": "SK_Pickup_Closed",
+			"packagePath": "/Vehicles/Pickup/Mesh/SK_Pickup_Closed.uasset"
+		}
+	},
+	"VehicleSeatComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__BP_PickupTruck_C.VehicleSeatComponent"
+	},
+	"VehicleSyncComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__BP_PickupTruck_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__BP_PickupTruck_C.VehicleXRayComponent"
+	},
+	"WeaponCollisionComponent": {
+		"@Remaining": 32,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "BP_PickupTruck_C.WeaponCollisionComponent"
+	},
+	"WeaponCollisionComponent_GEN_VARIABLE": {
+		"@Remaining": 8,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance",
+			"bAutoWeld": false
+		},
+		"CastShadow": false,
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "BP_PickupTruck_C.WeaponCollisionComponent_GEN_VARIABLE",
+		"OverrideMaterials": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Material",
+				"importName": "M_Collision_Metal",
+				"name": "M_Collision_Metal",
+				"packagePath": "/Vehicles/VehicleData/CollisionMaterials/M_Collision_Metal.uasset"
+			}
+		],
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "SM_Pickup_A_Collision",
+			"name": "SM_Pickup_A_Collision",
+			"packagePath": "/Vehicles/Pickup/Mesh/SM_Pickup_A_Collision.uasset"
+		},
+		"bReceivesDecals": false,
+		"bVisible": false
+	}
+}

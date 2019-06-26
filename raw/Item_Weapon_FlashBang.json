@@ -1,0 +1,88 @@
+{
+	"Default__Item_Weapon_FlashBang_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ThrowableItem",
+		"ClassName": "Item_Weapon_FlashBang_C",
+		"DropSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"DroppedMesh": "AssetObject==/Game/Weapon/Grenades/M84_Flash/M84_01_01.M84_01_01",
+		"DroppedMeshScale": 1.5,
+		"EquipedSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"ExportName": "Default__Item_Weapon_FlashBang_C",
+		"Icon": "AssetObject==/Game/UI/item/weapon/icon_weapon_FlashBang.icon_weapon_FlashBang",
+		"InventoryPutSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"ItemCategory": {
+			"Key": "D4730BB643BDC589CD70BEAF1BF26E14",
+			"Namespace": "",
+			"SourceString": "Throwable",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDescription": {
+			"Key": "Item_Weapon_FlashBang",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemDescriptions.ST_Item_Weapon_ItemDescriptions"
+		},
+		"ItemDetailedName": {
+			"Key": "ItemName_Weapon_FlashBang",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"ItemName": {
+			"Key": "ItemName_Weapon_FlashBang",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Weapon/ST_Item_Weapon_ItemNames.ST_Item_Weapon_ItemNames"
+		},
+		"LobbyWeaponInstance": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapFlashBang_C",
+			"name": "WeapFlashBang_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapFlashBang.uasset"
+		},
+		"PickUpSoundAk": {
+			"StrucName": "ObjectProperty",
+			"className": "AkAudioEvent",
+			"importName": "Play_UI_Item_Equip_Grenade",
+			"name": "Play_UI_Item_Equip_Grenade",
+			"packagePath": "/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_HandBomb/Play_UI_Item_Equip_Grenade.uasset"
+		},
+		"SkinTag": "Item_Weapon_FlareGun",
+		"SortPriority": 700,
+		"SpacePerItem": 12,
+		"SubCategory": "Throwable",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/weapon/icon_weapon_FlashBang.icon_weapon_FlashBang",
+		"WeaponTag": "FlashBang",
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapFlashBang_C",
+			"name": "WeapFlashBang_C",
+			"packagePath": "/Blueprints/Weapons/Grenade/WeapFlashBang.uasset"
+		},
+		"bIsLobbyWeapon": true
+	},
+	"Item_Weapon_FlashBang_C": {
+		"@Remaining": 72,
+		"@SuperName": "ThrowableItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_FlashBang_C"
+	}
+}

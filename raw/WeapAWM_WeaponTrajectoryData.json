@@ -1,0 +1,57 @@
+{
+	"WeapAWM_WeaponTrajectoryData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponTrajectoryData",
+		"ClassName": "WeaponTrajectoryData",
+		"ExportName": "WeapAWM_WeaponTrajectoryData",
+		"RecoilConfig": {
+			"BulletsPerSwitch": 1,
+			"HorizontalTendency": 0.1,
+			"LeftMax": -0.8,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_AKM",
+				"name": "C_Recoil_AKM",
+				"packagePath": "/Blueprints/Weapons/RecoilCurves/C_Recoil_AKM.uasset"
+			},
+			"RecoilSpeed_Horizontal": 7,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 0.7,
+			"RecoilValue_Fall": 3,
+			"RecoverySpeed_Vertical": 5.5,
+			"RightMax": 0.8,
+			"StrucName": "WeaponRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 8,
+			"VerticalRecoveryMax": 15,
+			"VerticalRecoveryModifier": 0.6
+		},
+		"TrajectoryConfig": {
+			"BDS": 0.8,
+			"BallisticCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_AWM",
+				"name": "C_Ballistic_AWM",
+				"packagePath": "/Blueprints/Weapons/BallisticData/C_Ballistic_AWM.uasset"
+			},
+			"DamageType": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "DmgType_Gun_C",
+				"name": "DmgType_Gun_C",
+				"packagePath": "/Blueprints/Damage_Type/DmgType_Gun.uasset"
+			},
+			"HitDamage": 105,
+			"InitialSpeed": 945,
+			"RangeModifier": 0.98,
+			"ReferenceDistance": 650,
+			"StrucName": "WeaponTrajectoryConfig",
+			"TravelDistanceMax": 1000,
+			"VDragCoefficient": 0.787
+		}
+	}
+}

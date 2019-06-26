@@ -1,0 +1,185 @@
+{
+	"WeapVSS_WeaponGunData": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunDataAsset",
+		"ClassName": "WeaponGunDataAsset",
+		"ExportName": "WeapVSS_WeaponGunData",
+		"WeaponAnimConfig": {
+			"CharacterFire": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireCycle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterFireSelector": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Character_Weapon_VSS_Firemode_Montage",
+				"name": "Character_Weapon_VSS_Firemode_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/Character_Weapon_VSS_Firemode_Montage.uasset"
+			},
+			"CharacterGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_VSS_Grip",
+				"name": "Weapon_VSS_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/Weapon_VSS_Grip.uasset"
+			},
+			"CharacterLHGripBlendspace": {
+				"StrucName": "ObjectProperty",
+				"className": "BlendSpace1D",
+				"importName": "Weapon_VSS_Grip",
+				"name": "Weapon_VSS_Grip",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/Weapon_VSS_Grip.uasset"
+			},
+			"CharacterReloadByOneSingle": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStart": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadByOneStop": {
+				"StrucName": "ObjectProperty"
+			},
+			"CharacterReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_VSS_Reload_Charge_Montage",
+				"name": "CharacterWeapon_VSS_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/CharacterWeapon_VSS_Reload_Charge_Montage.uasset"
+			},
+			"CharacterReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "CharacterWeapon_VSS_Reload_Montage",
+				"name": "CharacterWeapon_VSS_Reload_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/VSS/CharacterWeapon_VSS_Reload_Montage.uasset"
+			},
+			"CycleCameraAnim": {
+				"StrucName": "ObjectProperty"
+			},
+			"MagDropAngularVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					-3,
+					-20,
+					3
+				]
+			},
+			"MagDropLinearVelocity": {
+				"StrucName": "Vector",
+				"value": [
+					0,
+					0,
+					-200
+				]
+			},
+			"RecoilKickADS": 1,
+			"Reload": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"name": "MIL2_M3_W2_Relaxed_Reload_Montage",
+				"packagePath": "/Characters/Animations/Human_Biped/Military_Rifle/MIL2_M3_W2_Relaxed_Reload_Montage.uasset"
+			},
+			"ReloadDurationCharge": 2.9,
+			"ReloadDurationMagOut": 0.4,
+			"ReloadDurationTactical": 2.1,
+			"ShotCameraShake": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_VSS_9x39_C",
+				"name": "CS_WeapGun_VSS_9x39_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_VSS_9x39.uasset"
+			},
+			"ShotCameraShakeADS": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_VSS_9x39_Scope_C",
+				"name": "CS_WeapGun_VSS_9x39_Scope_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_VSS_9x39_Scope.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_VSS_9x39_Ironsight_C",
+				"name": "CS_WeapGun_VSS_9x39_Ironsight_C",
+				"packagePath": "/Blueprints/Weapons/WeaponConfig/CS_WeapGun_VSS_9x39_Ironsight.uasset"
+			},
+			"StrucName": "WeaponAnimConfig",
+			"WeaponReloadCharge": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_AK_Reload_Charge_Montage",
+				"name": "Weapon_AK_Reload_Charge_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/AK/Weapon/Weapon_AK_Reload_Charge_Montage.uasset"
+			},
+			"WeaponReloadTactical": {
+				"StrucName": "ObjectProperty",
+				"className": "AnimMontage",
+				"importName": "Weapon_AK_Reload_Tactical_Montage",
+				"name": "Weapon_AK_Reload_Tactical_Montage",
+				"packagePath": "/Animations/Battlegrounds/Anims/WeaponOperation/AK/Weapon/Weapon_AK_Reload_Tactical_Montage.uasset"
+			}
+		},
+		"WeaponDeviationConfig": {
+			"DeviationBase": 3.1,
+			"DeviationBaseADS": 0.045,
+			"DeviationBaseAim": 1.4,
+			"DeviationMax": 8,
+			"DeviationMaxMove": 3.5,
+			"DeviationMoveMaxReferenceVelocity": 300,
+			"DeviationRecoilGain": 1.4,
+			"DeviationRecoilGainADS": 0.022,
+			"DeviationRecoilGainAim": 0.9,
+			"MOA": 1.2,
+			"StrucName": "WeaponDeviationConfig"
+		},
+		"WeaponGunConfig": {
+			"AmmoItemClass": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "Item_Ammo_9mm_C",
+				"name": "Item_Ammo_9mm_C",
+				"packagePath": "/Item/Ammunitations/Item_Ammo_9mm.uasset"
+			},
+			"AmmoPerClip": 10,
+			"BurstShots": 1,
+			"FiringBulletsSpread": 1,
+			"FiringModes": [
+				"EFiringMode::Normal",
+				"EFiringMode::FullAuto"
+			],
+			"HandWeaponOffset": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					0,
+					0
+				]
+			},
+			"HandWeaponOffsetFPP": {
+				"StrucName": "Vector",
+				"value": [
+					3,
+					0,
+					2
+				]
+			},
+			"NoAnimReloadDuration": 3.1,
+			"ShoulderLength": 22,
+			"StrucName": "WeaponGunConfigReplacement",
+			"TimeBetweenShots": 0.0856,
+			"TracerClass": {
+				"StrucName": "ObjectProperty",
+				"className": "ParticleSystem",
+				"importName": "P_Tracer_VSS",
+				"name": "P_Tracer_VSS",
+				"packagePath": "/Export_Marek/Tracer/P_Tracer_VSS.uasset"
+			},
+			"WeaponLength": 35,
+			"bUseConstScope": true
+		}
+	}
+}
